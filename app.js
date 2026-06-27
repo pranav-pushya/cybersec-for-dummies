@@ -27,10 +27,7 @@ let state = {
     chapterNotes: JSON.parse(localStorage.getItem('book_chapter_notes') || '{}'),
     paraNotes: JSON.parse(localStorage.getItem('book_paragraph_notes') || '[]'),
     allChaptersData: [], // Cached chapters for search
-    toc: [],
-    groqKeyPart1: localStorage.getItem('groq_key_p1') || '',
-    groqKeyPart2: localStorage.getItem('groq_key_p2') || '',
-    groqKeyPart3: localStorage.getItem('groq_key_p3') || ''
+    toc: []
 };
 
 // High-quality interactive quiz questions based on the book contents
@@ -2321,66 +2318,23 @@ function showToastNotification(message) {
     }, 3000);
 }
 
+// AI Security Assistant API Key Config
+// Paste your Groq API key split into 3 parts below. The assistant concatenates these when querying.
+const GROQ_KEY_PART_1 = "YOUR_PART_1_HERE";
+const GROQ_KEY_PART_2 = "YOUR_PART_2_HERE";
+const GROQ_KEY_PART_3 = "YOUR_PART_3_HERE";
+
 // AI Security Assistant Controller
 function initAIAssistantUI() {
-    const setupCard = document.getElementById('ai-key-setup-card');
+    // API setup screen removed from UI. Chat container is active by default.
     const chatCard = document.getElementById('ai-chat-card');
-    
-    // Fill in inputs with any stored parts
-    document.getElementById('groq-key-part-1').value = state.groqKeyPart1 || '';
-    document.getElementById('groq-key-part-2').value = state.groqKeyPart2 || '';
-    document.getElementById('groq-key-part-3').value = state.groqKeyPart3 || '';
-
-    const hasKey = state.groqKeyPart1 && state.groqKeyPart2 && state.groqKeyPart3;
-    if (hasKey) {
-        setupCard.style.display = 'none';
+    if (chatCard) {
         chatCard.style.display = 'flex';
-    } else {
-        setupCard.style.display = 'flex';
-        chatCard.style.display = 'none';
     }
 }
 
 function initAIAssistant() {
-    const saveBtn = document.getElementById('save-ai-key-btn');
-    if (saveBtn) {
-        saveBtn.onclick = () => {
-            const p1 = document.getElementById('groq-key-part-1').value.trim();
-            const p2 = document.getElementById('groq-key-part-2').value.trim();
-            const p3 = document.getElementById('groq-key-part-3').value.trim();
-            
-            if (!p1 || !p2 || !p3) {
-                alert("Please fill in all three parts of the API key!");
-                return;
-            }
-            
-            state.groqKeyPart1 = p1;
-            state.groqKeyPart2 = p2;
-            state.groqKeyPart3 = p3;
-            
-            localStorage.setItem('groq_key_p1', p1);
-            localStorage.setItem('groq_key_p2', p2);
-            localStorage.setItem('groq_key_p3', p3);
-            
-            showToastNotification("API key parts saved successfully!");
-            initAIAssistantUI();
-        };
-    }
-    
-    const settingsBtn = document.getElementById('ai-settings-btn');
-    if (settingsBtn) {
-        settingsBtn.onclick = () => {
-            const setupCard = document.getElementById('ai-key-setup-card');
-            const chatCard = document.getElementById('ai-chat-card');
-            
-            if (setupCard.style.display === 'none') {
-                setupCard.style.display = 'flex';
-                chatCard.style.display = 'none';
-            } else {
-                initAIAssistantUI();
-            }
-        };
-    }
+    // Storing and saving key parts from inputs is no longer needed since it's hardcoded.
 }
 
 async function sendAIChatMessage() {
@@ -2433,7 +2387,31 @@ async function sendAIChatMessage() {
     chatMessagesContainer.appendChild(loaderMsg);
     chatMessagesContainer.scrollTop = chatMessagesContainer.scrollHeight;
     
-    const fullKey = (state.groqKeyPart1 + state.groqKeyPart2 + state.groqKeyPart3).trim();
+    const fullKey = (GROQ_KEY_PART_1 + GROQ_KEY_PART_2 + GROQ_KEY_PART_3).trim();
+    
+    // Check if the user has replaced placeholder keys
+    if (!fullKey || fullKey.includes("YOUR_PART")) {
+        loaderMsg.remove();
+        
+        const errMsg = document.createElement('div');
+        errMsg.style.cssText = `
+            display: flex;
+            flex-direction: column;
+            align-self: flex-start;
+            max-width: 80%;
+            background: rgba(239, 68, 68, 0.05);
+            border-left: 3px solid var(--accent-red);
+            padding: 12px 16px;
+            border-radius: 4px 12px 12px 12px;
+            font-size: 13.5px;
+            color: var(--accent-red);
+            line-height: 1.6;
+        `;
+        errMsg.innerHTML = `<strong>API Key Missing:</strong> Please open <code>app.js</code> and configure your Groq API key parts in the <code>GROQ_KEY_PART_1/2/3</code> constants (around line 2320).`;
+        chatMessagesContainer.appendChild(errMsg);
+        chatMessagesContainer.scrollTop = chatMessagesContainer.scrollHeight;
+        return;
+    }
     
     if (!state.aiChatHistory) {
         state.aiChatHistory = [
@@ -2510,7 +2488,7 @@ async function sendAIChatMessage() {
             color: var(--accent-red);
             line-height: 1.6;
         `;
-        errMsg.innerText = `Error: ${e.message}. Please verify your API key parts configuration.`;
+        errMsg.innerText = `Error: ${e.message}. Please verify your API key parts configuration inside app.js.`;
         chatMessagesContainer.appendChild(errMsg);
         chatMessagesContainer.scrollTop = chatMessagesContainer.scrollHeight;
         
