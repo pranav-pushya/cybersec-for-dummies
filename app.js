@@ -27,7 +27,10 @@ let state = {
     chapterNotes: JSON.parse(localStorage.getItem('book_chapter_notes') || '{}'),
     paraNotes: JSON.parse(localStorage.getItem('book_paragraph_notes') || '[]'),
     allChaptersData: [], // Cached chapters for search
-    toc: []
+    toc: [],
+    groqKeyPart1: localStorage.getItem('groq_key_p1') || '',
+    groqKeyPart2: localStorage.getItem('groq_key_p2') || '',
+    groqKeyPart3: localStorage.getItem('groq_key_p3') || ''
 };
 
 // High-quality interactive quiz questions based on the book contents
@@ -154,6 +157,7 @@ document.addEventListener('DOMContentLoaded', async () => {
     setupEventListeners();
     renderDashboardChecklist();
     updateDashboardBookmarksUI();
+    initAIAssistant();
     
     // Start background prefetching for search
     prefetchChaptersData();
@@ -201,6 +205,7 @@ function renderSidebarNav() {
         { id: 'quiz', label: 'Knowledge Quiz', icon: `<svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"></circle><path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3"></path><line x1="12" y1="17" x2="12.01" y2="17"></line></svg>` },
         { id: 'audit', label: 'Security Audit', icon: `<svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path></svg>` },
         { id: 'phishing', label: 'Phishing Simulator', icon: `<svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2"><path d="M10.29 3.86L1.82 18a2 2 0 0 0 1.71 3h16.94a2 2 0 0 0 1.71-3L13.71 3.86a2 2 0 0 0-3.42 0z"></path><line x1="12" y1="9" x2="12" y2="13"></line><line x1="12" y1="17" x2="12.01" y2="17"></line></svg>` },
+        { id: 'ai-assistant', label: 'AI Assistant', icon: `<svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"></path><path d="M10 8h4"></path><path d="M10 12h4"></path></svg>` },
         { id: 'open-pdf', label: 'Open Book PDF', url: './cybersecurity-for-dummies.pdf', icon: `<svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path><polyline points="14 2 14 8 20 8"></polyline><line x1="16" y1="13" x2="8" y2="13"></line><line x1="16" y1="17" x2="8" y2="17"></line><polyline points="10 9 9 9 8 9"></polyline></svg>` }
     ];
 
@@ -305,6 +310,8 @@ function switchSection(sectionId) {
         resetPhishing();
     } else if (sectionId === 'notes') {
         renderNotesList();
+    } else if (sectionId === 'ai-assistant') {
+        initAIAssistantUI();
     }
     
     // Scroll to top
@@ -2312,4 +2319,213 @@ function showToastNotification(message) {
         toast.style.opacity = '0';
         setTimeout(() => toast.remove(), 300);
     }, 3000);
+}
+
+// AI Security Assistant Controller
+function initAIAssistantUI() {
+    const setupCard = document.getElementById('ai-key-setup-card');
+    const chatCard = document.getElementById('ai-chat-card');
+    
+    // Fill in inputs with any stored parts
+    document.getElementById('groq-key-part-1').value = state.groqKeyPart1 || '';
+    document.getElementById('groq-key-part-2').value = state.groqKeyPart2 || '';
+    document.getElementById('groq-key-part-3').value = state.groqKeyPart3 || '';
+
+    const hasKey = state.groqKeyPart1 && state.groqKeyPart2 && state.groqKeyPart3;
+    if (hasKey) {
+        setupCard.style.display = 'none';
+        chatCard.style.display = 'flex';
+    } else {
+        setupCard.style.display = 'flex';
+        chatCard.style.display = 'none';
+    }
+}
+
+function initAIAssistant() {
+    const saveBtn = document.getElementById('save-ai-key-btn');
+    if (saveBtn) {
+        saveBtn.onclick = () => {
+            const p1 = document.getElementById('groq-key-part-1').value.trim();
+            const p2 = document.getElementById('groq-key-part-2').value.trim();
+            const p3 = document.getElementById('groq-key-part-3').value.trim();
+            
+            if (!p1 || !p2 || !p3) {
+                alert("Please fill in all three parts of the API key!");
+                return;
+            }
+            
+            state.groqKeyPart1 = p1;
+            state.groqKeyPart2 = p2;
+            state.groqKeyPart3 = p3;
+            
+            localStorage.setItem('groq_key_p1', p1);
+            localStorage.setItem('groq_key_p2', p2);
+            localStorage.setItem('groq_key_p3', p3);
+            
+            showToastNotification("API key parts saved successfully!");
+            initAIAssistantUI();
+        };
+    }
+    
+    const settingsBtn = document.getElementById('ai-settings-btn');
+    if (settingsBtn) {
+        settingsBtn.onclick = () => {
+            const setupCard = document.getElementById('ai-key-setup-card');
+            const chatCard = document.getElementById('ai-chat-card');
+            
+            if (setupCard.style.display === 'none') {
+                setupCard.style.display = 'flex';
+                chatCard.style.display = 'none';
+            } else {
+                initAIAssistantUI();
+            }
+        };
+    }
+}
+
+async function sendAIChatMessage() {
+    const inputEl = document.getElementById('ai-chat-input');
+    const text = inputEl.value.trim();
+    if (!text) return;
+    
+    inputEl.value = '';
+    
+    const chatMessagesContainer = document.getElementById('ai-chat-messages');
+    
+    // Render User Message
+    const userMsg = document.createElement('div');
+    userMsg.style.cssText = `
+        display: flex;
+        flex-direction: column;
+        align-self: flex-end;
+        max-width: 80%;
+        background: linear-gradient(135deg, var(--accent-blue), var(--accent-purple));
+        color: #fff;
+        padding: 12px 16px;
+        border-radius: 12px 12px 4px 12px;
+        font-size: 13.5px;
+        line-height: 1.6;
+    `;
+    userMsg.innerText = text;
+    chatMessagesContainer.appendChild(userMsg);
+    chatMessagesContainer.scrollTop = chatMessagesContainer.scrollHeight;
+    
+    // Render Loader Message
+    const loaderMsg = document.createElement('div');
+    loaderMsg.id = 'ai-chat-loader';
+    loaderMsg.style.cssText = `
+        display: flex;
+        align-items: center;
+        gap: 6px;
+        align-self: flex-start;
+        max-width: 80%;
+        background: rgba(255, 255, 255, 0.03);
+        border-left: 3px solid var(--accent-blue);
+        padding: 12px 16px;
+        border-radius: 4px 12px 12px 12px;
+        font-size: 13.5px;
+        color: var(--text-muted);
+    `;
+    loaderMsg.innerHTML = `
+        <span>AI is thinking</span>
+        <span class="loading-dots">...</span>
+    `;
+    chatMessagesContainer.appendChild(loaderMsg);
+    chatMessagesContainer.scrollTop = chatMessagesContainer.scrollHeight;
+    
+    const fullKey = (state.groqKeyPart1 + state.groqKeyPart2 + state.groqKeyPart3).trim();
+    
+    if (!state.aiChatHistory) {
+        state.aiChatHistory = [
+            {
+                role: "system",
+                content: "You are the AI Cybersecurity Companion for the web app of the book 'Cybersecurity For Dummies'. Answer questions clearly, accurately, and assist the user with any cybersecurity concepts, protocols, or content from the book. Be helpful, concise, and structured."
+            }
+        ];
+    }
+    
+    state.aiChatHistory.push({ role: "user", content: text });
+    
+    try {
+        const response = await fetch('https://api.groq.com/openai/v1/chat/completions', {
+            method: 'POST',
+            headers: {
+                'Authorization': `Bearer ${fullKey}`,
+                'Content-Type': 'application/json'
+            },
+            body: JSON.stringify({
+                model: "llama-3.1-8b-instant",
+                messages: state.aiChatHistory,
+                temperature: 0.7,
+                max_tokens: 1024
+            })
+        });
+        
+        loaderMsg.remove();
+        
+        if (!response.ok) {
+            const errData = await response.json().catch(() => ({}));
+            const errMsg = errData.error?.message || `HTTP error ${response.status}`;
+            throw new Error(errMsg);
+        }
+        
+        const data = await response.json();
+        const reply = data.choices[0].message.content;
+        
+        state.aiChatHistory.push({ role: "assistant", content: reply });
+        
+        // Render AI Message
+        const aiMsg = document.createElement('div');
+        aiMsg.style.cssText = `
+            display: flex;
+            flex-direction: column;
+            align-self: flex-start;
+            max-width: 80%;
+            background: rgba(255, 255, 255, 0.03);
+            border-left: 3px solid var(--accent-blue);
+            padding: 12px 16px;
+            border-radius: 4px 12px 12px 12px;
+            font-size: 13.5px;
+            line-height: 1.6;
+        `;
+        aiMsg.innerHTML = formatMarkdown(reply);
+        chatMessagesContainer.appendChild(aiMsg);
+        chatMessagesContainer.scrollTop = chatMessagesContainer.scrollHeight;
+        
+    } catch (e) {
+        console.error("AI Assistant API error:", e);
+        loaderMsg.remove();
+        
+        const errMsg = document.createElement('div');
+        errMsg.style.cssText = `
+            display: flex;
+            flex-direction: column;
+            align-self: flex-start;
+            max-width: 80%;
+            background: rgba(239, 68, 68, 0.05);
+            border-left: 3px solid var(--accent-red);
+            padding: 12px 16px;
+            border-radius: 4px 12px 12px 12px;
+            font-size: 13px;
+            color: var(--accent-red);
+            line-height: 1.6;
+        `;
+        errMsg.innerText = `Error: ${e.message}. Please verify your API key parts configuration.`;
+        chatMessagesContainer.appendChild(errMsg);
+        chatMessagesContainer.scrollTop = chatMessagesContainer.scrollHeight;
+        
+        state.aiChatHistory.pop();
+    }
+}
+
+function formatMarkdown(text) {
+    let formatted = text
+        .replace(/&/g, "&amp;")
+        .replace(/</g, "&lt;")
+        .replace(/>/g, "&gt;")
+        .replace(/\*\*(.*?)\*\*/g, '<strong>$1</strong>')
+        .replace(/\*(.*?)\*/g, '<em>$1</em>')
+        .replace(/`(.*?)`/g, '<code style="background: rgba(255,255,255,0.06); padding: 2px 4px; border-radius: 4px; font-family: monospace; font-size: 12px;">$1</code>')
+        .replace(/\n/g, '<br>');
+    return formatted;
 }
