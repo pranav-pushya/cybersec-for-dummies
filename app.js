@@ -27,7 +27,9 @@ let state = {
     chapterNotes: JSON.parse(localStorage.getItem('book_chapter_notes') || '{}'),
     paraNotes: JSON.parse(localStorage.getItem('book_paragraph_notes') || '[]'),
     allChaptersData: [], // Cached chapters for search
-    toc: []
+    toc: [],
+    aiPersona: localStorage.getItem('ai_persona') || 'strict',
+    aiTemperature: parseFloat(localStorage.getItem('ai_temperature') || '0.7')
 };
 
 // High-quality interactive quiz questions based on the book contents
@@ -968,35 +970,10 @@ function setupEventListeners() {
     // Theme Toggle
     document.getElementById('theme-toggle-btn').addEventListener('click', toggleTheme);
 
-    // Reset Progress Button
+    // Reset Progress Button (Settings Icon)
     const resetProgressBtn = document.getElementById('reset-progress-btn');
     if (resetProgressBtn) {
-        resetProgressBtn.addEventListener('click', () => {
-            showCustomConfirm(
-                "Are you sure you want to reset all reading progress, checklist achievements, and audit scores? Your book annotations and notes will remain intact.",
-                () => {
-                    // Clear local storage keys related to progress
-                    localStorage.removeItem('reading_progress');
-                    localStorage.removeItem('dashboard_checklist');
-                    localStorage.removeItem('security_audit_score');
-
-                    // Reset local progress state
-                    state.progress = {};
-
-                    // Re-initialize progress tracking
-                    initProgress();
-
-                    // Re-render dashboard, sidebar, and progress indicator UI
-                    renderSidebarNav();
-                    renderDashboardChecklist();
-                    updateDashboardAuditUI();
-                    updateProgressUI();
-
-                    showToastNotification("Progress successfully reset!");
-                },
-                "Reset"
-            );
-        });
+        resetProgressBtn.addEventListener('click', showSettingsModal);
     }
 
     // Sidebar search triggers
@@ -1558,11 +1535,33 @@ function initTTS() {
             opt.innerText = `${v.name} (${v.lang})`;
             voiceSelect.appendChild(opt);
         });
+
+        // Load saved preferences if any
+        const savedVoice = localStorage.getItem('tts_voice_pref');
+        if (savedVoice) {
+            voiceSelect.value = savedVoice;
+        }
     };
 
     populateVoices();
     if (window.speechSynthesis.onvoiceschanged !== undefined) {
         window.speechSynthesis.onvoiceschanged = populateVoices;
+    }
+
+    // Add change listeners to save value when changed in reader UI
+    const voiceSelect = document.getElementById('tts-voice');
+    if (voiceSelect) {
+        voiceSelect.addEventListener('change', () => {
+            localStorage.setItem('tts_voice_pref', voiceSelect.value);
+        });
+    }
+    const rateSelect = document.getElementById('tts-rate');
+    if (rateSelect) {
+        const savedRate = localStorage.getItem('tts_rate_pref');
+        if (savedRate) rateSelect.value = savedRate;
+        rateSelect.addEventListener('change', () => {
+            localStorage.setItem('tts_rate_pref', rateSelect.value);
+        });
     }
 }
 
@@ -2426,13 +2425,22 @@ async function sendAIChatMessage() {
         return;
     }
 
+    const systemPromptContent = state.aiPersona === 'strict' 
+        ? "You are the AI Cybersecurity Companion for the book 'Cybersecurity For Dummies'. Answer questions clearly, accurately, and assist the user ONLY with cybersecurity concepts, protocols, or content specifically mentioned in the book. If the question is outside the scope of the book, politely inform the user that it is beyond the book's scope."
+        : "You are the AI Cybersecurity Companion for the web app of the book 'Cybersecurity For Dummies'. Answer questions clearly, as an expert cybersecurity tutor. Answer any cybersecurity concepts, protocols, and digital safety queries comprehensively.";
+
     if (!state.aiChatHistory) {
         state.aiChatHistory = [
             {
                 role: "system",
-                content: "You are the AI Cybersecurity Companion for the web app of the book 'Cybersecurity For Dummies'. Answer questions clearly, accurately, and assist the user with any cybersecurity concepts, protocols, or content from the book. Be helpful, concise, and structured."
+                content: systemPromptContent
             }
         ];
+    } else {
+        state.aiChatHistory[0] = {
+            role: "system",
+            content: systemPromptContent
+        };
     }
 
     state.aiChatHistory.push({ role: "user", content: text });
@@ -2447,7 +2455,7 @@ async function sendAIChatMessage() {
             body: JSON.stringify({
                 model: "llama-3.1-8b-instant",
                 messages: state.aiChatHistory,
-                temperature: 0.7,
+                temperature: state.aiTemperature,
                 max_tokens: 1024
             })
         });
@@ -2519,4 +2527,409 @@ function formatMarkdown(text) {
         .replace(/`(.*?)`/g, '<code style="background: rgba(255,255,255,0.06); padding: 2px 4px; border-radius: 4px; font-family: monospace; font-size: 12px;">$1</code>')
         .replace(/\n/g, '<br>');
     return formatted;
+}
+
+function showSettingsModal() {
+    // Create overlay
+    const overlay = document.createElement('div');
+    overlay.style.cssText = `
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.6);
+        backdrop-filter: blur(8px);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        z-index: 10000;
+        opacity: 0;
+        transition: opacity 0.2s ease;
+    `;
+
+    // Create dialog card
+    const dialog = document.createElement('div');
+    dialog.style.cssText = `
+        background: linear-gradient(135deg, var(--bg-secondary), var(--bg-tertiary));
+        border: 1px solid var(--border-color);
+        border-radius: 16px;
+        padding: 24px;
+        max-width: 600px;
+        width: 90%;
+        box-shadow: 0 20px 40px rgba(0, 0, 0, 0.5), inset 0 1px 0 rgba(255, 255, 255, 0.05);
+        transform: scale(0.9);
+        transition: transform 0.2s cubic-bezier(0.34, 1.56, 0.64, 1);
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    `;
+
+    // Modal structure with tabs
+    dialog.innerHTML = `
+        <!-- Header -->
+        <div style="display: flex; align-items: center; justify-content: space-between; border-bottom: 1px solid var(--border-color); padding-bottom: 14px;">
+            <h3 style="margin: 0; font-size: 18px; color: var(--text-primary); font-weight: 700; display: flex; align-items: center; gap: 8px;">
+                <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="var(--accent-blue)" stroke-width="2">
+                    <circle cx="12" cy="12" r="3"></circle>
+                    <path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 1 1-2.83 2.83l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-4 0v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 1 1-2.83 2.83l.06-.06a1.65 1.65 0 0 0 .33-1.82 1.65 1.65 0 0 0-1.51-1H3a2 2 0 0 1 0-4h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 1 1 2.83-2.83l.06.06a1.65 1.65 0 0 0 1.82.33H9a1.65 1.65 0 0 0 1-1.51V3a2 2 0 0 1 4 0v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 1 1 2.83 2.83l-.06.06a1.65 1.65 0 0 0-.33 1.82V9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 0 1 0 4h-.09a1.65 1.65 0 0 0-1.51 1z"></path>
+                </svg>
+                System Settings
+            </h3>
+            <button id="settings-close-btn" style="background: none; border: none; color: var(--text-secondary); cursor: pointer; display: flex; align-items: center; justify-content: center; width: 28px; height: 28px; border-radius: 50%; transition: all 0.2s;">
+                <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>
+            </button>
+        </div>
+
+        <!-- Navigation Tabs -->
+        <div style="display: flex; gap: 8px; border-bottom: 1px solid var(--border-color); padding-bottom: 10px;">
+            <button class="settings-tab active" data-tab="ai" style="background: none; border: none; color: var(--accent-blue); border-bottom: 2px solid var(--accent-blue); padding: 8px 16px; font-weight: 600; font-size: 13px; cursor: pointer; transition: all 0.2s;">AI Companion</button>
+            <button class="settings-tab" data-tab="audio" style="background: none; border: none; color: var(--text-secondary); padding: 8px 16px; font-weight: 500; font-size: 13px; cursor: pointer; transition: all 0.2s;">Audio & Narrator</button>
+            <button class="settings-tab" data-tab="data" style="background: none; border: none; color: var(--text-secondary); padding: 8px 16px; font-weight: 500; font-size: 13px; cursor: pointer; transition: all 0.2s;">Data & Resets</button>
+        </div>
+
+        <!-- Tab Contents Wrapper -->
+        <div id="settings-tab-contents" style="min-height: 250px; display: flex; flex-direction: column; justify-content: flex-start; gap: 16px;">
+            
+            <!-- TAB 1: AI COMPANION -->
+            <div id="settings-tab-ai" class="settings-content-pane" style="display: flex; flex-direction: column; gap: 16px;">
+                <div>
+                    <label style="display: block; font-size: 11px; text-transform: uppercase; font-weight: 700; color: var(--text-muted); margin-bottom: 6px; letter-spacing: 0.5px;">AI Tutor Persona</label>
+                    <select id="setting-ai-persona" style="width: 100%; padding: 10px 12px; border-radius: 8px; border: 1px solid var(--border-color); background: var(--bg-primary); color: var(--text-primary); font-size: 13px; outline: none;">
+                        <option value="strict" ${state.aiPersona === 'strict' ? 'selected' : ''}>Strict Book Companion (Only references contents from the book)</option>
+                        <option value="general" ${state.aiPersona === 'general' ? 'selected' : ''}>Expert Cybersecurity Tutor (Answers general cybersecurity questions)</option>
+                    </select>
+                </div>
+                
+                <div>
+                    <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 6px;">
+                        <label style="font-size: 11px; text-transform: uppercase; font-weight: 700; color: var(--text-muted); letter-spacing: 0.5px;">Response Creativity (Temperature)</label>
+                        <span id="setting-ai-temp-val" style="font-size: 12px; font-weight: 600; color: var(--accent-blue);">${state.aiTemperature}</span>
+                    </div>
+                    <input type="range" id="setting-ai-temperature" min="0.0" max="1.0" step="0.1" value="${state.aiTemperature}" style="width: 100%; accent-color: var(--accent-blue); cursor: pointer;">
+                    <p style="color: var(--text-muted); font-size: 11px; margin: 4px 0 0 0;">Lower values are more precise/focused; higher values are more creative.</p>
+                </div>
+
+                <div style="border-top: 1px solid var(--border-color); padding-top: 16px; display: flex; align-items: center; justify-content: space-between;">
+                    <div>
+                        <h4 style="font-size: 13px; font-weight: 600; margin: 0 0 4px 0; color: var(--text-primary);">Clear Chat Log</h4>
+                        <p style="color: var(--text-muted); font-size: 11px; margin: 0;">Resets active chat assistant history memory</p>
+                    </div>
+                    <button id="setting-clear-chat-btn" class="btn btn-secondary" style="border-color: var(--accent-red); color: var(--accent-red); padding: 8px 16px; font-size: 12px;">Clear History</button>
+                </div>
+            </div>
+
+            <!-- TAB 2: AUDIO & NARRATOR -->
+            <div id="settings-tab-audio" class="settings-content-pane" style="display: none; flex-direction: column; gap: 16px;">
+                <div>
+                    <label style="display: block; font-size: 11px; text-transform: uppercase; font-weight: 700; color: var(--text-muted); margin-bottom: 6px; letter-spacing: 0.5px;">Narrator Voice</label>
+                    <select id="setting-tts-voice" style="width: 100%; padding: 10px 12px; border-radius: 8px; border: 1px solid var(--border-color); background: var(--bg-primary); color: var(--text-primary); font-size: 13px; outline: none;">
+                        <!-- Options populated dynamically -->
+                    </select>
+                </div>
+
+                <div>
+                    <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 6px;">
+                        <label style="font-size: 11px; text-transform: uppercase; font-weight: 700; color: var(--text-muted); letter-spacing: 0.5px;">Reading Speed</label>
+                        <span id="setting-tts-rate-val" style="font-size: 12px; font-weight: 600; color: var(--accent-blue);">1x</span>
+                    </div>
+                    <input type="range" id="setting-tts-rate" min="0.5" max="2" step="0.1" value="1" style="width: 100%; accent-color: var(--accent-blue); cursor: pointer;">
+                </div>
+            </div>
+
+            <!-- TAB 3: DATA & RESETS -->
+            <div id="settings-tab-data" class="settings-content-pane" style="display: none; flex-direction: column; gap: 16px;">
+                <!-- Backup & Import -->
+                <div style="display: flex; gap: 12px;">
+                    <div style="flex: 1;">
+                        <button id="setting-export-btn" class="btn btn-secondary" style="width: 100%; justify-content: center; font-size: 12px; padding: 10px; display: flex; align-items: center;">
+                            <svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2" style="margin-right: 6px;"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path><polyline points="17 8 12 3 7 8"></polyline><line x1="12" y1="3" x2="12" y2="15"></line></svg>
+                            Export Backup
+                        </button>
+                    </div>
+                    <div style="flex: 1; position: relative;">
+                        <input type="file" id="setting-import-file" accept=".json" style="display: none;">
+                        <button id="setting-import-btn" class="btn btn-secondary" style="width: 100%; justify-content: center; font-size: 12px; padding: 10px; display: flex; align-items: center;">
+                            <svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2" style="margin-right: 6px;"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path><polyline points="7 10 12 15 17 10"></polyline><line x1="12" y1="15" x2="12" y2="3"></line></svg>
+                            Import Backup
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Custom Resets -->
+                <div style="border-top: 1px solid var(--border-color); padding-top: 12px; display: flex; flex-direction: column; gap: 10px;">
+                    <label style="display: block; font-size: 11px; text-transform: uppercase; font-weight: 700; color: var(--text-muted); letter-spacing: 0.5px;">Granular Progress Reset</label>
+                    
+                    <button class="btn btn-secondary reset-action-btn" data-reset="progress" style="justify-content: flex-start; text-align: left; font-size: 12px; padding: 10px; border-color: rgba(239, 68, 68, 0.2); display: flex; align-items: center;">
+                        <span style="color: var(--accent-red); margin-right: 8px;">•</span> Reset Book Progress & Checklist
+                    </button>
+                    <button class="btn btn-secondary reset-action-btn" data-reset="quizzes" style="justify-content: flex-start; text-align: left; font-size: 12px; padding: 10px; border-color: rgba(239, 68, 68, 0.2); display: flex; align-items: center;">
+                        <span style="color: var(--accent-red); margin-right: 8px;">•</span> Reset Quiz History & Stats
+                    </button>
+                    <button class="btn btn-secondary reset-action-btn" data-reset="notes" style="justify-content: flex-start; text-align: left; font-size: 12px; padding: 10px; border-color: rgba(239, 68, 68, 0.2); display: flex; align-items: center;">
+                        <span style="color: var(--accent-red); margin-right: 8px;">•</span> Delete All Notes & Highlights
+                    </button>
+                </div>
+            </div>
+
+        </div>
+
+        <!-- Footer -->
+        <div style="display: flex; justify-content: flex-end; border-top: 1px solid var(--border-color); padding-top: 14px; margin-top: 10px;">
+            <button id="settings-save-all-btn" class="btn btn-primary" style="padding: 10px 24px; font-size: 13px; color: #fff;">Apply & Close</button>
+        </div>
+    `;
+
+    overlay.appendChild(dialog);
+    document.body.appendChild(overlay);
+
+    // Fade in
+    setTimeout(() => {
+        overlay.style.opacity = '1';
+        dialog.style.transform = 'scale(1)';
+    }, 10);
+
+    const closeModal = () => {
+        overlay.style.opacity = '0';
+        dialog.style.transform = 'scale(0.9)';
+        setTimeout(() => overlay.remove(), 200);
+    };
+
+    // Close on click close button or overlay outside
+    dialog.querySelector('#settings-close-btn').onclick = closeModal;
+    overlay.onclick = (e) => {
+        if (e.target === overlay) closeModal();
+    };
+
+    // TAB SWITCHING LOGIC
+    const tabs = dialog.querySelectorAll('.settings-tab');
+    tabs.forEach(tab => {
+        tab.onclick = () => {
+            tabs.forEach(t => {
+                t.classList.remove('active');
+                t.style.color = 'var(--text-secondary)';
+                t.style.borderBottom = 'none';
+            });
+            tab.classList.add('active');
+            tab.style.color = 'var(--accent-blue)';
+            tab.style.borderBottom = '2px solid var(--accent-blue)';
+
+            const targetTab = tab.getAttribute('data-tab');
+            dialog.querySelectorAll('.settings-content-pane').forEach(pane => {
+                pane.style.display = 'none';
+            });
+            dialog.querySelector(`#settings-tab-${targetTab}`).style.display = 'flex';
+        };
+    });
+
+    // AI TEMP SLIDER DYNAMIC VALUE
+    const tempSlider = dialog.querySelector('#setting-ai-temperature');
+    const tempVal = dialog.querySelector('#setting-ai-temp-val');
+    tempSlider.oninput = (e) => {
+        tempVal.innerText = parseFloat(e.target.value).toFixed(1);
+    };
+
+    // CLEAR CHAT
+    dialog.querySelector('#setting-clear-chat-btn').onclick = () => {
+        showCustomConfirm(
+            "Clear all conversational memory and messages from the AI assistant log?",
+            () => {
+                state.aiChatHistory = null;
+                const container = document.getElementById('ai-chat-messages');
+                if (container) {
+                    container.innerHTML = `
+                        <div style="display: flex; flex-direction: column; align-self: flex-start; max-width: 80%; background: rgba(255, 255, 255, 0.03); border-left: 3px solid var(--accent-blue); padding: 12px 16px; border-radius: 4px 12px 12px 12px; font-size: 13.5px; line-height: 1.6;">
+                            Hello! I am your AI Cybersecurity Companion. I can help you understand the topics covered in <strong>Cybersecurity For Dummies</strong> or answer general questions about security protocols, encryption, phishing, and defenses. What would you like to know?
+                        </div>
+                    `;
+                }
+                showToastNotification("AI chat memory cleared!");
+            },
+            "Clear"
+        );
+    };
+
+    // POPULATE TTS VOICES
+    const voiceSelect = dialog.querySelector('#setting-tts-voice');
+    const rateSlider = dialog.querySelector('#setting-tts-rate');
+    const rateVal = dialog.querySelector('#setting-tts-rate-val');
+    
+    // Sync current values from reader controls
+    const currentVoiceSelect = document.getElementById('tts-voice');
+    const currentRateSelect = document.getElementById('tts-rate');
+    
+    if (currentRateSelect) {
+        rateSlider.value = currentRateSelect.value;
+        rateVal.innerText = currentRateSelect.value + 'x';
+    }
+    rateSlider.oninput = (e) => {
+        rateVal.innerText = e.target.value + 'x';
+    };
+
+    if (currentVoiceSelect && voiceSelect) {
+        // Clone voices from original select box
+        voiceSelect.innerHTML = currentVoiceSelect.innerHTML;
+        voiceSelect.value = currentVoiceSelect.value;
+    }
+
+    // EXPORT DATA
+    dialog.querySelector('#setting-export-btn').onclick = () => {
+        const backupData = {
+            progress: state.progress || {},
+            checklist: JSON.parse(localStorage.getItem('dashboard_checklist') || '{}'),
+            auditScore: localStorage.getItem('security_audit_score'),
+            annotations: state.annotations || [],
+            bookmarks: state.bookmarks || [],
+            chapterNotes: state.chapterNotes || {},
+            paraNotes: state.paraNotes || []
+        };
+        const blob = new Blob([JSON.stringify(backupData, null, 2)], { type: 'application/json' });
+        const url = URL.createObjectURL(blob);
+        const a = document.createElement('a');
+        a.href = url;
+        a.download = `cybersecurity-dummies-progress-${new Date().toISOString().split('T')[0]}.json`;
+        document.body.appendChild(a);
+        a.click();
+        document.body.removeChild(a);
+        URL.revokeObjectURL(url);
+        showToastNotification("Progress backup exported!");
+    };
+
+    // IMPORT DATA
+    const fileInput = dialog.querySelector('#setting-import-file');
+    dialog.querySelector('#setting-import-btn').onclick = () => fileInput.click();
+    fileInput.onchange = (e) => {
+        const file = e.target.files[0];
+        if (!file) return;
+
+        const reader = new FileReader();
+        reader.onload = (event) => {
+            try {
+                const data = JSON.parse(event.target.result);
+                if (data.progress) {
+                    state.progress = data.progress;
+                    localStorage.setItem('reading_progress', JSON.stringify(state.progress));
+                }
+                if (data.checklist) {
+                    localStorage.setItem('dashboard_checklist', JSON.stringify(data.checklist));
+                }
+                if (data.auditScore !== undefined) {
+                    if (data.auditScore === null) {
+                        localStorage.removeItem('security_audit_score');
+                    } else {
+                        localStorage.setItem('security_audit_score', data.auditScore);
+                    }
+                }
+                if (data.annotations) {
+                    state.annotations = data.annotations;
+                    localStorage.setItem('book_annotations', JSON.stringify(state.annotations));
+                }
+                if (data.bookmarks) {
+                    state.bookmarks = data.bookmarks;
+                    localStorage.setItem('book_bookmarks', JSON.stringify(state.bookmarks));
+                }
+                if (data.chapterNotes) {
+                    state.chapterNotes = data.chapterNotes;
+                    localStorage.setItem('book_chapter_notes', JSON.stringify(state.chapterNotes));
+                }
+                if (data.paraNotes) {
+                    state.paraNotes = data.paraNotes;
+                    localStorage.setItem('book_paragraph_notes', JSON.stringify(state.paraNotes));
+                }
+
+                // Re-render interfaces
+                renderSidebarNav();
+                renderDashboardChecklist();
+                updateDashboardAuditUI();
+                updateDashboardBookmarksUI();
+                updateProgressUI();
+                renderNotesList();
+
+                showToastNotification("Backup data successfully imported!");
+                closeModal();
+            } catch (err) {
+                alert("Invalid backup file format!");
+            }
+        };
+        reader.readAsText(file);
+    };
+
+    // GRANULAR RESETS
+    dialog.querySelectorAll('.reset-action-btn').forEach(btn => {
+        btn.onclick = () => {
+            const resetType = btn.getAttribute('data-reset');
+            let confirmMsg = "";
+            let onConfirm = null;
+
+            if (resetType === 'progress') {
+                confirmMsg = "Reset all book reading progress and dashboard checklist achievements?";
+                onConfirm = () => {
+                    localStorage.removeItem('reading_progress');
+                    localStorage.removeItem('dashboard_checklist');
+                    state.progress = {};
+                    initProgress();
+                    renderSidebarNav();
+                    renderDashboardChecklist();
+                    updateProgressUI();
+                    showToastNotification("Reading progress and checklist reset!");
+                };
+            } else if (resetType === 'quizzes') {
+                confirmMsg = "Reset all security posture audit and phishing simulator scores?";
+                onConfirm = () => {
+                    localStorage.removeItem('security_audit_score');
+                    updateDashboardAuditUI();
+                    showToastNotification("Quiz & Simulator posture stats reset!");
+                };
+            } else if (resetType === 'notes') {
+                confirmMsg = "Permanently delete all custom chapter notes, paragraph notes, bookmarks, and highlights?";
+                onConfirm = () => {
+                    localStorage.removeItem('book_annotations');
+                    localStorage.removeItem('book_bookmarks');
+                    localStorage.removeItem('book_chapter_notes');
+                    localStorage.removeItem('book_paragraph_notes');
+                    
+                    state.annotations = [];
+                    state.bookmarks = [];
+                    state.chapterNotes = {};
+                    state.paraNotes = [];
+
+                    updateDashboardBookmarksUI();
+                    renderNotesList();
+                    if (state.currentSection === 'reader') {
+                        loadChapter(state.currentChapterNum);
+                    }
+                    showToastNotification("All custom notes, bookmarks, and highlights deleted!");
+                };
+            }
+
+            showCustomConfirm(confirmMsg, onConfirm, "Delete");
+        };
+    });
+
+    // APPLY ALL SETTINGS AND SAVE
+    dialog.querySelector('#settings-save-all-btn').onclick = () => {
+        // Save AI Settings
+        const newPersona = dialog.querySelector('#setting-ai-persona').value;
+        const newTemp = parseFloat(tempSlider.value);
+        
+        state.aiPersona = newPersona;
+        state.aiTemperature = newTemp;
+        
+        localStorage.setItem('ai_persona', newPersona);
+        localStorage.setItem('ai_temperature', newTemp);
+
+        // Sync and save Audio Settings
+        if (currentVoiceSelect && voiceSelect) {
+            currentVoiceSelect.value = voiceSelect.value;
+            // dispatch change event to save preference
+            currentVoiceSelect.dispatchEvent(new Event('change'));
+        }
+        if (currentRateSelect) {
+            currentRateSelect.value = rateSlider.value;
+            currentRateSelect.dispatchEvent(new Event('change'));
+        }
+
+        showToastNotification("Settings applied successfully!");
+        closeModal();
+    };
 }
