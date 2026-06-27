@@ -11,13 +11,36 @@
 </head>
 
 <body>
+    <!-- Falling Matrix Nodes Background -->
+    <canvas id="matrix-canvas"></canvas>
+
     <div class="app-container">
         <!-- Sidebar Navigation -->
         <aside class="sidebar" id="sidebar">
             <div class="sidebar-header">
                 <div style="display: flex; justify-content: space-between; align-items: center; width: 100%;">
                     <div class="sidebar-logo">
-                        <div class="logo-icon">C</div>
+                        <div class="logo-icon">
+                            <svg viewBox="0 0 100 100" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg">
+                                <!-- Globe Grid -->
+                                <circle cx="48" cy="52" r="34" fill="none" stroke="#3b82f6" stroke-width="6"/>
+                                <ellipse cx="48" cy="52" rx="17" ry="34" fill="none" stroke="#3b82f6" stroke-width="6"/>
+                                <ellipse cx="48" cy="52" rx="34" ry="17" fill="none" stroke="#3b82f6" stroke-width="6"/>
+                                <line x1="48" y1="18" x2="48" y2="86" stroke="#3b82f6" stroke-width="6"/>
+                                <line x1="14" y1="52" x2="82" y2="52" stroke="#3b82f6" stroke-width="6"/>
+                                
+                                <!-- WWW Badge -->
+                                <rect x="5" y="60" width="40" height="20" rx="6" fill="#1e3a8a" stroke="#2563eb" stroke-width="2"/>
+                                <text x="25" y="74" fill="#ffffff" font-size="9" font-family="monospace" font-weight="900" text-anchor="middle">WWW</text>
+                                
+                                <!-- Padlock Badge -->
+                                <circle cx="74" cy="28" r="16" fill="#1e3a8a" stroke="#2563eb" stroke-width="2"/>
+                                <!-- Lock loop -->
+                                <path d="M70 25v-4a4 4 0 0 1 8 0v4" fill="none" stroke="#ffffff" stroke-width="2"/>
+                                <!-- Lock body -->
+                                <rect x="67" y="24" width="14" height="10" rx="2" fill="#38bdf8"/>
+                            </svg>
+                        </div>
                         <div>
                             <div class="logo-text">CYBERSECURITY</div>
                             <div class="logo-sub">for Dummies</div>
@@ -27,11 +50,18 @@
                     <button class="theme-toggle-btn" id="sidebar-close-btn"
                         style="display: none; border: none; padding: 4px;">
                         <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor"
-                            stroke-width="2">
+                             stroke-width="2">
                             <line x1="18" y1="6" x2="6" y2="18"></line>
                             <line x1="6" y1="6" x2="18" y2="18"></line>
                         </svg>
                     </button>
+                </div>
+                
+                <!-- Hacker Terminal Readout -->
+                <div class="terminal-status-readout" style="margin-top: 14px; background: rgba(0, 255, 102, 0.02); border: 1px solid rgba(0, 255, 102, 0.1); border-radius: 6px; padding: 10px; font-family: var(--font-mono); font-size: 10.5px; line-height: 1.5; color: var(--text-secondary);">
+                    <div style="display: flex; justify-content: space-between; margin-bottom: 2px;"><span style="color: var(--accent-blue); font-weight: 700;">● NODE_STATUS</span> <span style="color: var(--accent-blue); text-shadow: 0 0 4px var(--accent-blue); font-weight: 700;">ONLINE</span></div>
+                    <div style="display: flex; justify-content: space-between; margin-bottom: 2px; color: var(--text-muted);"><span>// SEC_KEY_CYPHER</span> <span style="color: var(--text-primary);">AES-256</span></div>
+                    <div style="display: flex; justify-content: space-between; color: var(--text-muted);"><span>// FIREWALL_BYPASS</span> <span style="color: var(--accent-purple); font-weight: 600;">ACTIVE</span></div>
                 </div>
             </div>
 
@@ -98,8 +128,111 @@
             <!-- Content Window -->
             <div class="content-wrapper">
 
+                <!-- SECTION 0: HOME GATE -->
+                <section class="section active" id="home-section">
+                    <div class="welcome-card" style="text-align: center; padding: 45px 30px; margin-bottom: 30px; border-left: 4px solid var(--accent-blue);">
+                        <div class="logo-icon" style="width: 68px; height: 68px; margin: 0 auto 20px;">
+                            <svg viewBox="0 0 100 100" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg">
+                                <!-- Globe Grid -->
+                                <circle cx="48" cy="52" r="34" fill="none" stroke="#3b82f6" stroke-width="6"/>
+                                <ellipse cx="48" cy="52" rx="17" ry="34" fill="none" stroke="#3b82f6" stroke-width="6"/>
+                                <ellipse cx="48" cy="52" rx="34" ry="17" fill="none" stroke="#3b82f6" stroke-width="6"/>
+                                <line x1="48" y1="18" x2="48" y2="86" stroke="#3b82f6" stroke-width="6"/>
+                                <line x1="14" y1="52" x2="82" y2="52" stroke="#3b82f6" stroke-width="6"/>
+                                
+                                <!-- WWW Badge -->
+                                <rect x="5" y="60" width="40" height="20" rx="6" fill="#1e3a8a" stroke="#2563eb" stroke-width="2"/>
+                                <text x="25" y="74" fill="#ffffff" font-size="9" font-family="monospace" font-weight="900" text-anchor="middle">WWW</text>
+                                
+                                <!-- Padlock Badge -->
+                                <circle cx="74" cy="28" r="16" fill="#1e3a8a" stroke="#2563eb" stroke-width="2"/>
+                                <!-- Lock loop -->
+                                <path d="M70 25v-4a4 4 0 0 1 8 0v4" fill="none" stroke="#ffffff" stroke-width="2"/>
+                                <!-- Lock body -->
+                                <rect x="67" y="24" width="14" height="10" rx="2" fill="#38bdf8"/>
+                            </svg>
+                        </div>
+                        <h2 style="font-size: 36px; margin-bottom: 12px; font-family: var(--font-mono); letter-spacing: -1px;">CYBERSECURITY MANUAL</h2>
+                        <p style="font-size: 16px; max-width: 650px; margin: 0 auto 24px; color: var(--text-secondary);">
+                            Interactive Terminal & Study Companion to the bestselling guide. Unlock local defensive protocols, audit safety postures, and decrypt core cybersecurity intelligence.
+                        </p>
+                        <div style="display: flex; gap: 16px; justify-content: center; flex-wrap: wrap;">
+                            <button class="btn btn-primary" onclick="switchSection('dashboard')">
+                                <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="7" height="9" rx="1"></rect><rect x="14" y="3" width="7" height="5" rx="1"></rect><rect x="14" y="12" width="7" height="9" rx="1"></rect><rect x="3" y="16" width="7" height="5" rx="1"></rect></svg>
+                                Enter Dashboard
+                            </button>
+                            <button class="btn btn-secondary" onclick="loadChapter(1)">
+                                <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2"><path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"></path><path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"></path></svg>
+                                Begin Reading
+                            </button>
+                        </div>
+                    </div>
+
+                    <!-- Gate Status Panel -->
+                    <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 20px; margin-bottom: 30px;">
+                        <div class="glass-card" style="padding: 20px;">
+                            <div style="display: flex; align-items: center; gap: 12px; margin-bottom: 10px;">
+                                <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="var(--accent-blue)" stroke-width="2"><rect x="2" y="2" width="20" height="8" rx="2" ry="2"></rect><rect x="2" y="14" width="20" height="8" rx="2" ry="2"></rect><line x1="6" y1="6" x2="6.01" y2="6"></line><line x1="6" y1="18" x2="6.01" y2="18"></line></svg>
+                                <span style="font-family: var(--font-mono); font-size: 13px; font-weight: 700; text-transform: uppercase;">Node Parameters</span>
+                            </div>
+                            <div style="font-family: var(--font-mono); font-size: 12px; color: var(--text-secondary); line-height: 1.8;">
+                                <div>OS_KERNEL: <span style="color: var(--accent-blue);">VER_1.0_LNL</span></div>
+                                <div>PRIVILEGE: <span style="color: var(--accent-purple);">ROOT_AUTH</span></div>
+                                <div>LOCAL_PORT: <span style="color: var(--text-primary);">PORT_8080</span></div>
+                            </div>
+                        </div>
+
+                        <div class="glass-card" style="padding: 20px;">
+                            <div style="display: flex; align-items: center; gap: 12px; margin-bottom: 10px;">
+                                <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="var(--accent-blue)" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path></svg>
+                                <span style="font-family: var(--font-mono); font-size: 13px; font-weight: 700; text-transform: uppercase;">Diagnostic Audit</span>
+                            </div>
+                            <div style="font-family: var(--font-mono); font-size: 12px; color: var(--text-secondary); line-height: 1.8;">
+                                <div>SYSTEM_INTEGRITY: <span style="color: var(--accent-blue);">SECURE</span></div>
+                                <div>PHISHING_DEFENSE: <span style="color: var(--accent-blue);">READY</span></div>
+                                <div>ACTIVE_MODULES: <span style="color: var(--text-primary);">6 / 6 Loaded</span></div>
+                            </div>
+                        </div>
+
+                        <div class="glass-card" style="padding: 20px;">
+                            <div style="display: flex; align-items: center; gap: 12px; margin-bottom: 10px;">
+                                <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="var(--accent-blue)" stroke-width="2"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg>
+                                <span style="font-family: var(--font-mono); font-size: 13px; font-weight: 700; text-transform: uppercase;">Current Session</span>
+                            </div>
+                            <div style="font-family: var(--font-mono); font-size: 12px; color: var(--text-secondary); line-height: 1.8;">
+                                <div>BOOKMARK_COUNT: <span id="home-bookmark-count" style="color: var(--accent-blue);">0</span></div>
+                                <div>PROGRESS_RATING: <span id="home-progress-rating" style="color: var(--accent-blue);">0%</span></div>
+                                <div>LAST_CHAPTER: <span id="home-last-chapter" style="color: var(--text-primary);">None</span></div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Book Core Parts Section -->
+                    <div class="glass-card" style="margin-bottom: 30px;">
+                        <h3 style="font-family: var(--font-mono); font-size: 16px; font-weight: 700; margin-bottom: 16px; color: var(--text-primary); text-transform: uppercase;">Manual Syllabus Decryption</h3>
+                        <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 16px;">
+                            <div style="padding: 12px; border-left: 2px solid var(--accent-blue);">
+                                <h4 style="font-size: 14px; font-weight: 700; color: var(--accent-blue); margin-bottom: 4px;">Part 1: Getting Started</h4>
+                                <p style="font-size: 12px; color: var(--text-secondary);">Core terms, differences between info-sec and cyber-sec, and the mindset of cyber defense.</p>
+                            </div>
+                            <div style="padding: 12px; border-left: 2px solid var(--accent-blue);">
+                                <h4 style="font-size: 14px; font-weight: 700; color: var(--accent-blue); margin-bottom: 4px;">Part 2: Securing Your Assets</h4>
+                                <p style="font-size: 12px; color: var(--text-secondary);">Hardening systems, operating systems, applications, and password management protocols.</p>
+                            </div>
+                            <div style="padding: 12px; border-left: 2px solid var(--accent-blue);">
+                                <h4 style="font-size: 14px; font-weight: 700; color: var(--accent-blue); margin-bottom: 4px;">Part 3: Network Protection</h4>
+                                <p style="font-size: 12px; color: var(--text-secondary);">Defending routers, avoiding public Wi-Fi pitfalls, and configuring secure channels.</p>
+                            </div>
+                            <div style="padding: 12px; border-left: 2px solid var(--accent-blue);">
+                                <h4 style="font-size: 14px; font-weight: 700; color: var(--accent-blue); margin-bottom: 4px;">Part 4: Defensive Response</h4>
+                                <p style="font-size: 12px; color: var(--text-secondary);">Detecting breaches, dealing with ransomware incidents, and executing recovery plans.</p>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
                 <!-- SECTION 1: DASHBOARD -->
-                <section class="section active" id="dashboard-section">
+                <section class="section" id="dashboard-section">
                     <div class="welcome-card">
                         <h2>Master Cybersecurity Fundamentals</h2>
                         <p>Welcome to the interactive companion dashboard for <strong>Cybersecurity For
@@ -187,7 +320,7 @@
                             </div>
 
                             <div class="glass-card" id="dash-audit-card"
-                                style="background: linear-gradient(135deg, rgba(0, 242, 254, 0.08), rgba(255,255,255,0.01));">
+                                style="background: linear-gradient(135deg, rgba(0, 255, 102, 0.08), rgba(255,255,255,0.01));">
                                 <div class="card-title" style="margin-bottom: 10px;">
                                     <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
                                         style="color: var(--accent-blue);">
