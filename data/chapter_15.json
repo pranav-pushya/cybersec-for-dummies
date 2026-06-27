@@ -1,0 +1,1180 @@
+{
+  "num": 15,
+  "type": "chapter",
+  "title": "Chapter 15: Restoring from Backups",
+  "part": "Part 6: Backing Up and Recovery",
+  "pages": "337 to 365",
+  "in_this_chapter": [
+    "Restoring from different types of backups Figuring out archives Recovering cryptocurrency"
+  ],
+  "content": [
+    {
+      "type": "heading",
+      "text": "Restoring from Backups"
+    },
+    {
+      "type": "paragraph",
+      "text": "IN THIS CHAPTER"
+    },
+    {
+      "type": "heading",
+      "text": "Restoring from different types of backups"
+    },
+    {
+      "type": "heading",
+      "text": "Figuring out archives"
+    },
+    {
+      "type": "heading",
+      "text": "Recovering cryptocurrency"
+    },
+    {
+      "type": "paragraph",
+      "text": "Backing up is a critical component of any and every cybersecurity plan. After you reset a device to its factory settings as part of the recovery process (see Chapter 14), you can restore your data and programs so that your device will function as normal."
+    },
+    {
+      "type": "heading",
+      "text": "Because most people do not have to restore from backups regularly and"
+    },
+    {
+      "type": "paragraph",
+      "text": "because restoration is typically done after something \"bad\" happened that forced the restoration to be necessary, many folks first experience the process of restoring from backups when they are quite stressed. As such, people are prone to making mistakes during restoration, which can lead to data being lost forever. Fortunately, this chapter shows you how to restore."
+    },
+    {
+      "type": "heading",
+      "text": "You Will Need to Restore"
+    },
+    {
+      "type": "heading",
+      "text": "The odds are close to 100 percent that, at some point, you will lose"
+    },
+    {
+      "type": "paragraph",
+      "text": "access to some file to which you still need access, and restoring from a backup will be a lifesaver. But restoring is not necessarily simple. You need to contemplate various factors before performing a restoration."
+    },
+    {
+      "type": "heading",
+      "text": "Proper planning and execution can make the difference between"
+    },
+    {
+      "type": "paragraph",
+      "text": "recovering from lost data and losing even more data. Restoring from backups is not as simple as many people think. Take the time to read this chapter before you perform a restore."
+    },
+    {
+      "type": "heading",
+      "text": "Wait! Do Not Restore Yet!"
+    },
+    {
+      "type": "heading",
+      "text": "You noticed that some data that you want to access is missing. You"
+    },
+    {
+      "type": "paragraph",
+      "text": "noticed that a file is corrupted. You noticed that some program is not running properly. So, you should restore from a backup, right? Wait!"
+    },
+    {
+      "type": "heading",
+      "text": "Restoring without knowing why the problem occurred in the"
+    },
+    {
+      "type": "paragraph",
+      "text": "first place may be dangerous. For example, if you have a malware infection on your computer, restoring while the malware is still present won't remove the threat, and, depending on the type of malware and backup, may lead to the files in your backup becoming corrupted as well. If the malware corrupts the primary data store, you may lose your data and have nowhere from which to restore it! For example, people who tried to restore data from backups on external hard drives have lost data to ransomware. The moment the external drive was connected to the infected computer, the ransomware spread to the backup and encrypted it as well!"
+    },
+    {
+      "type": "heading",
+      "text": "Malware can spread to cloud-based storage as well. Merely"
+    },
+    {
+      "type": "paragraph",
+      "text": "having the backup in the cloud is not a reason to restore before knowing what happened. Even in the case of backups that are on read-only media, which malware cannot infect, attempting to restore before neutralizing the threat posed by the infection can waste time and potentially give the malware access to more data to steal."
+    },
+    {
+      "type": "heading",
+      "text": "Before you restore from any backups, make sure to diagnose the source"
+    },
+    {
+      "type": "paragraph",
+      "text": "of the problem that is causing you the need to restore. If you accidentally deleted a file, for example, and know that the problem occurred due to your own human error, by all means go ahead and restore. But if you're unsure what happened, apply the techniques described in Chapters 11 and 12 to figure out what you need to do to make your computer safe and secure prior to restoring from the backup."
+    },
+    {
+      "type": "heading",
+      "text": "Restoring from Full Backups of"
+    },
+    {
+      "type": "heading",
+      "text": "Systems"
+    },
+    {
+      "type": "heading",
+      "text": "A full system backup is a backup of an entire system, including the"
+    },
+    {
+      "type": "paragraph",
+      "text": "operating system, programs/apps, settings, and data. The term applies whether the device being backed up is a smartphone or a massive server in a data center. As such, the restoration process recreates a system that is effectively identical to the one that was backed up at the time that it was backed up. (This is not totally true in the absolute sense -- the system clock will show a different time than the original system, for example -- but it is true for the purposes of learning about system restoration.)"
+    },
+    {
+      "type": "heading",
+      "text": "Restoring to the computing device that was"
+    },
+    {
+      "type": "paragraph",
+      "text": "originally backed up"
+    },
+    {
+      "type": "heading",
+      "text": "System restoration from a system image works best when systems are"
+    },
+    {
+      "type": "paragraph",
+      "text": "restored to the same computing device from which the original backup was made. If your system was infected with malware, for example, and you restore to the same device from an image created before the malware infection took place, the system should work well. (Of course, you would lose any work and other updates done since that time, so hopefully you backed them up using one of the methods in Chapter 13.)"
+    },
+    {
+      "type": "heading",
+      "text": "Full system restores are often irreversible. Be absolutely sure"
+    },
+    {
+      "type": "paragraph",
+      "text": "that you want to run one before you do. Restoring from a full system backup is likely the fastest way to restore an entire system, but the process can take dramatically longer than restoring just a few files that were corrupted. It is also far more likely to lead to accidentally erasing settings or data created since the last backup. As such, use a full system restore only when one is truly needed."
+    },
+    {
+      "type": "heading",
+      "text": "If you accidentally delete a bunch of files or even folders, do not"
+    },
+    {
+      "type": "paragraph",
+      "text": "perform a full system restore. Just restore those files from a backup using one of the techniques described later in this chapter."
+    },
+    {
+      "type": "heading",
+      "text": "Restoring to a different device than the one that"
+    },
+    {
+      "type": "paragraph",
+      "text": "was originally backed up"
+    },
+    {
+      "type": "heading",
+      "text": "System restoration from an image often won't work on a system"
+    },
+    {
+      "type": "paragraph",
+      "text": "with totally different hardware components than the system that was originally imaged. In general, the more different a system is from the system that was imaged, the more problems that you may encounter."
+    },
+    {
+      "type": "heading",
+      "text": "Some of those problems may autocorrect. If you restore a system with"
+    },
+    {
+      "type": "paragraph",
+      "text": "drivers for one video card to a system with another video card, for example, the restored system should realize that the wrong drivers are installed and simply not use them. Instead, it defaults to the operating system's built-in drivers and allows you to install the drivers for the correct card (or, in some cases, automatically download them or prompt you to do so)."
+    },
+    {
+      "type": "heading",
+      "text": "Some problems may not autocorrect. For example, if the computer that"
+    },
+    {
+      "type": "paragraph",
+      "text": "was backed up used a standard USB-connected keyboard and mouse and the device to which you are restoring uses some proprietary keyboard that connects differently, it may not work at all after the restore; you may need to attach a USB keyboard to the system to download and install the drivers for your proprietary keyboard. Such situations are becoming increasingly rare due to both standardization and improvements in modern operating systems, but they do exist. Some problems may not be correctable. If you try to restore the system image of a Mac to a computer designed to run Windows, for example, it won't work."
+    },
+    {
+      "type": "heading",
+      "text": "Some backup software packages allow you to configure a restore"
+    },
+    {
+      "type": "paragraph",
+      "text": "to either install separate drivers or search for drivers that match the hardware to which the restoration is being done to replace those found in the backup that are unsuitable. If you have such a feature and have difficulty restoring without it, you may want to try it. A full system backup may or may not include a backup of all content on all drives attached to a system, not just those mounted inside of it. (Theoretically, all such drives should be included in a system image, but the term system image is often used to mean an image of the internal hard drives and SSDs.)"
+    },
+    {
+      "type": "heading",
+      "text": "If a device for which you have an image fails, you should be"
+    },
+    {
+      "type": "paragraph",
+      "text": "able to use the system image to re-create the entire system as it was at the time that the backup was made. When you use the rebuilt system, it should function exactly as the previous system did at the time of the backup."
+    },
+    {
+      "type": "heading",
+      "text": "Original system images"
+    },
+    {
+      "type": "paragraph",
+      "text": "If you want to recover to the original factory image of a system prior to restoring your data and programs, see Chapter 14, which is dedicated to performing such restorations."
+    },
+    {
+      "type": "heading",
+      "text": "After performing such a factory reset, one or more (or possibly all)"
+    },
+    {
+      "type": "paragraph",
+      "text": "patches and other security updates that you have installed on the device may be gone. Your device is likely vulnerable to various compromises."
+    },
+    {
+      "type": "heading",
+      "text": "Immediately after restoring, you should, therefore, run the operating"
+    },
+    {
+      "type": "paragraph",
+      "text": "system update process (repetitively until it finds no needed updates) as well as the update process for any security software (also repetitively until it finds no needed updates). Only after those steps are completed should you install other software, restore your data, or perform any other online activities."
+    },
+    {
+      "type": "heading",
+      "text": "Later system images"
+    },
+    {
+      "type": "heading",
+      "text": "Before you restore from any system image, you must ascertain that"
+    },
+    {
+      "type": "paragraph",
+      "text": "whatever problem occurred that necessitated the restoration will not remain, or be restored, during the restoration. If your computer was infected with ransomware, for example, and you remove the malware with security software, but need to restore the criminally encrypted files from a backup, you do not want to end up restoring the ransomware along with the data. If you know for certain that an image was made prior to the arrival of the problem, go ahead and use it. If in doubt, if possible, restore to an extra device and scan it with security software prior to performing the actual restoration. If you do not have an extra device to which you can restore and are unsure as to whether the backup is infected, you may want to hire a professional to take a look."
+    },
+    {
+      "type": "heading",
+      "text": "Installing security software"
+    },
+    {
+      "type": "heading",
+      "text": "After you restore from a system image (whether factory settings or a"
+    },
+    {
+      "type": "paragraph",
+      "text": "later image), the first thing that you should do is check whether security software is installed. If it is not, install it. Either way, make sure to run the auto-updates until the software no longer needs updates."
+    },
+    {
+      "type": "heading",
+      "text": "Install security software before attempting to do anything online"
+    },
+    {
+      "type": "paragraph",
+      "text": "or read email. If you do not have security software in place before you perform such tasks, performing them could lead to a security breach of your device. If you have the security software on CD or DVD, install it from there. If you created a USB drive or other disk with the security software on it, you can install it from there. If not, copy the security software to the hard drive from wherever you have it and run it."
+    },
+    {
+      "type": "heading",
+      "text": "Original installation media"
+    },
+    {
+      "type": "heading",
+      "text": "For programs that you acquire and install after you purchased your"
+    },
+    {
+      "type": "paragraph",
+      "text": "device, you can reinstall them after you restore the original system image or even a later image that was created before the software was installed."
+    },
+    {
+      "type": "heading",
+      "text": "If you reinstall software from a CD or DVD, any updates to the"
+    },
+    {
+      "type": "paragraph",
+      "text": "software that were released after the CD or DVD was created will not be installed. Be sure to either configure your program to auto- update or manually download and install such updates. In some cases, software installation routines may also ask you whether you want them to automatically perform a check for updates immediately upon the completion of the installation. In general, answering affirmatively is a wise idea."
+    },
+    {
+      "type": "heading",
+      "text": "Downloaded software"
+    },
+    {
+      "type": "heading",
+      "text": "The way that you reinstall programs that you previously purchased and"
+    },
+    {
+      "type": "paragraph",
+      "text": "installed at some point after you purchased your device depends on where the software is located:"
+    },
+    {
+      "type": "heading",
+      "text": "If you have a copy of the software on a thumb drive, you can"
+    },
+    {
+      "type": "paragraph",
+      "text": "reinstall from the drive by connecting it into your device, copying the files to your hard drive, and running the install."
+    },
+    {
+      "type": "heading",
+      "text": "If there is any possibility that the thumb drive is infected"
+    },
+    {
+      "type": "paragraph",
+      "text": "with malware -- for example, you're restoring due to a malware infection and may have inserted the thumb drive into your infected computer at some point in the past -- make sure to scan it with security software before you run or copy anything from it. Do so from a device with security software running that will prevent infections from spreading upon connection from the drive to the machine being used for scanning."
+    },
+    {
+      "type": "heading",
+      "text": "If you copied the software to a DVD or CD, you can install from"
+    },
+    {
+      "type": "paragraph",
+      "text": "that disc. Make sure to install all necessary updates."
+    },
+    {
+      "type": "heading",
+      "text": "If the purchased software can be redownloaded from a virtual"
+    },
+    {
+      "type": "paragraph",
+      "text": "locker, do so. In some cases, software that is redownloaded will have been automatically upgraded to the latest release. In other cases, it will be the same version as you originally purchased, so make sure to install updates."
+    },
+    {
+      "type": "heading",
+      "text": "If the software is downloadable from its original source (public"
+    },
+    {
+      "type": "paragraph",
+      "text": "domain software, trialware that you activate with a code, and so on), feel free to redownload it. In some cases -- for example, if newer versions require paying an upgrade fee --you may need to download the version that you had previously. In any case, make sure to install all updates for the version that you do install."
+    },
+    {
+      "type": "heading",
+      "text": "Restoring from full backups of data"
+    },
+    {
+      "type": "paragraph",
+      "text": "In many cases, it makes sense to restore all the data on a device:"
+    },
+    {
+      "type": "heading",
+      "text": "After a restore from a factory image: After restoring from a"
+    },
+    {
+      "type": "paragraph",
+      "text": "factory image and reinstalling all necessary software, your device will still have none (or almost none) of your data on it, so you need to restore all your data."
+    },
+    {
+      "type": "heading",
+      "text": "After certain malware attacks: Some malware modifies and/or"
+    },
+    {
+      "type": "paragraph",
+      "text": "corrupts files. To ensure that all your files are as they should be, after an infection, restore all your data from a backup. Of course, this assumes that you have a recent enough backup from which to do so without losing any work. After a hard drive failure: If a hard drive fails, in full or in part, you will want to move your files to another drive. If you have a separate drive for data than for the operating system and programs -- as many people do -- performing a full restore of data is the easiest way to restore."
+    },
+    {
+      "type": "heading",
+      "text": "When transitioning to a new, similar device: Restoring from a"
+    },
+    {
+      "type": "paragraph",
+      "text": "backup is an easy way to ensure that you put all your data files onto the new device. Because some programs store settings in user data folders, copying the files directly or performing a selective restoration from a backup is usually a better way to go. But as people sometimes inadvertently leave out files when using such a technique, full restorations are sometimes used."
+    },
+    {
+      "type": "heading",
+      "text": "After accidental deletions: People occasionally accidentally delete"
+    },
+    {
+      "type": "paragraph",
+      "text": "large portions of their data files. One easy way to restore everything and not worry about whether everything is \"back to the way that it should be\" is to do a full restore of all data. Unlike restoring from a full system backup, restoring from a full data backup won't restore applications. If a system has to be rebuilt entirely, recovering from full backups of data likely requires prior restorations to factory settings (or a later image of the computer) and reinstallation of all software."
+    },
+    {
+      "type": "heading",
+      "text": "The multi-step process of restoring from a factory image and"
+    },
+    {
+      "type": "paragraph",
+      "text": "then reinstalling applications and restoring data may seem more tedious than simply restoring from a more recent system image, but it also usually proves to be far more portable. Recovery can usually be done on devices that vary quite a bit from the original device, using images of those devices (or onto a new device), followed by the reinstallation of programs and the restoration of data."
+    },
+    {
+      "type": "heading",
+      "text": "Restoring from Incremental"
+    },
+    {
+      "type": "heading",
+      "text": "Backups"
+    },
+    {
+      "type": "heading",
+      "text": "Incremental backups are backups made after a full backup and contain"
+    },
+    {
+      "type": "paragraph",
+      "text": "copies of only the portion of the contents being backed up that have changed since the preceding backup (full or incremental) was run."
+    },
+    {
+      "type": "heading",
+      "text": "Some simplistic backup software products use incremental and"
+    },
+    {
+      "type": "paragraph",
+      "text": "differential backups internally, but hide the internal workings from users. All users do is select which files or file types to restore and, if appropriate, which versions of those files, and the system works like magic hiding the merging of data from multiple backups into the resulting restoration."
+    },
+    {
+      "type": "heading",
+      "text": "Incremental backups of data"
+    },
+    {
+      "type": "heading",
+      "text": "In many cases of home users, incremental backup refers to incremental"
+    },
+    {
+      "type": "paragraph",
+      "text": "backups of data. To recover data that was backed up using an incremental backup scheme requires multiple steps: 1. A restoration must be done from the last full data backup. 2. After that restoration is complete, restoration must be performed from each incremental backup performed since that last full backup."
+    },
+    {
+      "type": "heading",
+      "text": "Failing to include any of the incremental backups necessary in Step 2"
+    },
+    {
+      "type": "paragraph",
+      "text": "may lead to corrupt data, missing data, data being present that should not be, or inconsistent data."
+    },
+    {
+      "type": "heading",
+      "text": "Most modern backup software will warn (or prevent) you if you"
+    },
+    {
+      "type": "paragraph",
+      "text": "try to skip any incremental backups during an incremental restoration. Such software, however, sometimes does not, however, tell you if you're missing the final backup or backups in a series."
+    },
+    {
+      "type": "heading",
+      "text": "Incremental backups of systems"
+    },
+    {
+      "type": "paragraph",
+      "text": "Incremental system backups are essentially updates to system images (or partial system images in the case of partial backups) that bring the image up to date as of the data that the backup was made. The incremental system backup contains copies of only the portion of the system that changed since the preceding backup (full or incremental) was run. To restore from an incremental backup of a system: 1. A restoration must be done from the last full system backup. 2. After that restoration is complete, restoration must be performed from each incremental backup performed since that system image was created."
+    },
+    {
+      "type": "heading",
+      "text": "Failing to include any of the incremental backups necessary in Step 2"
+    },
+    {
+      "type": "paragraph",
+      "text": "may lead to corrupt of missing programs, data, operating system components, and incompatibility issues between software. Most modern backup software will warn (or prevent) you if you try to skip various incrementals during a restore from an incremental backup. They often do not, however, tell you if you're missing the final backup or backups in a series."
+    },
+    {
+      "type": "heading",
+      "text": "Differential backups"
+    },
+    {
+      "type": "paragraph",
+      "text": "Differential backups contain all the files that changed since the last full backup. (They are similar to the first in a series incremental backups run after a full backup.)"
+    },
+    {
+      "type": "heading",
+      "text": "While creating a series of differential backups usually takes"
+    },
+    {
+      "type": "paragraph",
+      "text": "more time than creating a series of incremental backups, restoring from differential backups is usually much simpler and faster. To recover from a differential backup: 1. Perform a restoration from the last full system backup. 2. After that restoration is complete, perform a restoration from the most recent differential backup."
+    },
+    {
+      "type": "heading",
+      "text": "Be sure to restore from the last differential backup and not from any"
+    },
+    {
+      "type": "paragraph",
+      "text": "other differential backup."
+    },
+    {
+      "type": "heading",
+      "text": "Many backup systems won't warn you if you attempt to restore"
+    },
+    {
+      "type": "paragraph",
+      "text": "from a differential backup other than the latest one. Be sure to double-check before restoring that you're using the latest one! Table 15-1 shows the comparative restoration processes from full, incremental, and differential backups."
+    },
+    {
+      "type": "heading",
+      "text": "TABLE 15-1 Restoration Processes"
+    },
+    {
+      "type": "heading",
+      "text": "Full"
+    },
+    {
+      "type": "heading",
+      "text": "Backup Incremental Backup Differential Backup"
+    },
+    {
+      "type": "heading",
+      "text": "After"
+    },
+    {
+      "type": "heading",
+      "text": "Backup #1"
+    },
+    {
+      "type": "heading",
+      "text": "Restore from"
+    },
+    {
+      "type": "heading",
+      "text": "Backup #1"
+    },
+    {
+      "type": "heading",
+      "text": "Restore from Backup #1"
+    },
+    {
+      "type": "heading",
+      "text": "Restore from Backup"
+    },
+    {
+      "type": "heading",
+      "text": "After"
+    },
+    {
+      "type": "heading",
+      "text": "Backup #2"
+    },
+    {
+      "type": "heading",
+      "text": "Restore from"
+    },
+    {
+      "type": "heading",
+      "text": "Backup #2"
+    },
+    {
+      "type": "heading",
+      "text": "Restore from Backups #1 and"
+    },
+    {
+      "type": "heading",
+      "text": "Restore from Backups"
+    },
+    {
+      "type": "heading",
+      "text": "Full"
+    },
+    {
+      "type": "heading",
+      "text": "Backup Incremental Backup Differential Backup"
+    },
+    {
+      "type": "heading",
+      "text": "After"
+    },
+    {
+      "type": "heading",
+      "text": "Backup #3"
+    },
+    {
+      "type": "heading",
+      "text": "Restore from"
+    },
+    {
+      "type": "heading",
+      "text": "Backup #3"
+    },
+    {
+      "type": "paragraph",
+      "text": "Restore from Backups #1, #2, and #3"
+    },
+    {
+      "type": "heading",
+      "text": "Restore from Backups"
+    },
+    {
+      "type": "heading",
+      "text": "After"
+    },
+    {
+      "type": "heading",
+      "text": "Backup #4"
+    },
+    {
+      "type": "heading",
+      "text": "Restore from"
+    },
+    {
+      "type": "heading",
+      "text": "Backup #4"
+    },
+    {
+      "type": "paragraph",
+      "text": "Restore from Backups #1, #2, #3, and #4"
+    },
+    {
+      "type": "heading",
+      "text": "Restore from Backups"
+    },
+    {
+      "type": "heading",
+      "text": "Continuous backups"
+    },
+    {
+      "type": "paragraph",
+      "text": "Some continuous backups are ideal for performing system restore. Similar to a system image, they allow you to restore a system to the way that it looked at a certain point in time. Others are terrible for performing restores because they allow restoration to only the most recent version of the system, which often suffers from the need to be rebuilt in the first place."
+    },
+    {
+      "type": "heading",
+      "text": "In fact, the normal use of continuous backups is to address equipment"
+    },
+    {
+      "type": "paragraph",
+      "text": "failures, such as a hard drive suddenly going caput -- not the rebuilding of systems after a security incident."
+    },
+    {
+      "type": "heading",
+      "text": "Furthermore, because continuous backups constantly propagate material"
+    },
+    {
+      "type": "paragraph",
+      "text": "from the device being backed up to the backup, any malware that was present on the primary system may be present on the backup. Partial backups Partial backups are backups of a portion of data. Likewise, partial backups are not intended to be full backups in case of a malware attack or the like. They are useful, however, in other situations, and you should be aware of how to restore from them. If you have a particular set of files that are extremely sensitive and need to be backed up and stored separately from the rest of your system, you may use a partial backup for that data. If something happens and you need to rebuild a system or restore the sensitive data, you will need that separate partial backup from which to do the restore."
+    },
+    {
+      "type": "heading",
+      "text": "Digital private keys that provide access to cryptocurrency, email"
+    },
+    {
+      "type": "paragraph",
+      "text": "encryption/decryption capabilities, and so on, for example, are often stored on such backups along with images of extremely sensitive documents. Often, partial backups of sensitive data are performed to USB drives that are then locked in safes or safe deposit boxes. Restoring from the backup would, in such cases, demand that the restorer obtain the physical USB drive, which could mean a delay in restoration. If the need to restore arises at 6 p.m. Friday, for example, and the drive is in a safe deposit box that is not available until 9 a.m. Monday, the desired material may remain inaccessible to the user for almost three days."
+    },
+    {
+      "type": "heading",
+      "text": "Make sure that you store your partial backups in a manner that"
+    },
+    {
+      "type": "paragraph",
+      "text": "will allow you to access the backed-up data when you need it."
+    },
+    {
+      "type": "heading",
+      "text": "Another common scenario for specialized partial backups is when a"
+    },
+    {
+      "type": "paragraph",
+      "text": "network-based backup is used -- especially within a small business -- and a user needs to ensure that he or she has a backup of certain material in case of technical problems while traveling. Such backups should never be made without proper authorization. If permission has been obtained and a backup has been created, a user on the road who suffers a technical problem that requires restoration of data can do the restore by copying the files from the USB drive (after, presumably, decrypting the files using a strong password or some form of multifactor authentication)."
+    },
+    {
+      "type": "heading",
+      "text": "Folder backups"
+    },
+    {
+      "type": "paragraph",
+      "text": "Folder backups are similar to partial backups because the set of items being backed up is a particular folder. If you performed a folder backup using a backup tool, you can restore it using the techniques described in the preceding section. The restore process is different if, however, you created the relevant backup by simply copying a folder or set of folders to an external drive (hard drive, SSDs, USB drive, or network drive). Theoretically, you simply copy the backup copy of the folder or folders to the location of the original folder. However, doing so will potentially overwrite the contents of the primary folder, so any changes made since the backup will be lost."
+    },
+    {
+      "type": "heading",
+      "text": "Drive backups"
+    },
+    {
+      "type": "heading",
+      "text": "A drive backup is similar to a folder backup, but an entire drive is"
+    },
+    {
+      "type": "paragraph",
+      "text": "backed up instead of a folder. If you backed up a drive with backup software, you can restore it via that software. If you backed up a drive by copying the contents of the drive somewhere else, you will need to manually copy them back. Such a restore may not work perfectly, however. Hidden and system files may not be restored, so a bootable drive backed up and restored in such a fashion may not remain bootable."
+    },
+    {
+      "type": "heading",
+      "text": "Virtual-drive backups"
+    },
+    {
+      "type": "paragraph",
+      "text": "If you backed up an encrypted virtual drive, such as a BitLocker drive that you mount on your computer, you can restore the entire drive in one shot or restore individual files and folders from the drive."
+    },
+    {
+      "type": "heading",
+      "text": "Restoring the entire virtual drive"
+    },
+    {
+      "type": "paragraph",
+      "text": "To restore the entire virtual drive in one shot, make sure the existing copy of the drive is not mounted. The easiest way to do so is to boot your computer and not mount any Bitlocker drives."
+    },
+    {
+      "type": "heading",
+      "text": "If your computer is booted already and the drive is mounted, simply"
+    },
+    {
+      "type": "paragraph",
+      "text": "dismount it: 1. Choose Startup  ⇒  This PC. 2. Locate the mounted Bitlocker drive."
+    },
+    {
+      "type": "heading",
+      "text": "The drive appears with an icon of a lock indicating that it is"
+    },
+    {
+      "type": "paragraph",
+      "text": "encrypted. 3. Right-click on the drive and select Eject. Once the drive is dismounted, it disappears from the This PC list of drives. After the drive is unmounted, copy the backup copy of the drive to the primary drive location and replace the file containing the drive. You can then unlock and mount the drive."
+    },
+    {
+      "type": "heading",
+      "text": "Restoring files and/or folders from the virtual drive"
+    },
+    {
+      "type": "paragraph",
+      "text": "To restore individual files or folders from the virtual drive, mount the backup as a separate virtual drive and copy the files and folders from the backup to the primary as if you were copying files between any two drives."
+    },
+    {
+      "type": "heading",
+      "text": "Ideally, you should back up the backup of the virtual drive"
+    },
+    {
+      "type": "paragraph",
+      "text": "before mounting it and copying files and/or folders from it and mount it read-only when you mount it."
+    },
+    {
+      "type": "heading",
+      "text": "Always unmount the backup drive after copying files to the"
+    },
+    {
+      "type": "paragraph",
+      "text": "primary. Leaving it mounted -- which inherently means that two copies of a large portion of your file system are in use at the same time -- can lead to human mistakes."
+    },
+    {
+      "type": "heading",
+      "text": "Dealing with Deletions"
+    },
+    {
+      "type": "paragraph",
+      "text": "One of the problems of restoring from any restore that does not entirely overwrite your data with a new copy is that the restore may not restore deletions. For example, if after making a full backup, you delete a file, create ten new files, modify two data files, and then perform an incremental backup, the incremental backup may or may not record the deletion. If you restore from the full backup and then restore from the incremental, the restore from the incremental should delete the file, add the ten new files, and modify the two files to the newer version. In some cases, however, the file that you previously deleted may remain because some backup tools do not properly account for deletions. Even when this problem happens, it is not usually critical. You just want to be aware of it. Of course, if you've deleted sensitive files in the past, you should check whether a restoration restored them to your computer. (If you intend to permanently and totally destroy a file or set of files, you should also remove it/them from your backups.)"
+    },
+    {
+      "type": "heading",
+      "text": "Excluding Files and Folders"
+    },
+    {
+      "type": "paragraph",
+      "text": "Some files and folders should not be restored during a restoration. In truth, they should not have been backed up in the first place unless you imaged a disk, but in many cases, people do back them up anyway."
+    },
+    {
+      "type": "heading",
+      "text": "The following are examples of some such files and folders that can be"
+    },
+    {
+      "type": "paragraph",
+      "text": "excluded from typical restorations done on a Windows 10 machine. If you're using backup software, the software likely excluded these files when creating the backup. If you are copying files manually, you may have backed them up."
+    },
+    {
+      "type": "heading",
+      "text": "Contents of the Recycle Bin"
+    },
+    {
+      "type": "heading",
+      "text": "Browser caches (temporary Internet files from web browsers, such as"
+    },
+    {
+      "type": "heading",
+      "text": "Microsoft Edge or Internet Explorer, Firefox, Chrome, Vivaldi, or"
+    },
+    {
+      "type": "heading",
+      "text": "Opera)"
+    },
+    {
+      "type": "heading",
+      "text": "Temporary folders (often called Temp or tem and reside in C:\\, in the"
+    },
+    {
+      "type": "paragraph",
+      "text": "user directory, or in the data directory of software"
+    },
+    {
+      "type": "heading",
+      "text": "Temporary files (usually files named *.tmp or *.temp)"
+    },
+    {
+      "type": "heading",
+      "text": "Operating system swap files (pagefile.sys)"
+    },
+    {
+      "type": "heading",
+      "text": "Operating system hibernation-mode system image information"
+    },
+    {
+      "type": "paragraph",
+      "text": "(hyberfil.sys)"
+    },
+    {
+      "type": "heading",
+      "text": "Backups (unless you want to back up your backups) such as"
+    },
+    {
+      "type": "heading",
+      "text": "Windows File History backup"
+    },
+    {
+      "type": "heading",
+      "text": "Operating system files backed up during an operating system"
+    },
+    {
+      "type": "paragraph",
+      "text": "upgrade (usually found in C:\\Windows.old on Windows computers that have had their operating systems upgraded)"
+    },
+    {
+      "type": "heading",
+      "text": "Microsoft Outlook cache files (*.ost -- note that Outlook local data"
+    },
+    {
+      "type": "paragraph",
+      "text": "stores [*.pst] should be backed up; in fact, in many cases they may be the most critical files in a backup)"
+    },
+    {
+      "type": "heading",
+      "text": "Performance log files in directories called PerfLogs"
+    },
+    {
+      "type": "heading",
+      "text": "Junk files that users create as personal temporary files to hold"
+    },
+    {
+      "type": "paragraph",
+      "text": "information (for example, a text file in which the user types a phone number that someone dictated to him or her, but which the user has since entered into his or her smartphone directory)"
+    },
+    {
+      "type": "heading",
+      "text": "In-app backups"
+    },
+    {
+      "type": "heading",
+      "text": "Some applications have built-in backup capabilities that protect you"
+    },
+    {
+      "type": "paragraph",
+      "text": "from losing your work if your computer crashes, power fails and you don't have battery power left, and other mishaps."
+    },
+    {
+      "type": "heading",
+      "text": "Some such applications will automatically prompt you to restore"
+    },
+    {
+      "type": "paragraph",
+      "text": "documents that would otherwise have been lost due to a system crash or the like. When you start Microsoft Word after an abnormal shutdown of the application, for example, it provides a list of documents that can be autorecovered -- sometimes even offering multiple versions of the same document."
+    },
+    {
+      "type": "heading",
+      "text": "Understanding Archives"
+    },
+    {
+      "type": "heading",
+      "text": "The term archive has multiple meanings in the world of information"
+    },
+    {
+      "type": "paragraph",
+      "text": "technology. I describe the relevant meanings in the following sections."
+    },
+    {
+      "type": "heading",
+      "text": "Multiple files stored within one file"
+    },
+    {
+      "type": "paragraph",
+      "text": "Sometimes multiple files can be stored within a single file. This concept was addressed with the concept of virtual drives earlier in this chapter and in Chapter 13. However, storing multiple files within one file does not necessitate the creation of virtual drives. You may have seen files with the extension .zip, for example. ZIP files, as such files are called, are effectively containers that hold one or more compressed files. Storing multiple files in such a container allows for far easier transfer of files (a single ZIP file attached to an email is far easier to manage than 50 small individual files). It also reduces the amount (sometimes significantly) of disk space and Internet bandwidth necessary to store and move the files. If you need to restore files from an archive, you can either extract all the files from the archive to your primary source, or you can open the archive and copy the individual files to your primary location as you would with any files found in any other folder."
+    },
+    {
+      "type": "heading",
+      "text": "Archive files come in many different formats. Some appear"
+    },
+    {
+      "type": "paragraph",
+      "text": "automatically as folders within Windows and Mac file systems and their contents as files and folders within folders. Others require special software to be viewed and extracted from."
+    },
+    {
+      "type": "heading",
+      "text": "Old live data"
+    },
+    {
+      "type": "heading",
+      "text": "Sometimes old data is moved off of primary systems and stored"
+    },
+    {
+      "type": "paragraph",
+      "text": "elsewhere. Storing old data can improve performance. For example, if a search of all email items means searching through 25 years' worth of messages, the search will take far longer than a search through just the last 3 years. If nearly all relevant results will always be within the last few years, the older emails can be moved to a separate archive where you can access and search them separately if need be."
+    },
+    {
+      "type": "heading",
+      "text": "If you use archiving, factor that in when restoring data. You want to"
+    },
+    {
+      "type": "paragraph",
+      "text": "ensure that archives are restored to archives and that you don't accidentally restore archives to the primary data stores."
+    },
+    {
+      "type": "heading",
+      "text": "Old versions of files, folders, or backups"
+    },
+    {
+      "type": "paragraph",
+      "text": "The term archives is also sometimes used to refer to old versions of files, folders, and backups even if those files are stored on the primary data store. Someone who has ten versions of a contract, for example, that were executed at different points in time, may keep all the Word versions of these documents in an Archive folder. Archiving of this sort can be done for any one or more of many reasons. One common rationale is to avoid accidentally using an old version of a document when the current version should be used. If you're archiving, factor that in when restoring data. Restore all the archives to their proper locations. You may see multiple copies of the same file being restored; don't assume that that is an error."
+    },
+    {
+      "type": "heading",
+      "text": "Restoring Using Backup Tools"
+    },
+    {
+      "type": "paragraph",
+      "text": "Restoring using backup software is similar to the process of backing up using backup software."
+    },
+    {
+      "type": "heading",
+      "text": "To restore using the backup software that was utilized to create the"
+    },
+    {
+      "type": "paragraph",
+      "text": "backups from which you are restoring, run the software (in some cases, you may need to install the software onto the machine, rather than run it from a CD or the like) and select Restore. When you restore, make sure that you select the correct backup version to restore from."
+    },
+    {
+      "type": "heading",
+      "text": "Beware of bogus restoration prompts! Various forms of malware"
+    },
+    {
+      "type": "paragraph",
+      "text": "present bogus prompts advising you that your hard drive has suffered some sort of malfunction and that you must run a restore routing to repair data. Only run restores from software that you obtained from a reliable source and that you know that you can trust!"
+    },
+    {
+      "type": "heading",
+      "text": "Many modern backup software packages hide the approach used to back"
+    },
+    {
+      "type": "paragraph",
+      "text": "up -- full, differential, incremental, and so on -- from users and instead allow users to pick which version of files they want to restore. If you're restoring using the specialized backup and recovery software that came with an external hard drive or solid-state device that you use to back up your device, attach the drive, run the software (unless it runs automatically), and follow the prompt to restore. Such software is usually simple to use; restoration typically works like a simplified version of that done using other backup software (see preceding section)."
+    },
+    {
+      "type": "heading",
+      "text": "Disconnect the drive from the system after performing the"
+    },
+    {
+      "type": "heading",
+      "text": "Restoring from a Windows backup"
+    },
+    {
+      "type": "heading",
+      "text": "To restore from a Windows backup to the original locations from which"
+    },
+    {
+      "type": "paragraph",
+      "text": "the data was backed up, follow these steps: 1. Choose Start  ⇒  Settings  ⇒  Update & Security  ⇒  Backup. 2. Click on Restore files from a current backup. 3. In the File System viewer, browse through different versions of your folders and files or type and search for the name of the file you're looking for. 4. Select what you want to restore. 5. Click on Restore."
+    },
+    {
+      "type": "heading",
+      "text": "Restoring to a system restore point"
+    },
+    {
+      "type": "heading",
+      "text": "Microsoft Windows allows you to restore your system to the way it"
+    },
+    {
+      "type": "paragraph",
+      "text": "looked at a specific time at which the system was imaged by the operating system: 1. Click on the Start button and select Settings. 2. Choose Control Panel  ⇒  System and Maintenance  ⇒  Backup and Restore. 3. Click on Restore My Files to restore your files or Restore All"
+    },
+    {
+      "type": "heading",
+      "text": "Users' Files to restore all users files (assuming that you have"
+    },
+    {
+      "type": "paragraph",
+      "text": "permissions to do so)."
+    },
+    {
+      "type": "heading",
+      "text": "Restoring from a smartphone/tablet backup"
+    },
+    {
+      "type": "heading",
+      "text": "Many portable devices come equipped with the ability to automatically"
+    },
+    {
+      "type": "paragraph",
+      "text": "sync your data to the cloud, which allows you to restore the data to a new device if your device is lost or stolen. Even devices that do not have such a feature built in almost always can run software that effectively delivers such features for a specific folder tree or drive. When you start an Android device for the first time after a factory reset, you may be prompted if you want to restore your data. If you are, restoring is pretty straightforward. Answer yes. While the exact routines may vary between devices and manufacturers, other forms of restore generally follow some flavor of the following process: To restore contacts from an SD card: 1. Open the Contacts App. If there is an import feature, select it and jump to Step 4. 2. Select Settings from the main menu (or click on the Settings icon)."
+    },
+    {
+      "type": "heading",
+      "text": "If you aren't displaying all contacts, you may need to click the"
+    },
+    {
+      "type": "paragraph",
+      "text": "Display menu and select All Contacts. 3. Select Import / Export Contacts (or, if that option is not available, select Manage Contacts and then select Import Contacts on the next screen). 4. Select Import from SD Card. 5. Review the file name for the backup of the Contact list then click on OK. Contacts are often backed up (or exported to) VCF files. To restore media (pictures, videos, and audio files) from an SD card: 1. Using File Manager, open the SD card. 2. Click to turn on check boxes next to the file or files that you want to restore. 3. To copy files to the phone's memory, go to the menu and select Copy  ⇒  Internal Storage. 4. Select the folder to which you want to copy the files or create the folder and move into it. 5. Select Copy Here."
+    },
+    {
+      "type": "heading",
+      "text": "Restoring from manual file or folder copying"
+    },
+    {
+      "type": "paragraph",
+      "text": "backups To restore from a manual file or folder copy, just copy the file or folder from the backup to the main data store. (If you are overwriting a file or folder, you may receive a warning from the operating system.)"
+    },
+    {
+      "type": "heading",
+      "text": "Disconnect the media on which the backup is located from the"
+    },
+    {
+      "type": "paragraph",
+      "text": "main store when you are done."
+    },
+    {
+      "type": "heading",
+      "text": "Utilizing third-party backups of data hosted at"
+    },
+    {
+      "type": "paragraph",
+      "text": "third parties If you utilized the backup capabilities of a third-party provider at which you store data in the cloud or whose cloud-based services you utilize, you may be able to restore your relevant data through an interface provided by the third-party provider. If you use a third-party cloud-based-service provider and you have not performed backups, you may still be able to restore data. Contact your provider. The provider itself may have backed up the data without notifying you."
+    },
+    {
+      "type": "heading",
+      "text": "While you should never rely on your cloud service provider"
+    },
+    {
+      "type": "paragraph",
+      "text": "performing backups that you did not order, if you are in a jam and contact the provider, you may (or may not) be pleasantly surprised to find out that they do have backups from which you can restore."
+    },
+    {
+      "type": "heading",
+      "text": "Returning Backups to Their Proper"
+    },
+    {
+      "type": "heading",
+      "text": "Locations"
+    },
+    {
+      "type": "paragraph",
+      "text": "After you restore from a physical backup, you need to return it to its proper location for several reasons: You do not want it to be misplaced if you ever need it again. You do not want it to be stolen."
+    },
+    {
+      "type": "heading",
+      "text": "You want to ensure that you do not undermine any storage strategies"
+    },
+    {
+      "type": "paragraph",
+      "text": "and procedures intended to keep backups in different locations than the data stores that they back up."
+    },
+    {
+      "type": "heading",
+      "text": "Network storage"
+    },
+    {
+      "type": "heading",
+      "text": "Ideally, when restoring from a network-based backup, you should mount"
+    },
+    {
+      "type": "paragraph",
+      "text": "the network drive as read-only to prevent possible corruptions of the backup. Furthermore, be sure to disconnect from the network data store once you are done performing the restoration."
+    },
+    {
+      "type": "heading",
+      "text": "Make sure that whatever mechanism you are using to run the"
+    },
+    {
+      "type": "paragraph",
+      "text": "restore (for example, backup software) has the proper network permissions to write to the primary data storage location."
+    },
+    {
+      "type": "heading",
+      "text": "Restoring from a combination of locations"
+    },
+    {
+      "type": "paragraph",
+      "text": "There is no reason to back up to only one location. Restoration, however, typically will utilize backups from only one location at a time. If you do need to restore from backups that are physically situated at more than one location, be extremely careful not to restore the wrong versions of files as some of the files may exist on multiple backups."
+    },
+    {
+      "type": "heading",
+      "text": "Restoring to Non-Original Locations"
+    },
+    {
+      "type": "heading",
+      "text": "When it comes to restoring data, some folks choose to restore to"
+    },
+    {
+      "type": "paragraph",
+      "text": "locations other than original locations, test the restored data, and then copy or move it to the original locations. Such a strategy reduces the likelihood of writing over good data with bad data. You can make a bad day worse if you lose some of your data and discover that your backup of the data is corrupted. If you then restore from that backup over your original data and thereby corrupt it, you lose even more of your data."
+    },
+    {
+      "type": "heading",
+      "text": "Never Leave Your Backups"
+    },
+    {
+      "type": "heading",
+      "text": "Connected"
+    },
+    {
+      "type": "heading",
+      "text": "After restoring, never leave backup hard drives or solid-state"
+    },
+    {
+      "type": "paragraph",
+      "text": "drives connected to the systems or networks that they are backing up. Any future malware infections that attack the primary system can spread to the backups as well. Removing your backup from being connected to the material that it is backing up can make all the difference between quickly recovering from a ransomware attack and having to pay an expensive ransom to a criminal."
+    },
+    {
+      "type": "heading",
+      "text": "If you back up to write-once read-many-times media, such as CD-Rs, it"
+    },
+    {
+      "type": "paragraph",
+      "text": "is theoretically safe to leave the backup in an attached drive after you finalize the restoration, but you still should not do so. You want the backup to be readily available in its proper location in case you ever need it in the future."
+    },
+    {
+      "type": "heading",
+      "text": "Restoring from Encrypted Backups"
+    },
+    {
+      "type": "heading",
+      "text": "Restoring from encrypted backups is essentially the same as restoring"
+    },
+    {
+      "type": "paragraph",
+      "text": "from non-encrypted backups except that you need to unlock the backups prior to restoration."
+    },
+    {
+      "type": "heading",
+      "text": "Backups that are protected by a password obviously need the proper"
+    },
+    {
+      "type": "paragraph",
+      "text": "password to be entered. Backups protected by certificates or other more advanced forms of encryption may require that a user possess a physical item or digital certificate in order to restore. In most cases, security conscious home users protect their backups with passwords. If you do so (and you should), do not forget your password."
+    },
+    {
+      "type": "heading",
+      "text": "Testing Backups"
+    },
+    {
+      "type": "heading",
+      "text": "Many folks have thought that they had proper backups only to discover"
+    },
+    {
+      "type": "paragraph",
+      "text": "when they needed to restore that the backups were corrupted. Hence, testing backups is critical. While theoretically you should test every backup that you make and test every single item within the backup can be restored, such a scheme is impractical for most people. But do test the first backup that you make with any software, check the auto-recover files the first time that you use Word, and so on."
+    },
+    {
+      "type": "heading",
+      "text": "Some backup software comes with the capability to verify backups --"
+    },
+    {
+      "type": "paragraph",
+      "text": "that is, after making a backup, it checks that the original data and data in the backups matches. Running such verification after making a backup adds significant time to the backup process. However, it's well worth running if you can do so because it helps ensure that nothing was improperly recorded or otherwise corrupted during the backup process."
+    },
+    {
+      "type": "heading",
+      "text": "Restoring Cryptocurrency"
+    },
+    {
+      "type": "heading",
+      "text": "Restoring cryptocurrency after it is erased from a computer or some"
+    },
+    {
+      "type": "paragraph",
+      "text": "other device it was stored on is totally different than any of the restore processes described in this chapter. Technically speaking, cryptocurrency is tracked on a ledger, not stored anywhere, so the restoration is not to restore the actual cryptocurrency, but rather to restore the private keys needed in order to control the addresses within the ledger at which the cryptocurrency is stored. (I hate the term digital wallets as applied to cryptocurrency -- we store digital keys, not cryptocurrency, in a digital wallet. The name digital keyring would have been far more accurate and less confusing.) Hopefully, if you lost the device on which your cryptocurrency is stored, you have the keys printed on paper that is stored in a safe or safe deposit box. Obtain the paper, and you have your keys. Just don't leave the paper lying around; put it back into the secure location ASAP. (If you keep the paper in a safe deposit box, consider performing the restoration technique at the bank so that you never take the paper out of the safe deposit box area.)"
+    },
+    {
+      "type": "heading",
+      "text": "If you store cryptocurrency at an exchange, you can restore your"
+    },
+    {
+      "type": "paragraph",
+      "text": "credentials to the exchange through whatever means the exchange allows. Ideally, if you properly backed up your passwords to a secure location, you can just obtain and use them."
+    },
+    {
+      "type": "heading",
+      "text": "For those who use hardware wallets to store the keys to their"
+    },
+    {
+      "type": "paragraph",
+      "text": "cryptocurrency, the backup for the wallet device is often a recovery seed, which is a list of words that allows the device to re-create the keys needed for the relevant addresses. It is generally accepted that the list of words should be written down on paper and stored in a bank vault and/or safe, not stored electronically."
+    },
+    {
+      "type": "heading",
+      "text": "Booting from a Boot Disk"
+    },
+    {
+      "type": "paragraph",
+      "text": "If you ever need to boot from a boot disk that you created (as might be necessary during a system reset and restore process), boot your system, go into the BIOS settings, and set the boot order to start with the disk from which you want to boot. Then restart the system. Part 7"
+    },
+    {
+      "type": "heading",
+      "text": "Looking toward the Future"
+    },
+    {
+      "type": "heading",
+      "text": "IN THIS PART …"
+    },
+    {
+      "type": "paragraph",
+      "text": "Explore cybersecurity careers. Discover emerging technologies."
+    }
+  ]
+}

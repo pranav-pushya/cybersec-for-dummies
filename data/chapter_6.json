@@ -1,0 +1,748 @@
+{
+  "num": 6,
+  "type": "chapter",
+  "title": "Chapter 6: Securing Your Accounts",
+  "part": "Part 3: Protecting Yourself from Yourself",
+  "pages": "131 to 154",
+  "in_this_chapter": [
+    "Understanding that you're a target Securing your various accounts from human error"
+  ],
+  "content": [
+    {
+      "type": "heading",
+      "text": "Securing Your Accounts"
+    },
+    {
+      "type": "paragraph",
+      "text": "IN THIS CHAPTER"
+    },
+    {
+      "type": "heading",
+      "text": "Understanding that you're a target"
+    },
+    {
+      "type": "heading",
+      "text": "Securing your various accounts from human error"
+    },
+    {
+      "type": "paragraph",
+      "text": "The weakest link in the cybersecurity chain is almost always people, and the greatest threat to your own cybersecurity is likely yourself and the members of your family. As such, all the technology and technical knowledge in the world won't deliver much value if you don't also address various human shortcomings."
+    },
+    {
+      "type": "heading",
+      "text": "Realizing That You're a Target"
+    },
+    {
+      "type": "paragraph",
+      "text": "Perhaps the most significant first step in securing yourself digitally is to understand that you're a target and that nefarious parties have the desire to breach your computer systems, electronically accessible accounts, and anything else they can get their hands on."
+    },
+    {
+      "type": "heading",
+      "text": "Even if you already realize that you're a target, make sure to fully"
+    },
+    {
+      "type": "paragraph",
+      "text": "internalize such a notion. People who truly believe that criminals want to breach their computers and phones act differently than people who do not fully appreciate this reality and whose lack of skepticism sometimes leads them into trouble."
+    },
+    {
+      "type": "heading",
+      "text": "Because your family members can also impact your digital"
+    },
+    {
+      "type": "paragraph",
+      "text": "security, they also need to be aware that they are a potential targets."
+    },
+    {
+      "type": "heading",
+      "text": "If your children take unwise risks online, they may inadvertently"
+    },
+    {
+      "type": "paragraph",
+      "text": "inflict harm not only on themselves, but upon you and other members of the family as well. In some cases, attackers have managed to attack people's employers via remote connections that were compromised because children misused computers on the same networks as computers that the employees were using for working remotely."
+    },
+    {
+      "type": "heading",
+      "text": "The threat posed by such attacks is usually not that a criminal will"
+    },
+    {
+      "type": "paragraph",
+      "text": "directly steal someone's money or data, but rather that some party will seek to harm the target in some other manner -- a manner that may ultimately translate into some form of financial, military, political, or other benefit to the attacker and (potentially) damage of some sort to the victim."
+    },
+    {
+      "type": "heading",
+      "text": "Securing Your External Accounts"
+    },
+    {
+      "type": "paragraph",
+      "text": "Chapter 4 discusses how you can acquire your own technology products. But using these products isn't enough to keep you cybersecure as you, no doubt, have digital data of significant value that is stored outside of your own physical possession -- that is, outside of data systems and data stores under your control."
+    },
+    {
+      "type": "heading",
+      "text": "In fact, data about every person living in the western world today is"
+    },
+    {
+      "type": "paragraph",
+      "text": "likely stored on computer systems belonging to many businesses, organizations, and governmental agencies. Sometimes those systems reside within the facilities of the organizations to which they belong, sometimes they're located at shared data centers, and, sometimes the systems themselves are virtual machines rented from a third-party provider. Additionally, some such data may reside in cloud-based systems offered by a third party."
+    },
+    {
+      "type": "heading",
+      "text": "Such data can be broken down and divided into many different"
+    },
+    {
+      "type": "paragraph",
+      "text": "categories, depending on which aspects of it a person is interested in."
+    },
+    {
+      "type": "heading",
+      "text": "One way of examining the data for the purposes of discovering how to"
+    },
+    {
+      "type": "paragraph",
+      "text": "secure it, for example, is to group it according to the following scheme:"
+    },
+    {
+      "type": "heading",
+      "text": "Accounts, and the data within them, that a user established and"
+    },
+    {
+      "type": "heading",
+      "text": "Data belonging to organizations that a user has willingly and"
+    },
+    {
+      "type": "paragraph",
+      "text": "knowingly interacted with, but the user has no control over the data"
+    },
+    {
+      "type": "heading",
+      "text": "Data in the possession of organizations that the user has never"
+    },
+    {
+      "type": "paragraph",
+      "text": "knowingly established a relationship with Addressing the risks of each type of data requires a different strategy."
+    },
+    {
+      "type": "heading",
+      "text": "Securing Data Associated with User"
+    },
+    {
+      "type": "heading",
+      "text": "Accounts"
+    },
+    {
+      "type": "heading",
+      "text": "When you bank online, shop online, or even browse the web, you"
+    },
+    {
+      "type": "paragraph",
+      "text": "provide all sorts of data to the parties that you interact with."
+    },
+    {
+      "type": "heading",
+      "text": "When you establish and maintain an account with a bank, store, social"
+    },
+    {
+      "type": "paragraph",
+      "text": "media provider, or other online party, you gain control over significant amounts of data related to yourself that the party maintains on your behalf. Obviously, you can't fully control the security of that data because the data is not in your possession. That said, you obviously also have a strong interest in protecting that data -- and, in not undermining the protections for the data that the party hosting the account has established."
+    },
+    {
+      "type": "heading",
+      "text": "While every situation and account has its unique attributes, certain"
+    },
+    {
+      "type": "paragraph",
+      "text": "strategies can help keep your data secure at third parties. Obviously, not all the ideas in the following sections apply to every situation, but applying the appropriate items from the menu to your various accounts and online behavior can dramatically improve your odds of remaining cybersecure."
+    },
+    {
+      "type": "heading",
+      "text": "Conduct business with reputable parties"
+    },
+    {
+      "type": "paragraph",
+      "text": "There is nothing wrong with supporting small businesses -- in fact, doing so is quite admirable. (It is also true that many large firms have suffered serious security breaches.) But if you search for the latest electronic gizmo, for example, and one store that you have never heard of is offering it at a substantial discount from the prices offered at all well-known stores, be wary. There may be a legitimate reason for the discount -- or there may be a scam in the works."
+    },
+    {
+      "type": "heading",
+      "text": "Always check the websites of stores that you're conducting"
+    },
+    {
+      "type": "paragraph",
+      "text": "business with to see whether something looks off -- and beware if it does."
+    },
+    {
+      "type": "heading",
+      "text": "Use official apps and websites"
+    },
+    {
+      "type": "heading",
+      "text": "Clones of official apps have been found in various app stores. If you"
+    },
+    {
+      "type": "paragraph",
+      "text": "install a banking, credit card, or shopping app for a particular company, make sure that you install the official app and not some malicious impersonator. Install apps only from reputable app stores, such as Google Play, Amazon AppStore, and Apple App Store."
+    },
+    {
+      "type": "heading",
+      "text": "Don't install software from untrusted parties"
+    },
+    {
+      "type": "paragraph",
+      "text": "Malware that infects a computer can capture sensitive information from both other programs and web sessions running on the device. If a website is offering free copies of movies, software, or other items that normally cost money, not only may the offerings be stolen copies, but ask yourself how the operator is making money -- it may be by distributing malware."
+    },
+    {
+      "type": "heading",
+      "text": "Don't root your phone"
+    },
+    {
+      "type": "heading",
+      "text": "You may be tempted to root your phone -- a process that allows you"
+    },
+    {
+      "type": "paragraph",
+      "text": "greater control over your device -- but doing so undermines various security capabilities of the device and may allow malware to capture sensitive information from other apps on the device, leading to account compromises."
+    },
+    {
+      "type": "heading",
+      "text": "Don't provide unnecessary sensitive information"
+    },
+    {
+      "type": "paragraph",
+      "text": "Don't provide private information to anyone who doesn't need that data."
+    },
+    {
+      "type": "heading",
+      "text": "For example, don't give your Social Security number to any online"
+    },
+    {
+      "type": "paragraph",
+      "text": "stores or doctors because they have no need for it."
+    },
+    {
+      "type": "heading",
+      "text": "Keep in mind that the less information about you that a specific"
+    },
+    {
+      "type": "paragraph",
+      "text": "party has, the less data that can be compromised, and correlated, in case of a breach."
+    },
+    {
+      "type": "heading",
+      "text": "Use payment services that eliminate the need to"
+    },
+    {
+      "type": "paragraph",
+      "text": "share credit card numbers with vendors"
+    },
+    {
+      "type": "heading",
+      "text": "Services like PayPal, Samsung Pay, Apple Pay, and so on let you make"
+    },
+    {
+      "type": "paragraph",
+      "text": "online payments without having to give vendors your actual credit card number. If a vendor is breached, the information about your account that is likely to be stolen is significantly less likely to lead to fraud (and, perhaps, even various forms of identity theft) than if actual credit card data were stored at the vendor. Moreover, major payment sites have armies of skilled information security professionals working to keep them safe that vendors accepting such payments can rarely, if ever, match."
+    },
+    {
+      "type": "heading",
+      "text": "Use one-time, virtual credit card numbers when"
+    },
+    {
+      "type": "paragraph",
+      "text": "appropriate Some financial institutions allow you to use an app (or website) to create disposable, one-time virtual credit card numbers that allow you to make a charge to a real credit card account (associated with the virtual number) without having to give the respective merchant your real credit card number. As seen in Figure 6-1, some virtual credit card systems also allow you to specify the maximum allowable charge size on a particular virtual card number at a figure much lower than it would be on the real corresponding card. FIGURE 6-1: A (slightly edited image of) a one-time credit card number generator."
+    },
+    {
+      "type": "heading",
+      "text": "While creating one-time numbers takes time and effort and may be"
+    },
+    {
+      "type": "paragraph",
+      "text": "overkill when doing repeat deals with a reputable vendor in whose information-security practices you have confidence, virtual credit card numbers do offer benefits for defending against potential fraud and may be appropriately used when dealing with less familiar parties."
+    },
+    {
+      "type": "heading",
+      "text": "Besides minimizing the risk to yourself if a vendor turns out to be"
+    },
+    {
+      "type": "paragraph",
+      "text": "corrupt, virtual credit card numbers offer other security benefits. If criminals hack a vendor and steal your virtual credit card number that was previously used, not only can they not make charges with it, their attempts to do so may even help law enforcement track them down, as well as help forensics teams identify the source of the credit card number data leak."
+    },
+    {
+      "type": "heading",
+      "text": "Monitor your accounts"
+    },
+    {
+      "type": "paragraph",
+      "text": "Regularly checking for any unrecognized activities on your payment, banking, and shopping accounts is a good idea."
+    },
+    {
+      "type": "heading",
+      "text": "Ideally, do this check by not only looking at online transaction"
+    },
+    {
+      "type": "paragraph",
+      "text": "logs, but also by checking relevant monthly statements (no matter the delivery method) for anything that does not belong."
+    },
+    {
+      "type": "heading",
+      "text": "Report suspicious activity ASAP"
+    },
+    {
+      "type": "heading",
+      "text": "The faster a potential fraud is reported to the parties responsible"
+    },
+    {
+      "type": "paragraph",
+      "text": "for addressing it, the greater the chance of reversing it and preventing further abuse of whatever materials were abused in order to commit the first act of fraud. Also, the sooner the fraud is reported, the greater the chance of catching the parties committing it."
+    },
+    {
+      "type": "heading",
+      "text": "Employ a proper password strategy"
+    },
+    {
+      "type": "heading",
+      "text": "While conventional wisdom may be to require complex passwords for"
+    },
+    {
+      "type": "paragraph",
+      "text": "all systems, such a password strategy fails in practice. Be sure to implement a proper password strategy. For more on choosing passwords, see Chapter 7."
+    },
+    {
+      "type": "heading",
+      "text": "Utilize multifactor authentication"
+    },
+    {
+      "type": "paragraph",
+      "text": "Multifactor authentication means authentication that requires a user to authenticate using two or more of the following methods:"
+    },
+    {
+      "type": "heading",
+      "text": "Something that the user knows, such as a password"
+    },
+    {
+      "type": "heading",
+      "text": "Something that the user is, such as a fingerprint"
+    },
+    {
+      "type": "heading",
+      "text": "Something that the user has, such as a hardware token"
+    },
+    {
+      "type": "paragraph",
+      "text": "For extremely sensitive systems, you should use forms of authentication that are stronger than passwords alone. The following forms of authentication all have their places:"
+    },
+    {
+      "type": "heading",
+      "text": "Biometrics, which means using measurements of various human"
+    },
+    {
+      "type": "paragraph",
+      "text": "characteristics to identify people. Fingerprints, voiceprints, iris scans, the speed at which people type different characters on a keyboard, and the like are all examples of biometrics."
+    },
+    {
+      "type": "heading",
+      "text": "Digital certificates, which effectively prove to a system that a"
+    },
+    {
+      "type": "paragraph",
+      "text": "particular public key represents the presenter of the certificate. If the presenter of the certificate is able to decrypt messages encrypted with the public key in the certificate, it means that the presenter possesses the corresponding private key, which only the legitimate owner should have."
+    },
+    {
+      "type": "heading",
+      "text": "One-time passwords, or one-time tokens, generated by apps or sent"
+    },
+    {
+      "type": "paragraph",
+      "text": "via SMS to your cellphone."
+    },
+    {
+      "type": "heading",
+      "text": "Hardware tokens, which are typically small electronic devices that"
+    },
+    {
+      "type": "paragraph",
+      "text": "either plug into a USB port, display a number that changes every minute or so, or allow users to enter a challenge number and receive a corresponding response number back. Today, smartphone apps perform such functions, allowing, at least theoretically, the smartphone to assume the role of a hardware token. Figure 6-2 shows you an example of using such an app to generate a one-time code for logging into Snapchat. (Note that smartphones can suffer from all sorts of security vulnerabilities that hardware tokens can't suffer from, so hardware tokens are still likely more appropriate for certain high-risk situations.)"
+    },
+    {
+      "type": "heading",
+      "text": "Knowledge-based authentication, which is based on real"
+    },
+    {
+      "type": "paragraph",
+      "text": "knowledge, not simply answering questions with small numbers of possible answers that are often guessable like \"What color was your first car?\" Note that technically speaking, adding knowledge-based authentication questions to password authentication doesn't create multifactor authentication since both the password and the knowledge-based answer are examples of things that a user knows."
+    },
+    {
+      "type": "heading",
+      "text": "However, doing so certainly does improve security when the"
+    },
+    {
+      "type": "paragraph",
+      "text": "questions are chosen properly. FIGURE 6-2: One-time password for Snapchat generated by the app Authy -- an example of an app-generated multifactor authentication token."
+    },
+    {
+      "type": "heading",
+      "text": "Most financial institutions, social media companies, and major online"
+    },
+    {
+      "type": "paragraph",
+      "text": "retailers offer multifactor authentication -- use it. Also, note that while sending one-time passwords to users' smartphones via text messages theoretically verifies that a person logging in possesses the smartphone that the user is supposed to possess (something that the user has), various vulnerabilities undermine that supposition. It is possible, for example, for a criminal to intercept text messages even without possessing the phone."
+    },
+    {
+      "type": "heading",
+      "text": "Log out when you're finished"
+    },
+    {
+      "type": "paragraph",
+      "text": "Don't rely on automatic timeouts, closing the browser, or shutting down a computer to log you out of accounts. Log out every time you're finished."
+    },
+    {
+      "type": "heading",
+      "text": "Don't leave yourself logged in between sessions unless you're on a"
+    },
+    {
+      "type": "paragraph",
+      "text": "device that you know with -- as close as possible to -- certainty will remain secure."
+    },
+    {
+      "type": "heading",
+      "text": "Use your own computer or phone"
+    },
+    {
+      "type": "heading",
+      "text": "You don't know how well someone else has secured his or her device --"
+    },
+    {
+      "type": "paragraph",
+      "text": "it may have malware on it that can capture your passwords and other sensitive information or hijack sessions and perform all sorts of nefarious activities. Furthermore, despite the fact that doing so is severely problematic, some applications and websites -- to this day -- cache data on endpoints that are used for accessing them. You don't want to leave other people souvenirs of your sensitive sessions."
+    },
+    {
+      "type": "heading",
+      "text": "Lock your computer"
+    },
+    {
+      "type": "heading",
+      "text": "Lock any computer that you use for accessing sensitive accounts and"
+    },
+    {
+      "type": "paragraph",
+      "text": "keep it physically secure as well."
+    },
+    {
+      "type": "heading",
+      "text": "Use a separate, dedicated computer for sensitive"
+    },
+    {
+      "type": "paragraph",
+      "text": "tasks Consider purchasing a special computer that you use for online banking and other sensitive tasks. For many people, a second computer isn't practical, but if it is, having such a machine -- on which you never read email, access social media, browse the web, and so on -- offers security benefits."
+    },
+    {
+      "type": "heading",
+      "text": "Use a separate, dedicated browser for sensitive"
+    },
+    {
+      "type": "paragraph",
+      "text": "web-based tasks If you can't obtain a separate computer, at least use a separate browser for sensitive tasks. Don't use the same browser that you use for reading the news, checking out blog posts, and most other activities."
+    },
+    {
+      "type": "heading",
+      "text": "Secure your access devices"
+    },
+    {
+      "type": "heading",
+      "text": "Every phone, laptop, tablet, and desktop used for accessing secure"
+    },
+    {
+      "type": "paragraph",
+      "text": "systems should have security software on it, and that security software should be configured to regularly scan applications when they're added, as well as to run periodic general scans (see Figure 6-3). Also, make sure to keep that software up to date -- most antivirus technology products perform far better against newer strains of malware when they're kept up to date than when they're not. FIGURE 6-3: The results of a periodic scan of a phone's installed apps for malware."
+    },
+    {
+      "type": "heading",
+      "text": "Keep your devices up to date"
+    },
+    {
+      "type": "heading",
+      "text": "Besides keeping your security software up to date, be sure to install"
+    },
+    {
+      "type": "paragraph",
+      "text": "operating system and program updates to reduce your exposure to vulnerabilities. Windows AutoUpdate and its equivalent on other platforms can simplify this task for you, as shown in Figure 6-4. FIGURE 6-4: The AutoUpdate settings page in Windows 10."
+    },
+    {
+      "type": "heading",
+      "text": "Don't perform sensitive tasks over public Wi-Fi"
+    },
+    {
+      "type": "heading",
+      "text": "If you must perform a sensitive task while you're in a location where"
+    },
+    {
+      "type": "paragraph",
+      "text": "you don't have access to a secure, private network, do what you need to do over the cellular system, not over public Wi-Fi. Public Wi-Fi simply poses too many risks. (To find out more about how to use public Wi-Fi safely, please see Chapter 20.)"
+    },
+    {
+      "type": "heading",
+      "text": "Never use public Wi-Fi for any purpose in high-"
+    },
+    {
+      "type": "paragraph",
+      "text": "risky places"
+    },
+    {
+      "type": "heading",
+      "text": "Don't connect any device from which you plan to perform sensitive"
+    },
+    {
+      "type": "paragraph",
+      "text": "tasks to a Wi-Fi network in areas that are prone to digital poisoning -- that is, to the hacking of, or distribution of malware, to devices that connect to a network. Hacker conferences and certain countries, such as China, that are known for performing cyberespionage are examples of areas that are likely to experience digital poisoning. Many cybersecurity professionals recommend keeping your primary computer and phone off and using a separate computer and phone when working in such environments."
+    },
+    {
+      "type": "heading",
+      "text": "Access your accounts only when you're in a safe"
+    },
+    {
+      "type": "paragraph",
+      "text": "location Even if you're using a private network, don't type passwords to sensitive systems or perform other sensitive tasks while in a location where people can easily watch what you type and see your screen."
+    },
+    {
+      "type": "heading",
+      "text": "Set appropriate limits"
+    },
+    {
+      "type": "heading",
+      "text": "Various online venues let you set limits -- for example, how much"
+    },
+    {
+      "type": "paragraph",
+      "text": "money can be transferred out of a bank account, the largest charge that can be made on a credit card with the card not physically present (as in the case of online purchases), or the maximum amount of goods that you can purchase in one day."
+    },
+    {
+      "type": "heading",
+      "text": "Set these limits. Not only will they limit the damage if a criminal"
+    },
+    {
+      "type": "paragraph",
+      "text": "does breach your account, but in some cases, they may trigger fraud alerts and prevent theft altogether."
+    },
+    {
+      "type": "heading",
+      "text": "Use alerts"
+    },
+    {
+      "type": "paragraph",
+      "text": "If your bank, credit card provider, or a store that you frequent offers the ability to set up text or email alerts, you should seriously consider taking advantage of those services. Theoretically, it is ideal to have the issuer send you an alert every time activity occurs on your account. From a practical standpoint, however, if doing so would overwhelm you and cause you to ignore all the messages (as is the case for most people), consider asking to be notified when transactions are made over a certain dollar amount (which may be able to be set to different thresholds for different stores or accounts) or otherwise appear to the issuer to be potentially fraudulent."
+    },
+    {
+      "type": "heading",
+      "text": "Periodically check access device lists"
+    },
+    {
+      "type": "paragraph",
+      "text": "Some websites and apps -- especially those of financial institutions -- allow you to check the list of devices that have accessed your account."
+    },
+    {
+      "type": "heading",
+      "text": "Checking this list each time that you log in can help you identify"
+    },
+    {
+      "type": "paragraph",
+      "text": "potential security problems quickly."
+    },
+    {
+      "type": "heading",
+      "text": "Check last login info"
+    },
+    {
+      "type": "paragraph",
+      "text": "After you log in to some websites and via some apps -- especially those of financial institutions -- you may be shown information as to when and from where you last successfully logged in prior to the current session. Whenever any entity shows you such information, take a quick glance. If something is amiss and a criminal recently logged in while pretending to be you, it may stand out like a sore thumb."
+    },
+    {
+      "type": "heading",
+      "text": "Respond appropriately to any fraud alerts"
+    },
+    {
+      "type": "paragraph",
+      "text": "If you receive a phone call from a bank, credit card company, or store about potential fraud on your account, respond quickly. But do not do so by speaking with the party who called you. Instead, contact the outlet at a known valid number that is advertised on its website."
+    },
+    {
+      "type": "heading",
+      "text": "Never send any sensitive information over an"
+    },
+    {
+      "type": "paragraph",
+      "text": "unencrypted connection When you access websites, look for the padlock icon (see Figure 6-5), indicating that encrypted HTTPS is being used. Today, HTTPS is ubiquitous; even many websites that do not ask users to submit sensitive data utilize it. FIGURE 6-5: A secure website."
+    },
+    {
+      "type": "heading",
+      "text": "If you don't see the icon, unencrypted HTTP is being used. In such a"
+    },
+    {
+      "type": "paragraph",
+      "text": "case, don't provide sensitive information or log in."
+    },
+    {
+      "type": "heading",
+      "text": "The lack of a padlock on a site that is prompting for a login and"
+    },
+    {
+      "type": "paragraph",
+      "text": "password or handling financial transactions is a huge red flag that something is seriously amiss. However, contrary to what you've likely heard in the past, the presence of the lock doesn't necessarily mean that the site is safe."
+    },
+    {
+      "type": "heading",
+      "text": "Beware of social engineering attacks"
+    },
+    {
+      "type": "heading",
+      "text": "In the context of cybersecurity, social engineering refers to the"
+    },
+    {
+      "type": "paragraph",
+      "text": "psychological manipulation by cyberattackers of their intended victims into performing actions that without such manipulation the targets would not perform or into divulging confidential information that they otherwise would not divulge. To help prevent yourself from falling prey to social engineering attacks, consider any and all emails, text messages, phone calls, or social media communications from all banks, credit card companies, healthcare providers, stores, and so on to be potentially fraudulent."
+    },
+    {
+      "type": "heading",
+      "text": "Never click on links in any such correspondence. Always"
+    },
+    {
+      "type": "paragraph",
+      "text": "connect with such parties by entering the URL in the URL bar of the web browser. For more on social engineering attack prevention, see Chapter 8."
+    },
+    {
+      "type": "heading",
+      "text": "Establish voice login passwords"
+    },
+    {
+      "type": "paragraph",
+      "text": "Online access isn't the only path that a criminal can use to breach your accounts. Many crooks do reconnaissance online and subsequently social engineer their ways into people's accounts using old-fashioned phone calls to the relevant customer service departments at the target organizations."
+    },
+    {
+      "type": "heading",
+      "text": "To protect yourself and your accounts, establish voice login"
+    },
+    {
+      "type": "paragraph",
+      "text": "passwords for your accounts whenever possible -- that is, set up passwords that must be given to customer service personnel in order for them to be able to provide any information from your accounts or to make changes to them. Many companies offer this capability, but relatively few people actually use it."
+    },
+    {
+      "type": "heading",
+      "text": "Protect your cellphone number"
+    },
+    {
+      "type": "heading",
+      "text": "If you use strong authentication via text messages, ideally set up a"
+    },
+    {
+      "type": "paragraph",
+      "text": "forwarding phone number to your cellphone and use that number when giving out your cell number. Doing so reduces the chances that criminals will be able to intercept one-time passwords that are sent to your phone and also diminishes the chances of various other attacks succeeding. For example, Google Voice, shown in Figure 6-6, allows you to establish a new phone number that forwards to your cellphone so that you can give out a number other than your real cellphone number and reserve the real number for use within the authentication process. FIGURE 6-6: The Google Voice app as made available in the Google Play Store."
+    },
+    {
+      "type": "heading",
+      "text": "Don't click on links in emails or text messages"
+    },
+    {
+      "type": "paragraph",
+      "text": "Clicking on links is one of the primary ways that people get diverted to fraudulent websites. For example, I recently received an email message that contained a link."
+    },
+    {
+      "type": "heading",
+      "text": "If I had clicked the link in the message shown in Figure 6-7, I would"
+    },
+    {
+      "type": "paragraph",
+      "text": "have been brought to a phony LinkedIn login page that collects LinkedIn username and password combinations and provides them to criminals. FIGURE 6-7: Email with a link to a phony page."
+    },
+    {
+      "type": "heading",
+      "text": "Don't overshare on social media"
+    },
+    {
+      "type": "heading",
+      "text": "You don't want to provide criminals with the answers to challenge"
+    },
+    {
+      "type": "paragraph",
+      "text": "questions that are being used to protect your account or offer them information that they can use to social engineer their way into your accounts. See Chapter 8 for more on preventing social engineering."
+    },
+    {
+      "type": "heading",
+      "text": "Pay attention to privacy policies"
+    },
+    {
+      "type": "paragraph",
+      "text": "Understand what a site means if it says that it is going to share your data with third parties or sell your data to others. Securing Data with Parties That"
+    },
+    {
+      "type": "heading",
+      "text": "You've Interacted With"
+    },
+    {
+      "type": "heading",
+      "text": "When you interact online with a party, not all the data is under your"
+    },
+    {
+      "type": "paragraph",
+      "text": "control. If you browse a website with typical web browser settings, that site may track your activity. Because many sites syndicate content from third parties -- for example from advertising networks -- sites may even be able to track your behavior on other sites. If you have an account on any sites that do such tracking and log in, all the sites utilizing the syndicated content may know your true identity and plenty of information about you -- even though you never told them anything about yourself. Even if you don't have such an account or don't log in, profiles of your behavior may be established and used for marketing purposes, even without knowing who you are. (Of course, if you ever log in in the future to any site using the network, all the sites with the profiles may correlate them to your true identity.) It is far more difficult to protect data about you that is in the possession of third parties but that is not under your control than it is to protect data in your accounts. That does not mean, however, that you're powerless. (Ironically, and sadly, most owners of such data likely do a better job protecting data about people than do the people themselves.)"
+    },
+    {
+      "type": "heading",
+      "text": "Besides employing the strategies in the previous section, you"
+    },
+    {
+      "type": "paragraph",
+      "text": "may want to browse in private sessions. For example, by using a"
+    },
+    {
+      "type": "heading",
+      "text": "Tor browser -- which, as shown in Figure 6-8, automatically routes"
+    },
+    {
+      "type": "paragraph",
+      "text": "all your Internet traffic through computers around the world before sending it to its destination -- you make it difficult for third parties to track you. As discussed in Chapter 4, the Tor browser bundle is free and comes with all sorts of privacy-related features enabled, including blocking cookies and canvas fingerprinting, an advanced form of tracking devices. FIGURE 6-8: The author's website as seen in a Tor browse, with the Tor circuit information button clicked so as to show how Tor is hiding the user's point of origin. The image was generated with the Tor browser running on a computer in New Jersey, but, because of Tor's security features, appears to the web server as if it is in the United Kingdom. If Tor seems complicated, you can also utilize a reputable VPN service for similar purposes. By using browsing technology that makes it harder for sites to track you, they are less likely to establish as detailed profiles about you -- and the less data about you that they have, the less data about you that can be stolen. Besides, you may not want those parties to build profiles about you in the first place."
+    },
+    {
+      "type": "heading",
+      "text": "One technology that, despite its name, does not prevent tracking"
+    },
+    {
+      "type": "paragraph",
+      "text": "at anywhere near the level that do Tor or VPNs is the private mode offered by most web browsers. Unfortunately, despite its name, the private mode suffers from multiple serious weaknesses in this regard and does not come close to ensuring privacy. Securing Data at Parties That You"
+    },
+    {
+      "type": "heading",
+      "text": "Haven't Interacted With"
+    },
+    {
+      "type": "paragraph",
+      "text": "Numerous entities likely maintain significant amounts of data about you, despite the fact that you've never knowingly interacted with them or otherwise authorized them to maintain such information."
+    },
+    {
+      "type": "heading",
+      "text": "For example, at least one major social media service builds de facto"
+    },
+    {
+      "type": "paragraph",
+      "text": "profiles for people who don't have accounts with the service, but who have been mentioned by others or who have interacted with sites that utilize various social widgets or other related technologies. The service can then use these profiles for marketing purposes -- even, in some cases, without knowing the person's true identity. Furthermore, various information services that collect information from numerous public databases establish profiles based on such data -- containing details that you may not even realize was available to the public. Some genealogy sites utilize all sorts of public records and also allow people to update the information about other people. This ability can lead to situations in which all sorts of nonpublic information about you may be available to subscribers to the site (or people with free trial subscriptions) without your knowledge or consent. Such sites make finding people's mothers' maiden names easy, which undermines the authentication scheme used by many organizations. Besides family tree sites, various professional sites maintain information about folks' professional histories, publications, and so on. And, of course, credit bureaus maintain all sorts of information about your behavior with credit -- such information is submitted to them by financial institutions, collection agencies, and so on."
+    },
+    {
+      "type": "heading",
+      "text": "While the Fair Credit Reporting Act may help you manage the"
+    },
+    {
+      "type": "paragraph",
+      "text": "information that the bureaus have about you, it can't help you remove negative information that appears in other venues, such as in old newspaper articles that are online. Besides the privacy implications of such, if any information in those articles provides the answer to challenge questions used for authentication, it can create security risks. In such cases, you may want to reach out to the provider of the data, explain the situation, and ask it to remove the data. In some cases, they will cooperate."
+    },
+    {
+      "type": "heading",
+      "text": "In addition, some businesses, such as insurance companies and"
+    },
+    {
+      "type": "paragraph",
+      "text": "pharmacies, maintain medical information about people. Typically, individuals have little control over such data. Of course, this type of data, which isn't under your complete control, can impact you. The bottom line is that many entities likely maintain significant amounts of data about you, even though you have never directly interacted with them. It is the duty of such organizations to protect their data stores, but, they do not always properly do so. As the Federal Trade Commission notes on its website, a data breach at the credit bureau Equifax, discovered in 2017, exposed the sensitive personal information of 143 million Americans."
+    },
+    {
+      "type": "heading",
+      "text": "And, the reality is, that other than in the cases in which you can"
+    },
+    {
+      "type": "paragraph",
+      "text": "manually update records or request that they be updated, you can do little to protect the data in such scenarios."
+    }
+  ]
+}

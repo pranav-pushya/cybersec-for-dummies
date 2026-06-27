@@ -1,0 +1,841 @@
+{
+  "num": 12,
+  "type": "chapter",
+  "title": "Chapter 12: Recovering from a Security Breach",
+  "part": "Part 5: Handling a Security Incident (This Is a When, Not an If)",
+  "pages": "270 to 293",
+  "in_this_chapter": [
+    "Surviving when your own computer has been hacked Recovering when someone has stolen your data from a third-",
+    "party provider"
+  ],
+  "content": [
+    {
+      "type": "heading",
+      "text": "Recovering from a Security"
+    },
+    {
+      "type": "heading",
+      "text": "Breach"
+    },
+    {
+      "type": "paragraph",
+      "text": "IN THIS CHAPTER"
+    },
+    {
+      "type": "heading",
+      "text": "Surviving when your own computer has been hacked"
+    },
+    {
+      "type": "heading",
+      "text": "Recovering when someone has stolen your data from a third-"
+    },
+    {
+      "type": "paragraph",
+      "text": "party provider"
+    },
+    {
+      "type": "heading",
+      "text": "You've discovered that you've suffered a data breach. Now what? Read"
+    },
+    {
+      "type": "paragraph",
+      "text": "this chapter, which covers how to respond in these types of situations."
+    },
+    {
+      "type": "heading",
+      "text": "An Ounce of Prevention Is Worth"
+    },
+    {
+      "type": "heading",
+      "text": "Many Tons of Response"
+    },
+    {
+      "type": "heading",
+      "text": "When it comes to recovering from a security breach, there"
+    },
+    {
+      "type": "paragraph",
+      "text": "simply is no substitute for adequate preparation. No amount of post-breach expert actions will ever deliver the same level of protection as proper pre-breach prevention."
+    },
+    {
+      "type": "heading",
+      "text": "If you follow the various techniques described throughout this book"
+    },
+    {
+      "type": "paragraph",
+      "text": "about how to protect your electronic assets, you're likely to be in far better shape to recover from a breach than if you did not. Preparation not only helps you recover, but also helps ensure that you can detect a breach. Without proper preparation, you may not even be able to determine that a breach occurred, never mind contain the attack and stop it. (If you're unsure whether you've suffered a breach, see Chapter 11.)"
+    },
+    {
+      "type": "heading",
+      "text": "Stay Calm and Act Now with"
+    },
+    {
+      "type": "heading",
+      "text": "Wisdom"
+    },
+    {
+      "type": "paragraph",
+      "text": "A normal human reaction to a cyber breach is to feel outraged, violated, and upset and/or to panic, but to properly respond to a breach, you need to think logically and clearly and act in an orderly fashion. Spend a moment to tell yourself that everything will be all right and that the type of attack with which you are dealing is one that most successful people and businesses will likely have to deal with at some point (or at many points)."
+    },
+    {
+      "type": "heading",
+      "text": "Likewise, don't act irrationally. Do not attempt to fix your"
+    },
+    {
+      "type": "paragraph",
+      "text": "problem by doing a Google search for advice. Plenty of people online provide bad advice. Even worse, plenty of rogue websites with advice on removing malware and stopping attacks deposit malware on computers accessing them! Obviously, do not download security software or anything else from questionable sites."
+    },
+    {
+      "type": "heading",
+      "text": "Also, keep in mind that you need to act ASAP. Stop whatever else"
+    },
+    {
+      "type": "paragraph",
+      "text": "you're doing and focus on fixing the problem. Shut down any programs that you're using, save (and back up onto media that you will scan for malware before you reuse) any open documents and so on, and get to work on recovering from the breach."
+    },
+    {
+      "type": "heading",
+      "text": "When a breach occurs, time works against you. The sooner that"
+    },
+    {
+      "type": "paragraph",
+      "text": "you stop someone from stealing your files, corrupting your data, or attacking additional devices on your network, the better off you will be."
+    },
+    {
+      "type": "heading",
+      "text": "Bring in a Pro"
+    },
+    {
+      "type": "heading",
+      "text": "Ideally, you should bring in a cybersecurity professional to help you"
+    },
+    {
+      "type": "paragraph",
+      "text": "recover. While this book gives you good guidance, when it comes to technical skills, there is simply no substitute for the years of experience that a good pro has."
+    },
+    {
+      "type": "heading",
+      "text": "You should apply the same logic and seek professional help"
+    },
+    {
+      "type": "paragraph",
+      "text": "when faced with a serious computer and data crisis as you would if any of the following were true: If you were seriously ill, you'd go to the doctor or hospital. If you were arrested and charged with a crime, you'd hire a lawyer."
+    },
+    {
+      "type": "heading",
+      "text": "If the IRS sent you a letter that you're being audited, you'd hire an"
+    },
+    {
+      "type": "paragraph",
+      "text": "accountant."
+    },
+    {
+      "type": "heading",
+      "text": "Recovering from a Breach without a"
+    },
+    {
+      "type": "heading",
+      "text": "Pro's Help"
+    },
+    {
+      "type": "heading",
+      "text": "If you do not have the ability to bring in a pro, the following"
+    },
+    {
+      "type": "paragraph",
+      "text": "steps are those that you should follow. These steps are essentially the ones most professionals follow: 1. Figure out what happened (or is happening). 2. Contain the attack. 3. Terminate and eliminate the attack."
+    },
+    {
+      "type": "heading",
+      "text": "Step 1: Figure out what happened or is"
+    },
+    {
+      "type": "paragraph",
+      "text": "happening If possible, you want to figure out as much about the attack as possible so that you can respond accordingly. If an attacker is transferring files from your computer to another device, for example, you want to disconnect your device from the Internet ASAP. That said, most home users do not have the technical skills to properly analyze and understand exactly what the nature of a particular attack may be -- unless, of course, the attack is overt in nature (see Chapter 11)."
+    },
+    {
+      "type": "heading",
+      "text": "WHEN AN ATTACK GOES UNDETECTED"
+    },
+    {
+      "type": "paragraph",
+      "text": "The lack of expertise in this area by the average person should not be surprising. Most businesses that are breached, including many with their own information security professionals on staff, do not even discover that they have been successfully breached until months after the attackers began attacking! Some experts estimate that, on average, businesses do not discover non-overt information-security compromises until somewhere between six months and a year have elapsed since the initial breach occurred!"
+    },
+    {
+      "type": "heading",
+      "text": "Gather as much information as you can about"
+    },
+    {
+      "type": "heading",
+      "text": "What happened"
+    },
+    {
+      "type": "heading",
+      "text": "What information systems and databases were hit"
+    },
+    {
+      "type": "heading",
+      "text": "What could a criminal or other mischievous party do with the stolen"
+    },
+    {
+      "type": "heading",
+      "text": "What data and programs have been affected"
+    },
+    {
+      "type": "heading",
+      "text": "Who, besides yourself, may face risks because of the breach (this"
+    },
+    {
+      "type": "paragraph",
+      "text": "includes any potential implications for your employer)"
+    },
+    {
+      "type": "heading",
+      "text": "Do not spend a lot of time on this step -- you need to take"
+    },
+    {
+      "type": "paragraph",
+      "text": "action, not just document -- but the more information that you do have, the greater the chances that you will be able to prevent another similar attack in the future."
+    },
+    {
+      "type": "heading",
+      "text": "Step 2: Contain the attack"
+    },
+    {
+      "type": "heading",
+      "text": "Cut off the attacker by isolating him or her from the compromised"
+    },
+    {
+      "type": "paragraph",
+      "text": "devices. Containing may entail:"
+    },
+    {
+      "type": "heading",
+      "text": "Terminating all network connectivity ASAP: To terminate"
+    },
+    {
+      "type": "paragraph",
+      "text": "network connectivity for all devices on a network, turn off your router by unplugging it. (Note: If you're in a business setting, this step is usually not possible.)"
+    },
+    {
+      "type": "heading",
+      "text": "Unplugging any Ethernet cables: Understand, however, that a"
+    },
+    {
+      "type": "paragraph",
+      "text": "network-borne attack may have already spread to other devices on the network. If so, disconnect the network from the Internet and disconnect each device from your network until it is scanned for security problems."
+    },
+    {
+      "type": "heading",
+      "text": "Turning off Wi-Fi on the infected device: Again, a network-borne"
+    },
+    {
+      "type": "paragraph",
+      "text": "attack may have already spread to other devices on the network. If so, disconnect the network from the Internet and disconnect each device from your network by turning off Wi-Fi at the router and any access points, not just on the infected computer."
+    },
+    {
+      "type": "heading",
+      "text": "Turning off cellular data: In other words, put your device into"
+    },
+    {
+      "type": "paragraph",
+      "text": "airplane mode."
+    },
+    {
+      "type": "heading",
+      "text": "Turning off Bluetooth and NFC: Bluetooth and NFC are both"
+    },
+    {
+      "type": "paragraph",
+      "text": "wireless communication technologies that work with devices that are in close physical proximity to one another. All such communications should be blocked if there is a possibility of infections spreading or hackers jumping from device to device."
+    },
+    {
+      "type": "heading",
+      "text": "Unplugging USB drives and other removable drives from the"
+    },
+    {
+      "type": "paragraph",
+      "text": "system: Note: The drives may contain malware, so do not attach them to any other systems."
+    },
+    {
+      "type": "heading",
+      "text": "Revoking any access rights that the attacker is exploiting: If you"
+    },
+    {
+      "type": "paragraph",
+      "text": "have a shared device and the attacker is using an account other than yours to which he or she somehow gained authorized access, temporarily set that account to have no rights to do anything."
+    },
+    {
+      "type": "heading",
+      "text": "TERMINATING NETWORK CONNECTIVITY"
+    },
+    {
+      "type": "paragraph",
+      "text": "While you can disconnect your Internet connection by physically unplugging from the router or network connection, you can also disable the connection on your device(s). To terminate network connectivity on a Windows computer, follow these steps: 1. Choose Settings  ⇒  Network Connections. 2. Right-click on the relevant connection (or connections one at a time) and then click on Disable."
+    },
+    {
+      "type": "heading",
+      "text": "If, for some reason, you need Internet access from your device in"
+    },
+    {
+      "type": "paragraph",
+      "text": "order to get help cleaning it up, turn off all other devices on your network, to prevent any attacks from spreading over the network to your device. Keep in mind that such a scenario is far from ideal. You want to cut off the infected device from the rest of the world, not just sever the connections between it and your other devices."
+    },
+    {
+      "type": "heading",
+      "text": "Step 3: Terminate and eliminate the attack"
+    },
+    {
+      "type": "heading",
+      "text": "Containing an attack (see preceding section) is not the same thing as"
+    },
+    {
+      "type": "paragraph",
+      "text": "terminating and eliminating an attack. Malware that was present on the infected device is still present after disconnecting the device from the Internet, for example, as are any vulnerabilities that a remote hacker or malware may have exploited in order to take control of your device. So, after containing the attack, it is important to clean up the system. The following sections describe some steps to follow at this point:"
+    },
+    {
+      "type": "heading",
+      "text": "Boot the computer from a security software boot disk"
+    },
+    {
+      "type": "heading",
+      "text": "If you have a security software boot disk, boot from it. Most modern"
+    },
+    {
+      "type": "paragraph",
+      "text": "users will not have such a disk. If you do not, skip to the next section. 1. Remove all USB drives, DVDs, CDs, floppies (yes, some people still have them), and any other external drives from your computer. 2. Insert the boot disk into the CD/DVD drive. 3. Shut down your computer. 4. Wait ten seconds and push the power button to start your computer. 5. If you are using a Windows computer and it does not boot from the CD, turn the machine off, wait ten seconds, and restart it while pressing the BIOS-boot button (different computers use different buttons, but most use some F-key, such as F1 or F2) to go into the BIOS settings and set it to boot from the CD if a CD is present, before trying to boot from the hard drive. 6. Exit the BIOS and Reboot."
+    },
+    {
+      "type": "heading",
+      "text": "If you're using a Windows PC, boot the computer in Safe Mode. Safe"
+    },
+    {
+      "type": "heading",
+      "text": "Mode is a special mode of windows that allows only essential system"
+    },
+    {
+      "type": "paragraph",
+      "text": "services and programs to run when the system starts up. To do this, follow these steps: 1. Remove all USB drives, DVDs, CDs, floppies (yes, some people still have them), and any other external drives from your computer. 2. Shut down your computer. 3. Wait ten seconds and push the power button to start your computer. 4. While your computer is starting, press the F8 key repeatedly to display the Boot Options menu. 5. When the Boot Options menu appears, select the option to boot in Safe Mode."
+    },
+    {
+      "type": "heading",
+      "text": "If you're using a Mac, boot it with Safe Boot. MacOS does not provide"
+    },
+    {
+      "type": "paragraph",
+      "text": "the full equivalent of Safe Mode. Macs always boot with networking enabled. Its Safe Boot does boot cleaner than a normal boot. To Safe Boot, follow these steps: 1. Remove all USB drives, DVDs, CDs, floppies (yes, some people still have them), and any other external drives from your computer. 2. Shut down your computer. 3. Wait ten seconds and push the power button to start your computer. 4. While your computer is starting, hold down the Shift key."
+    },
+    {
+      "type": "heading",
+      "text": "Older Macs (macOS versions 6-9) boot into a special superuser"
+    },
+    {
+      "type": "paragraph",
+      "text": "mode without extensions if a user presses the hold key during reboot. The advice to boot with Safe Boot applies only to Macs running more recent operating systems."
+    },
+    {
+      "type": "heading",
+      "text": "Backup"
+    },
+    {
+      "type": "paragraph",
+      "text": "Hopefully you can ignore this section, because you paid attention to the advice in the chapter on backups, but if you have not backed up your data recently, do so now. Of course, backing up a compromised device is not necessarily going to save all your data (because some may already be corrupted or missing), but if you do not already have a backup, do so now -- ideally by copying your files to an external USB drive that you will not attach to any other devices until it is properly scanned by security software."
+    },
+    {
+      "type": "heading",
+      "text": "Delete junk (optional)"
+    },
+    {
+      "type": "paragraph",
+      "text": "At this point, you may want to delete any files that you do not need, including any temporary files that have somehow become permanent (a list of such files appears in the chapter on backups). Why do the deletion now? Well, you should be doing periodic maintenance, and, if you are cleaning up your computer now, now is a good time. The less there is for security software to scan and analyze, the faster it will run. Also, some malware hides in temporary files, so deleting such files can also directly remove some malware. For users of Windows computers, one easy way to delete temporary files is to use the built-in Disk Cleanup utility: 1. In Windows 10, in the search box on the taskbar, type disk cleanup. 2. Select Disk Cleanup from the list of results 3. Select the drive you want to clean up and then click OK. 4. Select the file types to get rid of and then click OK. 5. Click on Accessories (or Windows Accessories). 6. Click on Disk Cleanup."
+    },
+    {
+      "type": "heading",
+      "text": "Run security software"
+    },
+    {
+      "type": "paragraph",
+      "text": "Hopefully, you already have security software installed. If you do, run a full system scan. One important caveat: Security software running on a compromised device may itself be compromised or impotent against the relevant threat (after all, the security breach took place with the security software running), so, regardless of whether such a scan comes up clean, it may be wise to run the security software from a bootable CD or other read-only media, or, in cases of some products, from another computer on your home network. Not all brands of security software catch all variants of malware."
+    },
+    {
+      "type": "heading",
+      "text": "Security professionals doing a device \"clean up\" often run security"
+    },
+    {
+      "type": "paragraph",
+      "text": "software from multiple vendors. If you are using a Mac and your Safe Boot includes Internet access, run the security software update routines prior to running the full scan. Malware, or attackers, may add new files to a system, remove files, and modify files. They may also open communication ports. Security software should be able to address all of these scenarios. Pay attention to the reports issued by the security software after it runs. Keep track of exactly what it removed or repairs. This information may be important, if, for example, some programs do not work after the cleanup. (You may need to reinstall programs from which files were removed or from which malware-modified files malware was removed.) Email databases may need to be restored if malware was found within messages and the security software was unable to fully clean the mess up."
+    },
+    {
+      "type": "heading",
+      "text": "Security software report information may also be useful to a"
+    },
+    {
+      "type": "paragraph",
+      "text": "cybersecurity or IT professional if you end up hiring one at a later date."
+    },
+    {
+      "type": "heading",
+      "text": "Also, the information in the report may provide you with clues as to"
+    },
+    {
+      "type": "paragraph",
+      "text": "where the attack started and what enabled it to happen, thereby also helping to guide you on preventing it from recurring."
+    },
+    {
+      "type": "heading",
+      "text": "Security Software often detects, and reports about, various non-"
+    },
+    {
+      "type": "paragraph",
+      "text": "attack material that may be undesirable due to their impact on privacy or potential to solicit a user with advertisements. You may, for example, see alerts that security software has detected tracking cookies or adware; neither is a serious problem, but you may want to remove adware if the ads bother you. In many cases you can pay to upgrade the software displaying the ads to a paid version that lacks ads. As far as recovering from an attack is concerned, these undesirable items are not a problem."
+    },
+    {
+      "type": "heading",
+      "text": "Sometimes, security software will inform you that you need to"
+    },
+    {
+      "type": "paragraph",
+      "text": "run an add-on in order to fully clean a system. Symantec, for example, offers its Norton Power Eraser, that it says \"Eliminates deeply embedded and difficult-to-detect crimeware that traditional virus scanning doesn't always detect.\" If your security software informs you that you need to run such a scanner, you should do so, but make sure that you obtain it from the legitimate, official, original source. Also, never download or run any scanner of such a sort if you are told to do so not as the result of running security software. Plenty of rogue pop-ups will advise you similarly, but install malware if you download the relevant \"security software.\""
+    },
+    {
+      "type": "heading",
+      "text": "Reinstall Damaged Software"
+    },
+    {
+      "type": "heading",
+      "text": "There are experts who recommend uninstalling and reinstalling any"
+    },
+    {
+      "type": "paragraph",
+      "text": "software package that you know was affected by the attack, even if the security software fixed it."
+    },
+    {
+      "type": "heading",
+      "text": "Restart the system and run an updated security"
+    },
+    {
+      "type": "paragraph",
+      "text": "scan For Windows computers, after you have cleaned the system, restart it in"
+    },
+    {
+      "type": "heading",
+      "text": "Safe Mode with networking using the procedure described above (but"
+    },
+    {
+      "type": "paragraph",
+      "text": "selecting Safe Mode with Networking rather than Safe Mode), run the security software, download all updates, and run the security software scan again."
+    },
+    {
+      "type": "heading",
+      "text": "If there are no updates, then you do not need to rerun the security"
+    },
+    {
+      "type": "paragraph",
+      "text": "software. If you are using a Mac, Safe Boot already included networking so there is no reason to repeat the scan. Install all relevant updates and patches. If any of your software has not been updated to its latest version and may contain vulnerabilities, fix this during the cleanup."
+    },
+    {
+      "type": "heading",
+      "text": "If you have the time to do so, run the security software full scan"
+    },
+    {
+      "type": "paragraph",
+      "text": "again after you have installed all the updates. There are several reasons for doing so, including the fact that you want it to check your system using its own most-up-to-date information on malware and other threats, as well as the fact that you want its heuristic analysis engine to have a baseline of what the system looks like with its latest updates."
+    },
+    {
+      "type": "heading",
+      "text": "Erase all potentially problematic System Restore"
+    },
+    {
+      "type": "paragraph",
+      "text": "points System Restore is a useful tool, but it can also be dangerous. If a system creates a restore point when malware is running on a device, for example, restoring to that point will likely restore the malware! After cleaning up a system, therefore, be sure to erase all system restore points that may have been created when your system was compromised. If you are unsure if a restore point may be problematic, erase it. For most users, this means that it may be good to erase all system restore points. To do this: 1. Click on the Start menu. 2. Click on Control Panel. 3. Click on All Control Panel Items. 4. Click on Recovery. 5. Click on Configure System Restore. 6. Follow the prompts to delete the relevant system restore points."
+    },
+    {
+      "type": "heading",
+      "text": "Restoring modified settings"
+    },
+    {
+      "type": "heading",
+      "text": "Some attackers and malware may modify various settings on your"
+    },
+    {
+      "type": "paragraph",
+      "text": "device. What page you see when you start your web browser -- for example, your web browser home page -- is one common item that malware commonly changes. It is important to change the browser page back to a safe page as the malware's starting page might lead to a page that reinstalls malware or performs some other nefarious task. The following sections walk you through the process for each browser."
+    },
+    {
+      "type": "heading",
+      "text": "When using the phone or tablet versions of the browsers"
+    },
+    {
+      "type": "paragraph",
+      "text": "described in the following sections, the process will differ slightly, but should be simply discernable based on the instructions."
+    },
+    {
+      "type": "heading",
+      "text": "IN CHROME"
+    },
+    {
+      "type": "paragraph",
+      "text": "To reset the Chrome browser: 1. Click on the three-dot menu icon at the top right corner. 2. Click on Settings. 3. Scroll down to the On Startup section and configure it accordingly."
+    },
+    {
+      "type": "heading",
+      "text": "IN FIREFOX"
+    },
+    {
+      "type": "paragraph",
+      "text": "To reset the Firefox browser: 1. Click on the three-line menu icon at the top right corner. 2. Click on Options. 3. Click on Home. 4. Configure the values in the New Windows and Tabs section accordingly."
+    },
+    {
+      "type": "heading",
+      "text": "IN SAFARI"
+    },
+    {
+      "type": "paragraph",
+      "text": "To reset the Safari browser: 1. Click on the Safari menu. 2. Click on Preferences. 3. Click on the General tab. 4. Scroll down to the Homepage field and configure it accordingly."
+    },
+    {
+      "type": "heading",
+      "text": "IN EDGE"
+    },
+    {
+      "type": "paragraph",
+      "text": "To reset the Edge browser: 1. Click on the three-dot menu icon at the top right corner. 2. Click on Settings. 3. Configure the Open Microsoft Edge with and Open new tabs with sections accordingly."
+    },
+    {
+      "type": "heading",
+      "text": "Rebuild the system"
+    },
+    {
+      "type": "heading",
+      "text": "Sometimes it is easier, instead of following the aforementioned"
+    },
+    {
+      "type": "paragraph",
+      "text": "processes, to simply rebuild the system from scratch. In fact, because of the risk of security software missing some problem, or of user mistakes when performing the security cleanup, many experts recommend that whenever possible one should rebuild a system entirely after a breach. Even if you plan to rebuild a system in response to a breach, it is still wise to run a security software scan prior to doing so as there are some rare forms of malware that can persist even after a restore (such as BIOS reprogramming malware, certain boot sector viruses, and so on), and to scan all devices on the same network as the compromised device at the time of the compromise or afterwards, so as to ensure that nothing bad can propagate back to the newly restored device. A guide to rebuilding systems from scratch appears in Chapter 14."
+    },
+    {
+      "type": "heading",
+      "text": "Dealing with Stolen Information"
+    },
+    {
+      "type": "heading",
+      "text": "If your computer, phone, or tablet was breached, it is possible that"
+    },
+    {
+      "type": "paragraph",
+      "text": "sensitive information on it was stolen and may be misused by a criminal."
+    },
+    {
+      "type": "heading",
+      "text": "You should change any of your passwords that were stored on the"
+    },
+    {
+      "type": "paragraph",
+      "text": "device, for example, and check all accounts that were accessible from the device without logging in (due to your earlier setting of the device to \"Remember Me\" after a successful login) to ensure that nothing goes wrong. Obviously, if your passwords were stored in a strongly encrypted format the need to change them is less urgent than if they were stored in clear text or with weak encryption, but, ideally, unless you are certain that the encryption will hold up for the long term, you should change them anyway. If you suspect that information may have been taken that could be used to impersonate you, it may be wise also to initiate a credit freeze and file a police report. Keep a copy of the police report with you. If you are pulled over by a police officer who informs you that there is a warrant out for your arrest in some location where you have never been, for example, you will have proof that you filed a report that private information that could be used to steal your identity was stolen from you. Such a document may not prevent you from having problems entirely, but it certainly may make your situation better in such a scenario than it would be if you had no such proof. If you believe that your credit or debit card information was stolen, contact the relevant party at the phone number printed on the back of your card, tell them that the number may have been compromised, and ask them to issue you a new card with a new number. Also check the account for any suspicious transactions."
+    },
+    {
+      "type": "heading",
+      "text": "Keep a log of every call you make, when you made it, with whom you"
+    },
+    {
+      "type": "paragraph",
+      "text": "spoke, and what occurred on the call. The more sensitive that information is, the more important it is to take action and to take it quickly. Here are some ways to think of information: Not private, but can help criminals with identity theft: Names, address, and home telephone number."
+    },
+    {
+      "type": "heading",
+      "text": "This type of information is really available to anyone who"
+    },
+    {
+      "type": "paragraph",
+      "text": "wants it, even without hacking you. (Consider that a generation ago this type of information was literally published in phone books and sent to every home that had a phone line.)"
+    },
+    {
+      "type": "heading",
+      "text": "That said, this type of information can be used in combination"
+    },
+    {
+      "type": "paragraph",
+      "text": "with other information to commit all sorts of crimes, especially if unsuspecting other people make mistakes (for example, by allowing someone with this information to open a library card without ever producing identification documents)."
+    },
+    {
+      "type": "heading",
+      "text": "Other public-record information: The price that you paid for"
+    },
+    {
+      "type": "paragraph",
+      "text": "your home, the names of your children, and so on. While this information is public record, a criminal correlating it with other information that may be lifted from your computer could create issues for you."
+    },
+    {
+      "type": "heading",
+      "text": "Sensitive: Email addresses, cellphone numbers, credit card account"
+    },
+    {
+      "type": "paragraph",
+      "text": "numbers without the CVC code, debit cards account numbers that require a PIN to use or without a CVC code, ATM card numbers, student ID numbers, passport numbers, complete birthdays including the year, and so on. These items create security risks when compromised -- for example, a stolen email address may lead to sophisticated phishing attacks that leverage other information garnered from your computer, attempts at hacking into the account, spam emails, and so on. Also, this type of stolen information may be used by a criminal as part of identity theft and financial fraud crimes, but may require combining multiple pieces of information in order to create a serious risk."
+    },
+    {
+      "type": "heading",
+      "text": "More sensitive: Social Security numbers (or their foreign"
+    },
+    {
+      "type": "paragraph",
+      "text": "equivalents), passwords to online accounts, bank account numbers (when compromised by a potential criminal as opposed to when displayed on a check given to a trusted party), PINs, credit and debit card information with the CVC code, answers to challenge questions that you have used to secure accounts, and so on. These types of information can often be abused on their own."
+    },
+    {
+      "type": "heading",
+      "text": "Paying ransoms"
+    },
+    {
+      "type": "heading",
+      "text": "If you have proper backups, you can remove ransomware the same way"
+    },
+    {
+      "type": "paragraph",
+      "text": "that you remove other malware. If any data gets lost in the process, you can restore it from backups."
+    },
+    {
+      "type": "heading",
+      "text": "If you have been hit with over ransomware and do not have proper"
+    },
+    {
+      "type": "paragraph",
+      "text": "backups, however, you may face a difficult decision. Obviously, it is not in the common interest for you to pay a ransom to a criminal in order get your data back, but, in some cases, if your data is important to you, that may be the route that you need to go. In many cases, criminals will not even give you your data back if you do pay the ransom -- so, by paying a ransom, you may not only waste money, but still suffer a permanent loss of your data. You will need to decide if you want to take that chance. (Hopefully, this paragraph will serve as a strong motivator for readers to back up proactively as discussed in the chapter on backups.)"
+    },
+    {
+      "type": "heading",
+      "text": "Before paying a ransom, consult an information security expert. Some"
+    },
+    {
+      "type": "paragraph",
+      "text": "ransomware can be removed, and its effects undone, by various security tools. However, unless your security software tells you that it can undo the encryption done by ransomware, do not try to remove ransomware on your own once it has encrypted your data. Some advanced ransomware wipes the data permanently if it detects attempts to decrypt the data. Also, keep in mind that some advanced ransomware does not encrypt data, but rather removes it from the victim's device and only transmits it back if the ransom is paid. Such ransomware may be removable by security software, but security software cannot usually restore the data pilfered by the ransomware."
+    },
+    {
+      "type": "heading",
+      "text": "The best defense for home users against the impact of"
+    },
+    {
+      "type": "paragraph",
+      "text": "ransomware is to back up and keep the backups disconnected from anything else!"
+    },
+    {
+      "type": "heading",
+      "text": "Learning for the future"
+    },
+    {
+      "type": "paragraph",
+      "text": "It is important to learn from breaches. If you can figure out what went wrong, and how a hacker managed to get into your systems (either directly or by using malware), you can institute de facto policies and procedures for yourself to prevent future such compromises. A cybersecurity professional may be able to help you vis-à-vis doing so."
+    },
+    {
+      "type": "heading",
+      "text": "Recovering When Your Data Is"
+    },
+    {
+      "type": "paragraph",
+      "text": "Compromised at a Third Party Nearly all Internet users have received notification from a business or government entity (or both) that personal data was potentially compromised. How you address such a scenario depends on many factors, but the following sections tell you the essentials of what you need to know."
+    },
+    {
+      "type": "heading",
+      "text": "Reason the notice was sent"
+    },
+    {
+      "type": "heading",
+      "text": "Multiple types of data breaches lead to organizations sending"
+    },
+    {
+      "type": "paragraph",
+      "text": "notifications. Not all of them represent the same level of risk to you, however. Notifications may be sent when a company has"
+    },
+    {
+      "type": "heading",
+      "text": "Knowledge that an unencrypted database containing personal"
+    },
+    {
+      "type": "paragraph",
+      "text": "information was definitely stolen"
+    },
+    {
+      "type": "heading",
+      "text": "Knowledge that an encrypted database containing personal"
+    },
+    {
+      "type": "paragraph",
+      "text": "information was definitely stolen"
+    },
+    {
+      "type": "heading",
+      "text": "Detected unauthorized activity on a computing device housing your"
+    },
+    {
+      "type": "paragraph",
+      "text": "information"
+    },
+    {
+      "type": "heading",
+      "text": "Detected unauthorized activity on a computing device, but not the"
+    },
+    {
+      "type": "paragraph",
+      "text": "one that houses your information (but on one connected to the same or logically connected network) Detected the theft of credit or debit card numbers as can occur with a skimming device or the hacking of a point-of-sale credit card processing device"
+    },
+    {
+      "type": "heading",
+      "text": "Discovered that there were, or may have been, improperly discarded"
+    },
+    {
+      "type": "paragraph",
+      "text": "computers, hard drives, or other storage media or paper-based information"
+    },
+    {
+      "type": "heading",
+      "text": "Discovered that there was, or may have been, improperly distributed"
+    },
+    {
+      "type": "paragraph",
+      "text": "information, such as sensitive information sent to the wrong parties, unencrypted email sent to authorized parties, and so on In all these cases, action may be warranted. But if a company notifies you that an unencrypted database of passwords including yours was stolen, the need to act is more urgent than if it detects unauthorized activity on a system on the same network as another machine containing only an encrypted version of your password."
+    },
+    {
+      "type": "heading",
+      "text": "Scams"
+    },
+    {
+      "type": "heading",
+      "text": "Criminals see when a breach receives significant attention and often"
+    },
+    {
+      "type": "paragraph",
+      "text": "leverage the breach for their own nefarious purposes. One common technique is for crooks to send bogus emails impersonating the breached party. Those emails contain instructions for setting up credit monitoring or filing a claim for monetary compensation for the pain and inconvenience suffered due to the breach. Of course, the links in such messages point to phishing sites, sites that install malware, and other destinations to which you do not want to go."
+    },
+    {
+      "type": "heading",
+      "text": "Criminals also act quickly. In February 2015, for example, the Better"
+    },
+    {
+      "type": "heading",
+      "text": "Business Bureaus started reporting complaints of emails impersonating"
+    },
+    {
+      "type": "heading",
+      "text": "Anthem, Inc., less than one day after the health insurance company"
+    },
+    {
+      "type": "paragraph",
+      "text": "announced that it had suffered a breach."
+    },
+    {
+      "type": "heading",
+      "text": "Passwords"
+    },
+    {
+      "type": "heading",
+      "text": "One of the types of breaches most commonly reported in the mass media"
+    },
+    {
+      "type": "paragraph",
+      "text": "involves the theft of password databases."
+    },
+    {
+      "type": "heading",
+      "text": "Modern password authentication systems are designed to provide some"
+    },
+    {
+      "type": "paragraph",
+      "text": "protection in case of a breach. Passwords are usually stored in a hashed format, meaning that they are stored with one-way encryption. When you enter your password during an attempt to log in, what you type is hashed and then compared with the relevant hash value stored in the password database. As such, your actual password is not stored anywhere and is not present in the password database. If a hacker steals a password database, therefore, the hacker does not immediately obtain your password. At least that is how things are supposed to work."
+    },
+    {
+      "type": "heading",
+      "text": "In reality, however, not all authentication systems are implemented"
+    },
+    {
+      "type": "paragraph",
+      "text": "perfectly; hashed password databases have multiple exploitable weaknesses, some of which can help criminals decipher passwords even when they're hashed. For example, if a criminal looks at the database and sees that the hashed password for many people is the same, it is likely to be a common password (maybe even \"password\"), which often can be cracked quickly. There are defenses against such attacks, but many authentication systems do not use them. As such, if you are notified by a company that it has been breached and that an encrypted version of your password was stolen, you should probably reset the password. You don't need to panic, though. In most cases, your password was likely protected by the hashing (unless you selected a common, weak password, which, of course, you should not have). If, for some reason, you have reused the compromised password on other sites that you don't want have unauthorized parties to log in as you, you should reset your password there as well and don't reuse the new password this time!"
+    },
+    {
+      "type": "heading",
+      "text": "Payment card information"
+    },
+    {
+      "type": "paragraph",
+      "text": "If your credit card information or debit card information may have been compromised, take the following measures:"
+    },
+    {
+      "type": "heading",
+      "text": "Leverage credit monitoring services. Breached firms often give"
+    },
+    {
+      "type": "paragraph",
+      "text": "those people potentially affected by the relevant breaches a free year or two of credit monitoring. While one should never rely on such services to provide full protection against identity theft, using such services does have benefit. Being that the cost to you is only a few minutes of time to set up an account, you should probably do so."
+    },
+    {
+      "type": "heading",
+      "text": "Monitor your credit reports. If you see any new accounts that you"
+    },
+    {
+      "type": "paragraph",
+      "text": "did not open, immediately contact the party involved. Remember, when it comes to fraud, the earlier that you report a problem, the less aggravation you are likely to suffer from it. Set up text alerts. If your card issuer offers the capability to set up text alerts, use the feature. That way, you'll be notified when charges are made and can act quickly if something appears to be amiss."
+    },
+    {
+      "type": "heading",
+      "text": "Check your monthly statements. Make sure that you continue to"
+    },
+    {
+      "type": "paragraph",
+      "text": "receive your account's statements as you did before and that they are not being misdirected to someone else."
+    },
+    {
+      "type": "heading",
+      "text": "Switch to e-statements. If possible, set up your account to receive"
+    },
+    {
+      "type": "paragraph",
+      "text": "electronic monthly statements rather than physical statements and make sure that you receive an email and/or text message when each and every statement is issued. Of course, be sure to properly protect the email account and smartphone to which such messages are sent."
+    },
+    {
+      "type": "heading",
+      "text": "Government-issued documents"
+    },
+    {
+      "type": "paragraph",
+      "text": "If your passport, driver's license, or other government-issued identity document has been compromised, you should contact the agency that issued the relevant document and ask how you should proceed. Document everything that you're told, including details as to who told you what. You should also check online on the agency's website to see whether it offers instructions for such scenarios. In some cases, agencies will advise you to replace the document, which may necessitate a physical visit to an agency office. In other cases, the agency will advise you to do nothing, but will tag your account so that if the document is used for identification at other government agencies, those checking the ID will know to be extra vigilant (which, in itself, might be a reason to replace the document so that you do not encounter any extra aggravation when using it as ID)."
+    },
+    {
+      "type": "heading",
+      "text": "School or employer-issued documents"
+    },
+    {
+      "type": "heading",
+      "text": "If your school or employer ID information is compromised, immediately"
+    },
+    {
+      "type": "paragraph",
+      "text": "notify the issuer. Not only could this information be used to social engineer your school or employer, but it may potentially be used to obtain sensitive information about you from either one."
+    },
+    {
+      "type": "heading",
+      "text": "Social media accounts"
+    },
+    {
+      "type": "heading",
+      "text": "If any of your social media accounts is compromised, immediately"
+    },
+    {
+      "type": "paragraph",
+      "text": "contact the relevant social media provider. All major platforms have mechanisms to address stolen accounts because all major platforms have had to deal with stolen accounts numerous times. Keep in mind that you may be asked to provide government ID to prove your identity as part of the account recovery process. Part 6"
+    },
+    {
+      "type": "heading",
+      "text": "Backing Up and Recovery"
+    },
+    {
+      "type": "heading",
+      "text": "IN THIS PART …"
+    },
+    {
+      "type": "heading",
+      "text": "Find out about the different types of backups and how to use"
+    },
+    {
+      "type": "paragraph",
+      "text": "them. Discover how to prepare a device before restoring from a backup. Figure out how to restore from a backup."
+    }
+  ]
+}

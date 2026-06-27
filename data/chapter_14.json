@@ -1,0 +1,476 @@
+{
+  "num": 14,
+  "type": "chapter",
+  "title": "Chapter 14: Resetting Your Device",
+  "part": "Part 6: Backing Up and Recovery",
+  "pages": "324 to 336",
+  "in_this_chapter": [
+    "Discovering two major types of device resets Figuring out when you should use each type to reset your device Resetting your device accordingly"
+  ],
+  "content": [
+    {
+      "type": "heading",
+      "text": "Resetting Your Device"
+    },
+    {
+      "type": "paragraph",
+      "text": "IN THIS CHAPTER"
+    },
+    {
+      "type": "heading",
+      "text": "Discovering two major types of device resets"
+    },
+    {
+      "type": "heading",
+      "text": "Figuring out when you should use each type to reset your device"
+    },
+    {
+      "type": "heading",
+      "text": "Resetting your device accordingly"
+    },
+    {
+      "type": "paragraph",
+      "text": "Chapter 13 talks about backing up and why it is a critical component of any and every cybersecurity plan. The odds are close to 100 percent that, at some point, you will lose access to some file to which you still need access, and restoring from a backup will be a \"lifesaver.\" In this chapter, I discuss resetting your computer and tell you what you need to know to successfully reset your device so that it's (almost) as good as new."
+    },
+    {
+      "type": "heading",
+      "text": "Exploring Two Types of Resets"
+    },
+    {
+      "type": "paragraph",
+      "text": "Sometimes, the easiest way to restore -- and to help ensure that none of the problems that forced you to restore in the first place remain -- is to start over by resetting your device to factory settings and reinstalling your apps and copying your data files from a backup."
+    },
+    {
+      "type": "heading",
+      "text": "Some forms of malware can survive a factory reset. So, if your"
+    },
+    {
+      "type": "paragraph",
+      "text": "device was infected with malware, be sure to address that problem even if you plan to reset your device. Or consult with an expert. Additionally, there will likely be times when your device crashes -- that is, it becomes unresponsive and stops functioning normally. Such occasions can be scary for many nontechnical users, who assume that they may lose their data. Performing the proper type of reset in such occasions, however, is quite simple and will almost always preserve the user's files (although files currently being worked on may be preserved as they were last saved). Resets come in two major flavors-- soft and hard. It is critical to know the difference between them before you use either type."
+    },
+    {
+      "type": "heading",
+      "text": "Soft resets"
+    },
+    {
+      "type": "paragraph",
+      "text": "A soft reset is the equivalent of physically turning a device off and then turning it back on. It does not wipe programs, data, or malware."
+    },
+    {
+      "type": "heading",
+      "text": "One common use of soft resets is to restart a device if it crashes"
+    },
+    {
+      "type": "paragraph",
+      "text": "and becomes unresponsive. It can also be useful after a Blue Screen of Death-type of crash (see Figure 14-1). FIGURE 14-1: One variant of the infamous Windows Blue Screen of Death. If you see this screen, you need to soft reset your computer."
+    },
+    {
+      "type": "heading",
+      "text": "Older devices"
+    },
+    {
+      "type": "heading",
+      "text": "Most modern computing devices have a soft reset capability, but some"
+    },
+    {
+      "type": "paragraph",
+      "text": "older devices do not. In such devices, however, the battery is often removable, so removing the battery and cutting off all power to the device achieves the same desired effect."
+    },
+    {
+      "type": "heading",
+      "text": "Windows computers"
+    },
+    {
+      "type": "heading",
+      "text": "Most Windows computers can be soft reset by holding down the Power"
+    },
+    {
+      "type": "paragraph",
+      "text": "button for ten seconds to do a shutdown. Holding down the button cuts off power to the computer from both the battery and any connected AC adapters/mains (even if the battery is connected and fully charged) and shuts it down."
+    },
+    {
+      "type": "heading",
+      "text": "After the device shuts down, wait ten seconds and press the Power"
+    },
+    {
+      "type": "paragraph",
+      "text": "button once to restart the computer."
+    },
+    {
+      "type": "heading",
+      "text": "Mac computers"
+    },
+    {
+      "type": "heading",
+      "text": "Various models of Mac computers can be soft reset through different"
+    },
+    {
+      "type": "heading",
+      "text": "Hold down the Power button for about five seconds, and the Mac"
+    },
+    {
+      "type": "paragraph",
+      "text": "should shut down completely. Let go of the Power button, wait a few seconds, and press it once again, and the Mac should reboot. On some Macs pressing and holding the Power button may display a menu, in which case you should press R for Reboot and reboot directly, rather than shutting down and restarting the device. Press and hold the Control + ⌘    key together with the Power button. Press and hold the TouchID button until the Mac reboots."
+    },
+    {
+      "type": "heading",
+      "text": "Android devices"
+    },
+    {
+      "type": "paragraph",
+      "text": "The way to soft reset an Android device varies between manufacturers. One of the following methods is likely to work:"
+    },
+    {
+      "type": "heading",
+      "text": "Press and hold the Power button until you see a shutdown/restart"
+    },
+    {
+      "type": "paragraph",
+      "text": "menu and then press Restart. (Or press Power Off, wait a few seconds, and then press the Power button again to turn the phone back on.)"
+    },
+    {
+      "type": "heading",
+      "text": "Press and hold the Power button. If no menu appears, keep holding"
+    },
+    {
+      "type": "paragraph",
+      "text": "the Power button for 2 minutes. At some point the phone should turn off -- when it does, wait 10 seconds and turn it back on."
+    },
+    {
+      "type": "heading",
+      "text": "If you have a removable battery, remove it, wait ten seconds, put it"
+    },
+    {
+      "type": "paragraph",
+      "text": "back in, and turn on the phone. iPhones The way to soft reset an iPhone varies based on the model. In general, one of the following methods will work:"
+    },
+    {
+      "type": "heading",
+      "text": "Press and release the Volume Up button, then press and release the"
+    },
+    {
+      "type": "heading",
+      "text": "Volume Down button, and then press and hold the Side button (the"
+    },
+    {
+      "type": "heading",
+      "text": "Power button) until the Apple logo appears on the screen. Wait for"
+    },
+    {
+      "type": "paragraph",
+      "text": "the device to reboot."
+    },
+    {
+      "type": "heading",
+      "text": "Press and hold the Power button. While still holding it, press and"
+    },
+    {
+      "type": "paragraph",
+      "text": "hold the Volume Down button. When a Slide To Power Off prompt and slider appears on the screen, slide the slider to the right and turn the device off. Wait ten seconds and press the Power button to turn it back on."
+    },
+    {
+      "type": "heading",
+      "text": "Press and hold the Power button, and, while still doing so, press and"
+    },
+    {
+      "type": "paragraph",
+      "text": "hold the Volume Down button. Continue to hold both buttons as the iPhone powers off and back on. Release both buttons when the Apple logo appears on the screen and wait for the device to reboot."
+    },
+    {
+      "type": "heading",
+      "text": "If you are using some versions of the iPhone X, following"
+    },
+    {
+      "type": "paragraph",
+      "text": "this option for performing a soft reset could end up calling emergency services (911 in the United States) because holding these particular buttons for longer than five seconds may be preprogrammed to issue an SOS signal from the device."
+    },
+    {
+      "type": "heading",
+      "text": "Hard resets"
+    },
+    {
+      "type": "paragraph",
+      "text": "Hard resets reset a device to its factory image or to something similar. (For more on factory image, see Chapter 13.) If you want to recover to the original factory image -- to effectively reset your device to the way it was when it was new -- you need to follow the instructions for your particular device."
+    },
+    {
+      "type": "heading",
+      "text": "Hard resets are almost always irreversible. Once you run a hard"
+    },
+    {
+      "type": "paragraph",
+      "text": "reset and a device is set back to its factory settings, you typically cannot undo the reset. Anything that you previously installed on the device and any data that you stored on it is likely gone forever. (Advanced tools may, in some cases, be able to recover some of the material, but such recoveries are often incomplete, and, in many cases, impossible altogether.) As such, do not run a hard reset until you are sure that you have backups of all the material that you need on the device that you are hard resetting. Also keep in mind the following: In some cases, a factory reset will not reset your device to the way it was when it was new because during operating system updates, the recovery image was updated as well. Factory resetting such a device will set the device to the way the device would have looked (or quite similar to the way it would have looked) when it was new had you purchased it with the new operating system."
+    },
+    {
+      "type": "heading",
+      "text": "After performing a factory reset, one or more (or possibly all)"
+    },
+    {
+      "type": "paragraph",
+      "text": "patches and other security updates that you have installed on the device may be gone -- meaning that your device is more likely than not vulnerable to various compromises. So, immediately after restoring you should run the operating system update process (repetitively -- until it finds no needed updates) as well as the update process for any security software (also repetitively until it finds no needed updates). Only after those steps have been completed should you begin to install other software or perform any other online activities."
+    },
+    {
+      "type": "heading",
+      "text": "Resetting a modern Windows device"
+    },
+    {
+      "type": "paragraph",
+      "text": "Your modern Windows device likely offers one or more ways to reset it. The following sections describe three major ways."
+    },
+    {
+      "type": "heading",
+      "text": "METHOD 1"
+    },
+    {
+      "type": "paragraph",
+      "text": "1. In the Start menu, click on Settings or PC Settings, depending on your operating system version. 2. In Windows Settings, click on Update and Security. The Windows Update screen appears. 3. Click on Recovery in the menu on the left side of the Window. 4. Click on the Get Started button in the Reset this PC section at the top of the window. At this point, you may be prompted to install the original installation CD on which you received Windows 10. If you receive that message, do so. If you do not receive it -- and most users don't -- just continue."
+    },
+    {
+      "type": "heading",
+      "text": "Windows then offers you two choices. Both remove programs and"
+    },
+    {
+      "type": "paragraph",
+      "text": "apps and reset settings to their defaults:"
+    },
+    {
+      "type": "heading",
+      "text": "Keep my files: Selecting this option leaves your data files"
+    },
+    {
+      "type": "paragraph",
+      "text": "intact (as long as they are stored in data folders)."
+    },
+    {
+      "type": "heading",
+      "text": "Remove everything: Selecting this option removes all your"
+    },
+    {
+      "type": "paragraph",
+      "text": "data files along with the apps and programs (this is the factory reset option). 5. Select either reset option."
+    },
+    {
+      "type": "heading",
+      "text": "If you're performing a full reset because your system was"
+    },
+    {
+      "type": "paragraph",
+      "text": "infected by malware or your data files may otherwise have been corrupted, ideally select Remove everything and restore your data files from a clean backup. If you select to remove your files along with everything else, Windows presents you with two choices: Just remove my files: Selecting this option erases your files, but does not perform any drive cleaning. This means that someone who gains access to the drive may be able to recover the data that was in the files -- in full or in part -- even after the files are deleted by the rest. This option runs relatively quickly."
+    },
+    {
+      "type": "heading",
+      "text": "Remove files and clean the drive: Selecting this option not"
+    },
+    {
+      "type": "paragraph",
+      "text": "only removes all your data files, it wipes the drive -- that is, writes over every 1 or 0 in your file -- to dramatically reduce the likelihood that anyone in the future could recover any data from the deleted files. Cleaning a drive is time-consuming; if you select this option the restore can take much longer than if you select the first option."
+    },
+    {
+      "type": "heading",
+      "text": "If you are resetting the system so that you can use a clean"
+    },
+    {
+      "type": "paragraph",
+      "text": "system after recovering from a malware infection, there is no reason to clean the drive. If you are wiping it before giving it to someone else, fully cleaning the drive is a good idea. (In fact, some would argue that you should wipe the entire drive with even better wiping technology than is provided through the reset option discussed in this chapter.)"
+    },
+    {
+      "type": "heading",
+      "text": "At this point, you may receive a warning message. If your computer"
+    },
+    {
+      "type": "paragraph",
+      "text": "originally had a different operating system and was upgraded to"
+    },
+    {
+      "type": "heading",
+      "text": "Window 10, resetting the system will remove the recovery files"
+    },
+    {
+      "type": "paragraph",
+      "text": "created during the upgrade that allow you to downgrade back to the previously running operating system -- meaning that if you reset the system you will have a Windows 10 computer that cannot be easily downgraded to another operating system. In most cases, this warning is not a significant issue -- Windows 10 is relatively mature, and few people who upgrade to Windows 10 as of the data of this book's publishing choose to downgrade."
+    },
+    {
+      "type": "heading",
+      "text": "Of course, if you are resetting the system because it is not working"
+    },
+    {
+      "type": "paragraph",
+      "text": "properly after you performed an upgrade to Windows 10, do not proceed with the reset. Downgrade it to the older version of Windows using the relevant tool."
+    },
+    {
+      "type": "heading",
+      "text": "You then will see a final warning message that tells you that the"
+    },
+    {
+      "type": "paragraph",
+      "text": "computer is ready to reset -- and which communicates what that means. Read what it says. If you do not want any of the things that it says will happen to happen, do not proceed. 6. When you are ready to proceed, click on the Reset button. You can probably go out for coffee. A reset takes quite some time, especially if you chose to clean your drive. 7. After a while, if you receive a prompt asking you whether you want to continue to Windows 10 or to perform troubleshooting, click on Continue."
+    },
+    {
+      "type": "heading",
+      "text": "METHOD 2"
+    },
+    {
+      "type": "paragraph",
+      "text": "If you're locked out of your computer, meaning that it boots to a login screen, but you cannot log in -- for example, if a hacker changed your password -- you can still factory reset the machine: 1. Boot your PC. 2. When the login screen appears, click on the Power icon in the bottom right-hand corner. You are prompted with several choices. Do not click on them yet. 3. Without clicking any choices, first hold down the Shift key and then click on Restart. A special menu appears. 4. Click on Troubleshoot. 5. Select Reset This PC. 6. Select Remove Everything."
+    },
+    {
+      "type": "heading",
+      "text": "Read the warnings, and understand what the consequences of"
+    },
+    {
+      "type": "paragraph",
+      "text": "running a hard reset are before you run it. This reset is likely irreversible."
+    },
+    {
+      "type": "heading",
+      "text": "METHOD 3"
+    },
+    {
+      "type": "paragraph",
+      "text": "This method may vary a bit between various computer manufacturers. To reset your device: 1. Turn on your computer and boot into Windows 10."
+    },
+    {
+      "type": "heading",
+      "text": "If you have more than one operating system installed on your"
+    },
+    {
+      "type": "paragraph",
+      "text": "computer, select the Windows 10 installation that you want to reset."
+    },
+    {
+      "type": "heading",
+      "text": "If all you have is one operating system -- as is the case for most"
+    },
+    {
+      "type": "paragraph",
+      "text": "people -- you won't have to select it because it will boot automatically. 2. While the computer is booting, press and hold down the F8 key to enter the boot menu. 3. In the boot menu on the Advanced Boot Options screen that appears, click on Repair Your Computer and press Enter. 4. If you're prompted to choose a keyboard layout, do so and then click on Next. 5. Select your username, type your password, and click on OK. 6. From the System Recovery Options menu that appears, click on the System Image Recovery link and follow the onscreen prompts to do a factory reset."
+    },
+    {
+      "type": "heading",
+      "text": "If your menus appear differently after pressing F8 in the last"
+    },
+    {
+      "type": "paragraph",
+      "text": "step, look through them for a Factory Reset option."
+    },
+    {
+      "type": "heading",
+      "text": "Resetting a modern Android device"
+    },
+    {
+      "type": "paragraph",
+      "text": "Modern Android devices come equipped with a Factory Reset feature, although the exact location of the activation option for it varies based on the device's manufacturer and operating system version. I show you several examples of how to activate a hard reset on several popular devices. Other devices are likely to have similar options."
+    },
+    {
+      "type": "heading",
+      "text": "SAMSUNG GALAXY SERIES RUNNING ANDROID 9"
+    },
+    {
+      "type": "heading",
+      "text": "On popular Samsung Galaxy phones running Android version 9 (or"
+    },
+    {
+      "type": "heading",
+      "text": "Android Pie, the latest version of Android as of early 2019), you can"
+    },
+    {
+      "type": "paragraph",
+      "text": "access the factory reset option by following these instructions: 1. Run the Settings app. 2. From the main Settings menu, click on General Management. 3. Click on Reset. 4. Click on Factory Data Reset. 5. Follow the instructions presented with the relevant warning."
+    },
+    {
+      "type": "heading",
+      "text": "SAMSUNG TABLETS RUNNING ANDROID 9"
+    },
+    {
+      "type": "heading",
+      "text": "The popular Samsung series of tablets have menu structures for hard-"
+    },
+    {
+      "type": "paragraph",
+      "text": "resetting that are similar to those used for the Galaxy series, although with a different look and feel. 1. Run the Settings app. 2. From the main Settings menu, click on General Management. 3. In the General Management menu, click on Reset. 4. Click on Factory Data Reset. 5. Follow the instructions at the warning to continue."
+    },
+    {
+      "type": "heading",
+      "text": "HUAWEI DEVICES RUNNING ANDROID 8"
+    },
+    {
+      "type": "heading",
+      "text": "Huawei phones, which are popular throughout Asia, can be reset using"
+    },
+    {
+      "type": "paragraph",
+      "text": "the following steps (or similar steps, in case of operating system version differences): 1. Run the Settings app. 2. From the main settings menu, click on System. 3. In the System menu, click on Reset. 4. In the Reset menu, click on Factory Data Reset. 5. Follow the instructions at the warning to continue."
+    },
+    {
+      "type": "heading",
+      "text": "Resetting a Mac"
+    },
+    {
+      "type": "paragraph",
+      "text": "Before you hard reset a Mac, you should perform the following steps: 1. Sign out of iTunes. 2. De-authorize any apps that are locked to your Mac."
+    },
+    {
+      "type": "heading",
+      "text": "Sign out of them so that you can relog-in from the newly restored"
+    },
+    {
+      "type": "paragraph",
+      "text": "device, which those systems may see as if it were a different device. 3. Sign out of Messages. 4. Sign out of iCloud."
+    },
+    {
+      "type": "heading",
+      "text": "You can do this in the System Preferences app. You will need to put"
+    },
+    {
+      "type": "paragraph",
+      "text": "in your password. While a hard reset will work without the preceding three steps, performing the steps can prevent various problems when you restore. After you're signed out of iTunes, Messages, and iCloud: 1. Restart your Mac in Recovery Mode by restarting your Mac and holding down the Command and R keys while it reboots."
+    },
+    {
+      "type": "heading",
+      "text": "You may be presented with a screen asking you in what language"
+    },
+    {
+      "type": "paragraph",
+      "text": "you want to continue. If you are, select your preferred language -- for the sake of this book, I assume that you have selected English. 2. Run the Disk Utility. 3. In the Disk Utility screen, select your device's main volume and click on Unmount then Erase. 4. Erase any other disks in the device. 5. Exit the Disk Utility by clicking Quit Disk Utility in the Disk Utility menu. 6. Click on Reinstall macOS and follow the steps to reinstall the operating system onto the primary disk within your Mac (see Figure 14-2). FIGURE 14-2: The Mac Recovery Mode menu."
+    },
+    {
+      "type": "heading",
+      "text": "Resetting an iPhone"
+    },
+    {
+      "type": "paragraph",
+      "text": "To hard reset a modern iPhone: 1. Run the Settings app and choose General  ⇒    Reset  ⇒    Erase All Content and Settings. 2. If you're asked for your Apple ID and Password to confirm the erasure, enter them. 3. When you see a warning and a red Erase iPhone (or iPad) button, click on it."
+    },
+    {
+      "type": "heading",
+      "text": "Rebuild Your Device after a Hard"
+    },
+    {
+      "type": "heading",
+      "text": "Reset"
+    },
+    {
+      "type": "heading",
+      "text": "After you hard reset a device, you should"
+    },
+    {
+      "type": "heading",
+      "text": "Install all security updates"
+    },
+    {
+      "type": "heading",
+      "text": "Install all the programs and apps that you use on the device -- and"
+    },
+    {
+      "type": "paragraph",
+      "text": "any relevant updates"
+    },
+    {
+      "type": "heading",
+      "text": "Restore your data from a backup"
+    },
+    {
+      "type": "paragraph",
+      "text": "See Chapter 15 for more detail on these topics."
+    }
+  ]
+}

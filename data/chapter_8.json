@@ -1,0 +1,1058 @@
+{
+  "num": 8,
+  "type": "chapter",
+  "title": "Chapter 8: Preventing Social Engineering",
+  "part": "Part 3: Protecting Yourself from Yourself",
+  "pages": "176 to 204",
+  "in_this_chapter": [
+    "Being aware of the various forms of social engineering attacks Discovering the strategies that criminals use to craft effective",
+    "attacks Realizing how overshared information can help criminals Recognizing phony social media accounts Protecting yourself and your loved ones from social engineering",
+    "attacks"
+  ],
+  "content": [
+    {
+      "type": "heading",
+      "text": "Preventing Social Engineering"
+    },
+    {
+      "type": "paragraph",
+      "text": "IN THIS CHAPTER"
+    },
+    {
+      "type": "heading",
+      "text": "Being aware of the various forms of social engineering attacks"
+    },
+    {
+      "type": "heading",
+      "text": "Discovering the strategies that criminals use to craft effective"
+    },
+    {
+      "type": "heading",
+      "text": "Realizing how overshared information can help criminals"
+    },
+    {
+      "type": "heading",
+      "text": "Recognizing phony social media accounts"
+    },
+    {
+      "type": "heading",
+      "text": "Protecting yourself and your loved ones from social engineering"
+    },
+    {
+      "type": "paragraph",
+      "text": "attacks Most, if not all, major breaches that have occurred in recent years have involved some element of social engineering. Do not let devious criminals trick you or your loved ones. In this chapter, you find out how to protect yourself"
+    },
+    {
+      "type": "heading",
+      "text": "Don't Trust Technology More than"
+    },
+    {
+      "type": "heading",
+      "text": "You Would People"
+    },
+    {
+      "type": "heading",
+      "text": "Would you give your online banking password to a random stranger who"
+    },
+    {
+      "type": "paragraph",
+      "text": "asked for it after walking up to you in the street and telling you that he worked for your bank?"
+    },
+    {
+      "type": "heading",
+      "text": "If the answer is no -- which it certainly should be -- you need to"
+    },
+    {
+      "type": "paragraph",
+      "text": "exercise the same lack of trust when it comes to technology. The fact that your computer shows you an email sent by some party that claims to be your bank instead of a random person approaching you on the street and making a similar claim is no reason to give that email your trust any more than you would give the stranger."
+    },
+    {
+      "type": "heading",
+      "text": "In short, you don't give offers from strangers approaching you on the"
+    },
+    {
+      "type": "paragraph",
+      "text": "street the benefit of the doubt, so don't do so for offers communicated electronically -- they may be even more risky."
+    },
+    {
+      "type": "heading",
+      "text": "Types of Social Engineering Attacks"
+    },
+    {
+      "type": "heading",
+      "text": "Phishing attacks are one of the most common forms of social"
+    },
+    {
+      "type": "paragraph",
+      "text": "engineering attacks. (For more on phishing and social engineering, see Chapter 2.) Figure 8-1 shows you an example of a phishing email. FIGURE 8-1: A phishing email. Phishing attacks sometimes utilize a technique called pretexting in which the criminal sending the phishing email fabricates a situation that both gains trust from targets as well as underscores the supposed need for the intended victims to act quickly. In the phishing email shown in Figure 8- 1, note that the sender, impersonating Wells Fargo bank, included a link to the real Wells Fargo within the email, but failed to properly disguise the sending address. Chapter 2 discusses common forms of social engineering attacks, including spear phishing emails, smishing, spear smishing, vishing, spear vishing, and CEO fraud. Additional types of social engineering attacks are popular as well:"
+    },
+    {
+      "type": "heading",
+      "text": "Baiting: An attacker sends an email or chat message -- or even"
+    },
+    {
+      "type": "paragraph",
+      "text": "makes a social media post that promises someone a reward in exchange for taking some action -- for example, telling a target that if she completes a survey, she will receive a free item (see Figure 8- 2). Sometimes such promises are real, but often they're not and are simply ways of incentivizing someone to take a specific action that she would not take otherwise. Sometimes such scammers seek payment of a small shipping fee for the prize, sometimes they distribute malware, and sometimes they collect sensitive information. There is even malware that baits."
+    },
+    {
+      "type": "heading",
+      "text": "Don't confuse baiting with scambaiting. The latter refers to a"
+    },
+    {
+      "type": "paragraph",
+      "text": "form of vigilantism in which people pretend to be gullible, would-be victims, and waste scammers' time and resources through repeated interactions, as well as (sometimes) collect intelligence about the scammer that can be turned over to law enforcement or published on the Internet to warn others of the scammer."
+    },
+    {
+      "type": "heading",
+      "text": "Quid pro quo: The attacker states that he needs the person to take an"
+    },
+    {
+      "type": "paragraph",
+      "text": "action in order to render a service for the intended victim. For example, an attacker may pretend to be an IT support manager offering assistance to an employee in installing a new security software update. If the employee cooperates, the criminal walks him through the process of installing malware."
+    },
+    {
+      "type": "heading",
+      "text": "Social media impersonation: Some attackers impersonate people"
+    },
+    {
+      "type": "paragraph",
+      "text": "on social media in order to establish social media connections with their victims. The parties being impersonated may be real people or nonexistent entities. The scammers behind the impersonation shown in Figure 8-3 and many other such accounts frequently contact the people who follow the accounts, pretending to be the author, and request that the followers make various \"investments.\" (To find out how you can protect yourself from social media impersonation, see the section \"General Cyberhygiene Can Help Prevent Social"
+    },
+    {
+      "type": "heading",
+      "text": "Engineering,\" later in this chapter.)"
+    },
+    {
+      "type": "heading",
+      "text": "Tantalizing emails: These emails attempt to trick people into"
+    },
+    {
+      "type": "paragraph",
+      "text": "running malware or clicking on poisoned links by exploiting their curiosity, sexual desires, and other characteristics. Tailgating: Tailgating is a physical form of social engineering attack in which the attacker accompanies authorized personnel as they approach a doorway that they, but not the attacker, are authorized to pass and tricks them into letting him pass with the authorized personnel. The attacker may pretend to be searching through a purse for an access card, claim to have forgotten his card, or may simply act social and follow the authorized party in."
+    },
+    {
+      "type": "heading",
+      "text": "False alarms: Raising false alarms can also social engineer people"
+    },
+    {
+      "type": "paragraph",
+      "text": "into allowing unauthorized people to do things that they should not be allowed to. Consider the case in which an attacker pulls the fire alarm inside a building and manages to enter normally secured areas through an emergency door that someone else used to quickly exit due to the so-called emergency."
+    },
+    {
+      "type": "heading",
+      "text": "Water holing: Water holing combines hacking and social"
+    },
+    {
+      "type": "paragraph",
+      "text": "engineering by exploiting the fact that people trust certain parties, so, for example, they may click on links when viewing that party's website even if they'd never click on links in an email or text message. Criminals may launch a watering hole attack by breaching the relevant site and inserting the poisoned links on it (or even depositing malware directly onto it)."
+    },
+    {
+      "type": "heading",
+      "text": "Virus hoaxes: Criminals exploit the fact that people are concerned"
+    },
+    {
+      "type": "paragraph",
+      "text": "about cybersecurity, and likely pay undeserved attention to messages that they receive warning about a cyberdanger. Virus hoax emails may contain poisoned links, direct a user to download software, or instruct a user to contact IT support via some email address or web page. These attacks come in many flavors -- some attacks distribute them as mass emails, while others send them in a highly targeted fashion."
+    },
+    {
+      "type": "heading",
+      "text": "Some people consider scareware that scares users into believing that"
+    },
+    {
+      "type": "paragraph",
+      "text": "they need to purchase some particular security software (as described in Chapter 2) to be a form of virus hoax. Others do not because scareware's \"scaring\" is done by malware that is already installed, not by a hoax message that pretends that malware is already installed."
+    },
+    {
+      "type": "heading",
+      "text": "Technical failures: Criminals can easily exploit humans' annoyance"
+    },
+    {
+      "type": "paragraph",
+      "text": "with technology problems to undermine various security technologies. FIGURE 8-2: Example of a baiting message. FIGURE 8-3: An example of an Instagram account impersonating the author, using his name, bio, and primarily photos lifted from his real Instagram account."
+    },
+    {
+      "type": "heading",
+      "text": "For example, if a criminal impersonating a website that normally"
+    },
+    {
+      "type": "paragraph",
+      "text": "displays a security image in a particular area places a \"broken image symbol\" in the same area of the clone website, many users will not perceive danger, as they are accustomed to seeing broken-image symbols and associate them with technical failures rather than security risks."
+    },
+    {
+      "type": "heading",
+      "text": "Six Principles Social Engineers"
+    },
+    {
+      "type": "heading",
+      "text": "Exploit"
+    },
+    {
+      "type": "paragraph",
+      "text": "Social psychologist Robert Beno Cialdini, in his 1984 work published by"
+    },
+    {
+      "type": "heading",
+      "text": "HarperCollins, Influence: The Psychology of Persuasion, explains six"
+    },
+    {
+      "type": "paragraph",
+      "text": "important, basic concepts that people seeking to influence others often leverage. Social engineers seeking to trick people often exploit these same six principles, so I provide a quick overview of them in the context of information security."
+    },
+    {
+      "type": "heading",
+      "text": "The following list helps you understand and internalize the"
+    },
+    {
+      "type": "paragraph",
+      "text": "methods crooks are likely to use to try to gain your trust:"
+    },
+    {
+      "type": "heading",
+      "text": "Social proof: People tend to do things that they see other people"
+    },
+    {
+      "type": "heading",
+      "text": "Reciprocity: People, in general, often believe that if someone did"
+    },
+    {
+      "type": "paragraph",
+      "text": "something nice for them, they owe it to that person to do something nice back."
+    },
+    {
+      "type": "heading",
+      "text": "Authority: People tend to obey authority figures, even when they"
+    },
+    {
+      "type": "paragraph",
+      "text": "disagree with the authority figures and even when they think what they're being asked to do is objectionable."
+    },
+    {
+      "type": "heading",
+      "text": "Likeability: People are, generally speaking, more easily persuaded"
+    },
+    {
+      "type": "paragraph",
+      "text": "by people who they like than by others."
+    },
+    {
+      "type": "heading",
+      "text": "Consistency and commitment: If people make a commitment to"
+    },
+    {
+      "type": "paragraph",
+      "text": "accomplish some goal and internalize that commitment, it becomes part of their self-image, and they're likely to attempt to pursue the goal even if the original reason for pursuing the goal is no longer at all relevant. Scarcity: If people think that a particular resource is scarce, regardless of whether it actually is scarce, they will want it, even if they don't need it."
+    },
+    {
+      "type": "heading",
+      "text": "Don't Overshare on Social Media"
+    },
+    {
+      "type": "heading",
+      "text": "Oversharing information on social media arms criminals with material"
+    },
+    {
+      "type": "paragraph",
+      "text": "that they can use to social engineer you, your family members, your colleagues at work, and your friends."
+    },
+    {
+      "type": "heading",
+      "text": "If, for example your privacy settings allow anyone with access to the"
+    },
+    {
+      "type": "paragraph",
+      "text": "social media platform to see your posted media, your risk increases."
+    },
+    {
+      "type": "heading",
+      "text": "Many times, people accidentally share posts with the whole world that"
+    },
+    {
+      "type": "paragraph",
+      "text": "they intended for only a small group of people."
+    },
+    {
+      "type": "heading",
+      "text": "Furthermore, in multiple situations, bugs in social media platform"
+    },
+    {
+      "type": "paragraph",
+      "text": "software have created vulnerabilities that allowed unauthorized parties to view media and posts that had privacy settings set to disallow such access."
+    },
+    {
+      "type": "heading",
+      "text": "Also, consider your privacy settings. Family-related material with"
+    },
+    {
+      "type": "paragraph",
+      "text": "privacy settings set to allow nonfamily members to view it may result in all sorts of privacy-related issues and leak the answers to various popular challenge questions used for authenticating users, such as \"Where does your oldest sibling live?\" or \"What is your mother's maiden name?\""
+    },
+    {
+      "type": "heading",
+      "text": "Don't rely on social media privacy settings to protect truly"
+    },
+    {
+      "type": "paragraph",
+      "text": "confidential data. Some social media platforms allow for granular protection of posted items, while others do not."
+    },
+    {
+      "type": "heading",
+      "text": "Certain items, if shared, may help criminals social engineer you or"
+    },
+    {
+      "type": "paragraph",
+      "text": "someone you know. This list isn't meant to be comprehensive. Rather, it's meant to illustrate examples to stimulate your thinking about the potential risks of what you intend to post on social media before you go ahead and post it. The following sections describes information you should be cautious of sharing on social media."
+    },
+    {
+      "type": "heading",
+      "text": "Numerous other types of social media posts than the ones I list"
+    },
+    {
+      "type": "paragraph",
+      "text": "in the following sections can help criminals orchestrate social engineering attacks. Think about potential consequences before you post and set your posts' privacy settings accordingly."
+    },
+    {
+      "type": "heading",
+      "text": "SOCIAL MEDIA WARNING SYSTEMS"
+    },
+    {
+      "type": "paragraph",
+      "text": "Tools are available to warn people if they are oversharing on social media, including one which the author helped design. A snippet of a configuration screen appears in the figure"
+    },
+    {
+      "type": "heading",
+      "text": "Your schedule and travel plans"
+    },
+    {
+      "type": "heading",
+      "text": "Details of your schedule or someone else's schedule may provide"
+    },
+    {
+      "type": "paragraph",
+      "text": "criminals with information that may help them set up an attack. For example, if you post that you'll be attending an upcoming event, such as a wedding, you may provide criminals with the ability to virtually kidnap you or other attendees -- never mind incentivizing others to target your home with a break-in attempt when the home is likely to be empty. (Virtual kidnapping refers to a criminal making a ransom demand in exchange for the same return of someone who the criminal claims to have kidnapped, but who in fact, the criminal has not kidnapped.)"
+    },
+    {
+      "type": "heading",
+      "text": "Likewise, revealing that you'll be flying on a particular flight may"
+    },
+    {
+      "type": "paragraph",
+      "text": "provide criminals with the ability to virtually kidnap you or attempt"
+    },
+    {
+      "type": "heading",
+      "text": "CEO-type fraud against your colleagues. They may impersonate you and"
+    },
+    {
+      "type": "paragraph",
+      "text": "send an email saying that you're flying and may not be reachable by phone for confirmation of the instructions so just go ahead and follow them anyway."
+    },
+    {
+      "type": "heading",
+      "text": "Also, avoid posting about a family member's vacation or trip, which"
+    },
+    {
+      "type": "paragraph",
+      "text": "may increase risks of virtual kidnapping (and of real physical dangers to that person or his belongings)."
+    },
+    {
+      "type": "heading",
+      "text": "Financial information"
+    },
+    {
+      "type": "heading",
+      "text": "Sharing a credit card number may lead to fraudulent charges, while"
+    },
+    {
+      "type": "paragraph",
+      "text": "posting a bank account number can lead to fraudulent bank activity. In addition, don't reveal that you visited or interacted with a particular financial institution or the locations where you store your money -- banks, crypto-exchange accounts, brokerages, and so forth. Doing so can increase the odds that criminals will attempt to social engineer their way into your accounts at the relevant financial institution(s). As such, such sharing may expose you to attempts to breach your accounts, as well as targeted phishing, vishing, and smishing attacks and all sorts of other social engineering scams."
+    },
+    {
+      "type": "heading",
+      "text": "Posting about potential investments, such as stocks, bonds, precious"
+    },
+    {
+      "type": "paragraph",
+      "text": "metals, or cryptocurrencies, can expose you to cyberattacks because criminals may assume that you have significant money to steal. (If you encourage people to invest or make various other forms of posts, you may also run afoul of SEC, CFTC, or other regulations.) You may also open the door to criminals who impersonate regulators and contact you to pay a fine for posting information inappropriately."
+    },
+    {
+      "type": "heading",
+      "text": "Personal information"
+    },
+    {
+      "type": "heading",
+      "text": "For starters, avoid listing your family members in your Facebook"
+    },
+    {
+      "type": "paragraph",
+      "text": "profile's About section. That About section links to their Facebook profiles and explains to viewers the nature of the relevant family relationship with each party listed. By listing these relationships, you may leak all sorts of information that may be valuable for criminals. Not only will you possibly reveal your mother's maiden name (challenge question answer!), you may also provide clues about where you grew up. The information found in your profile also provides criminals with a list of people to social engineer or contact as part of a virtual kidnapping scam."
+    },
+    {
+      "type": "heading",
+      "text": "Also you should avoid sharing the following information on social"
+    },
+    {
+      "type": "paragraph",
+      "text": "media, as doing so can undermine your authentication questions and help criminals social engineer you or your family:"
+    },
+    {
+      "type": "heading",
+      "text": "Your father's middle name"
+    },
+    {
+      "type": "heading",
+      "text": "Your mother's birthday"
+    },
+    {
+      "type": "heading",
+      "text": "Where you met your significant other"
+    },
+    {
+      "type": "heading",
+      "text": "Your favorite vacation spot"
+    },
+    {
+      "type": "heading",
+      "text": "The name of the first school that you attended"
+    },
+    {
+      "type": "heading",
+      "text": "The street on which you grew up"
+    },
+    {
+      "type": "heading",
+      "text": "The type, make, model, and/or color of your first car or someone"
+    },
+    {
+      "type": "heading",
+      "text": "Your or others' favorite food or drink"
+    },
+    {
+      "type": "paragraph",
+      "text": "Likewise, never share your Social Security number as doing so may lead to identity theft."
+    },
+    {
+      "type": "heading",
+      "text": "Information about your children"
+    },
+    {
+      "type": "heading",
+      "text": "Sharing information about your children can not only set you up"
+    },
+    {
+      "type": "paragraph",
+      "text": "for attacks, but put your children at great risk of physical danger."
+    },
+    {
+      "type": "heading",
+      "text": "For example, photos of your children may assist a kidnapper. The"
+    },
+    {
+      "type": "paragraph",
+      "text": "problem may be exacerbated if the images contain a timestamp and/or geotagging -- that is, information about the location at which a photograph was taken."
+    },
+    {
+      "type": "heading",
+      "text": "Timestamps and geotagging do not need to be done per some technical"
+    },
+    {
+      "type": "paragraph",
+      "text": "specification to create risks. If it is clear from the images where your kids go to school, attend after-school activities, and so on, you may expose them to danger. In addition, referring to the names of schools, camps, day care facilities, or other youth programs that your children or their friends attend may increase the risk of a pedophile, kidnapper, or other malevolent party targeting them. Such a post may also expose you to potential burglars because they'll know when you're likely not to be home. The risk can be made much worse if a clear pattern regarding your schedule and/or your children's schedule can be extrapolated from such posts. Also avoid posting about a child's school or camp trip."
+    },
+    {
+      "type": "heading",
+      "text": "Information about your pets"
+    },
+    {
+      "type": "heading",
+      "text": "As with your mother's maiden name, sharing your current pet's name or"
+    },
+    {
+      "type": "paragraph",
+      "text": "your first pet's name can set you or others who you know up for social engineering attacks because such information is often used as an answer to authentication questions."
+    },
+    {
+      "type": "heading",
+      "text": "Work information"
+    },
+    {
+      "type": "paragraph",
+      "text": "Details about with which technologies you work with at your present job (or a previous job) may help criminals both scan for vulnerabilities in your employers' systems and social engineer your colleagues."
+    },
+    {
+      "type": "heading",
+      "text": "Many virus hoaxes and scams have gone viral -- and inflicted far more"
+    },
+    {
+      "type": "paragraph",
+      "text": "damage than they should have -- because criminals exploit people's fear of cyberattacks and leverage the likelihood that many people will share posts about cyber-risks, often without verifying the authenticity of such posts. Information about a moving violation or parking ticket that you received not only presents yourself in a less-than-the-best light, but can inadvertently provide prosecutors with the material that they need to convict you of the relevant offense. You may also give crooks the ability to social engineer you or others -- they may pretending to be law enforcement, a court, or an attorney contacting you about the matter -- perhaps even demanding that a fine be paid immediately in order to avoid an arrest. In addition to helping criminals social engineer you in a fashion similar to the moving violation case, information about a crime that you or a loved one committed may harm you professionally and personally."
+    },
+    {
+      "type": "heading",
+      "text": "Medical or legal advice"
+    },
+    {
+      "type": "paragraph",
+      "text": "If you offer medical or legal advice, people may be able to extrapolate that you or a loved one has a particular medical condition, or involved in a particular legal situation."
+    },
+    {
+      "type": "heading",
+      "text": "Your location"
+    },
+    {
+      "type": "paragraph",
+      "text": "Your location or check-in on social media may not only increase the risk to yourself and your loved ones of physical danger, but may help criminals launch virtual kidnapping attacks and other social engineering scams. A happy birthday message to anyone may reveal the person's birthday. Folks who use fake birthdays on social media for security reasons have seen their precautions undermined in such a fashion by would be well- wishers. Anything that is \"sin-like\" may lead not only to professional or personal harm, but to blackmail-like attempts as well as social engineering of yourself or others depicted in such posts or media. In addition, an image of you in a place frequented by people of certain religious, sexual, political, cultural, or other affiliations can lead to criminals extrapolating information about you that may lead to all sorts of social engineering. Criminals are known, for example, to have virtually kidnapped a person who was in synagogue and unreachable on the Jewish holiday of Yom Kippur. They knew when and where he would be walking on his way to the temple, and called family members (at a time that they knew he would be impossible to reach) claiming to have kidnapped the person. The family members fell for the virtual kidnapping scam because the details were right and they were unable to reach the \"victim\" by telephone in the middle of a synagogue service."
+    },
+    {
+      "type": "heading",
+      "text": "Leaking Data by Sharing"
+    },
+    {
+      "type": "paragraph",
+      "text": "Information as Part of Viral Trends"
+    },
+    {
+      "type": "heading",
+      "text": "From time to time, a viral trend occurs, in which many people share"
+    },
+    {
+      "type": "paragraph",
+      "text": "similar content. Posts about the ice bucket challenge, your favorite concerts, and something about you today and ten years ago are all examples of viral trends. Of course, future viral trends may have nothing to do with prior ones. Any type of post that spreads quickly to large numbers of people is said to have \"gone viral.\""
+    },
+    {
+      "type": "heading",
+      "text": "While participating may seem fun -- and \"what everyone else is"
+    },
+    {
+      "type": "paragraph",
+      "text": "doing\" -- be sure that you understand the potential consequences of doing so. For example, sharing information about the concerts that you attended and that you consider to be your favorites can reveal a lot about you -- especially in combination with other profile data -- and can expose you to all sorts of social engineering risks."
+    },
+    {
+      "type": "heading",
+      "text": "Identifying Fake Social Media"
+    },
+    {
+      "type": "heading",
+      "text": "Connections"
+    },
+    {
+      "type": "heading",
+      "text": "Social media delivers many professional and personal benefits to its"
+    },
+    {
+      "type": "paragraph",
+      "text": "users, but it also creates amazing opportunities for criminals -- many people have an innate desire to connect with others and are overly trusting of social media platforms. They assume that if, for example,"
+    },
+    {
+      "type": "heading",
+      "text": "Facebook sends a message that Joseph Steinberg has requested to"
+    },
+    {
+      "type": "paragraph",
+      "text": "become a friend, that the real \"Joseph Steinberg\" has requested as such -- when, often, that is not the case."
+    },
+    {
+      "type": "heading",
+      "text": "Criminals know, for example, that by connecting with you on social"
+    },
+    {
+      "type": "paragraph",
+      "text": "media, they can gain access to all sorts of information about you, your family members, and your work colleagues -- information that they can often exploit in order to impersonate you, a relative, or a colleague as part of criminal efforts to social engineer a path into business systems, steal money, or commit other crimes."
+    },
+    {
+      "type": "heading",
+      "text": "One technique that criminals often use to gain access to people's"
+    },
+    {
+      "type": "paragraph",
+      "text": "\"private\" Facebook, Instagram, or LinkedIn information is to create fake profiles -- profiles of nonexistent people -- and request to connect with real people, many of whom are likely to accept the relevant connection requests. Alternatively, scammers may set up accounts that impersonate real people -- and which have profile photos and other materials lifted from the impersonated party's legitimate social media accounts."
+    },
+    {
+      "type": "heading",
+      "text": "How can you protect yourself from such scams? The following sections"
+    },
+    {
+      "type": "paragraph",
+      "text": "offer advice on how to quickly spot fake accounts -- and how to avoid the possible repercussions of accepting connections from them."
+    },
+    {
+      "type": "heading",
+      "text": "Keep in mind that none of the clues in the following sections"
+    },
+    {
+      "type": "paragraph",
+      "text": "operates in a vacuum or is absolute. The fact that a profile fails when tested against a particular rule, for example, doesn't automatically mean that it is bogus. But applying smart concepts such as the ones I list in the following sections should help you identify a significant percentage of fake accounts and save yourself from the problems that can ultimately result from accepting connection requests from them."
+    },
+    {
+      "type": "heading",
+      "text": "Photo"
+    },
+    {
+      "type": "heading",
+      "text": "Many fake accounts use photos of attractive models, sometimes"
+    },
+    {
+      "type": "paragraph",
+      "text": "targeting men who have accounts that show photos of women and women whose accounts have photos of men. The pictures often appear to be stock photos, but sometimes are stolen from real users."
+    },
+    {
+      "type": "heading",
+      "text": "If you receive a social media connection request from someone"
+    },
+    {
+      "type": "paragraph",
+      "text": "who you don't remember ever meeting and the picture is of this type, beware. If you're in doubt, you can load the image into Google's reverse image search and see where else it appears."
+    },
+    {
+      "type": "heading",
+      "text": "You can also search on the person's name (and, if appropriate, on"
+    },
+    {
+      "type": "paragraph",
+      "text": "LinkedIn) or title to see whether any other similar photos appear online. However, a crafty impersonator may upload images to several sites. Obviously, any profile without a photo of the account holder should raise red flags. Keep in mind, though, that some people do use emojis, caricatures, and so on as profile photos, especially on nonprofessional- oriented social media networks."
+    },
+    {
+      "type": "heading",
+      "text": "Verification"
+    },
+    {
+      "type": "heading",
+      "text": "If an account appears to represent a public figure who you suspect is"
+    },
+    {
+      "type": "paragraph",
+      "text": "likely to be verified (meaning it has a blue check mark next to the user's account name to indicate that the account is the legitimate account of a public figure), but it is not verified, that is a likely sign that something is amiss. Likewise, it is unlikely that a verified account on a major social media platform is fake. However, there have been occasions on which verified accounts of such nature have been taken over temporarily by hackers."
+    },
+    {
+      "type": "heading",
+      "text": "Friends or connections in common"
+    },
+    {
+      "type": "heading",
+      "text": "Fake people are unlikely to have many friends or connections in"
+    },
+    {
+      "type": "paragraph",
+      "text": "common with you, and fake folks usually will not even have many secondary connections (Friends of Friends, LinkedIn second level connections, and so on) in common with you either."
+    },
+    {
+      "type": "heading",
+      "text": "Don't assume that an account is legitimate just because it has"
+    },
+    {
+      "type": "paragraph",
+      "text": "one or two connections in common with you; some of your connections may have fallen for a scam and connected with a fake person, and your contact's connecting with the fake account may be how the criminal found out about you in the first place. Even in such a scenario, the number of shared connections is likely to be relatively small as compared with a real, mutual connection, and the human relationship between the friends who did connect with the crook's profile may seem difficult to piece together."
+    },
+    {
+      "type": "heading",
+      "text": "You know your connections better than anyone else -- exercise caution"
+    },
+    {
+      "type": "paragraph",
+      "text": "when someone's connection patterns don't make sense. You may want to think twice, for example, if someone trying to connect with you seems to know nobody in the industry in which she works, but knows three of your most gullible friends who live in three different countries and who do not know one another."
+    },
+    {
+      "type": "heading",
+      "text": "Relevant posts"
+    },
+    {
+      "type": "paragraph",
+      "text": "Another huge red flag is when an account is not sharing material that it should be sharing based on the alleged identity of the account holder. If someone claims to be a columnist who currently writes for Forbes, for example, and attempts to but has never shared any posts of any articles that he or she wrote for Forbes, something is likely amiss."
+    },
+    {
+      "type": "heading",
+      "text": "Number of connections"
+    },
+    {
+      "type": "paragraph",
+      "text": "A senior-level person, with many years of work experience, is likely to have many professional connections, especially on LinkedIn. The fewer connections that an account ostensibly belonging to a senior level person has on LinkedIn (the further it is from 500 or more), the more suspicious you should be."
+    },
+    {
+      "type": "heading",
+      "text": "Of course, every LinkedIn profile started with zero connections -- so"
+    },
+    {
+      "type": "paragraph",
+      "text": "legitimate, new LinkedIn accounts may seems suspicious when they truly are not -- but practical reality comes into play: How many of the real, senior-level people who are now contacting you didn't establish their LinkedIn accounts until recently? Of course, a small number of connections and a new LinkedIn account isn't abnormal for a person who just started his first job or for people working in certain industries, in certain roles, and/or at certain companies -- CIA secret agents don't post their career progress in their LinkedIn profiles -- but if you work in those industries, you're likely aware of this fact already."
+    },
+    {
+      "type": "heading",
+      "text": "Contrast the number of connection with the age of an account and the"
+    },
+    {
+      "type": "paragraph",
+      "text": "number of posts it has interacted with or has shared -- a person who has been on Facebook for a decade and who posts on a regular basis, for example, should have more than one or two Friends."
+    },
+    {
+      "type": "heading",
+      "text": "Industry and location"
+    },
+    {
+      "type": "paragraph",
+      "text": "Common sense applies vis-à-vis accounts purporting to represent people living in certain locations or working in certain industries. If, for example, you work in technology and have no pets and receive a"
+    },
+    {
+      "type": "heading",
+      "text": "LinkedIn connection request from a veterinarian living halfway across"
+    },
+    {
+      "type": "paragraph",
+      "text": "the world whom you have never met, something may be amiss."
+    },
+    {
+      "type": "heading",
+      "text": "Likewise, if you receive a Facebook friend request from someone with"
+    },
+    {
+      "type": "paragraph",
+      "text": "whom you have nothing in common, beware."
+    },
+    {
+      "type": "heading",
+      "text": "Don't assume that any claims made in a profile are necessarily"
+    },
+    {
+      "type": "paragraph",
+      "text": "accurate and that if you share a lot in common, the sender is definitely safe. Someone targeting you may have discerned your interests from information about you that is publicly available online."
+    },
+    {
+      "type": "heading",
+      "text": "Similar people"
+    },
+    {
+      "type": "paragraph",
+      "text": "If you receive multiple requests from people with similar titles or who claim to work for the same company and you don't know the people and aren't actively doing some sort of deal with that company, beware. If those folks don't seem to be connected to anyone else at the company who you know actually works there, consider that a potential red flag as well."
+    },
+    {
+      "type": "heading",
+      "text": "You can always call, text, or email a real contact and ask"
+    },
+    {
+      "type": "paragraph",
+      "text": "whether she sees that person listed in a staff directory."
+    },
+    {
+      "type": "heading",
+      "text": "Duplicate contact"
+    },
+    {
+      "type": "heading",
+      "text": "If you receive a Facebook friend request from a person who is already"
+    },
+    {
+      "type": "paragraph",
+      "text": "your Facebook friend, verify with that party that she is switching accounts. In many cases, such requests come from scammers."
+    },
+    {
+      "type": "heading",
+      "text": "Contact details"
+    },
+    {
+      "type": "paragraph",
+      "text": "Make sure the contact details make sense. Fake people are far less likely than real people to have email addresses at real businesses and rarely have email addresses at major corporations. They're unlikely to have physical addresses that show where they live and work, and, if such addresses are listed, they rarely correspond with actual property records or phone directory information that can easily be checked online."
+    },
+    {
+      "type": "heading",
+      "text": "LinkedIn Premium status"
+    },
+    {
+      "type": "heading",
+      "text": "Because LinkedIn charges for its Premium service, some experts have"
+    },
+    {
+      "type": "paragraph",
+      "text": "suggested that Premium status is a good indicator that an account is real because a criminal is unlikely to pay for an account. While it may be true that most fake accounts don't have Premium status, some crooks do invest in obtaining Premium status in order to make their accounts seem more real. In some cases, they are paying with stolen credit cards, so it doesn't cost them anything anyway. So, remain vigilant even if an account is showing the Premium icon."
+    },
+    {
+      "type": "heading",
+      "text": "LinkedIn endorsements"
+    },
+    {
+      "type": "heading",
+      "text": "Fake people are not going to be endorsed by many real people. And the"
+    },
+    {
+      "type": "paragraph",
+      "text": "endorsers of fake accounts may be other fake accounts that seem suspicious as well."
+    },
+    {
+      "type": "heading",
+      "text": "Group activity"
+    },
+    {
+      "type": "paragraph",
+      "text": "Fake profiles are less likely than real people to be members of closed groups that verify members when they join and are less likely to participate in meaningful discussions in both closed and open groups on"
+    },
+    {
+      "type": "heading",
+      "text": "Facebook or LinkedIn. If they are members of closed groups, those"
+    },
+    {
+      "type": "paragraph",
+      "text": "groups may have been created and managed by scammers and contain other fake profiles as well."
+    },
+    {
+      "type": "heading",
+      "text": "Fake folks may be members of many open groups -- groups that were"
+    },
+    {
+      "type": "paragraph",
+      "text": "joined in order to access member lists and connect with other participants with \"I see we are members of the same group, so let's connect\" type messages."
+    },
+    {
+      "type": "heading",
+      "text": "In any case, keep in mind that on any social platform that has"
+    },
+    {
+      "type": "paragraph",
+      "text": "groups, being members of the same group as someone else is not, in any way, a reason to accept a connection from that person."
+    },
+    {
+      "type": "heading",
+      "text": "Appropriate levels of relative usage"
+    },
+    {
+      "type": "heading",
+      "text": "Real people who use LinkedIn or Facebook heavily enough to have"
+    },
+    {
+      "type": "paragraph",
+      "text": "joined many groups are more likely to have filled out all their profile information. A connection request from a person who is a member of many groups but has little profile information is suspicious."
+    },
+    {
+      "type": "heading",
+      "text": "Likewise, an Instagram account with 20,000 followers but only two"
+    },
+    {
+      "type": "paragraph",
+      "text": "posted photos that seeks to follow your private account is suspicious for the same reason."
+    },
+    {
+      "type": "heading",
+      "text": "Human activities"
+    },
+    {
+      "type": "heading",
+      "text": "Many fake accounts seem to list cliché-sounding information in their"
+    },
+    {
+      "type": "paragraph",
+      "text": "profiles, interests, and work experience sections, but contain few other details that seem to convey a true, real-life human experience. Here are a few signs that things may not be what they seem:"
+    },
+    {
+      "type": "heading",
+      "text": "On LinkedIn, the Recommendations, Volunteering Experience, and"
+    },
+    {
+      "type": "paragraph",
+      "text": "Education sections of a fake person may seem off."
+    },
+    {
+      "type": "heading",
+      "text": "On Facebook, a fake profile may seem to be cookie cutter and the"
+    },
+    {
+      "type": "paragraph",
+      "text": "posts generic enough in nature that millions of people could have made the same post."
+    },
+    {
+      "type": "heading",
+      "text": "On Twitter, they may be retweeting posts from others and never"
+    },
+    {
+      "type": "paragraph",
+      "text": "share their own opinions, comments, or other original material."
+    },
+    {
+      "type": "heading",
+      "text": "On Instagram the photos may be lifted from other accounts or appear"
+    },
+    {
+      "type": "paragraph",
+      "text": "to be stock photos -- sometimes none of which include an image of the actual person who allegedly owns the accounts."
+    },
+    {
+      "type": "heading",
+      "text": "The content within a user's social media profile may provide"
+    },
+    {
+      "type": "paragraph",
+      "text": "terms and phrases that you can search for in Google along with the person's name to help you verify whether the account truly belongs to a human being whose identity the profile alleges to represent."
+    },
+    {
+      "type": "heading",
+      "text": "Likewise, if you perform a Google image search on someone's"
+    },
+    {
+      "type": "paragraph",
+      "text": "Instagram images and see that they belong to other people, something is amiss."
+    },
+    {
+      "type": "heading",
+      "text": "Cliché names"
+    },
+    {
+      "type": "heading",
+      "text": "Some fake profiles seem to use common, flowing American names, such"
+    },
+    {
+      "type": "paragraph",
+      "text": "as Sally Smith, that both sound overly American and make performing a Google search for a particular person far more difficult than doing so would be for someone with an uncommon name. More often than occurs in real life, but certainly not always, bogus profiles seem to use first and last names that start with the same letter. Perhaps, scammers just like the names or, for some reason, find them funny."
+    },
+    {
+      "type": "heading",
+      "text": "Poor contact information"
+    },
+    {
+      "type": "paragraph",
+      "text": "If a social media profile contains absolutely no contact information that can be used to contact the person behind the profile via email, telephone, or on another social platform, beware."
+    },
+    {
+      "type": "heading",
+      "text": "Skill sets"
+    },
+    {
+      "type": "paragraph",
+      "text": "If skill sets don't match someone's work or life experience, beware. Something may seem off when it comes to fake accounts. For example, if someone claims to have graduated with a degree in English from an Ivy League university, but makes serious grammatical errors throughout his profile, something may be amiss."
+    },
+    {
+      "type": "heading",
+      "text": "Likewise, if someone claims to have two PhDs in mathematics, but"
+    },
+    {
+      "type": "paragraph",
+      "text": "claims to be working as a gym teacher, beware."
+    },
+    {
+      "type": "heading",
+      "text": "Spelling"
+    },
+    {
+      "type": "heading",
+      "text": "Spelling errors are common on social media. However, something may"
+    },
+    {
+      "type": "paragraph",
+      "text": "be amiss if someone misspells her own name or the name of an employer, or makes errors of this nature on LinkedIn (a professionally oriented network)."
+    },
+    {
+      "type": "heading",
+      "text": "Suspicious career or life path"
+    },
+    {
+      "type": "heading",
+      "text": "People who seem to have been promoted too often and too fast or who"
+    },
+    {
+      "type": "paragraph",
+      "text": "have held too many disparate senior positions, such as VP of Sales, then CTO, and then General Counsel, may be too good to be true. Of course, real people have moved up the ladder quickly and some folks (including myself) have held a variety of different positions throughout the course of their careers, but scammers often overdo it when crafting the career progression or role diversity data of a bogus profile. People may shift from technical to managerial roles, for example, but it is extremely uncommon for someone to serve as a company's VP of Sales, then as its CTO, and then as its General Counsel -- roles that require different skill sets, educational backgrounds, and potentially, different certifications and licenses."
+    },
+    {
+      "type": "heading",
+      "text": "If you find yourself saying to yourself \"no way\" when looking at"
+    },
+    {
+      "type": "paragraph",
+      "text": "someone's career path, you may be right."
+    },
+    {
+      "type": "heading",
+      "text": "Level or celebrity status"
+    },
+    {
+      "type": "heading",
+      "text": "LinkedIn requests from people at far more senior professional levels"
+    },
+    {
+      "type": "paragraph",
+      "text": "than yourself can be a sign that something is amiss, as can Facebook requests from celebrities and others about whose connection request you're flattered to have received. It is certainly tempting to want to accept such connections (which is, of course, why the people who create fake accounts often create such fake accounts), but think about it: If you just landed your first job out of college, do you really think the CEO of a major bank is suddenly interested in connecting with you out of the blue? Do you really think that Ms. Universe, whom you have never met, suddenly wants to be your friend?"
+    },
+    {
+      "type": "heading",
+      "text": "In the case of Facebook, Instagram, and Twitter, be aware that most"
+    },
+    {
+      "type": "paragraph",
+      "text": "celebrity accounts are verified. If a request comes in from a celebrity, you should be able to quickly discern if the account sending it is the real deal."
+    },
+    {
+      "type": "heading",
+      "text": "Using Bogus Information"
+    },
+    {
+      "type": "heading",
+      "text": "Some experts have suggested that you use bogus information as answers"
+    },
+    {
+      "type": "paragraph",
+      "text": "to common challenge questions. Someone -- especially someone whose mother has a common last name as her maiden name -- may establish a new mother's maiden name to be used for all sites that ask for such information as part of an authentication process. There is truth to the fact that such an approach somewhat helps reduce the risk of social engineering."
+    },
+    {
+      "type": "heading",
+      "text": "What it does even stronger, though, is reveal how poor challenge"
+    },
+    {
+      "type": "paragraph",
+      "text": "questions are as a means of authenticating people. Asking one's mother's maiden name is effectively asking for a password while providing a hint that the password is a last name! Likewise, because in the era of social media and online public records, finding out someone's birthday is relatively simple, some security experts recommend creating a second fake birthday for use online. Some even recommend using a phony birthday on social media, both to help prevent social engineering and make it harder for organizations and individuals to correlate one's social media profile and various public records. While all these recommendations do carry weight, keep in mind that, in theory, there is no end to such logic -- establishing a different phony birthday for every site with which one interacts offers stronger privacy protections than establishing just one phony birthday, for example. In general, however, having one fake birthday, one fake mother's maiden name, and so on is probably worthwhile and doesn't require much additional brainpower and mindshare over using just the real one. Be sure, however, not to mislead any sites where providing accurate information is required by law (for example, when opening a credit card account)."
+    },
+    {
+      "type": "heading",
+      "text": "Using Security Software"
+    },
+    {
+      "type": "paragraph",
+      "text": "Besides providing the value of protecting your computer and your phone from hacking, various security software may reduce your exposure to social engineering attacks. Some software, for example, filters out many phishing attacks, while other software blocks many spam phone calls. While using such software is wise, don't rely on it. There is a danger that if few social engineering attacks make it through your technological defenses, you may be less vigilant when one does reach you -- don't let that happen. While smartphone providers have historically charged for some security features, over time they have seen the value to themselves of keeping their customers secure. Today, basic versions of security software, including technology to reduce spam calls, are often provided at no charge along with smartphone cellular-data service."
+    },
+    {
+      "type": "heading",
+      "text": "General Cyberhygiene Can Help"
+    },
+    {
+      "type": "heading",
+      "text": "Prevent Social Engineering"
+    },
+    {
+      "type": "heading",
+      "text": "Practicing good cyberhygiene in general can also help reduce your"
+    },
+    {
+      "type": "paragraph",
+      "text": "exposure to social engineering. If your children, for example, have access to your computer but you encrypt all your data, have a separate login, and don't provide them with administrator access, your data on the machine may remain safe even if a criminal social engineers his way into your child's account. Likewise, not responding to suspicious emails or providing information to potential scammers who solicit it can help prevent all sorts of social engineering and technical attacks. Part 4"
+    },
+    {
+      "type": "heading",
+      "text": "Cybersecurity for Businesses"
+    },
+    {
+      "type": "paragraph",
+      "text": "and Organizations"
+    },
+    {
+      "type": "heading",
+      "text": "IN THIS PART …"
+    },
+    {
+      "type": "heading",
+      "text": "Find out how securing businesses against cyber-risks is different"
+    },
+    {
+      "type": "paragraph",
+      "text": "than protecting just individuals."
+    },
+    {
+      "type": "heading",
+      "text": "Discover the cybersecurity risks that face small businesses and"
+    },
+    {
+      "type": "paragraph",
+      "text": "ideas for mitigating against them."
+    },
+    {
+      "type": "heading",
+      "text": "Understand how big corporations and government bodies differ"
+    },
+    {
+      "type": "paragraph",
+      "text": "from small businesses when it comes to cybersecurity."
+    }
+  ]
+}

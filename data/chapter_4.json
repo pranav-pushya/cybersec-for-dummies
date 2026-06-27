@@ -1,0 +1,1225 @@
+{
+  "num": 4,
+  "type": "chapter",
+  "title": "Chapter 4: Evaluating Your Current Cybersecurity Posture",
+  "part": "Part 2: Improving Your Own Personal Security",
+  "pages": "92 to 114",
+  "in_this_chapter": [
+    "Discovering why you may not be as cybersecure as you think",
+    "you are Understanding how to protect against risks Evaluating your current security measures Taking a look at privacy Adopting best practices"
+  ],
+  "content": [
+    {
+      "type": "heading",
+      "text": "Evaluating Your Current"
+    },
+    {
+      "type": "heading",
+      "text": "Cybersecurity Posture"
+    },
+    {
+      "type": "paragraph",
+      "text": "IN THIS CHAPTER"
+    },
+    {
+      "type": "heading",
+      "text": "Discovering why you may not be as cybersecure as you think"
+    },
+    {
+      "type": "heading",
+      "text": "Understanding how to protect against risks"
+    },
+    {
+      "type": "heading",
+      "text": "Evaluating your current security measures"
+    },
+    {
+      "type": "heading",
+      "text": "Taking a look at privacy"
+    },
+    {
+      "type": "heading",
+      "text": "Adopting best practices"
+    },
+    {
+      "type": "paragraph",
+      "text": "The first step in improving your protection against cyberthreats is to understand exactly what it is that you need to protect. Only after you have a good grasp on that information can you evaluate what is actually needed to deliver adequate security and determine whether you have any gaps to address. You must consider what data you have, from whom you must protect it, and how sensitive it is to you. What would happen if, for example, it were publicized on the Internet for the world to see? Then you can evaluate how much you're willing to spend -- timewise and moneywise -- on protecting it."
+    },
+    {
+      "type": "heading",
+      "text": "Identifying Ways You May Be Less"
+    },
+    {
+      "type": "paragraph",
+      "text": "than Secure"
+    },
+    {
+      "type": "heading",
+      "text": "You need to understand the various areas in which your current"
+    },
+    {
+      "type": "paragraph",
+      "text": "cybersecurity posture may suffer so that you can figure out how to address the issues and ensure that you're adequately protected. You must inventory all items that could contain sensitive data, become launching pads for attacks, and so on."
+    },
+    {
+      "type": "heading",
+      "text": "Your home computer(s)"
+    },
+    {
+      "type": "heading",
+      "text": "Your home computers may suffer from one or major types of potential"
+    },
+    {
+      "type": "paragraph",
+      "text": "problems relevant to cybersecurity:"
+    },
+    {
+      "type": "heading",
+      "text": "Breached: A hacker may have penetrated your home computer and"
+    },
+    {
+      "type": "paragraph",
+      "text": "be able to use it much as you can -- view its contents, use it to contact other machines, leverage it as a staging ground from which to attack other machines and penetrate them, mine cryptocurrency, view data on your network, and so on."
+    },
+    {
+      "type": "heading",
+      "text": "Malware: Similar to the dangers created by human invaders, a"
+    },
+    {
+      "type": "paragraph",
+      "text": "computer-based attacker -- that is malware -- may be present on your home computer, enabling a criminal to use the computer much as you can -- view the computer's contents, contact other machines, mine cryptocurrency, and so on -- as well as read data from your network traffic and to infect other computers on your network and outside of it."
+    },
+    {
+      "type": "heading",
+      "text": "Shared computers: When you share a computer with other people"
+    },
+    {
+      "type": "paragraph",
+      "text": "-- including your significant other and your children -- you expose your device to the risk that the other folks using it won't practice proper cyber-hygiene to the same level that you do and, as a result, expose the device to infection by malware or a breach by some hacker or unintentionally inflict self-damage."
+    },
+    {
+      "type": "heading",
+      "text": "Connections to other networks and storage applications: If you"
+    },
+    {
+      "type": "paragraph",
+      "text": "connect your computer via a virtual private network (VPN) to other networks, such as the network at your place of employment, network-borne malware on those remote networks or hackers lurking on devices connected to those networks can potentially attack your network and local devices as well. In some cases, similar risks may exist if you run applications that connect your computer to remote services, such as remote storage systems. Physical security risks: As discussed in detail in Chapter 5, the physical location of your computer may endanger it and its contents."
+    },
+    {
+      "type": "heading",
+      "text": "Your mobile devices"
+    },
+    {
+      "type": "paragraph",
+      "text": "From an information security standpoint, mobile devices are inherently risky because they"
+    },
+    {
+      "type": "heading",
+      "text": "Are constantly connected to the insecure Internet"
+    },
+    {
+      "type": "heading",
+      "text": "Often have confidential information stored on them"
+    },
+    {
+      "type": "heading",
+      "text": "Are used to communicate with many people and systems, both of"
+    },
+    {
+      "type": "paragraph",
+      "text": "which are groups that include parties who aren't always trustworthy, via the Internet (which is also inherently not trustworthy)"
+    },
+    {
+      "type": "heading",
+      "text": "Can receive inbound messages from parties with which you have"
+    },
+    {
+      "type": "paragraph",
+      "text": "never interacted prior to receiving the messages in question"
+    },
+    {
+      "type": "heading",
+      "text": "Often don't run full-blown security software due to resource"
+    },
+    {
+      "type": "paragraph",
+      "text": "limitations"
+    },
+    {
+      "type": "heading",
+      "text": "Can easily be lost, stolen, or accidentally damaged or destroyed"
+    },
+    {
+      "type": "heading",
+      "text": "Connect to insecure and untrusted Wi-Fi networks"
+    },
+    {
+      "type": "heading",
+      "text": "Your gaming systems"
+    },
+    {
+      "type": "heading",
+      "text": "Gaming systems are computers and, as computers, can sometimes be"
+    },
+    {
+      "type": "paragraph",
+      "text": "exploited for various nefarious purposes in addition to game-specific mischief. If the devices contain software vulnerabilities, for example, they may be able to be hacked and commandeered, and software other than the gaming system can potentially be run on them."
+    },
+    {
+      "type": "heading",
+      "text": "Your Internet of Things (IoT) devices"
+    },
+    {
+      "type": "paragraph",
+      "text": "As discussed in detail in Chapter 17, the world of the connected computing has changed dramatically in recent years. Not that long ago, the only devices that were connected to the Internet were classic computers -- desktops, laptops, and servers that could be used for many different computing purposes. Today, however, we live in a different world."
+    },
+    {
+      "type": "heading",
+      "text": "From smartphones to security cameras, refrigerators to cars, and"
+    },
+    {
+      "type": "paragraph",
+      "text": "coffeemakers to exercise equipment, electronic devices of all types now have computers embedded within them, and many of these computers are perpetually connected to the Internet. The Internet of Things (IoT), as the ecosystem of connected devices is commonly known, has been growing exponentially over the past few years, yet the security of such devices is often inadequate. Many IoT devices do not contain adequate security technology to secure themselves against breaches. Even those that do are often not properly configured to be secure. Hackers can exploit IoT devices to spy on you, steal your data, hack or launch denial-of-service attacks against other devices, and inflict various other forms of damage."
+    },
+    {
+      "type": "heading",
+      "text": "Your networking equipment"
+    },
+    {
+      "type": "paragraph",
+      "text": "Networking equipment can be hacked to route traffic to bogus sites, capture data, launch attacks, block Internet access, and so on."
+    },
+    {
+      "type": "heading",
+      "text": "Your work environment"
+    },
+    {
+      "type": "heading",
+      "text": "You may have sensitive data in your work environment -- and you can"
+    },
+    {
+      "type": "paragraph",
+      "text": "be put at risk by colleagues at work as well. For example, if you bring any electronic devices to work, connect them to a network at work, and then bring those devices home and connect them to your home network, malware and other problems can potentially spread to your device from a device belonging to your employer or to any one or more of your colleagues using the same infrastructure and then later spread from your device to other machines on your home network."
+    },
+    {
+      "type": "heading",
+      "text": "Social engineering"
+    },
+    {
+      "type": "heading",
+      "text": "Every person in your family and social circle poses risks to you as a"
+    },
+    {
+      "type": "paragraph",
+      "text": "source of information about you that can potentially be exploited for social engineering purposes. I discuss social engineering in detail in Chapter 8."
+    },
+    {
+      "type": "heading",
+      "text": "Identifying Risks"
+    },
+    {
+      "type": "heading",
+      "text": "To secure anything, you must know what it is that you're securing;"
+    },
+    {
+      "type": "paragraph",
+      "text": "securing an environment is difficult, if not impossible, to do if you do not know what is in that environment."
+    },
+    {
+      "type": "heading",
+      "text": "To secure yourself, therefore, you must understanding what assets --"
+    },
+    {
+      "type": "paragraph",
+      "text": "both those that are in digital formats and those in related physical formats -- you have, and what it is that you seek to protect. You must also understand what risks you face to those assets. Inventorying such assets is usually pretty simple for individuals: Make a written list of all devices that you attach to your network."
+    },
+    {
+      "type": "heading",
+      "text": "You can often get a list by logging into your router and looking at"
+    },
+    {
+      "type": "paragraph",
+      "text": "the Connected devices section. Of course, you may have some devices that you connect to your network only occasionally or that must be secured even though they do not attach to your network, so be sure to include those on your list as well. Add to that list -- in a separate section -- all storage devices that you use, including external hard drives, flash drives, and memory cards."
+    },
+    {
+      "type": "heading",
+      "text": "Write or print the list; forgetting even a single device can lead to"
+    },
+    {
+      "type": "heading",
+      "text": "Protecting against Risks"
+    },
+    {
+      "type": "heading",
+      "text": "After you identify what you must protect (see preceding section), you"
+    },
+    {
+      "type": "paragraph",
+      "text": "must develop and implement appropriate safeguards for those items to keep them as secure as appropriate and limit the impact of a potential breach. In the context of home users, protecting includes providing barriers to anyone seeking to access your digital and physical assets without proper authorization to do so, establishing (even informal) processes and procedures to protect your sensitive data, and creating backups of all configurations and basic system restore points."
+    },
+    {
+      "type": "heading",
+      "text": "Basic elements of protection for most individuals include"
+    },
+    {
+      "type": "heading",
+      "text": "Perimeter defense"
+    },
+    {
+      "type": "heading",
+      "text": "Firewall/router"
+    },
+    {
+      "type": "heading",
+      "text": "Security software"
+    },
+    {
+      "type": "heading",
+      "text": "Your physical computer(s)"
+    },
+    {
+      "type": "heading",
+      "text": "Backup"
+    },
+    {
+      "type": "heading",
+      "text": "Perimeter defense"
+    },
+    {
+      "type": "paragraph",
+      "text": "Defending your cyber-perimeter is essentially the digital equivalent of building a moat around a castle -- attempting to stop anyone from entering except through authorized pathways while under the watchful eyes of guards."
+    },
+    {
+      "type": "heading",
+      "text": "You can build that digital moat by never connecting any computer"
+    },
+    {
+      "type": "paragraph",
+      "text": "directly to your Internet modem. Instead connect a firewall/router to the modem and connect computers to the firewall/router. (If your modem contains a firewall/router, then it serves both purposes; if your connection is to the firewall/router portion, not to the modem itself, that is okay.) Normally, the connections between firewalls and modems are wired -- that is, are achieved using a physical network cable."
+    },
+    {
+      "type": "heading",
+      "text": "Firewall/router"
+    },
+    {
+      "type": "heading",
+      "text": "Modern routers used in home environments include firewalling"
+    },
+    {
+      "type": "paragraph",
+      "text": "capabilities that block most forms of inbound traffic when such traffic isn't generated as the result of activities initiated by devices protected by the firewall. That is, a firewall will block outsiders from trying to contact a computer inside your home, but it will not block a web server from responding if a computer inside your home requests a web page from the server. Routers use multiple technologies to achieve such protection. One important technology of note is Network Address Translation, which allows computers on your home network to use Internet Protocol (IP) addresses that are invalid for use on the Internet and can be used only on private networks. To the Internet, all the devices appear to use one address, which is that of the firewall. The following recommendations help your router/firewall protect you:"
+    },
+    {
+      "type": "heading",
+      "text": "Keep your router up to date. Make sure to install all updates before"
+    },
+    {
+      "type": "paragraph",
+      "text": "initially putting your router into use and regularly check for new updates (unless your router has an auto-update feature, in which case you should leverage that feature)."
+    },
+    {
+      "type": "heading",
+      "text": "An unpatched vulnerability in your router can allow"
+    },
+    {
+      "type": "paragraph",
+      "text": "outsiders to enter your network."
+    },
+    {
+      "type": "heading",
+      "text": "Change the default administrative password on your"
+    },
+    {
+      "type": "paragraph",
+      "text": "firewall/router to a strong password that only you know. Write it down and put the paper in a safe or safe deposit box. Practice logging into the router -- and continue doing so on a regular basis so that you do not forget the password."
+    },
+    {
+      "type": "heading",
+      "text": "Don't use the default name provided by your router for your Wi-"
+    },
+    {
+      "type": "paragraph",
+      "text": "Fi network name (its SSID). Create a new name."
+    },
+    {
+      "type": "heading",
+      "text": "Configure your Wi-Fi network to use encryption of at least the"
+    },
+    {
+      "type": "heading",
+      "text": "WPA2 standard. This is the current standard at the time of the"
+    },
+    {
+      "type": "paragraph",
+      "text": "writing of this book."
+    },
+    {
+      "type": "heading",
+      "text": "Establish a password that any device is required to know to join"
+    },
+    {
+      "type": "paragraph",
+      "text": "your Wi-Fi network. Make that password a strong one. For information on creating strong passwords that you can easily remember, see Chapter 7."
+    },
+    {
+      "type": "heading",
+      "text": "If all your wireless devices know how to use the modern 802.11ac"
+    },
+    {
+      "type": "paragraph",
+      "text": "and 802.11n wireless networking protocols, disable older Wi-Fi protocols that your router supports -- for example, 802.11b and 802.11g."
+    },
+    {
+      "type": "heading",
+      "text": "Enable MAC address filtering or make sure that all members of"
+    },
+    {
+      "type": "paragraph",
+      "text": "your household know that nobody is to connect anything to the wired network without your permission. At least in theory, MAC address filtering prevents any device from connecting to the network if you do not previously configure the router to allow it to connect -- do not allow people to connect insecure devices to the network without first securing them."
+    },
+    {
+      "type": "heading",
+      "text": "Locate your wireless router centrally within your home. Doing so"
+    },
+    {
+      "type": "paragraph",
+      "text": "will provide better signal for you and will also reduce the strength of the signal that you provide to people outside your home who may be seeking to piggyback onto your network."
+    },
+    {
+      "type": "heading",
+      "text": "Do not enable remote access to your router. You want the router to"
+    },
+    {
+      "type": "paragraph",
+      "text": "be manageable only via connections from devices that it is protecting, not from the outside world. The convenience of remote management of a home firewall is rarely worth the increase in security risk created by enabling such a feature. Maintain a current list of devices connected to your network. Also include devices that you allow to connect to your network."
+    },
+    {
+      "type": "heading",
+      "text": "For any guests for whom you want to give network access, turn"
+    },
+    {
+      "type": "paragraph",
+      "text": "on the guest network capability of the router and, as with the private network, activate encryption and require strong password. Give guests access to that guest network and not to your primary network. The same applies for anyone else to whom you must give Internet access but whose security you do not fully trust, including family members, such as children."
+    },
+    {
+      "type": "heading",
+      "text": "If you're sufficiently technically knowledgeable to turn off"
+    },
+    {
+      "type": "heading",
+      "text": "DHCP and change the default IP address range used by the"
+    },
+    {
+      "type": "paragraph",
+      "text": "router for the internal network, do so. Doing so interferes with some automated hacking tools and provides other security benefits."
+    },
+    {
+      "type": "heading",
+      "text": "If you're not familiar with such concepts or don't have a clue what"
+    },
+    {
+      "type": "paragraph",
+      "text": "the aforementioned sentence means, simply ignore this paragraph. In this case, the security benefits of the recommendation are likely going to be outweighed by the problems that you may encounter due to the additional technical complexity that turning off DHCP and changing the default IP address range can create."
+    },
+    {
+      "type": "heading",
+      "text": "Security software"
+    },
+    {
+      "type": "paragraph",
+      "text": "How should you use security software to protect yourself?"
+    },
+    {
+      "type": "heading",
+      "text": "Use security software on all your computers and mobile devices. The"
+    },
+    {
+      "type": "paragraph",
+      "text": "software should contain at least antivirus and personal device firewall capabilities. Use antispam software on any device on which you read email. Enable remote wipe on any and every mobile device."
+    },
+    {
+      "type": "heading",
+      "text": "Require a strong password to log in to any computer and mobile"
+    },
+    {
+      "type": "heading",
+      "text": "Enable auto-updates whenever possible and keep your devices"
+    },
+    {
+      "type": "heading",
+      "text": "Your physical computer(s)"
+    },
+    {
+      "type": "paragraph",
+      "text": "To physically secure your computers:"
+    },
+    {
+      "type": "heading",
+      "text": "Control physical access to your computer and keep it in a safe"
+    },
+    {
+      "type": "paragraph",
+      "text": "location. If anyone entering your home can get to a machine, for example, that device can be relatively easily stolen, used, or damaged without your knowledge."
+    },
+    {
+      "type": "heading",
+      "text": "If possible, do not share your computer with family members. If"
+    },
+    {
+      "type": "paragraph",
+      "text": "you must share your computer, create separate accounts for each family member and do not give any other users of the device administrative privileges on it. Do not rely on deleting data before throwing out, recycling, donating, or selling an old device. Use a multiwipe erasure system for all hard drives and solid state drives. Ideally, remove the storage media from the computer before getting rid of the device -- and physically destroy the storage media."
+    },
+    {
+      "type": "heading",
+      "text": "Backup"
+    },
+    {
+      "type": "paragraph",
+      "text": "Back up regularly. For more on backups, see Chapter 13."
+    },
+    {
+      "type": "heading",
+      "text": "Detecting"
+    },
+    {
+      "type": "heading",
+      "text": "Detecting refers to implementing mechanisms by which you can detect"
+    },
+    {
+      "type": "paragraph",
+      "text": "cybersecurity events as quickly as possible after they commence. While most home users do not have the budget to purchase specialized products for the purpose of detection, that does not mean that the detection phase of security should be ignored."
+    },
+    {
+      "type": "heading",
+      "text": "Today, most personal computer security software has detection"
+    },
+    {
+      "type": "paragraph",
+      "text": "capabilities of various types. Make sure that every device that you manage has security software on it that looks for possible intrusions, for example, and see Chapter 11 for more details on detecting possible breaches."
+    },
+    {
+      "type": "heading",
+      "text": "Responding"
+    },
+    {
+      "type": "paragraph",
+      "text": "Responding refers to acting in response to a cybersecurity incident. Most security software will automatically prompt users to act if they detect potential problems. For more on responding, see Chapter 12."
+    },
+    {
+      "type": "heading",
+      "text": "Recovering"
+    },
+    {
+      "type": "paragraph",
+      "text": "Recovering refers to restoring an impacted computer, network, or device -- and all of its relevant capabilities -- to its fully functioning, proper state after a cybersecurity event occurs. See Chapters 12, 14, and 15 for more on recovering."
+    },
+    {
+      "type": "heading",
+      "text": "Ideally, a formal, prioritized plan for how to recover should be"
+    },
+    {
+      "type": "paragraph",
+      "text": "documented before it is needed. Most home users do not actually create one, but doing so can be extremely beneficial. In most home cases, such a plan will be less than one page long."
+    },
+    {
+      "type": "heading",
+      "text": "Improving"
+    },
+    {
+      "type": "paragraph",
+      "text": "Shame on anyone who does not learn from his or her own mistakes. Every cybersecurity incident offers lessons learned that can be put into action to reduce risk in the future. For examples of learning from mistakes, see Chapter 19."
+    },
+    {
+      "type": "heading",
+      "text": "Evaluating Your Current Security"
+    },
+    {
+      "type": "heading",
+      "text": "Measures"
+    },
+    {
+      "type": "paragraph",
+      "text": "After you know what you need to protect and how to protect such items, you can determine the difference between what you need and what you currently have in place."
+    },
+    {
+      "type": "heading",
+      "text": "The following sections cover some things to consider. Not all of the"
+    },
+    {
+      "type": "paragraph",
+      "text": "following apply in every case:"
+    },
+    {
+      "type": "heading",
+      "text": "Software"
+    },
+    {
+      "type": "paragraph",
+      "text": "When it comes to software and cybersecurity, think about the following questions for each device:"
+    },
+    {
+      "type": "heading",
+      "text": "Are all the software packages (including the operating system itself)"
+    },
+    {
+      "type": "paragraph",
+      "text": "on your computer legally obtained -- and known to be legitimate versions?"
+    },
+    {
+      "type": "heading",
+      "text": "Are all the software packages (including the operating system itself)"
+    },
+    {
+      "type": "paragraph",
+      "text": "currently supported by their respective vendors?"
+    },
+    {
+      "type": "heading",
+      "text": "Are all the software packages (including the operating system itself)"
+    },
+    {
+      "type": "paragraph",
+      "text": "up-to-date?"
+    },
+    {
+      "type": "heading",
+      "text": "Are all the software packages (including the operating system itself)"
+    },
+    {
+      "type": "paragraph",
+      "text": "set to automatically update? Is security software on the device? Is the security software configured to auto-update? Is the security software up-to-date?"
+    },
+    {
+      "type": "heading",
+      "text": "Does the security software include antimalware technology -- and is"
+    },
+    {
+      "type": "paragraph",
+      "text": "that capability fully enabled? Are virus scans configured to run after every update is applied?"
+    },
+    {
+      "type": "heading",
+      "text": "Does the software include firewall technology -- and is that"
+    },
+    {
+      "type": "paragraph",
+      "text": "capability fully enabled?"
+    },
+    {
+      "type": "heading",
+      "text": "Does the software include antispam technology -- and is that"
+    },
+    {
+      "type": "paragraph",
+      "text": "capability fully enabled? If not, is other antispam software present, and is it running?"
+    },
+    {
+      "type": "heading",
+      "text": "Does the software include remote lock and/or remote wipe"
+    },
+    {
+      "type": "paragraph",
+      "text": "technology -- and is that capability fully enabled? If not, is other remote lock/remote wipe software present, and is it running? Are all other aspects of the software enabled? If not, what is not?"
+    },
+    {
+      "type": "heading",
+      "text": "Is backup software running that will back up the device as part of a"
+    },
+    {
+      "type": "paragraph",
+      "text": "backup strategy?"
+    },
+    {
+      "type": "heading",
+      "text": "Is encryption enabled for at least all sensitive data stored on the"
+    },
+    {
+      "type": "heading",
+      "text": "Are permissions properly set for the software -- locking out people"
+    },
+    {
+      "type": "paragraph",
+      "text": "who may have access to the device, but who should not have access to the software?"
+    },
+    {
+      "type": "heading",
+      "text": "Have permissions been set to prevent software from making changes"
+    },
+    {
+      "type": "paragraph",
+      "text": "to the computer that you may not want done (for example, is any software running with administrator privileges when it should not be)? Of course, all these questions refer to software on a device that you use, but that you don't expose to use by untrusted, remote outsiders. If you have devices that are used as in the latter case -- for example, a web server -- you must address many other security issues, which are beyond the scope of this book."
+    },
+    {
+      "type": "heading",
+      "text": "Hardware"
+    },
+    {
+      "type": "paragraph",
+      "text": "For all your hardware devices, consider the following questions:"
+    },
+    {
+      "type": "heading",
+      "text": "Was the hardware obtained from a trusted party? (If you bought an"
+    },
+    {
+      "type": "heading",
+      "text": "IP-based camera directly from China via some online retailer than"
+    },
+    {
+      "type": "paragraph",
+      "text": "you never of heard of prior to making the purchase, for example, the answer to this question may not be yes.)"
+    },
+    {
+      "type": "heading",
+      "text": "Is all your hardware adequately protected from theft and damage"
+    },
+    {
+      "type": "paragraph",
+      "text": "(rain, electrical spikes, and so on) as it resides in its home location? What protects your hardware when it travels?"
+    },
+    {
+      "type": "heading",
+      "text": "Do you have an uninterruptible power supply or built-in battery"
+    },
+    {
+      "type": "paragraph",
+      "text": "protecting the device from a hard, sudden shut-off if power fails even momentarily?"
+    },
+    {
+      "type": "heading",
+      "text": "Is all your hardware running the latest firmware -- and did you"
+    },
+    {
+      "type": "paragraph",
+      "text": "download that firmware from a reliable source, such as the vendor's website or via an update initiated from within the device's configuration tool? For routers (and firewalls), does your device meet the criteria listed as recommendations in the \"Firewall/router\" section earlier in this chapter?"
+    },
+    {
+      "type": "heading",
+      "text": "Do you have a BIOS password, locking a device from use until a"
+    },
+    {
+      "type": "paragraph",
+      "text": "password is entered?"
+    },
+    {
+      "type": "heading",
+      "text": "Have you disabled all wireless protocols that you do not need? If"
+    },
+    {
+      "type": "paragraph",
+      "text": "you're not using Bluetooth on a laptop, for example, turn off the"
+    },
+    {
+      "type": "heading",
+      "text": "Bluetooth radio, which not only improves security, but also helps"
+    },
+    {
+      "type": "paragraph",
+      "text": "your battery last longer."
+    },
+    {
+      "type": "heading",
+      "text": "Insurance"
+    },
+    {
+      "type": "paragraph",
+      "text": "While cybersecurity insurance is often overlooked, especially by smaller businesses and individuals, it is a viable way of mitigating some cyber- risks. Depending on the particulars of your situation, purchasing a policy protecting against specific risks may make sense. If you own a small business that may go bankrupt if a breach occurs, you will, of course, want to implement strong security. But, as no security is 100 percent perfect and foolproof, purchasing a policy to cover catastrophic situations may be wise."
+    },
+    {
+      "type": "heading",
+      "text": "Education"
+    },
+    {
+      "type": "heading",
+      "text": "A little bit of education can go a long way in helping to prevent the"
+    },
+    {
+      "type": "paragraph",
+      "text": "people in your household from becoming the Achilles' heels of your cybersecurity. The following list covers some things to think about and discuss:"
+    },
+    {
+      "type": "heading",
+      "text": "Do all you family members know what their rights and"
+    },
+    {
+      "type": "paragraph",
+      "text": "responsibilities are regarding vis-à-vis technology in the house, vis- à-vis connecting devices to the home network, and vis-à-vis allowing guest to connect to the home network (or the guest network)?"
+    },
+    {
+      "type": "heading",
+      "text": "Have you taught your family members about the risks they need to"
+    },
+    {
+      "type": "paragraph",
+      "text": "be aware -- for example, phishing emails. Do you have confidence that they \"get it\"?"
+    },
+    {
+      "type": "heading",
+      "text": "Have you ensured that everyone in the family who uses devices"
+    },
+    {
+      "type": "paragraph",
+      "text": "knows about cybersecurity hygiene (for example, not clicking on links in emails)?"
+    },
+    {
+      "type": "heading",
+      "text": "Have you ensured that everyone in the family who uses devices"
+    },
+    {
+      "type": "paragraph",
+      "text": "knows about password selection and protection?"
+    },
+    {
+      "type": "heading",
+      "text": "Have you ensured that everyone in the family who uses social media"
+    },
+    {
+      "type": "paragraph",
+      "text": "knows about what can and can't be safely shared?"
+    },
+    {
+      "type": "heading",
+      "text": "Have you ensured that everyone in the family understand the concept"
+    },
+    {
+      "type": "paragraph",
+      "text": "on thinking before acting?"
+    },
+    {
+      "type": "heading",
+      "text": "Privacy 101"
+    },
+    {
+      "type": "heading",
+      "text": "Technology threatens personal privacy in many ways: Ubiquitous"
+    },
+    {
+      "type": "paragraph",
+      "text": "cameras watch you on a regular basis, technology companies track your online behaviors via all sorts of technical methods, and mobile devices track your location. While technology has certainly made the task of maintaining privacy far more challenging than doing so was just a few years ago, privacy is not dead. You can do many things to improve your level of privacy, even in the modern, connected era."
+    },
+    {
+      "type": "heading",
+      "text": "Think before you share"
+    },
+    {
+      "type": "paragraph",
+      "text": "People often willingly overshare information when asked for it. Consider the paperwork that the typical doctor's office, which you have likely been asked to complete at more than one facility at your initial appointment with the doctor in question. While the answers to many of the questions are relevant and may contain information that is valuable for the doctor to know to properly evaluate and treat you, other portions are probably not. Many (if not most) such forms ask patients for their"
+    },
+    {
+      "type": "heading",
+      "text": "Social Security numbers. Such information was needed decades ago"
+    },
+    {
+      "type": "paragraph",
+      "text": "when medical insurance companies typically used Social Security numbers as insurance ID numbers, but that practice has long since ended. Perhaps some facilities use the Social Security number to report your account to credit bureaus if you don't pay your bills, but, in most cases, the reality is that the question is a vestige of the past, and you can leave the field blank."
+    },
+    {
+      "type": "heading",
+      "text": "Even if you don't believe that a party asking you for personal"
+    },
+    {
+      "type": "paragraph",
+      "text": "data would ever abuse the information that it collected about you, as the number of parties that have private information about you increases, and as the quantity and quality of that data grows, the odds that you will suffer a privacy violation due to a data breach go up. If you want to improve your privacy, the first thing to do is to consider what information you may be disclosing about yourself and your loved ones before you disclose it. This is true when interacting with government agencies, corporations, medical facilities, and other individuals. If you do not need to provide private information, don't."
+    },
+    {
+      "type": "heading",
+      "text": "Think before you post"
+    },
+    {
+      "type": "paragraph",
+      "text": "Consider the implications of any social media post before making it -- there could be adverse consequences of many sorts, including effectively compromising the privacy of information. For example, criminals can leverage shared information about a person's family relationships, place of employment, and interests as part of identity theft and to social engineer their way into your accounts."
+    },
+    {
+      "type": "heading",
+      "text": "If, by choice or due to the negligent policies of a provider, you"
+    },
+    {
+      "type": "paragraph",
+      "text": "use your mother's maiden name as a de facto password, make sure that you do not make it easy for criminals to find out that name by listing your mother as your mother on Facebook or by being friends on Facebook with many cousins whose last name is the same as your mother's maiden name. Often, people can obtain someone's mother's maiden name simply by selecting from another person's"
+    },
+    {
+      "type": "heading",
+      "text": "Facebook friends list the most common last name that is not the"
+    },
+    {
+      "type": "paragraph",
+      "text": "same as the account holder's name."
+    },
+    {
+      "type": "heading",
+      "text": "Sharing information about a person's children and their schedules may"
+    },
+    {
+      "type": "paragraph",
+      "text": "help facilitate all sorts of problems -- including potentially kidnapping, break-ins into the person's home while he is carpooling to work, or other harmful actions. Sharing information related to medical activities may lead to disclosure of sensitive and private information. For example, photographs or location data placing a person at a particular medical facility may divulge that the person suffers from a condition that the facility is known to specialize in treating."
+    },
+    {
+      "type": "heading",
+      "text": "Sharing various types of information or images may impact a user's"
+    },
+    {
+      "type": "paragraph",
+      "text": "personal relationships and leak private information about such."
+    },
+    {
+      "type": "heading",
+      "text": "Sharing information or images may leak private information about"
+    },
+    {
+      "type": "paragraph",
+      "text": "potentially controversial activities in which a person has engaged -- for example, consuming alcohol or using recreational drugs, using various weapons, participating in certain controversial organizations, and so on. Even disclosing that one was at a particular location at a certain time may inadvertently compromise the privacy of sensitive information."
+    },
+    {
+      "type": "heading",
+      "text": "Also, keep in mind that the problem of oversharing is not limited"
+    },
+    {
+      "type": "paragraph",
+      "text": "to social networks. Oversharing information via chat, email, group chats, and so on is a serious modern day problem as well."
+    },
+    {
+      "type": "heading",
+      "text": "Sometimes people do not realize that they are oversharing, and"
+    },
+    {
+      "type": "paragraph",
+      "text": "sometimes they accidentally paste the wrong data into emails or attach the wrong files to emails."
+    },
+    {
+      "type": "heading",
+      "text": "General privacy tips"
+    },
+    {
+      "type": "paragraph",
+      "text": "In addition to thinking before you share, you can do a few other things to reduce your exposure to risks of oversharing:"
+    },
+    {
+      "type": "heading",
+      "text": "Use social media privacy settings. In addition to not sharing private"
+    },
+    {
+      "type": "paragraph",
+      "text": "information (see preceding section), make sure that your privacy settings on social media are set to protect your data from viewing by members of the public -- unless the post in question is intended for public consumption."
+    },
+    {
+      "type": "heading",
+      "text": "But do not rely on them. Nonetheless, never rely on social media"
+    },
+    {
+      "type": "paragraph",
+      "text": "security settings to ensure the privacy of information. Significant vulnerabilities that undermine the effectiveness of various platforms' security controls have been repetitively discovered. Keep private data out of the cloud unless you encrypt the data. Never store private information in the cloud unless you encrypt it."
+    },
+    {
+      "type": "heading",
+      "text": "Do not rely on the encryption provided by the cloud provider to"
+    },
+    {
+      "type": "paragraph",
+      "text": "ensure your privacy. If the provider is breached, in some cases the encryption can be undermined as well."
+    },
+    {
+      "type": "heading",
+      "text": "Do not store private information in cloud applications designed"
+    },
+    {
+      "type": "paragraph",
+      "text": "for sharing and collaboration. For example, do not store a list of your passwords, photos of your driver's license or passport, or confidential medical information in a Google doc. This may seem obvious, but many people do so anyway."
+    },
+    {
+      "type": "heading",
+      "text": "Leverage the privacy settings of a browser -- or better yet, use"
+    },
+    {
+      "type": "heading",
+      "text": "Tor. If you're using the a web browser to access material that you"
+    },
+    {
+      "type": "paragraph",
+      "text": "don't want associated with you, at a minimum, turn on"
+    },
+    {
+      "type": "heading",
+      "text": "Private/Incognito Mode (which offers only partial protection), or, if"
+    },
+    {
+      "type": "paragraph",
+      "text": "possible, use a web browser like the Tor Browser Bundle (which contains obfuscated routing, default strong privacy settings, and various, preconfigured, privacy add-ons)."
+    },
+    {
+      "type": "heading",
+      "text": "If you do not take precautions when using a browser, you may be"
+    },
+    {
+      "type": "paragraph",
+      "text": "tracked. If you search for detailed information on a medical condition in a normal browser window, various parties will likely capitalize on that data. You have probably seen the effects of such tracking -- for example, when ads appear on one web page related to something that you searched for on another."
+    },
+    {
+      "type": "heading",
+      "text": "Do not publicize your real cellphone number. Get a forwarding"
+    },
+    {
+      "type": "paragraph",
+      "text": "number from a service like Google Voice and, in general, give out that number rather than your actual cellphone number. Doing so helps protect against many risks -- SIM swapping, spam, and so on."
+    },
+    {
+      "type": "heading",
+      "text": "Store private materials offline. Ideally, store highly sensitive"
+    },
+    {
+      "type": "paragraph",
+      "text": "materials offline, such as in a fireproof safe or in a bank safe deposit box. If you must store them electronically, store them on a computer with no network connection. Encrypt all private information, such as documents, images, videos, and so on. If you're not sure if something should be encrypted, it probably should."
+    },
+    {
+      "type": "heading",
+      "text": "If you use online chat, use end-to-end encryption. Assume that all"
+    },
+    {
+      "type": "paragraph",
+      "text": "your text messages sent via regular cellphone service (SMS messages) can potentially be read by outsiders. Ideally, do not share sensitive information in writing. If you must share some sensitive item in writing, encrypt the data."
+    },
+    {
+      "type": "heading",
+      "text": "The simplest way to encrypt data is to use a chat application"
+    },
+    {
+      "type": "paragraph",
+      "text": "that offers end-to-end encryption. End-to-end means that the messages are encrypted on your device and decrypted on the recipient's device and vice versa -- with the provider effectively unable to decrypt the messages; as such, it takes far more effort by hackers who breach the provider's servers to read your messages if end-to-end encryption is utilized. (Sometimes, providers claim that hackers can't read such messages altogether, which isn't correct. for two reasons: 1. Hackers may be able to see the metadata -- for example, with whom you chatted and when you did so, and 2. If hackers breach enough internal servers, they may be able to upload to the app store a poisoned version of the app containing a backdoor of some sort.) WhatsApp is probably the most popular chat application that uses end-to-end encryption."
+    },
+    {
+      "type": "heading",
+      "text": "Practice proper cyberhygiene. Because so much of the information"
+    },
+    {
+      "type": "paragraph",
+      "text": "that you want to keep private is stored in electronic form, practicing proper cyber-hygiene is critical to preserving privacy. See the tips in Chapter 18."
+    },
+    {
+      "type": "heading",
+      "text": "TURNING ON PRIVACY MODE"
+    },
+    {
+      "type": "paragraph",
+      "text": "To turn on privacy mode: Google Chrome: Control + Shift-N or choose New incognito window from the menu Firefox: Control + Shift + P or choose New private window from the menu"
+    },
+    {
+      "type": "heading",
+      "text": "Opera: Control + Shift + N or choose New private window from the menu"
+    },
+    {
+      "type": "paragraph",
+      "text": "Microsoft Edge: Control + Shift + P or choose New inprivate window from the menu Vivaldi: Control + Shift + N or choose New private window from the menu Safari: Command + Shift + N or choose New private window from the File menu"
+    },
+    {
+      "type": "heading",
+      "text": "Banking Online Safely"
+    },
+    {
+      "type": "paragraph",
+      "text": "Eschewing online banking due to the security concerns that it creates is simply not practical for most people living in the modern age. Fortunately, you don't have to give up the relevant conveniences to stay secure. In fact, I'm keenly aware of the risks involved because I have been banking online since online banking was first offered by several major financial institutions in the mid-1990s as a replacement for direct- dial-up banking services. Here are some suggestions of what you can do to improve your security as you bank online:"
+    },
+    {
+      "type": "heading",
+      "text": "Your online banking password should be strong, unique, and"
+    },
+    {
+      "type": "paragraph",
+      "text": "committed to memory -- not stored in a database, password manager, or anywhere else electronic. (If you want to write it down and keep the paper in a safe deposit box, that is okay -- but rarely necessary.)"
+    },
+    {
+      "type": "heading",
+      "text": "Choose a random Personal Identification Number (PIN) for your"
+    },
+    {
+      "type": "heading",
+      "text": "ATM card and/or phone identification. The PIN should be"
+    },
+    {
+      "type": "paragraph",
+      "text": "unrelated to any information that you know. Don't use a PIN that you have used for some other purpose and don't establish any PINs or passwords based on the one you chose for your ATM card. Never write down your PIN. Never add it to any computer file. Never tell your PIN to anyone, including bank employees."
+    },
+    {
+      "type": "heading",
+      "text": "Consider asking your bank for an ATM card that can't be used"
+    },
+    {
+      "type": "paragraph",
+      "text": "as a debit card. While such cards may lack the ability to be used to buy goods and services, if you make your purchases using credit cards, you don't need the purchase feature on your ATM card. By preventing the card from being used as a debit card, you make it more likely that only someone who knows your PIN number can take money out of your account. Perhaps equally as important is that \"crippled\" ATM cards can also not be used by crooks to make fraudulent purchases."
+    },
+    {
+      "type": "heading",
+      "text": "If your debit card is used fraudulently, you're out money and"
+    },
+    {
+      "type": "paragraph",
+      "text": "need to get it back. If your credit card is used fraudulently, you're not out any money unless an investigation reveals that you were the one doing the defrauding."
+    },
+    {
+      "type": "heading",
+      "text": "Log in to online banking only from trusted devices that you"
+    },
+    {
+      "type": "paragraph",
+      "text": "control, that have security software on them, and that are kept up to date."
+    },
+    {
+      "type": "heading",
+      "text": "Log in to online banking only from secure networks that you"
+    },
+    {
+      "type": "paragraph",
+      "text": "trust. If you're on the road, use your cellular provider's connection, not public Wi-Fi."
+    },
+    {
+      "type": "heading",
+      "text": "Log in to online banking using a web browser or the official app"
+    },
+    {
+      "type": "paragraph",
+      "text": "of the bank. Never log in from a third-party app or an app obtained from anywhere other than the official app store for your device's platform."
+    },
+    {
+      "type": "heading",
+      "text": "Sign up for alerts from your bank. You should configure to be"
+    },
+    {
+      "type": "paragraph",
+      "text": "alerted by text message and/or email any time a new payee is added, a withdrawal is made, and so on."
+    },
+    {
+      "type": "heading",
+      "text": "Use multifactor authentication and protect any device used for"
+    },
+    {
+      "type": "paragraph",
+      "text": "such authentication. If you generate one-time passwords on your phone, for example, and your phone is stolen, your second factor becomes (at least temporarily) usable by the crook and not by you."
+    },
+    {
+      "type": "heading",
+      "text": "Do not allow your browser to store your online banking"
+    },
+    {
+      "type": "paragraph",
+      "text": "password. Your online banking password should not be written down anywhere -- certainly not in a system that will enter it on behalf of someone using a web browser."
+    },
+    {
+      "type": "heading",
+      "text": "Enter the URL of your bank every time you visit the bank on the"
+    },
+    {
+      "type": "paragraph",
+      "text": "web. Never click links to it."
+    },
+    {
+      "type": "heading",
+      "text": "Ideally, use a separate computer for online banking than you use"
+    },
+    {
+      "type": "paragraph",
+      "text": "for online shopping, email access, and social media. If that isn't possible or practical, use a different web browser -- and be sure to keep that browser up to date."
+    },
+    {
+      "type": "heading",
+      "text": "As an extra precaution, you can configure your browser to"
+    },
+    {
+      "type": "paragraph",
+      "text": "remember the wrong password to a site so that if someone ever does get into your laptop or phone, he or she will be less likely to successfully log into that site using your credentials. Make sure to secure any devices from which you bank online."
+    },
+    {
+      "type": "heading",
+      "text": "That includes physically securing them (don't leave them on a table"
+    },
+    {
+      "type": "paragraph",
+      "text": "in a restaurant while going to the restroom), requiring a password to unlock them, and enabling remote wipe. Monitor your account for unauthorized activity."
+    },
+    {
+      "type": "heading",
+      "text": "Safely Using Smart Devices"
+    },
+    {
+      "type": "paragraph",
+      "text": "As I discuss in detail in Chapter 17, smart devices and the so-called Internet of Things create all sorts of cybersecurity risks. Here are some recommendations as to how to improve your security as you use such devices:"
+    },
+    {
+      "type": "heading",
+      "text": "Make sure that none of your IoT devices create security risks in"
+    },
+    {
+      "type": "paragraph",
+      "text": "the event of a failure. Never create a situation in which a smart lock prevents you from leaving a room during a fire, for example, or lets robbers into your house during a power outage or network failure."
+    },
+    {
+      "type": "heading",
+      "text": "If possible, run your IoT devices on a separate network than"
+    },
+    {
+      "type": "paragraph",
+      "text": "your computers. The IoT network should have a firewall protecting it."
+    },
+    {
+      "type": "heading",
+      "text": "Keep all IoT devices up to date. Hackers have exploited"
+    },
+    {
+      "type": "paragraph",
+      "text": "vulnerabilities in IoT devices to commandeer the devices and use them to carry out major attacks. If a device has a firmware auto- update capability, consider enabling it. Keep a full, current list of all devices connected to your network."
+    },
+    {
+      "type": "heading",
+      "text": "Also keep a list of all devices that are not currently connected but"
+    },
+    {
+      "type": "paragraph",
+      "text": "that are authorized to connect and sometimes do connect."
+    },
+    {
+      "type": "heading",
+      "text": "If possible, disconnect devices when you're not using them. If a"
+    },
+    {
+      "type": "paragraph",
+      "text": "device is offline, it is obviously not hackable by anyone not physically present at the device."
+    },
+    {
+      "type": "heading",
+      "text": "Password-protect all devices. Never maintain the default passwords"
+    },
+    {
+      "type": "paragraph",
+      "text": "that come with the devices. Each device should have a unique login and password."
+    },
+    {
+      "type": "heading",
+      "text": "Check your devices' settings. Many devices come with default"
+    },
+    {
+      "type": "paragraph",
+      "text": "setting values that are terrible from a security perspective."
+    },
+    {
+      "type": "heading",
+      "text": "Keep your smartphone physically and digitally secure. It likely"
+    },
+    {
+      "type": "paragraph",
+      "text": "runs apps with access to some or all of your devices,"
+    },
+    {
+      "type": "heading",
+      "text": "If possible, disable device features that you do not need. Doing so"
+    },
+    {
+      "type": "paragraph",
+      "text": "reduces the relevant attack surface -- that is, it reduces the number of potential points at which an unauthorized user can attempt to hack into the device -- and simultaneously lowers the chances of the device exposing an exploitable software vulnerability."
+    },
+    {
+      "type": "heading",
+      "text": "Universal Plug and Play simplifies device setup, but it also makes it"
+    },
+    {
+      "type": "paragraph",
+      "text": "easier for hackers to discover devices and attack them for many reasons, including that many implementations of UPnP contain vulnerabilities, UPnP can sometimes allow malware to bypass firewall security routines, and UPnP can sometimes be exploited by hackers to run commands on routers. Do not connect your IoT devices to untrusted networks."
+    }
+  ]
+}

@@ -1,0 +1,776 @@
+{
+  "num": 16,
+  "type": "chapter",
+  "title": "Chapter 16: Pursuing a Cybersecurity Career",
+  "part": "Part 7: Looking toward the Future",
+  "pages": "366 to 382",
+  "in_this_chapter": [
+    "Discovering various cybersecurity-related positions Looking at cybersecurity career paths Understanding cybersecurity certifications Finding out how to get started"
+  ],
+  "content": [
+    {
+      "type": "heading",
+      "text": "Pursuing a Cybersecurity"
+    },
+    {
+      "type": "heading",
+      "text": "Career"
+    },
+    {
+      "type": "paragraph",
+      "text": "IN THIS CHAPTER"
+    },
+    {
+      "type": "heading",
+      "text": "Discovering various cybersecurity-related positions"
+    },
+    {
+      "type": "heading",
+      "text": "Looking at cybersecurity career paths"
+    },
+    {
+      "type": "heading",
+      "text": "Understanding cybersecurity certifications"
+    },
+    {
+      "type": "heading",
+      "text": "Finding out how to get started"
+    },
+    {
+      "type": "paragraph",
+      "text": "With a global shortage of competent cybersecurity professionals, there has never been a better time to pursue a career -- especially since the shortage seems to grow with the passage of time. As a result of an insufficient supply of cybersecurity professionals to satisfy the demand for people with relevant skills, compensation packages earned by cybersecurity professionals are among the best found among technology workers. In this chapter, you find out about some of the professional roles in the cybersecurity field, potential career paths, and certifications."
+    },
+    {
+      "type": "heading",
+      "text": "Professional Roles in Cybersecurity"
+    },
+    {
+      "type": "paragraph",
+      "text": "Cybersecurity professionals have a wide range of responsibilities that vary quite a bit based on their exact roles, but most, if not all, ultimately work to help either protect data and systems from being compromised, or, in the case of certain government positions, to breach the systems and compromise the data of adversaries. No one, single career path called \"cybersecurity\" exists. The profession has many nuances, and different paths along which people's careers can progress."
+    },
+    {
+      "type": "heading",
+      "text": "Security engineer"
+    },
+    {
+      "type": "heading",
+      "text": "Security engineers come in multiple types, but the vast majority are"
+    },
+    {
+      "type": "paragraph",
+      "text": "hands-on technical folks who build, maintain, and debug information security systems as part of organizational (corporate, government, or nonprofit) projects. Security engineers working in the professional services arms of vendors may also help ensure that software being deployed at clients is done so in a secure fashion."
+    },
+    {
+      "type": "heading",
+      "text": "Security manager"
+    },
+    {
+      "type": "heading",
+      "text": "Security managers are typically mid-level management within larger"
+    },
+    {
+      "type": "paragraph",
+      "text": "enterprises who have responsibility for some specific area of information security. One security manager, may, for example, be responsible for all of a firm's security training, and another may be responsible for overseeing all of its Internet-facing firewalls. People in security manager positions typically perform less hands-on, technically detailed security activities than do the folks who report to them."
+    },
+    {
+      "type": "heading",
+      "text": "Security director"
+    },
+    {
+      "type": "paragraph",
+      "text": "Security directors are the people who oversee information security for an organization. In smaller firms, the director is usually the de facto chief information security officer (CISO). Larger firms may have several directors responsible for various subsets of the firm's information security program; such folks, in turn, usually report to the CISO."
+    },
+    {
+      "type": "heading",
+      "text": "Chief information security officer (CISO)"
+    },
+    {
+      "type": "paragraph",
+      "text": "The CISO is the person responsible for information security throughout an organization. You can think of the CISO role as being that of the chief of staff of the organization's information-security defensive military."
+    },
+    {
+      "type": "heading",
+      "text": "The CISO is a senior, C-level management position. Serving as a CISO"
+    },
+    {
+      "type": "paragraph",
+      "text": "usually requires significant management knowledge and experience, in addition to an understanding of information security."
+    },
+    {
+      "type": "heading",
+      "text": "Security analyst"
+    },
+    {
+      "type": "heading",
+      "text": "Security analysts work to prevent information security breaches. They"
+    },
+    {
+      "type": "paragraph",
+      "text": "review not only existing systems, but study emerging threats, new vulnerabilities, and so on in order to ensure that the organization remains safe."
+    },
+    {
+      "type": "heading",
+      "text": "Security architect"
+    },
+    {
+      "type": "paragraph",
+      "text": "Security architects design and oversee the deployment of organizational information security countermeasures. They often have to understand, design, and test complex security infrastructures and regularly serve as the security team member who is involved in projects outside of the security department as well -- for example, helping to design the security needed for a custom application that an organization is designing and building or helping to guide networking folks as the latter design various elements of corporate IT networking infrastructure."
+    },
+    {
+      "type": "heading",
+      "text": "Security administrator"
+    },
+    {
+      "type": "paragraph",
+      "text": "Security administrators are hands-on folks who install, configure, operate, manage, and troubleshoot information security countermeasures on behalf of an organization. These folks are the ones to whom nontechnical professionals often refer when they say \"I am having a problem and need to call the security guy or security gal.\""
+    },
+    {
+      "type": "heading",
+      "text": "Security auditor"
+    },
+    {
+      "type": "heading",
+      "text": "Security auditors conduct security audits -- that is, they check that"
+    },
+    {
+      "type": "paragraph",
+      "text": "security policies, procedures, technologies, and so on are working as intended and are effectively and adequately protecting corporate data, systems, and networks."
+    },
+    {
+      "type": "heading",
+      "text": "Cryptographer"
+    },
+    {
+      "type": "heading",
+      "text": "Cryptographers are experts at and work with encryption, as used to"
+    },
+    {
+      "type": "paragraph",
+      "text": "protect sensitive data."
+    },
+    {
+      "type": "heading",
+      "text": "Some cryptographers work to develop encryption systems to protect"
+    },
+    {
+      "type": "paragraph",
+      "text": "sensitive data, while others, known as cryptanalysts, do the opposite: analyzing encrypted information and encryption systems in order to break the encryption and decrypt the information."
+    },
+    {
+      "type": "heading",
+      "text": "As compared to other information security jobs, cryptographers"
+    },
+    {
+      "type": "paragraph",
+      "text": "disproportionately work for government agencies, the military, and in academia. In the United States, many government jobs in cryptography require U.S. citizenship and an active security clearance."
+    },
+    {
+      "type": "heading",
+      "text": "Vulnerability assessment analyst"
+    },
+    {
+      "type": "paragraph",
+      "text": "Vulnerability assessment analysts examine computer systems, databases, networks, and other portions of the information infrastructure in search of potential vulnerabilities. The folks working in such positions must have explicit permission to do so. Unlike penetration testers, described in the next section, vulnerability assessors don't typically act as outsiders trying to breach systems, but as insiders who have access to systems and have the ability to examine them in detail from the start."
+    },
+    {
+      "type": "heading",
+      "text": "Ethical hacker"
+    },
+    {
+      "type": "paragraph",
+      "text": "Ethical hackers attempt to attack, penetrate, and otherwise compromise systems and networks on behalf of -- and with the explicit permission of -- the technologies' owners in order to discover security vulnerabilities that the owners can then fix. Ethical hackers are sometimes referred to as penetration testers or pen-testers. While many corporations employ their own ethical hackers, a significant number of folks who work in such positions work for consulting companies offering their services to third parties."
+    },
+    {
+      "type": "heading",
+      "text": "Security researcher"
+    },
+    {
+      "type": "heading",
+      "text": "Security researchers are forward-looking folks who seek to discover"
+    },
+    {
+      "type": "paragraph",
+      "text": "vulnerabilities in existing systems and potential security ramifications of new technologies and other products. They sometimes develop new security models and approaches based on their research."
+    },
+    {
+      "type": "heading",
+      "text": "As far as ethics are concerned, and as far as most jurisdictions"
+    },
+    {
+      "type": "paragraph",
+      "text": "are concerned, a security researcher who hacks an organization without explicit permission from that organization is not a security researcher or an ethical hacker, but simply someone breaking the law."
+    },
+    {
+      "type": "heading",
+      "text": "Offensive hacker"
+    },
+    {
+      "type": "paragraph",
+      "text": "Offensive hackers attempt to break into adversaries' systems to either cripple the systems or steal information. In the United States of America, it is illegal for a business to go on the offensive and attack anyone -- including striking back at hackers who are actively trying to penetrate the organization. As such, all legal offensive hacking jobs in the United States are government positions, such as with intelligence agencies. If you enjoy attacking and are not satisfied with just ethical hacking, you may wish to pursue a career with the government or military. Many offensive hacking positions require security clearances."
+    },
+    {
+      "type": "heading",
+      "text": "Software security engineer"
+    },
+    {
+      "type": "heading",
+      "text": "Software security engineers integrate security into software as it is"
+    },
+    {
+      "type": "paragraph",
+      "text": "designed and developed. They also test the software to make sure it has no vulnerabilities. In some cases, they may be the coders of the software itself."
+    },
+    {
+      "type": "heading",
+      "text": "Software source code security auditor"
+    },
+    {
+      "type": "heading",
+      "text": "Software source code security auditors review the source code of"
+    },
+    {
+      "type": "paragraph",
+      "text": "programs in search of programming errors, vulnerabilities, violations of corporate policies and standards, regulatory problems, copyright infringement (and, in some cases, patent infringement), and other issues that either must be, or should be, resolved."
+    },
+    {
+      "type": "heading",
+      "text": "Software security manager"
+    },
+    {
+      "type": "heading",
+      "text": "Secure development managers oversee the security of software"
+    },
+    {
+      "type": "paragraph",
+      "text": "throughout the software's life cycle -- from initial business requirements gathering all the way through disposal."
+    },
+    {
+      "type": "heading",
+      "text": "Security consultant"
+    },
+    {
+      "type": "paragraph",
+      "text": "There are many different types of security consultants. Some, like the author of this book, advise corporate executives on security strategy, serve as expert witnesses, or help security companies grow and succeed."
+    },
+    {
+      "type": "heading",
+      "text": "Others are hands-on penetration testers. Others may design or operate"
+    },
+    {
+      "type": "paragraph",
+      "text": "components of security infrastructure, focusing on specific technologies."
+    },
+    {
+      "type": "heading",
+      "text": "When it comes to security consulting, you can find positions in just"
+    },
+    {
+      "type": "paragraph",
+      "text": "about every area of information security."
+    },
+    {
+      "type": "heading",
+      "text": "Security specialist"
+    },
+    {
+      "type": "paragraph",
+      "text": "The title security specialist is used to refer to people serving in many different types of roles. All the various roles, however, tend to require at least several years of professional experience working in the information security field."
+    },
+    {
+      "type": "heading",
+      "text": "Incident response team member"
+    },
+    {
+      "type": "paragraph",
+      "text": "The incident response team consists of the de facto first responders who deal with security incidents. Team members seek to contain and eliminate attacks, while minimizing the damage from them. They also often perform some of the analysis into what happened -- sometimes determining that nothing requires any corrective activity. You can think of incident responders as roughly the equivalent of cybersecurity firefighters -- they deal with dangerous attacks, but sometimes get called in to verify that there is no fire."
+    },
+    {
+      "type": "heading",
+      "text": "Forensic analyst"
+    },
+    {
+      "type": "paragraph",
+      "text": "Forensic analysts are effectively digital detectives, who, after some sort of computer event, examine data, computers and computing devices, and networks to gather, analyze, and properly preserve evidence and deduce what exactly happened, how it was possible to happen, and who did it."
+    },
+    {
+      "type": "heading",
+      "text": "You can think of forensic analysts as roughly the equivalent of law"
+    },
+    {
+      "type": "paragraph",
+      "text": "enforcement and insurance company inspectors who analyze properties after a fire to determine what happened and who might be responsible."
+    },
+    {
+      "type": "heading",
+      "text": "Cybersecurity regulations expert"
+    },
+    {
+      "type": "heading",
+      "text": "Cybersecurity regulations experts are knowledgeable in the various"
+    },
+    {
+      "type": "paragraph",
+      "text": "regulations related to cybersecurity and help ensure that organizations comply with such regulations. They are often, but not always, attorneys who have prior experience working with various compliance-type matters."
+    },
+    {
+      "type": "heading",
+      "text": "Privacy regulations expert"
+    },
+    {
+      "type": "paragraph",
+      "text": "Privacy regulations experts are knowledgeable in the various regulations related to privacy and help ensure that organizations comply with such regulations. They are often, but not always, attorneys who have prior experience working with various compliance-type matters."
+    },
+    {
+      "type": "heading",
+      "text": "Exploring Career Paths"
+    },
+    {
+      "type": "paragraph",
+      "text": "Folks in information security can pursue multiple different career paths."
+    },
+    {
+      "type": "heading",
+      "text": "Some involve becoming technical gurus focused on specific subsections"
+    },
+    {
+      "type": "paragraph",
+      "text": "of security, while others require broad knowledge of the discipline and interfacing with many different areas of a business. Still others focus on management."
+    },
+    {
+      "type": "heading",
+      "text": "People should consider their long-term goals as they plan their"
+    },
+    {
+      "type": "paragraph",
+      "text": "careers. For example, if you're looking to become a CISO, you may want to work in a variety of different hands-on positions, earn an"
+    },
+    {
+      "type": "heading",
+      "text": "MBA, and pursue promotions and certifications in areas of"
+    },
+    {
+      "type": "paragraph",
+      "text": "information security management, while if you want to become a senior architect, you'll likely be better off focusing on promotions into various roles involved in security analysis and design, doing penetration testing, and earning technical degrees. The following sections give examples of some potential career paths."
+    },
+    {
+      "type": "heading",
+      "text": "Career path: Senior security architect"
+    },
+    {
+      "type": "heading",
+      "text": "In the United States, security architects typically earn well over"
+    },
+    {
+      "type": "paragraph",
+      "text": "$100,000 -- and, in some markets, considerably more -- making this type of position quite attractive. While every person's career path is unique, one typical framework for becoming a senior security architect might be to follow a career path similar to the following: 1. Do one of the following: Earn a bachelor's degree in computer science."
+    },
+    {
+      "type": "heading",
+      "text": "Earn a degree in any field and pass an entry-level certification"
+    },
+    {
+      "type": "paragraph",
+      "text": "exam in cybersecurity (for example, Security+)."
+    },
+    {
+      "type": "heading",
+      "text": "Obtain a technical job while without a degree and demonstrate"
+    },
+    {
+      "type": "paragraph",
+      "text": "proficiency in the relevant technologies used as part of the job. 2. Work as a network administrator or systems administrator and gain hands on security experience. 3. Obtain a slightly more focused credential (for example, CEH). 4. Work as a security administrator -- preferably administering a range of different security systems over a period of several years. 5. Earn one or more general security certifications (for example, CISSP). 6. Become a security architect and gain experience in such a role. 7. Earn an advanced security architecture certification (for example, CISSP-ISSAP). 8. Become a senior level security architect."
+    },
+    {
+      "type": "heading",
+      "text": "Do not expect to become a senior-level architect overnight; it"
+    },
+    {
+      "type": "paragraph",
+      "text": "often takes a decade or more of relevant experience to achieve such a position."
+    },
+    {
+      "type": "heading",
+      "text": "Career path: CISO"
+    },
+    {
+      "type": "paragraph",
+      "text": "In the United States, chief information security officers typically earn $150,000 or more (a lot more in certain industries), but, the jobs can be quite stressful -- CISOs are responsible for corporate information security -- which often involves dealing with emergencies. While every person's career path is unique, one typical framework for becoming a CISO might be to follow a career path similar to the following: 1. Earn a bachelor's degree in computer science or in information technology. 2. Do one of the following:"
+    },
+    {
+      "type": "heading",
+      "text": "Work as a systems analyst, systems engineer, programmer, or"
+    },
+    {
+      "type": "paragraph",
+      "text": "in some other related hands-on technical position. Work as a network engineer. 3. Migrate toward security and work as a security engineer, security analyst, or security consultant -- taking on various different roles within an organization, or as a consultant to organizations, thereby exposing oneself to various different areas of information security. 4. Obtain general certifications in information security (for example, CISSP). 5. Migrate toward management of security by becoming the manager of a security operations team. Ideally, over time, manage multiple information security teams, each that deals with different areas of information security that the others. 6. Do one of the following:"
+    },
+    {
+      "type": "heading",
+      "text": "Earn a master's degree in cybersecurity (ideally with a focus"
+    },
+    {
+      "type": "paragraph",
+      "text": "on information security management)."
+    },
+    {
+      "type": "heading",
+      "text": "Earn a master's in computer science (ideally with a focus on"
+    },
+    {
+      "type": "paragraph",
+      "text": "cybersecurity). Earn a master's in information systems management (ideally, with a focus on information security). Earn an MBA. 7. Do one of the following: Become a divisional CISO (de facto or de jure)."
+    },
+    {
+      "type": "heading",
+      "text": "Become the CISO of a relatively small business or nonprofit"
+    },
+    {
+      "type": "paragraph",
+      "text": "organization. 8. Obtain an advanced information security credential focused on information security management (for example, CISSP-ISSMP). 9. Become the CISO of a larger business."
+    },
+    {
+      "type": "heading",
+      "text": "The path to becoming a CISO can easily take a decade, or even"
+    },
+    {
+      "type": "paragraph",
+      "text": "decades, depending on the size of the organization in which the CISO serves."
+    },
+    {
+      "type": "heading",
+      "text": "Starting Out in Information Security"
+    },
+    {
+      "type": "heading",
+      "text": "Many folks who work in information security began their careers in"
+    },
+    {
+      "type": "paragraph",
+      "text": "other areas of information technology. In some cases, the folks were first exposed to the amazing world of cybersecurity while serving in technical positions. In other situations, people took technical jobs not directly tied to information security, but did so with the intent of developing various skills and using the positions as stepping stones into the world of security."
+    },
+    {
+      "type": "heading",
+      "text": "Jobs in the fields of risk analysis, systems engineering and"
+    },
+    {
+      "type": "paragraph",
+      "text": "development, and networking are often good entry points. An email administrator, for example, is likely to learn plenty about email security and possibly also about the architecture of secure network designs and securing servers in general. People developing web- based systems are likely to learn about web security as well as about secure software design. And system and network administrators are going to learn about the security of the items that they are responsible to keep alive and healthy. Some of the technical jobs that can help prepare you for cybersecurity- related roles include"
+    },
+    {
+      "type": "heading",
+      "text": "Programmer"
+    },
+    {
+      "type": "heading",
+      "text": "Software engineer"
+    },
+    {
+      "type": "heading",
+      "text": "Web developer"
+    },
+    {
+      "type": "heading",
+      "text": "Information systems support engineer (technical support hands-on"
+    },
+    {
+      "type": "paragraph",
+      "text": "specialist)"
+    },
+    {
+      "type": "heading",
+      "text": "Systems administrator"
+    },
+    {
+      "type": "heading",
+      "text": "Email administrator"
+    },
+    {
+      "type": "heading",
+      "text": "Network administrator"
+    },
+    {
+      "type": "heading",
+      "text": "Database administrator"
+    },
+    {
+      "type": "heading",
+      "text": "Website administrator"
+    },
+    {
+      "type": "paragraph",
+      "text": "Some nontechnical positions can also help prepare people for careers in the nontechnical roles of information security. Here are some examples:"
+    },
+    {
+      "type": "heading",
+      "text": "Auditor"
+    },
+    {
+      "type": "heading",
+      "text": "Law enforcement detective"
+    },
+    {
+      "type": "heading",
+      "text": "Attorney focusing on cybersecurity-related areas of law"
+    },
+    {
+      "type": "heading",
+      "text": "Attorney focusing on regulatory compliance"
+    },
+    {
+      "type": "heading",
+      "text": "Attorney focusing on privacy-related areas of law"
+    },
+    {
+      "type": "heading",
+      "text": "Risk-management analyst"
+    },
+    {
+      "type": "heading",
+      "text": "Exploring Popular Certifications"
+    },
+    {
+      "type": "paragraph",
+      "text": "Recognized cybersecurity certifications and, to a lesser degree, certificates showing successful completion of cybersecurity courses, can prove to an employer that your cybersecurity knowledge meets certain standards and help you advance along your desired career path."
+    },
+    {
+      "type": "heading",
+      "text": "Many different information-security certifications are on the market"
+    },
+    {
+      "type": "paragraph",
+      "text": "today. Some focus on specific technologies or areas of information security, while others are more broad."
+    },
+    {
+      "type": "heading",
+      "text": "While it is beyond the scope of this book to explore each and every"
+    },
+    {
+      "type": "paragraph",
+      "text": "possible certification available today, the following are five of the more popular -- and better recognized -- vendor-neutral certifications that may be ideal for folks relatively early in their cybersecurity careers."
+    },
+    {
+      "type": "heading",
+      "text": "CISSP"
+    },
+    {
+      "type": "heading",
+      "text": "The Certified Information Systems Security Professional (CISSP)"
+    },
+    {
+      "type": "paragraph",
+      "text": "certification, initially launched in 1994, covers a broad range of security- related domains, delving into details in some areas more than in others."
+    },
+    {
+      "type": "heading",
+      "text": "It provides employers with the comfort of knowing that workers"
+    },
+    {
+      "type": "paragraph",
+      "text": "understand important aspects of more than just one or two areas of information security; as components of information security are often highly interconnected, broad knowledge is valuable, and becomes absolutely necessary as one ascends the information-security management ladder."
+    },
+    {
+      "type": "heading",
+      "text": "The CISSP is intended to be pursued by people with several years of"
+    },
+    {
+      "type": "paragraph",
+      "text": "experience in the information security field -- in fact, while you can take the CISSP exam without experience, you won't actually receive the credential until you work in the field for the required number of years. As a result, folks possessing CISSP credentials, who always have several years of experience under their belts, often command higher salaries than do both their uncertified peers and counterparts holding other certifications."
+    },
+    {
+      "type": "heading",
+      "text": "The CISSP credential, issued by the highly regarded (ISC)2"
+    },
+    {
+      "type": "paragraph",
+      "text": "organization, is both vendor neutral and more evergreen than many other certifications. Study materials and training courses for CISSP exam are widely available, and tests are administered in more locations, and on more dates, than are most other, if not all other, cybersecurity certifications. Multiple add-ons to the CISSP are available for those interested in proving their mastery of information security architecture (CISSP-ISSAP), management (CISSP-ISSMP), and engineering (CISSP-ISSEP). (ISC)2 requires that holders of the CISSP credentials accept to abide by a specific Code of Ethics and that they perform significant continuing education activities in order to maintain their credentials, which must be renewed every three years."
+    },
+    {
+      "type": "heading",
+      "text": "The CISSP is not intended to test hands-on technical skills --"
+    },
+    {
+      "type": "paragraph",
+      "text": "and does not do so. People looking to demonstrate mastery of specific technologies or areas of technology -- for example, penetration testing, security administration, auditing, and so on -- may want to consider pursuing either a more technically focused, general certification or some specific product and skill certifications. (For full disclosure, the author of this book holds a CISSP certification, as well as two add-on credentials -- CISSP-ISSAP and CISSP-ISSMP -- and authored (ISC)2's official study guide for the CISSP-ISSMP exam.)"
+    },
+    {
+      "type": "heading",
+      "text": "CISM"
+    },
+    {
+      "type": "heading",
+      "text": "The well-regarded Certified Information Security Manager (CISM)"
+    },
+    {
+      "type": "paragraph",
+      "text": "credential from the Information Systems Audit and Control Association (ISACA) has exploded in popularity since its inception a little under two decades ago."
+    },
+    {
+      "type": "heading",
+      "text": "Emanating from an organization focused on audit and controls, the"
+    },
+    {
+      "type": "paragraph",
+      "text": "CISM credential is, generally speaking, a bit more focused than is the CISSP on policies, procedures, and technologies for information security systems management and control, as typically occurs within large enterprises or organizations. As with the CISSP, to earn a CISM, a candidate must have several years of professional information-security work experience. Despite the differences between the CISSP and CISM -- with the former delving deeper into technical topics and the latter doing similarly for management-related topics -- the two offerings also significantly overlap. Both are well respected."
+    },
+    {
+      "type": "heading",
+      "text": "CEH"
+    },
+    {
+      "type": "heading",
+      "text": "The Certified Ethical Hacker (CEH), offered by the International"
+    },
+    {
+      "type": "heading",
+      "text": "Council of E-Commerce Consultants (EC-Council), is intended for"
+    },
+    {
+      "type": "paragraph",
+      "text": "people with at least two years of professional experience who are intent on establishing their credibility as ethical hackers (in other words, penetration testers)."
+    },
+    {
+      "type": "heading",
+      "text": "CEH is a practical exam that tests candidates' skills as related to"
+    },
+    {
+      "type": "paragraph",
+      "text": "hacking: from performing reconnaissance and penetrating networks to escalating privileges and stealing data. This exam tests a variety of practical skills, including attack vehicles, such as various types of malware; attack techniques, such as SQL injection; cryptanalysis methods used to undermine encryption; methods of social engineering in order to undermine technical defenses via human error; and how hackers can evade detection by covering their tracks."
+    },
+    {
+      "type": "heading",
+      "text": "EC-Council requires CEH credential holders to acquire a significant"
+    },
+    {
+      "type": "paragraph",
+      "text": "number of continuing education credits in order to maintain a CEH credential -- something quite important for an exam that tests practical knowledge -- especially when you consider how rapidly technologies change in today's world."
+    },
+    {
+      "type": "heading",
+      "text": "Security+"
+    },
+    {
+      "type": "paragraph",
+      "text": "Security+ is a vendor-neutral general cybersecurity certification that can be valuable especially for people early in their careers. It is offered and administered by the well-respected, technology-education nonprofit,"
+    },
+    {
+      "type": "heading",
+      "text": "CompTIA. While there is, technically speaking, no minimum number of"
+    },
+    {
+      "type": "paragraph",
+      "text": "years of professional experience required in order to earn a CompTIA"
+    },
+    {
+      "type": "heading",
+      "text": "Security+ designation, from a practical perspective, most people will"
+    },
+    {
+      "type": "paragraph",
+      "text": "likely find it easier to pass the exam after working in the field, and gaining practical experience, for a year or two. The Security+ exam typically goes into more technical detail that either the CISSP or the CISM, directly addressing the knowledge needed to perform roles such as those related to entry-level IT auditing, penetration testing, systems administration, network administration, and security administration; hence, CompTIA Security+ is a good early-career certification for many folks."
+    },
+    {
+      "type": "heading",
+      "text": "Anyone earning the Security+ designation since 2011 must earn"
+    },
+    {
+      "type": "paragraph",
+      "text": "continuing education credits in order to maintain the credential."
+    },
+    {
+      "type": "heading",
+      "text": "GSEC"
+    },
+    {
+      "type": "heading",
+      "text": "The Global Information Assurance Certification Security Essentials"
+    },
+    {
+      "type": "paragraph",
+      "text": "Certification (GSEC) is the entry-level security certification covering materials in courses run by the SANS Institute, a well-respected information-security training company."
+    },
+    {
+      "type": "heading",
+      "text": "Like Security+, GSEC contains a lot more hands-on practical material"
+    },
+    {
+      "type": "paragraph",
+      "text": "than the CISM or CISSP certifications, making this certification more valuable than the aforementioned alternatives in some scenarios and less desirable in others. Despite being marketed as entry-level, the GSEC exam is, generally speaking, regarded as more difficult and comprehensive than the test required to earn a Security+ designation."
+    },
+    {
+      "type": "heading",
+      "text": "All GSEC credential holders must show continued professional"
+    },
+    {
+      "type": "paragraph",
+      "text": "experience or educational growth in the field of information security in order to maintain their credentials."
+    },
+    {
+      "type": "heading",
+      "text": "Verifiability"
+    },
+    {
+      "type": "heading",
+      "text": "The issuers of all major information security credentials provide"
+    },
+    {
+      "type": "paragraph",
+      "text": "employers with the ability to verify that a person holds any credentials claimed. For security reasons, such verification may require knowledge of the user's certification identification number, which credential holders typically do not publicize."
+    },
+    {
+      "type": "heading",
+      "text": "If you earn a certification, be sure to keep your information in"
+    },
+    {
+      "type": "paragraph",
+      "text": "the issuer's database up to date. You do not want to lose your certification because you did not receive a reminder to submit continuing education credits or to pay a maintenance fee."
+    },
+    {
+      "type": "heading",
+      "text": "Ethics"
+    },
+    {
+      "type": "paragraph",
+      "text": "Many security certifications require credential holders to adhere to a code of ethics that not only mandates that holders comply with all relevant laws and government regulations, but also mandates that people act appropriately even in manners that exceed the letter of the law."
+    },
+    {
+      "type": "heading",
+      "text": "Be sure to understand such requirements. Losing a credential"
+    },
+    {
+      "type": "paragraph",
+      "text": "due to unethical behavior can obviously severely erode the trust that other people place in a person and can inflict all sorts of negative consequences on your career in information security."
+    },
+    {
+      "type": "heading",
+      "text": "Overcoming a Criminal Record"
+    },
+    {
+      "type": "heading",
+      "text": "While a criminal record does not prevent someone from obtaining many"
+    },
+    {
+      "type": "paragraph",
+      "text": "cybersecurity-related jobs, a criminal record may be an insurmountable barrier when it comes to obtaining certain positions. Anything that prevents someone from obtaining a security clearance, for example, would disqualify that individual from working in certain government and government-contractor roles. In some cases, the nature, timing, and age at which one committed past crimes may weigh heavily in an employer's decision. Some information- security organizations may be perfectly fine with hiring a reformed, former teenage hacker, for example, but may be averse to hiring someone who was convicted of a violent crime as an adult. Likewise, someone who served time in prison for a computer crime that he or she committed two decades ago, but whose record has since been clean, may be viewed quite differently by a potential employer than someone who was just recently released from prison after serving a sentence for a similar crime."
+    },
+    {
+      "type": "heading",
+      "text": "Looking at Other Professions with a"
+    },
+    {
+      "type": "heading",
+      "text": "Cybersecurity Focus"
+    },
+    {
+      "type": "paragraph",
+      "text": "Besides working directly in cybersecurity, there are many opportunities to work in fields that interface directly with cybersecurity professionals, and which benefit from the global increase in attention to cybersecurity. Lawyers may decide, for example, to specialize in cybersecurity-related laws or on firms' compliance with privacy regulations, and law enforcement personnel may develop expertise in the forensics that are utilized investigating cybercrimes. The bottom line is that cybersecurity has created, is creating, and will continue to create for the foreseeable future many lucrative professional opportunities for people in multiple fields. You need not be a technical genius to benefit from the discipline's boom."
+    },
+    {
+      "type": "heading",
+      "text": "If you find cybersecurity fascinating, you may want to explore the"
+    },
+    {
+      "type": "paragraph",
+      "text": "opportunities that it may offer you."
+    }
+  ]
+}

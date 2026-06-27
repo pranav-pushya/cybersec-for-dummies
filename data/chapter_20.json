@@ -1,0 +1,1620 @@
+{
+  "num": 20,
+  "type": "chapter",
+  "title": "Chapter 20: Ten Ways to Safely Use Public Wi-Fi",
+  "part": "Part 8: The Part of Tens",
+  "pages": "413 to 478",
+  "in_this_chapter": [
+    "Using public Wi-Fi appropriately Protecting yourself when using public Wi-Fi"
+  ],
+  "content": [
+    {
+      "type": "heading",
+      "text": "Ten Ways to Safely Use Public"
+    },
+    {
+      "type": "heading",
+      "text": "Wi-Fi"
+    },
+    {
+      "type": "paragraph",
+      "text": "IN THIS CHAPTER"
+    },
+    {
+      "type": "heading",
+      "text": "Using public Wi-Fi appropriately"
+    },
+    {
+      "type": "heading",
+      "text": "Protecting yourself when using public Wi-Fi"
+    },
+    {
+      "type": "heading",
+      "text": "You may not realize that you can do a few things to protect yourself"
+    },
+    {
+      "type": "paragraph",
+      "text": "while using public Wi-Fi. In this chapter, you discover ten ways to keep your devices safe while accessing Wi-Fi in public."
+    },
+    {
+      "type": "heading",
+      "text": "Use Your Cellphone as a Mobile"
+    },
+    {
+      "type": "heading",
+      "text": "Hotspot"
+    },
+    {
+      "type": "paragraph",
+      "text": "If you have an unlimited cellular data plan, you can avoid the risks of public Wi-Fi by transforming your cellphone into a mobile hotspot and connecting your laptop and any other devices that lack cellular data service to your cellphone, rather than to public Wi-Fi."
+    },
+    {
+      "type": "heading",
+      "text": "Turn Off Wi-Fi Connectivity When"
+    },
+    {
+      "type": "heading",
+      "text": "You're Not Using Wi-Fi"
+    },
+    {
+      "type": "heading",
+      "text": "Turning off Wi-Fi connectivity will prevent your device from (without"
+    },
+    {
+      "type": "paragraph",
+      "text": "notifying you) connecting to a network with the same name as one you have previously connected to. Criminals can, and have, set up Wi-Fi access points with names similar to popular public Wi-Fi networks, in an effort to lure people into connecting to poisoned networks that route their victims to phony sites or distribute malware to connected devices. As an added bonus, turning off Wi-Fi will also conserve battery power."
+    },
+    {
+      "type": "heading",
+      "text": "Don't Perform Sensitive Tasks over"
+    },
+    {
+      "type": "heading",
+      "text": "Public Wi-Fi"
+    },
+    {
+      "type": "paragraph",
+      "text": "Do not bank online, shop online, or access medical records online while using a public Wi-Fi connection."
+    },
+    {
+      "type": "heading",
+      "text": "Don't Reset Passwords When Using"
+    },
+    {
+      "type": "heading",
+      "text": "Public Wi-Fi"
+    },
+    {
+      "type": "paragraph",
+      "text": "You should avoid resetting any passwords over public Wi-Fi. In fact, you should refrain from resetting any passwords while in a public location, regardless of whether or not you're using public Wi-Fi."
+    },
+    {
+      "type": "heading",
+      "text": "Use a VPN Service"
+    },
+    {
+      "type": "heading",
+      "text": "If you can't use a cellular connection and must use the public Wi-Fi"
+    },
+    {
+      "type": "paragraph",
+      "text": "connection for a sensitive task despite the recommendation not to do so, at least consider using a VPN service, which adds multiple security benefits. Many popular VPN services are available today. There is a tradeoff to using a VPN service, however. You may notice that your communications are slightly slower or suffer from greater latency than without the VPN running."
+    },
+    {
+      "type": "heading",
+      "text": "Use Tor"
+    },
+    {
+      "type": "paragraph",
+      "text": "If you don't want your browsing history to be tracked by anyone, consider browsing using Tor (see Chapter 4), which bounces your communications through many servers and makes tracking exceedingly difficult. There are even Tor browsers for smartphones. Like a VPN, Tor may slow down your communications."
+    },
+    {
+      "type": "heading",
+      "text": "Use Encryption"
+    },
+    {
+      "type": "heading",
+      "text": "Use HTTPS instead of HTTP for all web pages that offer it, to prevent"
+    },
+    {
+      "type": "paragraph",
+      "text": "other users on the network from seeing the content of your communications."
+    },
+    {
+      "type": "heading",
+      "text": "Turn Off Sharing"
+    },
+    {
+      "type": "paragraph",
+      "text": "If you're using a computer or device that shares any of its resources, turn off any and all shares before connecting to the public Wi-Fi. If you're unsure if your device shares resources, check it. Don't assume that it does not."
+    },
+    {
+      "type": "heading",
+      "text": "Have Information Security Software"
+    },
+    {
+      "type": "paragraph",
+      "text": "on Any Devices Connected to Public"
+    },
+    {
+      "type": "heading",
+      "text": "Wi-Fi Networks"
+    },
+    {
+      "type": "heading",
+      "text": "For computers security packages must include, at a minimum, antivirus"
+    },
+    {
+      "type": "paragraph",
+      "text": "and personal firewall capabilities. For smartphones and tablets, use an app designed specifically to secure such devices. And, of course, make sure that the security software is up to date before connecting to public Wi-Fi."
+    },
+    {
+      "type": "heading",
+      "text": "Understand the Difference between"
+    },
+    {
+      "type": "heading",
+      "text": "True Public Wi-Fi and Shared Wi-Fi"
+    },
+    {
+      "type": "paragraph",
+      "text": "Not all public Wi-Fi is equally risky. There is usually a much lower risk of being misrouted to phony sites or of malware being delivered to your device if you use the password-protected Guest network at a client site, for example, than if you use unprotected free Wi-Fi offered by a public library. That does not mean that you should fully trust the network; other guests at the site still pose risks."
+    },
+    {
+      "type": "heading",
+      "text": "Index"
+    },
+    {
+      "type": "heading",
+      "text": "A"
+    },
+    {
+      "type": "heading",
+      "text": "AARP (American Association of Retired Persons), on passwords, 124"
+    },
+    {
+      "type": "paragraph",
+      "text": "access control, as component of Crime Prevention Through Design (CPTD), 91 access devices checking access device lists, 109 securing of, 107 access management, 181, 184 accounts accessing of only when you're in safe location, 109 audible access to corporate accounts, 158 limiting access to corporate accounts on social media, 158-159 monitoring of, 103-104 reporting suspicious activity on, 104 securing data associated with user accounts, 101 securing of, 99-113 securing of external accounts, 100 setting appropriate limits regarding, 109 use of alerts on, 109 advanced attacks, 40-42 advanced persistent threats (APTs), 42 adware alerts regarding, 216 as cyberattack, 35 defined, 35 as malware, 32, 35 adware malware, 35, 205 alarms false alarms, 136-137 as physical security method, 92 as remotely triggerable, 93 use of, 172"
+    },
+    {
+      "type": "heading",
+      "text": "Alcoa, hacking of, 48"
+    },
+    {
+      "type": "paragraph",
+      "text": "alerts about tracking cookies or adware, 216 prioritizing of, 308 responding to fraud alerts, 110 setting up text alerts for payment card information, 224 signing up for from bank, 83 triggering fraud alerts, 109 use of on your accounts, 109 algorithms (for encryption) asymmetric algorithm, 317 symmetric algorithm, 317"
+    },
+    {
+      "type": "heading",
+      "text": "Allegheny Technologies, hacking of, 48"
+    },
+    {
+      "type": "heading",
+      "text": "Amazon AppStore, as reputable app store, 101"
+    },
+    {
+      "type": "heading",
+      "text": "American Association of Retired Persons (AARP), on passwords, 124"
+    },
+    {
+      "type": "heading",
+      "text": "American Superconductor, 31"
+    },
+    {
+      "type": "heading",
+      "text": "Android devices"
+    },
+    {
+      "type": "paragraph",
+      "text": "hard resets on, 260 soft resets on, 255 Anthem, Inc. cybersecurity breach, 325-326 impersonation of, 223"
+    },
+    {
+      "type": "heading",
+      "text": "Apple App Store, as reputable app store, 101"
+    },
+    {
+      "type": "heading",
+      "text": "Apple Pay, 102"
+    },
+    {
+      "type": "heading",
+      "text": "APTs (advanced persistent threats), 42"
+    },
+    {
+      "type": "paragraph",
+      "text": "archives, understanding of, 276-277 artificial intelligence (AI) as able to falsify MRI images, 307 defined, 306 optimizing of, 306-309 use of as hacking tool, 308-309 assets information asset classification and control, 183 inventorying of, 70-71 asymmetric algorithm, for encryption, 317"
+    },
+    {
+      "type": "heading",
+      "text": "ATM cards, cautions with, 82"
+    },
+    {
+      "type": "paragraph",
+      "text": "attacks. See also cyberattacks advanced attacks, 40-42 blended attacks, 39, 42 brute force attacks, 39 calculated attacks, 39 credential attacks, 39 denial-of-service (DoS) attacks, 22, 171 dictionary attacks, 39, 118 distributed denial-of-service (DDoS) attacks, 19, 22-24, 306 man-in-the-middle attacks, 18, 29-30 opportunistic attacks, 41, 119 poisoned web page attack, 36 poisoned web service attacks, 36-37 semi-targeted attacks, 42 social engineering attacks, 39, 134-137 targeted attacks, 41-42, 119 wiper attacks, 25 audible access, to corporate accounts, 158 augmented reality defined, 310 transforming experiences with, 310-311 authentication biometric authentication, 104, 128 cautions with authentication by Google, 61-62 digital certificates, as form of, 104 hardware tokens, as form of, 105, 131-132 knowledge-based authentication, 105 multifactor authentication, 83, 104-106, 159, 171 \"Myth Busters\" (TV show), on defeating fingerprint authentication system, 129 password authentication, 117-118"
+    },
+    {
+      "type": "heading",
+      "text": "SMS (text message)-based authentication, 130"
+    },
+    {
+      "type": "heading",
+      "text": "USB-based authentication, 132"
+    },
+    {
+      "type": "paragraph",
+      "text": "using proper authentication, 318-319 voice-based authentication, 130"
+    },
+    {
+      "type": "heading",
+      "text": "Authy (app), 105"
+    },
+    {
+      "type": "paragraph",
+      "text": "automated-task backups, 242"
+    },
+    {
+      "type": "heading",
+      "text": "AutoRecover (Microsoft Word), 239"
+    },
+    {
+      "type": "heading",
+      "text": "AutoUpdate (Windows), 107-108"
+    },
+    {
+      "type": "paragraph",
+      "text": "availability, as part of CIA triad, 18, 19"
+    },
+    {
+      "type": "heading",
+      "text": "B"
+    },
+    {
+      "type": "heading",
+      "text": "B2B International, 24"
+    },
+    {
+      "type": "paragraph",
+      "text": "backup power, as physical security method, 93 backup software, 239-243 backup/backing up in-app backups, 239, 276 automated-task backups, 242 as basic element of protection, 71, 74 cloud-based backup, 244-245 conducting cryptocurrency backups, 250 continuous backups, 235, 272 creating boot disk, 251 defined, 229 differential backups, 234, 271 disposing of, 248-249 downloaded software, 232-233 drive backups, 236-237, 273 drive-specific backup software, 240-241 encryption of, 245, 246-247 exclusions from, 238-239 folder backups, 236, 273 full backups of data, 233, 235, 268-269, 271 full system backup, 230-231, 264-265 how often to, 247-248 importance of, 229-230 importance of doing so often, 317-318 incremental backups, 233-234, 235, 269-270, 271 knowing where not to store backups, 246 knowing where to backup cloud-based backup, 244-245 mixing locations, 245-246 network storage, 245 storage of local copy of, 243-244 later system images, 232 manual backups, 242 mixed backups, 234-235 mixing locations, 245-246 network storage, 245 never leaving backups connected, 282 original installation media, 232 original system images, 231 partial backups, 235-236, 272-273 of passwords, 250 restoring from, 263-284 restoring using backup tools, 277-280 returning of to their proper locations, 281 risks from, 93 smartphone/tablet backup, 241 storage of, 318 storage of local copy of, 243-244 testing of, 250, 282-283, 318 third-party backups, 242-243 tools for automated-task backups, 242 drive-specific backup software, 240-241 manual backups, 242 smartphone/tablet backup, 241 third-party backups, 242-243"
+    },
+    {
+      "type": "heading",
+      "text": "Windows backup, 241"
+    },
+    {
+      "type": "paragraph",
+      "text": "types of in-app backups, 239 continuous backups, 235 differential backups, 234 downloaded software, 232-233 drive backups, 236-237 folder backups, 236 full backups of data, 233 full system backup, 230-231 incremental backups, 233-234 later system images, 232 mixed backups, 234-235 original installation media, 232 original system images, 231 partial backups, 235-236 virtual drive backups, 237-238 virtual drive backups, 237-238, 273-274"
+    },
+    {
+      "type": "heading",
+      "text": "Windows backup, 241"
+    },
+    {
+      "type": "paragraph",
+      "text": "bad guys as relative term, 44-45 as up to no good, 46-49 baiting, as type of social engineering attack, 134, 135 balance of power, as political ramification of cybersecurity, 16-17 banking, online, 82-83"
+    },
+    {
+      "type": "heading",
+      "text": "BCPs (business continuity plans), 176, 185-186"
+    },
+    {
+      "type": "paragraph",
+      "text": "big data, impact of on cybersecurity, 11 biometric authentication, 104, 128 biometric data, laws governing, 167"
+    },
+    {
+      "type": "heading",
+      "text": "BitLocker, 237"
+    },
+    {
+      "type": "paragraph",
+      "text": "black hat hackers, 50 blended attacks, 39, 42 blended malware, as cyberattack, 36 blockchain technology, 304-306 blue hat hackers, 50 bogus information, use of, 151 bogus press releases and social media posts, as technique of cyberattackers, 52 bogus smartphone ransomware, 193 boot disk booting from, 284 creating of, 251 botnets, 24-25 breach disclosure laws, 166, 179 breaches. See also hacking"
+    },
+    {
+      "type": "heading",
+      "text": "Anthem, Inc., 325-326"
+    },
+    {
+      "type": "paragraph",
+      "text": "covert breaches, 194-208 discovery of, 212 human errors as No. 1 catalyst for, 156, 181 identification of, 191-208 lawsuits from, 180 lessons from, 321-326"
+    },
+    {
+      "type": "heading",
+      "text": "Marriott International, 321-322"
+    },
+    {
+      "type": "paragraph",
+      "text": "not using professional to help recover from, 211-216 overt breaches, 192-194 preventing of, 209 recovering from, 209-225"
+    },
+    {
+      "type": "heading",
+      "text": "Sony Pictures, 323-324"
+    },
+    {
+      "type": "heading",
+      "text": "Target, 323"
+    },
+    {
+      "type": "heading",
+      "text": "United States Office of Personnel Management (OPM), 324-325"
+    },
+    {
+      "type": "paragraph",
+      "text": "using professional to help recover from, 210"
+    },
+    {
+      "type": "heading",
+      "text": "Bring Your Own Device (BYOD) policy, 160, 167-169"
+    },
+    {
+      "type": "paragraph",
+      "text": "browser taking precautions when using, 80 use of separate, dedicated one for sensitive web-based tasks, 107 browser add-ons, impact of covert breach on, 205 browser home page, impact of covert breach on, 205-206 brute force attacks, 39 buffering, impact of covert breach on, 197"
+    },
+    {
+      "type": "heading",
+      "text": "Burr, Bill (author), 120"
+    },
+    {
+      "type": "paragraph",
+      "text": "business conducting of with reputable parties, 101 cybersecurity and big businesses, 175-187 cybersecurity and small business, 155-173 business continuity plans (BCPs), 176, 185-186 business data theft, 31-32 business risks, as mitigated by cybersecurity, 20"
+    },
+    {
+      "type": "heading",
+      "text": "BYOD (Bring Your Own Device) policy, 160, 167-169"
+    },
+    {
+      "type": "heading",
+      "text": "C"
+    },
+    {
+      "type": "paragraph",
+      "text": "calculated attacks, 39 carve outs, 164 cellphone numbers caution in publicizing, 80 protection of, 111-112"
+    },
+    {
+      "type": "heading",
+      "text": "CEO fraud, as cyberattack, 27"
+    },
+    {
+      "type": "paragraph",
+      "text": "certifications adherence to code of ethics as required by, 299"
+    },
+    {
+      "type": "heading",
+      "text": "Certified Ethical Hacker (CEH), 298"
+    },
+    {
+      "type": "heading",
+      "text": "Certified Information Security Manager (CISM), 297"
+    },
+    {
+      "type": "heading",
+      "text": "Certified Information Systems Security Professional (CISSP), 296-"
+    },
+    {
+      "type": "paragraph",
+      "text": "297 in cybersecurity, 296-299 digital certificates as form of authentication, 104"
+    },
+    {
+      "type": "heading",
+      "text": "Global Information Assurance Certification Security Essentials"
+    },
+    {
+      "type": "heading",
+      "text": "Certification (GSEC), 298-299"
+    },
+    {
+      "type": "heading",
+      "text": "Security+, 298"
+    },
+    {
+      "type": "heading",
+      "text": "TLS/SSL certificate, 171, 316"
+    },
+    {
+      "type": "paragraph",
+      "text": "verifiability of, 299"
+    },
+    {
+      "type": "heading",
+      "text": "Certified Ethical Hacker (CEH), 298"
+    },
+    {
+      "type": "heading",
+      "text": "Certified Information Security Manager (CISM), 297"
+    },
+    {
+      "type": "heading",
+      "text": "Certified Information Systems Security Professional (CISSP), 296-297"
+    },
+    {
+      "type": "heading",
+      "text": "Cheat Sheet, 4"
+    },
+    {
+      "type": "paragraph",
+      "text": "chief information security officer (CISO) career path of, 294-295 role of, 182-187, 288"
+    },
+    {
+      "type": "heading",
+      "text": "China, as known for performing cyberespionage, 109"
+    },
+    {
+      "type": "heading",
+      "text": "CIA (Confidentiality, Integrity, and Availability), 18"
+    },
+    {
+      "type": "heading",
+      "text": "CIA triad, 18-19"
+    },
+    {
+      "type": "heading",
+      "text": "Cialdini, Robert Beno (social psychologist), 137"
+    },
+    {
+      "type": "paragraph",
+      "text": "claimed destruction, as overt breach, 193-194 class action lawsuits, from data breaches, 180 classified information defined, 87 protection of, 86"
+    },
+    {
+      "type": "heading",
+      "text": "Clinton, Hillary (former U.S. Secretary of State), 86"
+    },
+    {
+      "type": "paragraph",
+      "text": "cloning, 237 cloud in the cloud, 241 storage of backup on, 244-245 communication, impact of covert breach on, 197 compliance for big businesses, 177-180 on biometric data, 167 breach disclosure laws, 166, 179"
+    },
+    {
+      "type": "heading",
+      "text": "CISO's responsibility for, 186"
+    },
+    {
+      "type": "paragraph",
+      "text": "cybersecurity regulations expert, 292"
+    },
+    {
+      "type": "heading",
+      "text": "General Data Protection Regulation (GDPR), 166"
+    },
+    {
+      "type": "heading",
+      "text": "Health Insurance Portability and Accountability Act (HIPAA), 167"
+    },
+    {
+      "type": "paragraph",
+      "text": "industry-specific regulations and rules, 179-180"
+    },
+    {
+      "type": "heading",
+      "text": "Payment Card Industry Data Security Standard (PCI DSS), 165, 178"
+    },
+    {
+      "type": "paragraph",
+      "text": "private regulations expert, 292 public company data disclosure rules, 179"
+    },
+    {
+      "type": "heading",
+      "text": "Sarbanes Oxley Act of 2002 (SOX), 177-178"
+    },
+    {
+      "type": "heading",
+      "text": "Small Business Administration as source of guidance on, 164"
+    },
+    {
+      "type": "paragraph",
+      "text": "for small businesses, 164-167"
+    },
+    {
+      "type": "heading",
+      "text": "CompTIA, 298"
+    },
+    {
+      "type": "paragraph",
+      "text": "computer viruses, 32 computer worms, 33, 45 computer(s) as basic element of protection, 71, 74 locking, 106 resets on, 253-262 storage of at businesses, 173 use of separate, dedicated one for sensitive tasks, 106 using your own, 106 confidentiality, as part of CIA triad, 18"
+    },
+    {
+      "type": "heading",
+      "text": "Confidentiality, Integrity, and Availability (CIA), 18"
+    },
+    {
+      "type": "paragraph",
+      "text": "construction, contingencies during, 93 consultants, considerations about in big businesses, 181-182 continuity planning, 57, 176, 185-186 continuous backups, 235, 272 corporate accounts, limiting access to, 158-159 Corporate and Auditing Accountability, Responsibility, and Transparency"
+    },
+    {
+      "type": "heading",
+      "text": "Act, 177"
+    },
+    {
+      "type": "paragraph",
+      "text": "corporate spies, 47-48 credential attacks, as cyberattack, 39 credential stuffing, 40, 118 credit card information stealing of, 52-53 using one-time, virtual credit card numbers, 103 using payment services that eliminate need to share numbers with vendors, 102"
+    },
+    {
+      "type": "heading",
+      "text": "Crime Prevention Through Environmental Design (CPTD), 90-91"
+    },
+    {
+      "type": "paragraph",
+      "text": "criminal record, overcoming of, 299-300 criminals, reasons of for cyberattacks, 48 cryptanalysts, role of, 289 cryptocurrency conducting cryptocurrency backups, 250 cyrptocurrency miners, 35 defined, 304 effect of on cybercriminals, 10-11 mining of, 35, 51, 54, 305 restoring of, 283-284 use of, 304-306 cryptographer, role of, 289-290 cryptominers/cryptocurrency miners, 35, 51, 54, 305 custom systems, managing of in your big business, 176 cyber insurance compliance with, 187 considerations about, 163-164 cyberattackers black hat hackers, 50 blue hat hackers, 50 defending against, 62-63 green hat hackers, 50 grey hat hackers, 50 groupings of, 50 as monetizing their actions, 50-54 white hat hackers, 50 cyberattacks advanced attacks, 40-42 adware, 35 blended malware, 36 botnets and zombies, 22, 24-25"
+    },
+    {
+      "type": "heading",
+      "text": "CEO fraud, 27"
+    },
+    {
+      "type": "paragraph",
+      "text": "computer viruses, 32 computer worms, 33, 45 credential attacks, 39 cyrptocurrency miners, 35, 51, 54, 305 data destruction attacks, 22, 25 data theft, 30-32 denial-of-service (DoS) attacks, 22 distributed denial-of-service (DDoS) attacks, 22-24 drive-by downloads, 38 exploiting maintenance difficulties, 40 impersonation, 25-29 interception, 29-30 malvertising, 38 malware adware malware, 35, 205 blended malware, 36 capturing of passwords using, 40 as cyberattack, 32-36 impact of on device performance, 195 as modifying settings, 218 resetting of device after, 253 zero day malware, 36 man-in-the-middle attacks, 18, 29-30 network infrastructure poisoning, 37 opportunistic attacks, 41 phishing, 26 poisoned web service attacks, 36-37 ransomware, 33-34 scareware, 34 smishing, 27 social engineering attacks, 39 spear phishing, 26-27 spyware, 34-35 stealing passwords, 39 tampering, 28-29 targeted attacks, 41-42 that inflict damage, 22-25"
+    },
+    {
+      "type": "heading",
+      "text": "Trojans, 33"
+    },
+    {
+      "type": "paragraph",
+      "text": "viruses, 32 vishing, 28 whaling, 28 wiper attacks, 25 worms, 33, 45 zero day malware, 36 zombies, 22, 24-25 cyberespionage, 109 cyberhygiene, 81, 152, 323 cybersecurity and big businesses, 175-187 certifications in, 296-299 as constantly moving target, 9-17 goal of, 18-19 humans as Achilles heel of, 55-56, 77 improvement in without spending a fortune, 315-320 increased need for, 307 multiple meanings of, 8-9 no such thing as 100 percent cybersecurity, 62 other professions with focus on, 300 professional roles in, 287-292 pursuing career in, 287-300 risks as mitigated by, 18-20 and small businesses, 155-173 cybersecurity fatigue, 2 cybersecurity professionals, bringing in/hiring of, 210, 320 cybersecurity regulations expert, role of, 292 cyberspies, 58 cyberwarriors, 12, 45, 58, 303"
+    },
+    {
+      "type": "heading",
+      "text": "D"
+    },
+    {
+      "type": "paragraph",
+      "text": "data business data theft, 31-32 changes in collection and storage of, 14"
+    },
+    {
+      "type": "heading",
+      "text": "Confidentiality, Integrity, and Availability (CIA) of, 18"
+    },
+    {
+      "type": "paragraph",
+      "text": "data loss prevention, 184-185 full backups of, 233, 235, 268-269, 271 historical protection of digital data, 9-10 laws governing biometric data, 167 leaking of by sharing information as part of viral trends, 143 locating your vulnerable data, 89-90 old live data, 277 personal data theft, 30 protecting employee data, 164-165 public company data disclosure rules, 179 recovering from breach when data is compromised at third party, 222-225 restoring from full backups of, 268-269 securing data associated with user accounts, 101 securing of at parties that you haven't interacted with, 115-116 securing of with parties you've interacted with, 113-115 stealing of as technique of cyberattackers, 53 theft of, 30-32 data breaches, See also hacking"
+    },
+    {
+      "type": "heading",
+      "text": "Anthem, Inc., 325-326"
+    },
+    {
+      "type": "paragraph",
+      "text": "covert breaches, 194-208 discovery of, 212 human errors as No. 1 catalyst for, 156, 181 lawsuits from, 180 lessons from, 321-326"
+    },
+    {
+      "type": "heading",
+      "text": "Marriott International, 321-322"
+    },
+    {
+      "type": "paragraph",
+      "text": "not using professional to help recover from, 211-216 overt breaches, 192-194 preventing of, 209 recovering from, 209-225"
+    },
+    {
+      "type": "heading",
+      "text": "Sony Pictures, 323-324"
+    },
+    {
+      "type": "heading",
+      "text": "Target, 323"
+    },
+    {
+      "type": "heading",
+      "text": "United States Office of Personnel Management (OPM), 324-325"
+    },
+    {
+      "type": "paragraph",
+      "text": "using professional to help recover from, 210 data destruction attacks, 25 deep pockets, of big businesses, 180 defacement, as overt breach, 193 degaussing, as way of disposing of backups, 249 deletions, dealing with, 274-275 denial-of-service (DoS) attacks described, 22 protecting against, 171 detecting, defined, 74 dictionary attacks, 39, 118 differential backups, 234, 235, 271 digital certificates, as form of authentication, 104 digital currency, 304. See also cryptocurrency digital data, historical protection of, 9-10 digital poisoning, 108 direct financial fraud, as way to monetize cyberattackers actions, 51 disaster recovery plans (DRPs), 57, 177, 185-186 distributed denial-of-service (DDoS) attacks described, 19, 22-24 protecting against, 306"
+    },
+    {
+      "type": "heading",
+      "text": "DNS (domain name system), 37"
+    },
+    {
+      "type": "heading",
+      "text": "DNS poisoning, 37"
+    },
+    {
+      "type": "heading",
+      "text": "DoS (denial-of-service) attacks"
+    },
+    {
+      "type": "paragraph",
+      "text": "described, 22 protecting against, 171 double-locking, 164 downloaded software backup/backing up, 232-233 restoring of, 268 drive backups, 236-237, 273 drive-by downloads, as cyberattack, 38 drive-specific backup software, 240-241"
+    },
+    {
+      "type": "heading",
+      "text": "DRPs (disaster recovery plans), 57, 177, 185-186"
+    },
+    {
+      "type": "heading",
+      "text": "E"
+    },
+    {
+      "type": "heading",
+      "text": "EC-Council (International Council of E-Commerce Consultants), 298"
+    },
+    {
+      "type": "paragraph",
+      "text": "economic model, shifts in as impact on cybersecurity, 13 education, evaluating security measures regarding, 77-78 802.11ac Wi-Fi protocol, 72 802.11n Wi-Fi protocol, 72"
+    },
+    {
+      "type": "heading",
+      "text": "Einstein, Albert (scientist), 44"
+    },
+    {
+      "type": "paragraph",
+      "text": "election interference, as political ramification of cybersecurity, 14-15 emails cautions in clicking on links in, 112-113 tantalizing emails as type of social engineering attack, 136 employees considerations about in big businesses, 181-182 enforcing social media policies for, 162-163 giving everyone his or her own credentials, 157-158 implementing cybersecurity policies for, 160-162 incentivizing of, 157 limiting access of, 157 monitoring of, 163 protecting employee data, 164-165 watching out for, 156-163 employer-issued documents, compromise of, 225 encryption of all private information, 81 of backups, 245, 246-247 end-to-end encryption, 81 for guest users, 73 one-way encryption, 223 ransomware as often encrypting user files, 33, 192, 221 of sensitive information, 316-317 use of, 76, 80, 94, 122, 123, 127, 162, 164, 329 of virtual drives, 237-238, 273 of Wi-Fi network, 72 end-to-end encryption, 81 environmental risk mitigation, as physical security method, 92-93 ethical hacker, role of, 290 ethics, code of, 299 expunged records, as no longer really expunged, 59-60 external accounts, securing of, 100 external disasters manmade environmental problems, 57 natural disasters, 57"
+    },
+    {
+      "type": "heading",
+      "text": "F"
+    },
+    {
+      "type": "heading",
+      "text": "Facebook"
+    },
+    {
+      "type": "paragraph",
+      "text": "authentication capabilities provided by, 121 backups of data by, 242-243 basic control and audibility on, 158 for business, 158 cautions in listing family members on, 141 celebrity accounts as verified on, 151 criminals as creating fake profiles on, 144, 149 friend requests from as red flags, 147 number of connections on as red flag, 146 red flags on, 39, 146, 147, 150 requests from celebrities on as red flag, 150 use of to find someone's mother's maiden name, 61, 79 factory image, 231"
+    },
+    {
+      "type": "heading",
+      "text": "Fair Credit Reporting Act (FCRA)"
+    },
+    {
+      "type": "paragraph",
+      "text": "as impotent, 58-59 limitations of, 116 fake profiles, on social media, 144-151 false alarm, as type of social engineering attack, 136-137 family tree sites, cautions with, 115"
+    },
+    {
+      "type": "heading",
+      "text": "Federal Trade Commission (FTC)"
+    },
+    {
+      "type": "paragraph",
+      "text": "on Equifax data breach, 116 on passwords, 126 fiduciary responsibilities, of big businesses, 180 financial information, cautions in sharing of, 140 financial risks, as mitigated by cybersecurity, 19 fingerprint sensors, 128, 129"
+    },
+    {
+      "type": "heading",
+      "text": "Firefox"
+    },
+    {
+      "type": "paragraph",
+      "text": "privacy mode, 81 restoring modified settings in, 218 firewall/router, as basic element of protection, 71, 72-73 folder backups, 236, 273 forensic analyst, role of, 292 fraud alerts responding to, 110 triggering of, 109 fraud prevention, 185"
+    },
+    {
+      "type": "heading",
+      "text": "FTC (Federal Trade Commission)"
+    },
+    {
+      "type": "paragraph",
+      "text": "on Equifax data breach, 116 on passwords, 126 full backups of data, 233, 235, 268-269, 271 full system backup, 230-231, 264-265"
+    },
+    {
+      "type": "heading",
+      "text": "G"
+    },
+    {
+      "type": "paragraph",
+      "text": "gaming systems, potential problems of regarding cybersecurity, 69 genealogy sites, cautions with, 115"
+    },
+    {
+      "type": "heading",
+      "text": "General Data Protection Regulation (GDPR), 166, 322"
+    },
+    {
+      "type": "heading",
+      "text": "Global Information Assurance Certification Security Essentials"
+    },
+    {
+      "type": "heading",
+      "text": "Certification (GSEC), 298-299"
+    },
+    {
+      "type": "paragraph",
+      "text": "good guys, as relative term, 44-45 goods, stealing of as technique of cyberattackers, 53"
+    },
+    {
+      "type": "heading",
+      "text": "Google, cautions with authentication by, 61-62"
+    },
+    {
+      "type": "heading",
+      "text": "Google Chrome"
+    },
+    {
+      "type": "paragraph",
+      "text": "privacy mode, 81 restoring modified settings in, 218"
+    },
+    {
+      "type": "heading",
+      "text": "Google Drive, data storage on, 242"
+    },
+    {
+      "type": "heading",
+      "text": "Google Glass, 311"
+    },
+    {
+      "type": "heading",
+      "text": "Google Play, as reputable app store, 101"
+    },
+    {
+      "type": "heading",
+      "text": "Google Voice, 80, 112, 159"
+    },
+    {
+      "type": "paragraph",
+      "text": "government-issued documents, compromise of, 225 green hat hackers, 50 grey hat hackers, 50"
+    },
+    {
+      "type": "heading",
+      "text": "GSEC (Global Information Assurance Certification Security Essentials"
+    },
+    {
+      "type": "heading",
+      "text": "Certification), 298-299"
+    },
+    {
+      "type": "paragraph",
+      "text": "guest network capability, 73"
+    },
+    {
+      "type": "heading",
+      "text": "H"
+    },
+    {
+      "type": "paragraph",
+      "text": "hackers black hat hackers, 50 blue hat hackers, 50 ethical hacker, 290 green hat hackers, 50 grey hat hackers, 50 history of teenage hackers, 47 offensive hacker, 290-291 white hat hackers, 50 hacking. See also breaches of Alcoa, 48 of Allegheny Technologies, 48 by nations, 47 reasons of rogue insiders for, 49 reasons of terrorists for, 49 of SolarWorld, 48 by states, 47 of U.S. organizations by People's Liberation Army (PLA) of China, 48 use of artificial intelligence (AI) as tool of, 308-309 of Westinghouse, 48 hacktivism, as political ramification of cybersecurity, 15 hacktivists, defined, 49 hard resets, 256-262 hardware, evaluating security measures regarding, 76-77 hardware tokens, as form of authentication, 105, 131-132 hashed format, 223"
+    },
+    {
+      "type": "heading",
+      "text": "Health Insurance Portability and Accountability Act (HIPAA), 167"
+    },
+    {
+      "type": "paragraph",
+      "text": "home computers, potential problems of regarding cybersecurity, 68"
+    },
+    {
+      "type": "heading",
+      "text": "HTTPS, 110, 171, 316"
+    },
+    {
+      "type": "heading",
+      "text": "Huawei devices running Android 8, hard resets on, 260-261"
+    },
+    {
+      "type": "paragraph",
+      "text": "human errors as greatest cybersecurity danger, 55 as No. 1 catalyst for data breaches, 156, 181 humans as Achilles heel of cybersecurity, 55-56, 77 as always coming first regarding safety and security, 95"
+    },
+    {
+      "type": "heading",
+      "text": "I"
+    },
+    {
+      "type": "heading",
+      "text": "ICO (Information Commissioner's Office of the United Kingdom), 322"
+    },
+    {
+      "type": "paragraph",
+      "text": "icons, explained, 3-4 identity and access management, 184 impersonation, as cyberattack, 25-29, 135-136 in the cloud, defined, 241 in-app backups, 239, 276 inbound access, handling of, 169-171 incident response plan, 185 incident response team member, role of, 292 incineration, as way of disposing of backups, 249 incremental backups, 233-234, 269-270, 271 incremental system backups, 270 indirect financial fraud, as way to monetize cyberattackers actions, 51-53 industry-specific regulations and rules, for big businesses, 179-180"
+    },
+    {
+      "type": "heading",
+      "text": "Influence: The Psychology of Persuasion (Cialdini), 137"
+    },
+    {
+      "type": "paragraph",
+      "text": "information bogus information, 151 classified information, 86, 87 credit card information, 52-53, 102, 103 dealing with stolen information, 219-222 financial information, 140 insider information, 52 personal information, 141 private information, 102 sensitive information, 102, 106, 107, 221, 316-317 stolen information, 219-222 that is not private but can help criminals with identity theft, 220-221 information asset classification and control, 183"
+    },
+    {
+      "type": "heading",
+      "text": "Information Commissioner's Office of the United Kingdom (ICO), 322"
+    },
+    {
+      "type": "paragraph",
+      "text": "information security defined, 8 standards of, 165 starting out in, 295-296 strategy of, 184 training in, 156, 181-182"
+    },
+    {
+      "type": "heading",
+      "text": "Information Systems Audit and Control Association (ISACA), 297"
+    },
+    {
+      "type": "paragraph",
+      "text": "insider information, as technique of cyberattackers, 52 insiders, as posing greatest risk, 94"
+    },
+    {
+      "type": "heading",
+      "text": "Instagram"
+    },
+    {
+      "type": "paragraph",
+      "text": "for business, 158 celebrity accounts as verified on, 151 criminals as creating fake profiles on, 144, 148 impersonation on, 136 usage level as red flag on, 148 insurance cyber insurance, 163-164, 187 evaluating security measures regarding, 77 integrity, as part of CIA triad, 18 intellectual property (IP), theft of, 31 interception, as cyberattack, 29-30 internal politics, dealing with, 181"
+    },
+    {
+      "type": "heading",
+      "text": "International Council of E-Commerce Consultants (EC-Council), 298"
+    },
+    {
+      "type": "heading",
+      "text": "Internet"
+    },
+    {
+      "type": "paragraph",
+      "text": "handling access of in your small business, 167-172 impact of on cybersecurity, 10 segregating access to, 319"
+    },
+    {
+      "type": "heading",
+      "text": "Internet of Things (IoT)"
+    },
+    {
+      "type": "paragraph",
+      "text": "being careful with IoT devices, 172 defined, 11 potential problems of regarding cybersecurity, 69, 83-84 relying on, 302-304 investigations, CISO's responsibility for, 186"
+    },
+    {
+      "type": "heading",
+      "text": "IP (intellectual property), theft of, 31"
+    },
+    {
+      "type": "paragraph",
+      "text": "iPhones hard resets on, 262 soft resets on, 255-256 iris scanners/readers, 129"
+    },
+    {
+      "type": "heading",
+      "text": "ISACA (Information Systems Audit and Control Association), 297"
+    },
+    {
+      "type": "heading",
+      "text": "K"
+    },
+    {
+      "type": "heading",
+      "text": "Kaspersky Lab, 24"
+    },
+    {
+      "type": "paragraph",
+      "text": "keylogger, 34 knowledge-based authentication, 105"
+    },
+    {
+      "type": "heading",
+      "text": "L"
+    },
+    {
+      "type": "paragraph",
+      "text": "latency issues, impact of covert breach on, 196-197 later system images, 232, 267 lawsuits, from data breaches, 180 lighting, as physical security method, 92 limits, setting appropriate limits regarding accounts, 109"
+    },
+    {
+      "type": "heading",
+      "text": "LinkedIn"
+    },
+    {
+      "type": "paragraph",
+      "text": "criminals as creating fake profiles on, 144 criminals gaining access to private information on, 144 endorsements on, 148 number of connections on as red flag, 146"
+    },
+    {
+      "type": "heading",
+      "text": "Premium status, 147-148"
+    },
+    {
+      "type": "paragraph",
+      "text": "spelling errors on as red flag, 150 locks, as physical security method, 92 logging out, when you're finished, 106 login info avoid sharing of, 318 checking of last one, 110"
+    },
+    {
+      "type": "heading",
+      "text": "M"
+    },
+    {
+      "type": "heading",
+      "text": "MAC address filtering, 72-73"
+    },
+    {
+      "type": "heading",
+      "text": "Mac computers"
+    },
+    {
+      "type": "paragraph",
+      "text": "hard resets on, 261-262 soft resets on, 255 maintenance difficulties, exploitation of, 40 malvertising, as cyberattack, 38 malware adware malware, 35, 205 blended malware, 36 capturing of passwords using, 40 as cyberattack, 32-36 impact of on device performance, 195 as modifying settings, 218 resetting of device after, 253 zero day malware, 36 man-in-the-middle attacks, 18, 29-30 manmade environmental problems, risk from, 57 manual backups, 242 marking, as component of Crime Prevention Through Design (CPTD), 91"
+    },
+    {
+      "type": "heading",
+      "text": "Marriott International, cybersecurity breach, 321-322"
+    },
+    {
+      "type": "heading",
+      "text": "Microsoft Edge"
+    },
+    {
+      "type": "paragraph",
+      "text": "privacy mode, 81 restoring modified settings in, 219"
+    },
+    {
+      "type": "heading",
+      "text": "Microsoft Word, AutoRecover, 239"
+    },
+    {
+      "type": "paragraph",
+      "text": "mistakes, learning from, 75 mixed backups, 234-235 mobile device location tracking, potential consequences of, 62 mobile devices defined, 88 keeping of up to date, 107-108 potential problems of regarding cybersecurity, 68-69 security for, 93-94 taking inventory of physical security regarding, 88-89 using your own, 106 mobile hotspot, using your cellphone as, 327 mother's maiden name, as frequent security question, 61 multifactor authentication, 83, 104-106, 159, 171 multiple network segments, use of, 172 \"Myth Busters\" (TV show), on defeating fingerprint authentication system, 129"
+    },
+    {
+      "type": "heading",
+      "text": "N"
+    },
+    {
+      "type": "paragraph",
+      "text": "National Socialist Party of America v. Village of Skokie, 45 nations, hacking by, 47 natural disasters, risk from, 57"
+    },
+    {
+      "type": "heading",
+      "text": "Network Address Translation, 72"
+    },
+    {
+      "type": "paragraph",
+      "text": "network connectivity, terminating of on Windows computer, 213 network infrastructure poisoning, as cyberattack, 37 network sniffing, 40 network storage of backup, restoring from, 281 networking equipment, potential problems of regarding cybersecurity, 70 9/11, learnings from, 57 nonmalicious threats, dealing with, 54-62"
+    },
+    {
+      "type": "heading",
+      "text": "Nuclear Regulatory Commission (NRC), 179"
+    },
+    {
+      "type": "heading",
+      "text": "O"
+    },
+    {
+      "type": "paragraph",
+      "text": "offensive hacker, role of, 290-291 Office of Personnel Management (OPM) (US), cybersecurity breach, 324-325 official apps/websites, use of, 101 one-way encryption, 223 online banking, 82-83"
+    },
+    {
+      "type": "heading",
+      "text": "Opera, privacy mode, 81"
+    },
+    {
+      "type": "paragraph",
+      "text": "opportunistic attacks, 41, 119 original installation media, 232, 267 original system images, 231, 266 overwriting, as way of disposing of backups, 249"
+    },
+    {
+      "type": "heading",
+      "text": "P"
+    },
+    {
+      "type": "paragraph",
+      "text": "padlock icon, meaning of, 110-111 partial backups, 235-236, 272-273 partners, considerations about in big businesses, 181-182 passphrases, defined, 120 password authentication, 117-118 password manager, 122-123, 319 passwords"
+    },
+    {
+      "type": "heading",
+      "text": "AARP (American Association of Retired Persons) on, 124"
+    },
+    {
+      "type": "paragraph",
+      "text": "alternatives to, 128-132 app-based one-time ones, 131 avoid maintaining default passwords, 84 avoid sharing of, 318 avoid simplistic ones, 118 backing up of, 250 capturing of using malware, 40 cautions with resetting of when using public Wi-Fi, 328 changing of after breach, 125-126 classification of, 121 complicated ones as not always better, 120 considerations about, 119-123 creating memorable, strong ones, 124 easily guessable personal passwords, 119-120 employing proper password strategy, 104 establishing policies for, 121 establishing voice login passwords, 111"
+    },
+    {
+      "type": "heading",
+      "text": "Federal Trade Commission (FTC) on, 126"
+    },
+    {
+      "type": "paragraph",
+      "text": "knowing when to change, 124-125 most common ones of 2018, 119 one-time passwords, 105, 131 as primary form of authentication, 117-118 providing of to humans, 126-127 reuse of, 122, 126"
+    },
+    {
+      "type": "heading",
+      "text": "RSA SecureID one-time password generator hardware token, 131"
+    },
+    {
+      "type": "paragraph",
+      "text": "stealing of, 39-40 storage of, 127 theft of password databases, 223-224 transmitting of, 127 use of password manager, 122-123 as usually stored in hashed format, 223 voice login passwords, 111"
+    },
+    {
+      "type": "heading",
+      "text": "Payment Card Industry Data Security Standard (PCI DSS), 165, 178"
+    },
+    {
+      "type": "paragraph",
+      "text": "payment cards being careful with, 172 compromise of payment card information, 224 payment services, use of, 102"
+    },
+    {
+      "type": "heading",
+      "text": "PayPal, 102"
+    },
+    {
+      "type": "paragraph",
+      "text": "penetration tests, running of, 172 People's Liberation Army (PLA) of China, hacking of U.S. organizations by, 48 perimeter defense, as basic element of protection, 71 perimeter security, as physical security method, 92 personal data theft, 30"
+    },
+    {
+      "type": "heading",
+      "text": "Personal Identification Number (PIN), selection of, 82"
+    },
+    {
+      "type": "paragraph",
+      "text": "personal information, cautions in sharing of, 141 personal risks, as mitigated by cybersecurity, 20 pharming, 37 phishing, as cyberattack, 26, 134, 135 physical security"
+    },
+    {
+      "type": "heading",
+      "text": "CISO's responsibility for, 186"
+    },
+    {
+      "type": "paragraph",
+      "text": "creating and executive a plan for, 90-91 implementing of, 92-93 locating your vulnerable data, 89-90 taking inventory for, 87-89 why it matters, 86-87 piggy-backing, 197"
+    },
+    {
+      "type": "heading",
+      "text": "PIN (Personal Identification Number), selection of, 82"
+    },
+    {
+      "type": "paragraph",
+      "text": "poisoned web page attack, 36 poisoned web service attacks, 36-37"
+    },
+    {
+      "type": "heading",
+      "text": "Pokémon Go, 311"
+    },
+    {
+      "type": "paragraph",
+      "text": "political shifts, impact of on cybersecurity, 13-14 pop-ups, impact of covert breach on, 205 power failures, contingencies for, 93 power issues, managing of in your small business, 172-173 pretexting, 134 privacy, basics of, 78-81 privacy mode, 81 privacy policies, paying attention to, 113 privacy regulations expert, role of, 292 privacy risks, as mitigated by cybersecurity, 19 private information, cautions with providing unnecessary sensitive information, 102 private mode, limitations of, 115 professional risks, as mitigated by cybersecurity, 19 professionals, bringing in/hiring of, 210, 320 protection, elements of, 71-75 public companies, defined, 179"
+    },
+    {
+      "type": "heading",
+      "text": "Public Company Accounting Reform and Investor Protection Act, 177"
+    },
+    {
+      "type": "paragraph",
+      "text": "pump and dump, as technique of cyberattackers, 52"
+    },
+    {
+      "type": "heading",
+      "text": "Q"
+    },
+    {
+      "type": "paragraph",
+      "text": "quid pro quo, as type of social engineering attack, 135"
+    },
+    {
+      "type": "heading",
+      "text": "R"
+    },
+    {
+      "type": "paragraph",
+      "text": "ransoms, paying of, 221-222 ransomware bogus smartphone ransomware, 193 as cyberattack, 33-34 as overt breach, 192-193 as way to monetize cyberattackers actions, 51, 53-54 recovering, defined, 75"
+    },
+    {
+      "type": "heading",
+      "text": "Registry Editor, impact of covert breach on, 196"
+    },
+    {
+      "type": "paragraph",
+      "text": "regulations for big businesses, 177-180 on biometric data, 167 breach disclosure laws, 166, 179 cybersecurity regulations expert, 292"
+    },
+    {
+      "type": "heading",
+      "text": "General Data Protection Regulation (GDPR), 166"
+    },
+    {
+      "type": "heading",
+      "text": "Health Insurance Portability and Accountability Act (HIPAA), 167"
+    },
+    {
+      "type": "paragraph",
+      "text": "industry-specific regulations and rules, 179-180"
+    },
+    {
+      "type": "heading",
+      "text": "Payment Card Industry Data Security Standard (PCI DSS), 165, 178"
+    },
+    {
+      "type": "paragraph",
+      "text": "private regulations expert, 292 public company data disclosure rules, 179"
+    },
+    {
+      "type": "heading",
+      "text": "Sarbanes Oxley Act of 2002 (SOX), 177-178"
+    },
+    {
+      "type": "heading",
+      "text": "Small Business Administration as source of guidance on, 164"
+    },
+    {
+      "type": "paragraph",
+      "text": "for small businesses, 164-167 remote access, providing of to business systems, 171-172 remote access technologies, impact of on cybersecurity, 11 renovations, contingencies during, 93 replicated environments, use of, 182 resets hard resets, 254, 256-262 rebuilding your device after hard reset, 262 soft resets, 254-256 types of, 253-262 responding, defined, 74 restoring from archives, 276-277 from backups from archives, 276-277 dealing with deletions in, 274-275 excluding files and folders in, 275 from full backups of systems, 264-269 from incremental backups, 269-274 booting from boot disk, 284 cautions about, 264 from combination of locations, 281-282 to computing device that was originally backed up, 265 cryptocurrency, 283-284 dealing with deletions in, 274-275 to different device than one that was originally backed up, 265-266 from differential backups, 271 of downloaded software, 268 from drive backups, 273 from encrypted backups, 282 entire virtual drive, 273-274 excluding files and folders in, 275 files and/or folders from virtual drive, 273-274 from folder backups, 273 from full backups of data, 268-269 from full backups of systems to computing device that was originally backed up, 265 to different device than one that was originally backed up, 265-266 of downloaded software, 268 from full backups of data, 268-269 installing security software, 267 of later system images, 267 of original installation media, 267 of original systems images, 266 from incremental backups from differential backups, 271 from drive backups, 273 entire virtual drive, 273-274 files and/or folders from virtual drive, 273-274 from folder backups, 273 from incremental backups of data, 270 from incremental backups of systems, 270 from partial backups, 272-273 from virtual-drive backups, 273-274 from incremental backups of data, 270 from incremental backups of systems, 270 installing security software, 267 of later system images, 267 from manual file or folder copying backups, 280 of modified settings in Safari, 218-219 need for, 263 to network storage, 281 to non-original locations, 281-282 of original installation media, 267 of original systems images, 266 from partial backups, 272-273 returning backups to their proper locations from combination of locations, 281-282 to network storage, 281 from smartphone/tablet backup, 279-280 to system restore point, 278-279 testing backups, 282-283 using backup tools from manual file or folder copying backups, 280 overview, 277-278 from smartphone/tablet backup, 279-280 to system restore point, 278-279 utilizing third-party backups of data hosted at third parties, 280 from Windows backup, 278 utilizing third-party backups of data hosted at third parties, 280 from virtual-drive backups, 273-274 from Windows backup, 278 right to be forgotten, 60 risks addressing of through various methods, 63 from backups, 93 environmental risk mitigation, 92-93 financial risks, 19 human risk management, 183 identification of, 70-71 insiders as posing greatest risk, 94 from manmade environmental problems, 57 as mitigated by cybersecurity, 18-20 from natural disasters, 57 personal risks, 20 privacy risks, 19 professional risks, 19 protecting against, 71-75 realizing insiders pose greatest risks, 94-95 from social media, 61 rogue insiders, reasons of for hacking, 49 root your phone, cautions with, 102"
+    },
+    {
+      "type": "heading",
+      "text": "RSA SecureID one-time password generator hardware token, 131"
+    },
+    {
+      "type": "heading",
+      "text": "S"
+    },
+    {
+      "type": "heading",
+      "text": "Safari"
+    },
+    {
+      "type": "paragraph",
+      "text": "privacy mode, 81 restoring modified settings in, 218-219"
+    },
+    {
+      "type": "heading",
+      "text": "Samsung Galaxy Series running Android 9, hard resets on, 260"
+    },
+    {
+      "type": "heading",
+      "text": "Samsung Pay, 102"
+    },
+    {
+      "type": "heading",
+      "text": "Samsung tablets running Android 9, hard resets on, 260"
+    },
+    {
+      "type": "paragraph",
+      "text": "sanctions, as political ramification of cybersecurity, 16 sandboxing, 168"
+    },
+    {
+      "type": "heading",
+      "text": "SANS Institute, 298"
+    },
+    {
+      "type": "heading",
+      "text": "Sarbanes Oxley Act of 2002 (SOX), 177-178"
+    },
+    {
+      "type": "paragraph",
+      "text": "scambaiting, 134 scams, 223 scareware, as cyberattack, 34 school-issued documents, compromise of, 225 script kiddies (a.k.a. skids or kiddies), 46"
+    },
+    {
+      "type": "heading",
+      "text": "Section 302 (SOX), 178"
+    },
+    {
+      "type": "heading",
+      "text": "Section 404 (SOX), 178"
+    },
+    {
+      "type": "heading",
+      "text": "Secure Folder, 123"
+    },
+    {
+      "type": "paragraph",
+      "text": "security administrator, role of, 289 security analyst, role of, 289 security architect, role of, 289 security architecture, 187 security auditor, role of, 289 security breaches. See also hacking"
+    },
+    {
+      "type": "heading",
+      "text": "Anthem, Inc., 325-326"
+    },
+    {
+      "type": "paragraph",
+      "text": "covert breaches, 194-208 discovery of, 212 human errors as No. 1 catalyst for, 156, 181 identification of, 191-208 lawsuits from, 180 lessons from, 321-326"
+    },
+    {
+      "type": "heading",
+      "text": "Marriott International, 321-322"
+    },
+    {
+      "type": "paragraph",
+      "text": "not using professional to help recover from, 211-216 overt breaches, 192-193 preventing of, 209 recovering from, 209-225"
+    },
+    {
+      "type": "heading",
+      "text": "Sony Pictures, 323-324"
+    },
+    {
+      "type": "heading",
+      "text": "Target, 323"
+    },
+    {
+      "type": "heading",
+      "text": "United States Office of Personnel Management (OPM), 324-325"
+    },
+    {
+      "type": "paragraph",
+      "text": "using professional to help recover from, 210 security consultant, role of, 291 security director, role of, 288 security engineer, role of, 288 security guards, as physical security method, 92 security manager, role of, 288 security measures, evaluating yours, 67-70, 75-78 security operations, 184 security program management of, 183 testing and measurement of, 183 security questions, cautions with, 61, 62 security researcher, role of, 290 security software on access devices, 107 as basic element of protection, 71, 73 having it on any devices connected to public Wi-Fi networks, 329 installation of as part of system restoration, 267 keeping of up to date, 107 running of in recovery from breach, 215-216 use of, 152, 316 security specialist, role of, 291"
+    },
+    {
+      "type": "heading",
+      "text": "Security+, 298"
+    },
+    {
+      "type": "paragraph",
+      "text": "semi-targeted attacks, 42 senior security architect, career path of, 293 sharing, turning off of, 329 shredding, as way of disposing of backups, 249 Small Business Administration, as source of guidance on regulations, 164 smart devices impact of on cybersecurity, 11 safe use of, 83-84 smartphone backup of, 241-242 as full-blown computer, 89 restoring from backup to, 279 smishing, as cyberattack, 27"
+    },
+    {
+      "type": "heading",
+      "text": "SMS (text message)-based authentication, 105, 128, 130, 131, 159, 201"
+    },
+    {
+      "type": "heading",
+      "text": "Snapchat, 105"
+    },
+    {
+      "type": "paragraph",
+      "text": "social engineering defined, 56, 111 examples of, 56 exploitation of, 137-138 potential problems of regarding cybersecurity, 70 preventing of, 133-137, 152 preventing yourself from falling prey to attacks of, 111 types of social engineering attacks, 134-137 social engineering attacks as cyberattack, 39 types of, 134-137 social media. See also Facebook; Instagram; LinkedIn; Snapchat; Twitter cautions in oversharing on, 113, 138-143 compromise of, 225 considering implications of, 79 enforcing social media policies, 162-163 as generating serious risks to cybersecurity, 61 identifying fake connections, 144-151 impact of on cybersecurity, 12 limiting access to corporate accounts on, 158-159 use of privacy settings on, 80 warning systems on, 139 wise use of, 319 social media impersonation, as type of social engineering attack, 135-136 social shifts, impact of on cybersecurity, 12-13 soft resets, 254-256 software. See also security software backup software, 239-243 cautions with installing of from untrusted parties, 102 downloaded software, backup of, 232-233 downloaded software, restoring of, 268 drive-specific backup software, 240-241 evaluating security measures regarding, 75-76 reinstalling damaged software after breach, 216-217 software security engineer, role of, 291 software security manager, role of, 291 software source code security auditor, role of, 291"
+    },
+    {
+      "type": "heading",
+      "text": "SolarWorld, hacking of, 48"
+    },
+    {
+      "type": "heading",
+      "text": "Sony Pictures, cybersecurity breach, 323-324"
+    },
+    {
+      "type": "heading",
+      "text": "SOX (Sarbanes Oxley Act of 2002), 177-178"
+    },
+    {
+      "type": "paragraph",
+      "text": "spear phishing, as cyberattack, 26-27 spies corporate spies, 47-48 cyberespionage, 109 cyberspies, 58 spyware, 34-35"
+    },
+    {
+      "type": "heading",
+      "text": "SSL/TLS encryption, 171, 316"
+    },
+    {
+      "type": "paragraph",
+      "text": "states, hacking by, 47 stationary devices defined, 88 taking inventory of physical security regarding, 88 stolen information, dealing with, 219-222 storage (of backup) cloud, 244-245 local, 243-244 mixed locations, 245-246 network, 245 offsite, 244 where not to store, 246"
+    },
+    {
+      "type": "heading",
+      "text": "Stuxnet, 44, 45, 303"
+    },
+    {
+      "type": "heading",
+      "text": "Sun Tzu (Chinese military strategist and philosopher), 43"
+    },
+    {
+      "type": "heading",
+      "text": "Supervisory Control and Data Acquisition systems (SCADA), 179"
+    },
+    {
+      "type": "paragraph",
+      "text": "surveillance, as component of Crime Prevention Through Design (CPTD), 91 symmetric algorithm, for encryption, 317"
+    },
+    {
+      "type": "heading",
+      "text": "Syrian Electronic Army, 193"
+    },
+    {
+      "type": "paragraph",
+      "text": "system administrators ensuring auditability of, 187 privileges of, 158 system restoration, 264-269 system restore point, restoring to, 278-279"
+    },
+    {
+      "type": "heading",
+      "text": "System Restore, use of, 217-218"
+    },
+    {
+      "type": "heading",
+      "text": "T"
+    },
+    {
+      "type": "paragraph",
+      "text": "tablet backup of, 241-242 restoring from backup to, 279-280 tailgating, as type of social engineering attack, 136 tampering, as cyberattack, 28-29"
+    },
+    {
+      "type": "heading",
+      "text": "Target, cybersecurity breach, 323"
+    },
+    {
+      "type": "paragraph",
+      "text": "target, understanding that you are one, 99-100, 315-316 targeted attacks, 41-42, 119"
+    },
+    {
+      "type": "heading",
+      "text": "Task Manager, impact of covert breach on, 195"
+    },
+    {
+      "type": "paragraph",
+      "text": "technical failure, as type of social engineering attack, 137 technological complexity, use of, 176 technologies cautions in trusting of, 133-134 emerging technologies as bringing new threats, 301-311 teenage hackers, history of, 47 terrorists, reasons of for hacking, 49 text message (SMS)-based authentication, 105, 128, 130, 131, 159, 201 text messages, cautions in clicking on links in, 112-113 thefts business data theft, 31-32 of intellectual property (IP), 31 of password databases, 223-224 personal data theft, 30 threats advanced persistent threats (APTs), 42 dealing with nonmalicious ones, 54-62 emerging technologies as bringing new ones, 301-311"
+    },
+    {
+      "type": "heading",
+      "text": "TLS/SSL certificate, 171, 316"
+    },
+    {
+      "type": "heading",
+      "text": "Tor Browser Bundle, 80, 114, 115, 329"
+    },
+    {
+      "type": "heading",
+      "text": "Trojans, as cyberattack, 33"
+    },
+    {
+      "type": "paragraph",
+      "text": "2016 Presidential election (U.S.), 47"
+    },
+    {
+      "type": "heading",
+      "text": "Twitter"
+    },
+    {
+      "type": "paragraph",
+      "text": "authentication capabilities provided by, 121 for business, 158 celebrity accounts as verified on, 151 criminals as creating fake profiles on, 149"
+    },
+    {
+      "type": "heading",
+      "text": "U"
+    },
+    {
+      "type": "paragraph",
+      "text": "uninterruptible power supply (UPS), 173"
+    },
+    {
+      "type": "heading",
+      "text": "United States Office of Personnel Management (OPM), cybersecurity"
+    },
+    {
+      "type": "paragraph",
+      "text": "breach, 324-325 updates, installing of to reduce exposure to vulnerabilities, 107-108 U.S. Supreme Court, National Socialist Party of America v. Village of"
+    },
+    {
+      "type": "heading",
+      "text": "Skokie, 45"
+    },
+    {
+      "type": "heading",
+      "text": "USB-based authentication, 132"
+    },
+    {
+      "type": "paragraph",
+      "text": "user accounts, securing data associated with, 101"
+    },
+    {
+      "type": "heading",
+      "text": "V"
+    },
+    {
+      "type": "paragraph",
+      "text": "verifiability, of certification, 299 video cameras, as physical security method, 92 viral trend, 143 virtual credit card numbers, use of, 103 virtual drive backups, 237-238, 273-274 virtual kidnapping scams, 61, 140 virtual locker, 232"
+    },
+    {
+      "type": "heading",
+      "text": "Virtual Private Network (VPN)/VPN service, 9, 68, 114, 115, 171, 328-"
+    },
+    {
+      "type": "paragraph",
+      "text": "329 virtual reality, 309-310 virus hoax, as type of social engineering attack, 137 viruses, as cyberattack, 32 vishing, as cyberattack, 28"
+    },
+    {
+      "type": "heading",
+      "text": "Vivaldi, privacy mode, 81"
+    },
+    {
+      "type": "paragraph",
+      "text": "voice login passwords, 111 voice-based authentication, 130"
+    },
+    {
+      "type": "heading",
+      "text": "VOIP number, 159"
+    },
+    {
+      "type": "paragraph",
+      "text": "vulnerability assessment analyst, role of, 290"
+    },
+    {
+      "type": "heading",
+      "text": "W"
+    },
+    {
+      "type": "heading",
+      "text": "WannaCry, 34"
+    },
+    {
+      "type": "paragraph",
+      "text": "water holing, as type of social engineering attack, 137"
+    },
+    {
+      "type": "heading",
+      "text": "Westinghouse, hacking of, 48"
+    },
+    {
+      "type": "paragraph",
+      "text": "whaling, as cyberattack, 28 white hat hackers, 50"
+    },
+    {
+      "type": "heading",
+      "text": "Wi-Fi"
+    },
+    {
+      "type": "paragraph",
+      "text": "cautions with performing sensitive tasks over public Wi-Fi, 108, 328 cautions with using public Wi-Fi for any purpose in high-risk places, 108-109 recommended protocols for, 72 turning off Wi-Fi connectivity when not using Wi-Fi, 328 understanding difference between true public Wi-Fi and shared Wi-"
+    },
+    {
+      "type": "heading",
+      "text": "Fi, 330"
+    },
+    {
+      "type": "paragraph",
+      "text": "using public Wi-Fi safely, 319, 327-330"
+    },
+    {
+      "type": "heading",
+      "text": "Windows AutoUpdate, 107-108"
+    },
+    {
+      "type": "heading",
+      "text": "Windows backup, 241, 278"
+    },
+    {
+      "type": "heading",
+      "text": "Windows Blue Screen of Death, 254"
+    },
+    {
+      "type": "heading",
+      "text": "Windows computers"
+    },
+    {
+      "type": "paragraph",
+      "text": "hard resets on, 257-259 soft resets on, 254-255 wiper attacks, 25 work environment, potential problems of regarding cybersecurity, 70 worms, as cyberattack, 33, 45"
+    },
+    {
+      "type": "heading",
+      "text": "WPA-2 standard, 72"
+    },
+    {
+      "type": "heading",
+      "text": "Z"
+    },
+    {
+      "type": "paragraph",
+      "text": "zero day malware, as cyberattack, 36 zombies, 24-25"
+    },
+    {
+      "type": "heading",
+      "text": "About the Author"
+    },
+    {
+      "type": "heading",
+      "text": "Joseph Steinberg advises businesses in the cybersecurity and emerging"
+    },
+    {
+      "type": "paragraph",
+      "text": "technologies sectors, helping them grow and succeed. He also serves as an expert witness and consultant on related matters. Joseph previously led businesses and divisions within the information- security industry for more than two decades, has been calculated to be one of the top three cybersecurity influencers worldwide, and has written books ranging from Cybersecurity For Dummies to the official study guide from which many Chief Information Security Officers (CISOs) study for their certification exams. He is also one of only 28 people worldwide to hold the suite of advanced information security certifications(CISSP, ISSAP, ISSMP, and CSSLP), indicating that he possesses a rare, robust knowledge of information security that is both broad and deep; his information-security-related inventions are cited in more than 400 U.S. patent filings. Joseph is also one of the best read columnists in the cybersecurity field and a respected authority on other emerging technologies, having amassed millions of readers as a regular columnist for Forbes and Inc. magazines. Within three months of going independent in April 2018, his column -- now published exclusively on JosephSteinberg.com -- reached 1 million monthly views. His writing reflects his passion for exploring the impact of emerging technologies on human society, making complex technical concepts simple to understand and helping people focus on the technology issues and cybersecurity risks that truly impact them. Joseph can be reached at https://JosephSteinberg.com."
+    },
+    {
+      "type": "heading",
+      "text": "Dedication"
+    },
+    {
+      "type": "heading",
+      "text": "Many summers ago, when I was 8 years old, my parents arranged for me"
+    },
+    {
+      "type": "paragraph",
+      "text": "to take a programming class, giving me my first exposure to the then- emerging world of personal computers. Unbeknownst to any of us at the time, the moment at which I wrote my first line of code by typing on the chicklet keyboard of the school's Commodore PET marked the start of what would become my lifelong fascination with computer technology."
+    },
+    {
+      "type": "heading",
+      "text": "That childhood interest ultimately blossomed from a hobby into a"
+    },
+    {
+      "type": "paragraph",
+      "text": "college major, a graduate course of study, and a career. On that note, as I stand in my office looking at the almost four-decades- old cassette tape containing software that I wrote that summer, I dedicate this book to my parents, Dr. Edward and Sandra Steinberg."
+    },
+    {
+      "type": "heading",
+      "text": "Also, as my youngest daughter, Tammy, was not yet born when I"
+    },
+    {
+      "type": "paragraph",
+      "text": "dedicated a prior book to my wife and children, I also dedicate this work to her, the first digital native born into our family."
+    },
+    {
+      "type": "heading",
+      "text": "Author's Acknowledgments"
+    },
+    {
+      "type": "heading",
+      "text": "Cybersecurity is of paramount importance in today's world, but few"
+    },
+    {
+      "type": "paragraph",
+      "text": "modern-day adults learned from their parents or in school about mitigating against today's major cybersecurity risks. Couple that lack of formal education with the combination of information overload, the proliferation of oft-repeated impractical advice, technical terms, and the constant barrage of news stories about cyberattacks and breaches, and it is no surprise that, when it comes to cybersecurity, many folks feel confused, fatigued, and scared. As a result, there has never been a greater need for a book that brings basic, practical cybersecurity knowledge to \"nontechnical people\" than there is today."
+    },
+    {
+      "type": "heading",
+      "text": "It was with the aim of satisfying that need in mind that Wiley"
+    },
+    {
+      "type": "paragraph",
+      "text": "approached me about writing this book, and it was the importance of delivering on such a goal that led me to accept the opportunity. As such,"
+    },
+    {
+      "type": "heading",
+      "text": "I would like to thank Ashley Coffey and the team at Wiley for both"
+    },
+    {
+      "type": "paragraph",
+      "text": "agreeing to provide the public with a resource that it so desperately needs, and for giving me the opportunity to collaborate with them on this important effort."
+    },
+    {
+      "type": "heading",
+      "text": "I would also like to thank my editor, Kelly Ewing, and my technical"
+    },
+    {
+      "type": "paragraph",
+      "text": "reviewer, Daniel Smith, whose input and guidance helped improve the book that you are now holding, optimized it for readability, and ensured that it delivers to you its maximum informational value. Thank you also to my wife, Shira, and to my daughters, Penina, Mimi, and Tammy, for their support and encouragement throughout the time- intensive process of developing and writing this work. And, finally, while there were no cybersecurity classes when I went to school, several great professors helped me hone my understanding of the building blocks of computer science that I ultimately assembled and applied in order to develop expertise in my field. I wish to single out and specifically recognize two of my instructors, Matthew Smosna and Aizik"
+    },
+    {
+      "type": "heading",
+      "text": "Leibovitch, both of who, unfortunately, did not live to see this book"
+    },
+    {
+      "type": "paragraph",
+      "text": "published, but whose influence on my thinking resonates throughout it."
+    },
+    {
+      "type": "heading",
+      "text": "Publisher's Acknowledgments"
+    },
+    {
+      "type": "heading",
+      "text": "Acquisitions Editor: Ashley Coffey"
+    },
+    {
+      "type": "heading",
+      "text": "Project Editor: Kelly Ewing"
+    },
+    {
+      "type": "heading",
+      "text": "Technical Editor: Daniel Smith"
+    },
+    {
+      "type": "heading",
+      "text": "Editorial Assistant: Matthew Lowe"
+    },
+    {
+      "type": "heading",
+      "text": "Sr. Editorial Assistant: Cherie Case"
+    },
+    {
+      "type": "heading",
+      "text": "Proofreader: Debbye Butler"
+    },
+    {
+      "type": "heading",
+      "text": "Production Editor: Siddique Shaik"
+    },
+    {
+      "type": "heading",
+      "text": "Cover Image: © NicoElNino/Shutterstock"
+    },
+    {
+      "type": "heading",
+      "text": "Take Dummies with you"
+    },
+    {
+      "type": "paragraph",
+      "text": "everywhere you go!"
+    },
+    {
+      "type": "heading",
+      "text": "Go to our Website"
+    },
+    {
+      "type": "heading",
+      "text": "Like us on Facebook"
+    },
+    {
+      "type": "heading",
+      "text": "Follow us on Twitter"
+    },
+    {
+      "type": "heading",
+      "text": "Watch us on YouTube"
+    },
+    {
+      "type": "heading",
+      "text": "Join us on LinkedIn"
+    },
+    {
+      "type": "heading",
+      "text": "Pin us on Pinterest"
+    },
+    {
+      "type": "heading",
+      "text": "Subscribe to our newsletter"
+    },
+    {
+      "type": "heading",
+      "text": "Create your own Dummies book cover"
+    },
+    {
+      "type": "heading",
+      "text": "WILEY END USER LICENSE"
+    },
+    {
+      "type": "heading",
+      "text": "AGREEMENT"
+    },
+    {
+      "type": "paragraph",
+      "text": "Go to www.wiley.com/go/eula to access Wiley's ebook EULA."
+    }
+  ]
+}

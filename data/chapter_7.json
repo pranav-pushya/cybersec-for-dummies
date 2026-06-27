@@ -1,0 +1,756 @@
+{
+  "num": 7,
+  "type": "chapter",
+  "title": "Chapter 7: Passwords",
+  "part": "Part 3: Protecting Yourself from Yourself",
+  "pages": "155 to 175",
+  "in_this_chapter": [
+    "Selecting passwords Discovering how often you need to change passwords -- or not Storing passwords Finding alternatives to passwords"
+  ],
+  "content": [
+    {
+      "type": "heading",
+      "text": "Passwords"
+    },
+    {
+      "type": "paragraph",
+      "text": "IN THIS CHAPTER"
+    },
+    {
+      "type": "heading",
+      "text": "Selecting passwords"
+    },
+    {
+      "type": "heading",
+      "text": "Discovering how often you need to change passwords -- or not"
+    },
+    {
+      "type": "heading",
+      "text": "Storing passwords"
+    },
+    {
+      "type": "heading",
+      "text": "Finding alternatives to passwords"
+    },
+    {
+      "type": "paragraph",
+      "text": "Most people alive today are familiar with the concept of passwords and with their use in the realm of cybersecurity. Yet, there are so many misconceptions about passwords, and misinformation about them has spread like wildfire, often leading to people undermining their own security with poor password practices. In this chapter, you discover some best practices vis-à-vis passwords."
+    },
+    {
+      "type": "heading",
+      "text": "These practices should help you both maximize your own security and"
+    },
+    {
+      "type": "paragraph",
+      "text": "maintain reasonable ease of use."
+    },
+    {
+      "type": "heading",
+      "text": "Passwords: The Primary Form of"
+    },
+    {
+      "type": "heading",
+      "text": "Authentication"
+    },
+    {
+      "type": "paragraph",
+      "text": "Password authentication refers to the process of verifying the identity of a user (whether human or computer process) by asking that user to supply a password -- that is, a previously-agreed-upon secret piece of information -- that ostensibly the party authenticating would only know if he or she were truly the party who it claimed to be. While the term password implies that the information consists of a single word, today's passwords can include combinations of characters that don't form words in any spoken or written language."
+    },
+    {
+      "type": "heading",
+      "text": "Despite the availability for decades of many other authentication"
+    },
+    {
+      "type": "paragraph",
+      "text": "approaches and technologies -- many of which offer significant advantages over passwords -- passwords remain de facto worldwide standard for authenticating people online. Repeated predictions of the demise of passwords have been proven untrue, and the number of passwords in use grows every day."
+    },
+    {
+      "type": "heading",
+      "text": "Because password authentication is so common and because so many"
+    },
+    {
+      "type": "paragraph",
+      "text": "data breaches have resulted in the compromise of password databases, the topic has received significant media attention, with reports often spreading various misleading information. Gaining a proper understanding of the realm of passwords is important if you want to be cybersecure."
+    },
+    {
+      "type": "heading",
+      "text": "Avoiding Simplistic Passwords"
+    },
+    {
+      "type": "paragraph",
+      "text": "Passwords only secure systems if unauthorized parties can't easily guess them."
+    },
+    {
+      "type": "heading",
+      "text": "Criminals often guess passwords by"
+    },
+    {
+      "type": "heading",
+      "text": "Guessing common passwords: It's not a secret that 123456 and"
+    },
+    {
+      "type": "paragraph",
+      "text": "password are common passwords -- data from recent breaches reveals that they are, in fact, among the most common passwords used on many systems (see the nearby sidebar)! Criminals exploit such sad reality and often attempt to breach accounts by using automated tools that feed systems passwords one at a time from lists of common passwords -- and record when they have a hit. Sadly, those hits are often quite numerous."
+    },
+    {
+      "type": "heading",
+      "text": "Launching dictionary attacks: Because many people choose to use"
+    },
+    {
+      "type": "paragraph",
+      "text": "actual English words as passwords, some automated hacker tools simply feed all the words in the dictionary to a system one at a time."
+    },
+    {
+      "type": "heading",
+      "text": "As with lists of common passwords, such attacks often achieve"
+    },
+    {
+      "type": "paragraph",
+      "text": "numerous hits."
+    },
+    {
+      "type": "heading",
+      "text": "Credential stuffing: Credential stuffing refers to when attackers"
+    },
+    {
+      "type": "paragraph",
+      "text": "take lists of usernames and passwords from one site -- for example, from a site that was breached and whose username password database was subsequently posted online -- and feed its entries to another system one at a time in order to see whether any of the login credentials from the first system work on the second."
+    },
+    {
+      "type": "heading",
+      "text": "Because many people reuse username and password combinations"
+    },
+    {
+      "type": "paragraph",
+      "text": "between systems, credential stuffing is, generally speaking, quite effective."
+    },
+    {
+      "type": "heading",
+      "text": "THE MOST COMMON PASSWORDS OF"
+    },
+    {
+      "type": "paragraph",
+      "text": "2018 Since 2011, password manager app vendor SplashData has released a list of the 25 most common passwords that it assembles from various sources. Here is the list from 2018: 123456password1234567891234567812345 111111 1234567sunshine qwerty iloveyou princessadmin welcome 666666 abc123 football123123 monkey 654321 !@#$%^&*"
+    },
+    {
+      "type": "heading",
+      "text": "Charlieaa123456donald password1qwerty123"
+    },
+    {
+      "type": "paragraph",
+      "text": "As you can see, criminals benefit from the fact that many people use weak, easily guessable passwords."
+    },
+    {
+      "type": "heading",
+      "text": "Password Considerations"
+    },
+    {
+      "type": "heading",
+      "text": "When you create passwords, keep in mind that more complex isn't"
+    },
+    {
+      "type": "paragraph",
+      "text": "always better, and that the password strength that you choose should depend on how sensitive the data and system are that the password protects. The following sections discuss easily guessable passwords, complicated passwords, sensitive passwords, and password managers."
+    },
+    {
+      "type": "heading",
+      "text": "Easily guessable personal passwords"
+    },
+    {
+      "type": "heading",
+      "text": "Criminals know that many people use the name or birth date of their"
+    },
+    {
+      "type": "paragraph",
+      "text": "significant other or pet as a password, so crooks often look at social media profiles and do Google searches in order to find likely passwords. They also use automated tools to feed lists of common names to targeted systems one by one, while watching to see whether the system being attacked accepts any of the names as a correct password."
+    },
+    {
+      "type": "heading",
+      "text": "Criminals who launch targeted attacks can exploit the vulnerability"
+    },
+    {
+      "type": "paragraph",
+      "text": "created by such personalized, yet easily guessable, passwords. However, the problem is much larger: Sometimes, reconnaissance is done through automated means -- so, even opportunistic attackers can leverage such an approach. Furthermore, because, by definition, a significant percentage of people have common names, the automated feeders of common names often achieve a significant number of hits."
+    },
+    {
+      "type": "heading",
+      "text": "Complicated passwords aren't always better"
+    },
+    {
+      "type": "heading",
+      "text": "To address the problems inherent in weak passwords, many experts"
+    },
+    {
+      "type": "paragraph",
+      "text": "recommend using long, complex passwords -- for example, containing both uppercase and lowercase letters, as well as numbers and special characters."
+    },
+    {
+      "type": "heading",
+      "text": "Using such passwords makes sense in theory, and if such a scheme is"
+    },
+    {
+      "type": "paragraph",
+      "text": "utilized to secure access to a small number of sensitive systems, it can work quite well. However, employing such a model for a larger number of passwords is likely to lead to problems that can undermine security:"
+    },
+    {
+      "type": "heading",
+      "text": "Inappropriately reusing passwords"
+    },
+    {
+      "type": "heading",
+      "text": "Writing down passwords in insecure locations"
+    },
+    {
+      "type": "heading",
+      "text": "Selecting passwords with poor randomization and formatted using"
+    },
+    {
+      "type": "paragraph",
+      "text": "predictable patterns, such as using a capital for the first letter of a complicated password, followed by all lowercase characters, and then a number"
+    },
+    {
+      "type": "heading",
+      "text": "Hence, in the real world, from a practical perspective, because the"
+    },
+    {
+      "type": "paragraph",
+      "text": "human mind can't remember many complex passwords, using significant numbers of complex passwords can create serious security risks."
+    },
+    {
+      "type": "heading",
+      "text": "According to The Wall Street Journal, Bill Burr, the author of NIST"
+    },
+    {
+      "type": "heading",
+      "text": "Special Publication 800-63 Appendix A (which discusses password"
+    },
+    {
+      "type": "paragraph",
+      "text": "complexity requirements), recently admitted that password complexity has failed in practice. He now recommends using passphrases, and not complex passwords, for authentication. Passphrases are passwords consisting of entire phrases or phrase-length strings of characters, rather than of simply a word or a word-length group of characters. Sometimes passphrases even consist of complete sentences. Think of passphrases as long (usually at least 25 characters) but relatively easy to remember passwords."
+    },
+    {
+      "type": "heading",
+      "text": "Different levels of sensitivity"
+    },
+    {
+      "type": "paragraph",
+      "text": "Not all types of data require the same level of password protection. For example, the government doesn't protect its unclassified systems the same way that it secures its top-secret information and infrastructure. In your mind or on paper, classify the systems for which you need secure access. Then informally classify the systems that you access and establish your own informal password policies accordingly."
+    },
+    {
+      "type": "heading",
+      "text": "On the basis of risk levels, feel free to employ different password"
+    },
+    {
+      "type": "paragraph",
+      "text": "strategies. Random passwords, passwords composed of multiple words possibly separated with numbers, passphrases, and even simple passwords each have their appropriate uses. Of course, multifactor authentication can, and should, help augment security when it's both appropriate and available."
+    },
+    {
+      "type": "heading",
+      "text": "Establishing a stronger password for online banking than for"
+    },
+    {
+      "type": "paragraph",
+      "text": "commenting on a blog on which you plan to comment only once in a blue moon makes sense. Likewise, your password to the blog should probably be stronger than the one used to access a free news site that requires you to log in but on which you never post anything and at which, if your account were compromised, the breach would have zero impact upon you."
+    },
+    {
+      "type": "heading",
+      "text": "Your most sensitive passwords may not be the"
+    },
+    {
+      "type": "paragraph",
+      "text": "ones that you think"
+    },
+    {
+      "type": "heading",
+      "text": "When classifying your passwords, keep in mind that while people often"
+    },
+    {
+      "type": "paragraph",
+      "text": "believe that their online banking and other financial system passwords are their most sensitive passwords, that is not always the case. Because many modern online systems allow people to reset their passwords after validating their identities through email messages sent to their previously known email addresses, a criminal who gains access to someone's email account may be able to do a lot more than just read email without authorization: He or she may be able to reset that user's passwords to many systems, including to some financial institutions."
+    },
+    {
+      "type": "heading",
+      "text": "Likewise, many sites leverage social-media-based authentication"
+    },
+    {
+      "type": "paragraph",
+      "text": "capabilities -- especially those provided by Facebook and Twitter -- so a compromised password on a social media platform can lead to unauthorized parties gaining access to other systems as well, some of which may be quite a bit more sensitive in nature than a site on which you just share pictures."
+    },
+    {
+      "type": "heading",
+      "text": "You can reuse passwords -- sometimes"
+    },
+    {
+      "type": "paragraph",
+      "text": "You may be surprised to read this statement in an information security book: You don't need to use strong passwords for accounts that you create solely because a website requires a login, but that does not, from your perspective, protect anything of value. If you create an account in order to access free resources, for example, and you have nothing whatsoever of value stored within the account, and you don't mind getting a new account the next time you log in, you can even use a weak password -- and use it again for other similar sites."
+    },
+    {
+      "type": "heading",
+      "text": "Essentially, think about it like this: If the requirement to register"
+    },
+    {
+      "type": "paragraph",
+      "text": "and log in is solely for the benefit of the site owner -- to track users, market to them, and so on -- and it doesn't matter one iota to you whether a criminal obtained the access credentials to your account and changed them, use a simple password. Doing so will preserve your memory for sites where password strength matters."
+    },
+    {
+      "type": "heading",
+      "text": "Of course, if you use a password manager, you can use a stronger"
+    },
+    {
+      "type": "paragraph",
+      "text": "password for such sites."
+    },
+    {
+      "type": "heading",
+      "text": "Consider using a password manager"
+    },
+    {
+      "type": "paragraph",
+      "text": "Alternatively, you can use a password manager tool, shown in Figure 7- 1, to securely store your passwords. Password managers are software that help people manage passwords by generating, storing, and retrieving complex passwords. Password managers typically store all their data in encrypted formats and provide access to users only after authenticating them with either a strong password or multifactor authentication. FIGURE 7-1: A password manager."
+    },
+    {
+      "type": "heading",
+      "text": "Such technology is appropriate for general passwords, but not"
+    },
+    {
+      "type": "paragraph",
+      "text": "for the most sensitive ones. Various password managers have been hacked, and if something does go wrong when all your eggs are in one basket, you may have a nightmare on your hands. Of course, be sure to properly secure any device that you use to access your password manager. Many password managers are on the market. While all utilize encryption to protect the sensitive data that they store, some store passwords locally (for example, in a database on your phone), while others store them in the cloud."
+    },
+    {
+      "type": "heading",
+      "text": "Many modern smartphones come equipped with a so-called secure area"
+    },
+    {
+      "type": "paragraph",
+      "text": "-- a private, encrypted space that is sandboxed, or separated, into its own running environment. Ideally, any password information stored on a mobile device is stored protected in the secure area (see Figure 7-2). FIGURE 7-2: Secure Folder, the secure area app provided by Samsung for its Android series of phones, as seen in the Google Play Store. Data that is stored in the secure area can't be accessed unless a user enters the secure area, usually by running a secure area app and entering a special password. Devices also typically display some special symbol somewhere on the screen when a user is working with data or an app located in the secure area."
+    },
+    {
+      "type": "heading",
+      "text": "Creating Memorable, Strong"
+    },
+    {
+      "type": "heading",
+      "text": "Passwords"
+    },
+    {
+      "type": "heading",
+      "text": "The following list offers suggestions that may help you create strong"
+    },
+    {
+      "type": "paragraph",
+      "text": "passwords that are, for most people, far easier to remember than a seemingly random, unintelligible mix of letters, numbers, and symbols:"
+    },
+    {
+      "type": "heading",
+      "text": "Combine three or more unrelated words and proper nouns, with"
+    },
+    {
+      "type": "paragraph",
+      "text": "numbers separating them. For example, laptop2william7cows is far easier to remember than 6ytBgv%j8P. In general, the longer the words you use within the password, the stronger the resulting password will be."
+    },
+    {
+      "type": "heading",
+      "text": "If you must use a special character, add a special character"
+    },
+    {
+      "type": "paragraph",
+      "text": "before each number; you can even use the same character for all your passwords. (If you use the same passwords as in the previous example and follow this advice, the passwords is laptop%2william%7cows.) In theory, reusing the same character may not be the best way to do things from a security standpoint, but, doing so makes memorization much easier, and the security should still be good enough for purposes for which a password is suitable on its own anyway. Ideally, use at least one non-English word or proper name."
+    },
+    {
+      "type": "heading",
+      "text": "Choose a word or name that is familiar to you but that others are"
+    },
+    {
+      "type": "paragraph",
+      "text": "unlikely to guess. Don't use the name of your significant other, best friend, or pet."
+    },
+    {
+      "type": "heading",
+      "text": "If you must use both capital and lowercase letters (or want to"
+    },
+    {
+      "type": "paragraph",
+      "text": "make your password even stronger), use capitals that always appear in a particular location throughout all your strong passwords. Make sure, though, that you don't put them at the start of words because that location is where most people put them. For example, if you know that you always capitalize the second and third letter of the last word, then laptop2william7kALb isn't harder to remember than laptop2william7kalb."
+    },
+    {
+      "type": "heading",
+      "text": "Knowing When to Change Your"
+    },
+    {
+      "type": "heading",
+      "text": "Password"
+    },
+    {
+      "type": "heading",
+      "text": "Conventional wisdom -- as you have likely heard many times -- is that"
+    },
+    {
+      "type": "paragraph",
+      "text": "it is ideal to change your password quite frequently. The American"
+    },
+    {
+      "type": "heading",
+      "text": "Association of Retired Persons (AARP), for example, recommends on"
+    },
+    {
+      "type": "paragraph",
+      "text": "its website that people (including the disproportionately older folks who comprise its membership) \"change critical passwords frequently, possibly every other week.\""
+    },
+    {
+      "type": "heading",
+      "text": "Theoretically, such an approach is correct -- frequent changes reduce"
+    },
+    {
+      "type": "paragraph",
+      "text": "risks in several ways -- but, in reality, it's bad advice that you shouldn't follow."
+    },
+    {
+      "type": "heading",
+      "text": "If you have a bank account, mortgage, a couple credit cards, a phone"
+    },
+    {
+      "type": "paragraph",
+      "text": "bill, high speed Internet bill, utility bills, social media accounts, email accounts, and so on, you may easily be talking about a dozen or so critical passwords. Changing them every two weeks would mean 312 new critical passwords to remember within the span of every year -- and you likely have many more passwords on top of that figure. For many people, changing important passwords every two weeks may mean learning a hundred new passwords every month."
+    },
+    {
+      "type": "heading",
+      "text": "Unless you have a phenomenal, photographic memory, how likely is it"
+    },
+    {
+      "type": "paragraph",
+      "text": "that you'll remember all such passwords? Or will you simply make your passwords weaker in order to facilitate remembering them after frequent changes?"
+    },
+    {
+      "type": "heading",
+      "text": "The bottom line is that changing passwords often makes remembering"
+    },
+    {
+      "type": "paragraph",
+      "text": "them far more difficult, increasing the odds that you'll write them down and store them insecurely, select weaker passwords, and/or set your new passwords to be the same as old passwords with minute changes (for example, password2 to replace password1)."
+    },
+    {
+      "type": "heading",
+      "text": "So, here is the reality: If you select strong, unique passwords to"
+    },
+    {
+      "type": "paragraph",
+      "text": "begin with and the sites where you've used them aren't believed to have been compromised, the cons of frequently changing the passwords outweigh the pros. Changing such passwords every few years may be a good idea. In reality, if a system alerts you of multiple failed attempts to log in to your account and you're not alerted of such activity, you can likely go for many years with no changes without exposing yourself to significant risk. Of course, if you use a password manager that can reset passwords, you can configure it to reset them often. In fact, I've worked with a commercial password-management system used for protecting system administration access to sensitive financial systems that automatically reset administrators' passwords every time they logged on."
+    },
+    {
+      "type": "heading",
+      "text": "Changing Passwords after a Breach"
+    },
+    {
+      "type": "paragraph",
+      "text": "If you receive notification from a business, organization, or government entity that it has suffered a security breach and that you should change your password, follow these tips:"
+    },
+    {
+      "type": "heading",
+      "text": "Don't click any links in the message because most such messages are"
+    },
+    {
+      "type": "paragraph",
+      "text": "scams. Visit the organization's website and official social media accounts to verify that such an announcement was actually made."
+    },
+    {
+      "type": "heading",
+      "text": "Pay attention to news stories to see whether reliable, mainstream"
+    },
+    {
+      "type": "paragraph",
+      "text": "media is reporting such a breach. If the story checks out, go to the organization's website and make the change."
+    },
+    {
+      "type": "heading",
+      "text": "Do not change all your passwords after every breach. Ignore"
+    },
+    {
+      "type": "paragraph",
+      "text": "experts who cry wolf and tell you to do so after every single breach as a matter of extra caution. Doing so isn't necessary, uses up your brainpower, time, and energy, and dissuades you from changing passwords when you actually need to do so. After all, if you do make such password changes and then find out that your friends who fared no worse than you after a breach, you may grow weary and ignore future warnings to change your password when doing so is actually necessary."
+    },
+    {
+      "type": "heading",
+      "text": "If you reuse passwords on sites where the passwords matter -- which"
+    },
+    {
+      "type": "paragraph",
+      "text": "you should not be doing -- and a password that is compromised somewhere is also used on other sites, be sure to change it at the other sites as well. In such a case, also take the opportunity when resetting passwords to switch to unique passwords for each of the sites."
+    },
+    {
+      "type": "heading",
+      "text": "Providing Passwords to Humans"
+    },
+    {
+      "type": "heading",
+      "text": "On its website, the United States Federal Trade Commission (FTC)"
+    },
+    {
+      "type": "paragraph",
+      "text": "recommends the following: Don't share passwords on the phone, in texts, or by email."
+    },
+    {
+      "type": "heading",
+      "text": "Legitimate companies will not send you messages asking for your"
+    },
+    {
+      "type": "heading",
+      "text": "That sounds like good advice, and it would be, if it were not for one"
+    },
+    {
+      "type": "paragraph",
+      "text": "important fact: Legitimate businesses do ask you for passwords over the phone!"
+    },
+    {
+      "type": "heading",
+      "text": "So, how do you know when it is safe to provide your password and"
+    },
+    {
+      "type": "paragraph",
+      "text": "when it is not? Should you just check your caller ID? No. The sad reality is that crooks spoof caller IDs on a regular basis."
+    },
+    {
+      "type": "heading",
+      "text": "What you should do is never provide any sensitive information --"
+    },
+    {
+      "type": "paragraph",
+      "text": "including passwords, of course -- over the phone unless you initiated the call with the party requesting the password and are sure that you called the legitimate party. It is far less risky, for example, to provide an account's phone-access password to a customer service representative who asks for it during a conversation initiated by you calling to the bank using the number printed on your ATM card than if someone calls you claiming to be from your bank and requests the same private information in order to \"verify your identity.\""
+    },
+    {
+      "type": "heading",
+      "text": "Storing Passwords"
+    },
+    {
+      "type": "paragraph",
+      "text": "Ideally, don't write down your passwords to sensitive systems or store them anywhere other than in your brain."
+    },
+    {
+      "type": "heading",
+      "text": "For less sensitive passwords, use a password manager or store them in"
+    },
+    {
+      "type": "paragraph",
+      "text": "an encrypted form on a strongly-secured computer or device. If you store your passwords on a phone, use the secure area. (For more on password managers and your phone's secure area, see the section \"Consider using a password manager,\" earlier in this chapter.)"
+    },
+    {
+      "type": "heading",
+      "text": "Transmitting Passwords"
+    },
+    {
+      "type": "paragraph",
+      "text": "Theoretically, you should never email or text someone a password. So, what should you do if your child texts you from school saying that he or she forgot the password to his or her email, or the like?"
+    },
+    {
+      "type": "heading",
+      "text": "Ideally, if you need to give someone a password, call him or her"
+    },
+    {
+      "type": "paragraph",
+      "text": "and don't provide the password until you identify the other party by voice. If, for some reason, you must send a password in writing, choose to use an encrypted connection, which is offered by various chat tools. If no such tool is available, consider splitting the password and sending some via email and some via text. Obviously, none of these methods are ideal ways to transmit passwords, but they certainly are better options than what so many people do, which is to simply text or email people passwords in clear text."
+    },
+    {
+      "type": "heading",
+      "text": "Discovering Alternatives to"
+    },
+    {
+      "type": "heading",
+      "text": "Passwords"
+    },
+    {
+      "type": "heading",
+      "text": "On some occasions, you should take advantage of alternatives to"
+    },
+    {
+      "type": "paragraph",
+      "text": "password authentication. While there are many ways to authenticate people, a modern user is likely to encounter certain types:"
+    },
+    {
+      "type": "heading",
+      "text": "Biometric authentication"
+    },
+    {
+      "type": "heading",
+      "text": "SMS-based authentication"
+    },
+    {
+      "type": "heading",
+      "text": "App-based one-time passwords"
+    },
+    {
+      "type": "heading",
+      "text": "Hardware token authentication"
+    },
+    {
+      "type": "heading",
+      "text": "USB-based authentication"
+    },
+    {
+      "type": "heading",
+      "text": "Biometric authentication"
+    },
+    {
+      "type": "heading",
+      "text": "Biometric authentication refers to authenticating using some unique"
+    },
+    {
+      "type": "paragraph",
+      "text": "identifier of your physical person -- for example, your fingerprint."
+    },
+    {
+      "type": "heading",
+      "text": "Using biometrics -- especially in combination with a password -- can"
+    },
+    {
+      "type": "paragraph",
+      "text": "be a strong method of authentication, and it certainly has its place. Two popular forms used in the consumer market are fingerprints and iris- based authentication. In many cases, though, you may be better off using a strong password. Before using biometric authentication, consider the following points:"
+    },
+    {
+      "type": "heading",
+      "text": "Your fingerprints are likely all over your phone. You hold your"
+    },
+    {
+      "type": "paragraph",
+      "text": "phone with your fingers. How hard would it be for criminals who steal the phone to lift your prints and unlock the phone if you enable fingerprint based authentication using a phone's built-in fingerprint reader (see Figure 7-3)? If anything sensitive is on the device, it may be at risk. No, the average crook looking to make a quick buck selling your phone is unlikely to spend the time to unlock it -- he or she will more than likely just wipe it -- but if someone wants the data on your phone for whatever reason, and you used fingerprints to secure your device, you may have a serious problem on your hands (pun intended)."
+    },
+    {
+      "type": "heading",
+      "text": "If your biometric information is captured, you can't reset it as"
+    },
+    {
+      "type": "paragraph",
+      "text": "you can a password. Do you fully trust the parties to whom you're giving this information to properly protect it? If your biometric information is on your phone or computer, what happens if malware somehow infects your device? What happens if a server where you stored the same information is breached? Are you positive that all the data is properly encrypted and that the software on your device fully defended your biometric data from capture?"
+    },
+    {
+      "type": "heading",
+      "text": "Cold weather creates problems. Fingerprints can't be read even"
+    },
+    {
+      "type": "paragraph",
+      "text": "through smartphone-compatible gloves."
+    },
+    {
+      "type": "heading",
+      "text": "Glasses, as worn by millions of people, pose challenges to iris"
+    },
+    {
+      "type": "paragraph",
+      "text": "scanners. Some iris readers require a user to take off his or her glasses in order to authenticate. If you use such authentication to secure a phone, you may have difficulty unlocking your phone when you're outdoors on a sunny day."
+    },
+    {
+      "type": "heading",
+      "text": "Biometrics can undermine your rights. If, for some reason, law"
+    },
+    {
+      "type": "paragraph",
+      "text": "enforcement wants to access the data on your biometric-protected phone or other computer system, it may be able to force you to provide your biometric authentication, even in countries like the"
+    },
+    {
+      "type": "heading",
+      "text": "United States where you have the right to remain silent and not"
+    },
+    {
+      "type": "paragraph",
+      "text": "provide a password. Likewise, the government may be able to obtain a warrant to collect your biometric data, which, unlike a password, you can't reset. Even if the data proves you innocent of whatever the government suspects you have done wrong, do you trust the government to properly secure the data over the long term? Impersonation is possible. Some quasi-biometric authentication, such as the face recognition on some devices, can be tricked into believing that a person is present by playing to them a high- definition video of that person."
+    },
+    {
+      "type": "heading",
+      "text": "Voice-based authentication is useful for voice phone calls. This"
+    },
+    {
+      "type": "paragraph",
+      "text": "type of authentication is especially useful when used in combination with other forms of authentication, such as a password. Many organizations use it to authenticate customers who call in -- sometimes without even telling customers. That said, voice authentication can't be used for online sessions without inconveniencing users."
+    },
+    {
+      "type": "heading",
+      "text": "As such, biometrics have their place. Using a fingerprint to unlock"
+    },
+    {
+      "type": "paragraph",
+      "text": "features on your phone is certainly convenient but think before you proceed. Be certain that in your case the benefits outweigh the drawbacks. FIGURE 7-3: A phone fingerprint sensor on a Samsung Galaxy S9 in an Otterbox case. Some phones have the reader on the front, while others, like the S9, have it on the back."
+    },
+    {
+      "type": "heading",
+      "text": "HACKERS VERSUS SENSOR"
+    },
+    {
+      "type": "paragraph",
+      "text": "How long did it take hackers to defeat a new fingerprint sensor? Less than 24 hours. Within 24 hours of the release of the first iPhone with a fingerprint reader, hackers claimed to have defeated it. Furthermore, several years ago, the Discovery Channel television show Myth Busters demonstrated how simple it can be for someone to defeat a fingerprint authentication system. Technology has improved since then -- but so have criminals' capabilities."
+    },
+    {
+      "type": "heading",
+      "text": "SMS-based authentication"
+    },
+    {
+      "type": "heading",
+      "text": "In SMS (text message)-based authentication, a code is sent to your"
+    },
+    {
+      "type": "paragraph",
+      "text": "cellphone. You then enter that code into a web or app to prove your identity. This type of authentication is, in itself, not considered secure enough for authentication when true multifactor authentication in required. Sophisticated criminals have ways of intercepting such passwords, and social engineering of phone companies in order to take over people's phone numbers remains a problem."
+    },
+    {
+      "type": "heading",
+      "text": "That said, SMS one-time passwords used in combination with a strong"
+    },
+    {
+      "type": "paragraph",
+      "text": "password are a step above just using the password."
+    },
+    {
+      "type": "heading",
+      "text": "Keep in mind, however, that, in most cases, one-time passwords"
+    },
+    {
+      "type": "paragraph",
+      "text": "are worthless as a security measure if you send them to a criminal's phishing website instead of a legitimate site. The criminal can replay them to the real site in real time."
+    },
+    {
+      "type": "heading",
+      "text": "App-based one-time passwords"
+    },
+    {
+      "type": "heading",
+      "text": "One-time passwords generated with an app running on a phone or"
+    },
+    {
+      "type": "paragraph",
+      "text": "computer are a good addition to strong passwords, but they should not be used on their own. App-based one-time passwords are likely a more secure way to authenticate than SMS-based one-time passwords (see preceding section), but they can be inconvenient; if you get a new phone, for example, you may need to reconfigure information at every one of the sites where you're using one-time passwords created by the generator app running on your smartphone."
+    },
+    {
+      "type": "heading",
+      "text": "As with SMS-based one-time passwords, if you send an app-generated"
+    },
+    {
+      "type": "paragraph",
+      "text": "one-time password to a criminal's phishing website instead of a legitimate site, the criminal can replay it to the corresponding real site in real time, undermining the security benefits of the one-time password in their entirety."
+    },
+    {
+      "type": "heading",
+      "text": "Hardware token authentication"
+    },
+    {
+      "type": "heading",
+      "text": "Hardware tokens (see Figure 7-4) that generate new one-time passwords"
+    },
+    {
+      "type": "paragraph",
+      "text": "every x seconds are similar to the apps described in the preceding section with the major difference being that you need to carry a specialized device that generates the one-time codes. Some tokens can also function in other modes -- for example, allowing for challenge-response types of authentication in which the site being logged into displays a challenge number that the user enters into the token in order to retrieve a corresponding response number that the user enters into the site in order to authenticate. FIGURE 7-4: An RSA SecureID brand one-time password generator hardware token."
+    },
+    {
+      "type": "heading",
+      "text": "Although hardware token devices normally are more secure than one-"
+    },
+    {
+      "type": "paragraph",
+      "text": "time generator apps in that the former don't run on devices that can be infected by malware or taken over by criminals remotely, they can be inconvenient. They are also prone to getting lost and are not always waterproof -- and sometimes get destroyed when people do their laundry after leaving the devices in their pants pockets."
+    },
+    {
+      "type": "heading",
+      "text": "USB-based authentication"
+    },
+    {
+      "type": "paragraph",
+      "text": "USB devices that contain authentication information -- for example, digital certificates -- can strengthen authentication. Care must be exercised, however, to use such devices only in combination with trusted machines -- you don't want the device infected or destroyed by some device, and you want to be sure that the machine obtaining the certificate, for example, doesn't transmit it to an unauthorized party. Many modern USB-based devices offer all sorts of defenses against such attacks. Of course, you can connect USB devices only to devices and apps that support USB-based authentication. You also must carry the device with you and ensure that it doesn't get lost or damaged."
+    }
+  ]
+}

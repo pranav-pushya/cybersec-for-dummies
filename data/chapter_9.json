@@ -1,0 +1,956 @@
+{
+  "num": 9,
+  "type": "chapter",
+  "title": "Chapter 9: Securing Your Small Business",
+  "part": "Part 4: Cybersecurity for Businesses and Organizations",
+  "pages": "205 to 229",
+  "in_this_chapter": [
+    "Remaining cybersecure as a small business Dealing with employees Understanding important regulations and standards"
+  ],
+  "content": [
+    {
+      "type": "heading",
+      "text": "Securing Your Small Business"
+    },
+    {
+      "type": "paragraph",
+      "text": "IN THIS CHAPTER"
+    },
+    {
+      "type": "heading",
+      "text": "Remaining cybersecure as a small business"
+    },
+    {
+      "type": "heading",
+      "text": "Dealing with employees"
+    },
+    {
+      "type": "heading",
+      "text": "Understanding important regulations and standards"
+    },
+    {
+      "type": "paragraph",
+      "text": "Nearly everything I discuss in this book applies to both individuals and businesses. Small business owners and workers should be aware of some other points that may not necessarily be important for individuals. This chapter discusses some of these cybersecurity issues. I could write an entire series of books about improving the cybersecurity of small businesses. As such, this chapter isn't a comprehensive list of everything that every small business needs to know. Rather, it provides food for thought for those running small businesses."
+    },
+    {
+      "type": "heading",
+      "text": "Making Sure Someone Is in Charge"
+    },
+    {
+      "type": "paragraph",
+      "text": "Individuals at home are responsible for the security of their computers, but what happens when you have a network and multiple users?"
+    },
+    {
+      "type": "heading",
+      "text": "Somebody within the business needs to ultimately \"own\" responsibility"
+    },
+    {
+      "type": "paragraph",
+      "text": "for information security. That person may be you, the business owner, or someone else. But whoever is in charge must clearly understand that he or she is responsible. In many cases of small businesses, the person in charge of information security will outsource some of the day-to-day activities. Even so, that person is ultimately responsible for ensuring that necessary activities, such as installing security patches, happen -- and happen on time. If a breach occurs, \"I thought so-and-so was taking care of that security function\" is not an excuse that will carry a lot of weight."
+    },
+    {
+      "type": "heading",
+      "text": "Watching Out for Employees"
+    },
+    {
+      "type": "heading",
+      "text": "Employees, and the many cybersecurity risks that they create, can"
+    },
+    {
+      "type": "paragraph",
+      "text": "become major headaches for small businesses. Human errors are the No. 1 catalyst for data breaches. Even if you're reading this book and seeking to improve your cybersecurity knowledge and posture, your employees and coworkers may not have the same level of commitment as you do when it comes to protecting data and systems."
+    },
+    {
+      "type": "heading",
+      "text": "As such, one of the most important things that a small business owner"
+    },
+    {
+      "type": "paragraph",
+      "text": "can do is to educate his or her employees. Education consists of essentially three necessary components:"
+    },
+    {
+      "type": "heading",
+      "text": "Awareness of threats: You must ensure that every employee"
+    },
+    {
+      "type": "paragraph",
+      "text": "working for the business understands that he or she, and the business as a whole, are targets. People who believe that criminals want to breach their computers, phones, and databases act differently than people who have not internalized this reality. While formal, regular training is ideal, even a single, short conversation conducted when workers start, and refreshed with periodic reminders, can deliver significant value in this regard."
+    },
+    {
+      "type": "heading",
+      "text": "Basic information-security training: All employees should"
+    },
+    {
+      "type": "paragraph",
+      "text": "understand certain basics of information security. They should, for example, know to avoid cyber-risky behavior, such as opening attachments and clicking on links found in unexpected email messages, downloading music or videos from questionable sources, inappropriately using public Wi-Fi for sensitive tasks, or buying products from unknown stores with too-good-to-be-true\" prices and no publicly known physical address. (See Chapter 20 for tips on how to safely use public Wi-Fi.) Numerous related training materials (often free) are available online. That said, never rely on training in itself to serve as the sole line of defense against any substantial human risk. Many people do stupid things even after receiving clear training to the contrary."
+    },
+    {
+      "type": "heading",
+      "text": "Furthermore, training does nothing to address rogue employees who"
+    },
+    {
+      "type": "paragraph",
+      "text": "intentionally sabotage information security. Practice: Information security training should not be theoretical."
+    },
+    {
+      "type": "heading",
+      "text": "Employees should be given the opportunity to practice what they"
+    },
+    {
+      "type": "paragraph",
+      "text": "have learned -- for example, by identifying and deleting/reporting a test phishing email."
+    },
+    {
+      "type": "heading",
+      "text": "Incentivize employees"
+    },
+    {
+      "type": "paragraph",
+      "text": "Just as you should hold employees accountable for their actions if things go amiss, you should also reward employees for performing their jobs in a cyber-secure fashion and acting with proper cyberhygiene. Positive reinforcement can go a long way and is almost always better received than negative reinforcement."
+    },
+    {
+      "type": "heading",
+      "text": "Furthermore, many organizations have successfully implemented"
+    },
+    {
+      "type": "paragraph",
+      "text": "reporting systems that allow employees to anonymously notify the relevant powers within the business of suspicious insider activities that may indicate a threat, as well as potential bugs in systems, that could lead to vulnerabilities. Such programs are common among larger businesses, but can be of benefit to many small companies as well."
+    },
+    {
+      "type": "heading",
+      "text": "Avoid giving out the keys to the castle"
+    },
+    {
+      "type": "paragraph",
+      "text": "There are countless stories of employees making mistakes that open the organizational door to hackers and of disgruntled employees stealing data and/or sabotaging systems. The damage from such incidents can be catastrophic to a small business. Protect yourself and your business from these types of risks by setting up your information infrastructure to contain the damage if something does go amiss."
+    },
+    {
+      "type": "heading",
+      "text": "How can you do this? Give workers access to all the computer"
+    },
+    {
+      "type": "paragraph",
+      "text": "systems and data that they need in order to do their jobs with maximum performance, but do not give them access to anything else of a sensitive nature. Programmers shouldn't be able to access a business's payroll system, for example, and a comptroller doesn't need access to the version control system housing the source code of a company's proprietary software. Limiting access can make a world of difference in terms of the scope of a data leak if an employee goes rogue. Many businesses have learned this lesson the hard way. Don't become one of them."
+    },
+    {
+      "type": "heading",
+      "text": "Give everyone his or her own credentials"
+    },
+    {
+      "type": "heading",
+      "text": "Every employee accessing each and every system in use by the"
+    },
+    {
+      "type": "paragraph",
+      "text": "organization should have his or her own login credentials to that system."
+    },
+    {
+      "type": "heading",
+      "text": "Do not share credentials!"
+    },
+    {
+      "type": "heading",
+      "text": "Implementing such a scheme improves the ability to audit people's"
+    },
+    {
+      "type": "paragraph",
+      "text": "activities (which may be necessary if a data breach or other cybersecurity event happens) and also encourages people to better protect their passwords because they know that if the account is misused, management will address the matter with them personally rather than with a team. The knowledge that a person is going to be held accountable for his or her behavior for maintaining or compromising security can work wonders in a proactive sense."
+    },
+    {
+      "type": "heading",
+      "text": "Likewise, every person should have his or her own multifactor"
+    },
+    {
+      "type": "paragraph",
+      "text": "authentication capabilities -- whether that be a physical token, a code generated on his/her smartphone, and so on."
+    },
+    {
+      "type": "heading",
+      "text": "Restrict administrators"
+    },
+    {
+      "type": "heading",
+      "text": "System administrators typically have superuser privileges -- meaning"
+    },
+    {
+      "type": "paragraph",
+      "text": "that they may be able to access, read, delete, and modify other people's data. It is essential, therefore, that if you -- the business owner -- are not the only superuser, that you implement controls to monitor what an administrator does. For example, you can log administrator actions on a separate machine that the administrator does not have access to. Allowing access from only a specific machine in a specific location -- which is sometimes not possible due to business needs -- is another approach, as it allows a camera to be aimed toward that machine to record everything that the administrator does."
+    },
+    {
+      "type": "heading",
+      "text": "Limit access to corporate accounts"
+    },
+    {
+      "type": "paragraph",
+      "text": "Your business itself may have several of its own accounts. For example, it may have social media accounts -- a Facebook page, Instagram account, and a Twitter account -- customer support, email accounts, phone accounts, and other utility accounts."
+    },
+    {
+      "type": "heading",
+      "text": "Grant access only to the people who absolutely need access to"
+    },
+    {
+      "type": "paragraph",
+      "text": "those accounts (see preceding section). Ideally, every one of the folks to whom you do give access should have auditable access -- that is, it should be easy to determine who did what with the account."
+    },
+    {
+      "type": "heading",
+      "text": "Basic control and audibility are simple to achieve when it comes to"
+    },
+    {
+      "type": "heading",
+      "text": "Facebook Pages, for example, as you can own the Facebook Page for the"
+    },
+    {
+      "type": "paragraph",
+      "text": "business, while providing other people the ability to write to the page. In some other environments, however, granular controls aren't available and you will need to decide between providing multiple people logins to a social media account or having them submit content to a single person (perhaps, even you) who makes the relevant posts."
+    },
+    {
+      "type": "heading",
+      "text": "The challenge of providing every authorized user of corporate social"
+    },
+    {
+      "type": "paragraph",
+      "text": "media accounts with his or her own account to achieve both control and audibility is exacerbated by the fact that all sensitive accounts should be protected with multifactor authentication. (See Chapter 6 for more on multifactor authentication.) Some systems offer multifactor authentication capabilities that account for the fact that multiple independent users may need to be given auditable access to a single account. In some cases, however, systems that offer multifactor authentication capabilities do not blend well with multi-person environments. They may, for example, allow for only one cellphone number to which one-time passwords are sent via SMS. In such scenarios, you will need to decide whether to"
+    },
+    {
+      "type": "heading",
+      "text": "Use the multifactor authentication, but with a work-around -- for"
+    },
+    {
+      "type": "paragraph",
+      "text": "example, by using a VOIP number to receive the texts and configuring the VOIP number to forward the messages on to multiple parties via email (as is offered at no cost, for example, by Google Voice)."
+    },
+    {
+      "type": "heading",
+      "text": "Use the multifactor authentication with no work-around -- and"
+    },
+    {
+      "type": "paragraph",
+      "text": "configure the authorized users' devices not to need multifactor authentication for the activities that they perform."
+    },
+    {
+      "type": "heading",
+      "text": "Not use the multifactor authentication, but instead rely solely on"
+    },
+    {
+      "type": "paragraph",
+      "text": "strong passwords (not recommended). Find another work-around by modifying your processes, procedures, or technologies used to access such systems."
+    },
+    {
+      "type": "heading",
+      "text": "Utilize third-party products that overlay systems (often the best"
+    },
+    {
+      "type": "paragraph",
+      "text": "option when available)."
+    },
+    {
+      "type": "heading",
+      "text": "The last option is often the best option. Various content"
+    },
+    {
+      "type": "paragraph",
+      "text": "management systems, for example, allow themselves to be configured for multiple users, each with his or her own independent, strong authentication capabilities, and all such users have auditable access to a single social media account. While larger enterprises almost always follow some variant of the last approach -- both for management and security reasons -- many small businesses tend to take the easy way out and simply not use strong authentication in such cases. The cost of implementing proper security -- both in terms of dollars and time -- is usually quite low, so exploring third-party products should definitely be done before deciding to take another approach."
+    },
+    {
+      "type": "heading",
+      "text": "The value of having proper security with auditability will"
+    },
+    {
+      "type": "paragraph",
+      "text": "become immediately clear if you ever have a disgruntled employee who had access to the company's social media accounts or if a happy and satisfied employee with such access is hacked."
+    },
+    {
+      "type": "heading",
+      "text": "Implementing employee policies"
+    },
+    {
+      "type": "heading",
+      "text": "Businesses of all sizes that have employees need an employee handbook"
+    },
+    {
+      "type": "paragraph",
+      "text": "that includes specific rules regarding employee usage of business technology systems and data."
+    },
+    {
+      "type": "heading",
+      "text": "It is beyond the scope of this book to cover all elements of employee"
+    },
+    {
+      "type": "paragraph",
+      "text": "handbooks, but the following are examples of rules that businesses can implement to govern the use of company technology resources: Company's employees are expected to use technology responsibly, appropriately, and productively, as necessary to perform their professional responsibilities."
+    },
+    {
+      "type": "heading",
+      "text": "The use of company devices, as well as company Internet access and"
+    },
+    {
+      "type": "paragraph",
+      "text": "email, as provided to employee by company, are for job-related activities. Minimal personal use is acceptable provided that the employee's using it as such does not violate any other rules described in this document and does not interfere with his or her work."
+    },
+    {
+      "type": "heading",
+      "text": "Each employee is responsible for any computer hardware and"
+    },
+    {
+      "type": "paragraph",
+      "text": "software provided to him or her by the company, including for the safeguarding of such items from theft, loss, or damage."
+    },
+    {
+      "type": "heading",
+      "text": "Each employee is responsible for his or her accounts provided by the"
+    },
+    {
+      "type": "paragraph",
+      "text": "company, including the safeguarding of access to the accounts."
+    },
+    {
+      "type": "heading",
+      "text": "Employees are strictly prohibited from sharing any company-"
+    },
+    {
+      "type": "paragraph",
+      "text": "provided items used for authentication (passwords, hardware authentication devices, PINs, and so on) and are responsible for safeguarding such items."
+    },
+    {
+      "type": "heading",
+      "text": "Employees are strictly prohibited from connecting any networking"
+    },
+    {
+      "type": "paragraph",
+      "text": "devices, such as routers, access points, range extenders, and so on, to company networks unless explicitly authorized to do so by the company's CEO. Likewise, employees are strictly prohibited from connecting any personal computers or electronic devices -- including any Internet of Things (IoT) devices -- to company networks other than to the Guest network, under the conditions stated explicitly in the Bring Your Own Device (BYOD) policy. (See the section on BYOD, later in this chapter.)"
+    },
+    {
+      "type": "heading",
+      "text": "Employees are responsible to make sure that security software is"
+    },
+    {
+      "type": "paragraph",
+      "text": "running on all company-provided devices. Company will provide such software, but it is beyond company's ability to check that such systems are always functioning as expected. Employees may not deactivate or otherwise cripple such security systems, and must promptly notify company's IT department if they suspect that any portion of the security systems may be compromised, nonfunctioning, or malfunctioning."
+    },
+    {
+      "type": "heading",
+      "text": "Employees are responsible to make sure that security software is"
+    },
+    {
+      "type": "paragraph",
+      "text": "kept up to date. All company-issued devices come equipped with Auto-Update enabled; employees must not disable this feature."
+    },
+    {
+      "type": "heading",
+      "text": "Likewise, employees are responsible for keeping their devices up to"
+    },
+    {
+      "type": "paragraph",
+      "text": "date with the latest operating system, driver, and application patches when vendors issue such patches. All company-issued devices come equipped with Auto-Update enabled; employees must not disable this feature."
+    },
+    {
+      "type": "heading",
+      "text": "Performing any illegal activity -- whether or not the act involved is"
+    },
+    {
+      "type": "paragraph",
+      "text": "a felony, a misdemeanor, or a violation of civil law -- is strictly prohibited. This rule applies to federal law, state law, and local law in any area and at any time in which the employee is subject to such laws."
+    },
+    {
+      "type": "heading",
+      "text": "Copyrighted materials belonging to any party other than the"
+    },
+    {
+      "type": "paragraph",
+      "text": "company or employee may not be stored or transmitted by the employee on company equipment without explicit written permission of the copyright holder. Material that the company has licensed may be transmitted as permitted by the relevant licenses. Sending mass unsolicited emails (spamming) is prohibited."
+    },
+    {
+      "type": "heading",
+      "text": "The use of company resources to perform any task that is"
+    },
+    {
+      "type": "paragraph",
+      "text": "inconsistent with company's mission -- even if such task is not technically illegal -- is prohibited. This includes, but is not limited to, the accessing or transmitting sexually explicit material, vulgarities, hate speech, defamatory materials, discriminatory materials, images or description of violence, threats, cyberbullying, hacking-related material, stolen material, and so on."
+    },
+    {
+      "type": "heading",
+      "text": "The previous rule shall not apply to employees whose job entails"
+    },
+    {
+      "type": "paragraph",
+      "text": "working with such material, only to the extent that is reasonably needed for them to perform the duties of their jobs. For example, personnel responsible for configuring the company's email filter may, without violating the preceding rule, email one another about adding to the filter configuration various terms related to hate speech and vulgarities."
+    },
+    {
+      "type": "heading",
+      "text": "No company devices equipped with Wi-Fi or cellular communication"
+    },
+    {
+      "type": "paragraph",
+      "text": "capabilities may be turned on in China or Russia without explicit written permission from the company's CEO. Loaner devices will be made available for employees making trips to those regions. Any personal device turned on in those regions may not be connected to the Guest network (or any other company network)."
+    },
+    {
+      "type": "heading",
+      "text": "All use of public Wi-Fi with corporate devices must comply with the"
+    },
+    {
+      "type": "paragraph",
+      "text": "company's Public Wi-Fi policies."
+    },
+    {
+      "type": "heading",
+      "text": "Employees must backup their computers by using the company's"
+    },
+    {
+      "type": "paragraph",
+      "text": "backup system as discussed in the company's backup policy."
+    },
+    {
+      "type": "heading",
+      "text": "Employees may not copy or otherwise back up data from company"
+    },
+    {
+      "type": "paragraph",
+      "text": "devices to their personal computers and/or storage devices."
+    },
+    {
+      "type": "heading",
+      "text": "Any and all passwords for any and all systems used as part of an"
+    },
+    {
+      "type": "paragraph",
+      "text": "employees' job must be unique and not reused on any other systems."
+    },
+    {
+      "type": "heading",
+      "text": "All such passwords must consist of three or more words, at least one"
+    },
+    {
+      "type": "paragraph",
+      "text": "of which is not found in the English dictionary, joined together with numbers or special characters or meet all the following conditions:"
+    },
+    {
+      "type": "heading",
+      "text": "Contain eight characters or more with at least one uppercase"
+    },
+    {
+      "type": "heading",
+      "text": "Contain at least one lowercase character"
+    },
+    {
+      "type": "heading",
+      "text": "Contain at least one number"
+    },
+    {
+      "type": "heading",
+      "text": "Not contain any words that can be found in an English"
+    },
+    {
+      "type": "heading",
+      "text": "In either case, names of relatives, friends, or colleagues may"
+    },
+    {
+      "type": "paragraph",
+      "text": "not be used as part of any password."
+    },
+    {
+      "type": "heading",
+      "text": "Data may be taken out of the office for business purposes only and"
+    },
+    {
+      "type": "paragraph",
+      "text": "must be encrypted prior to removal. This rule applies whether the data is on hard drive, SSD, CD/DVD, USB drive, or on any other media or is transmitted over the Internet. Any and all such data must be returned to the office (or at company's sole discretion, destroyed,) immediately after its remote use is complete or upon employee's termination of employment, whichever is sooner. In the event of a breach or other cybersecurity event or of any natural or man-made disaster, no employees other than the company's officially designated spokesperson may speak to the media on behalf of the company."
+    },
+    {
+      "type": "heading",
+      "text": "No devices from any manufacturer that the FBI or other United"
+    },
+    {
+      "type": "heading",
+      "text": "States federal law enforcement and intelligence agencies have"
+    },
+    {
+      "type": "paragraph",
+      "text": "warned that they believe foreign governments are using to spy on"
+    },
+    {
+      "type": "heading",
+      "text": "Americans may be connected to any company network (including"
+    },
+    {
+      "type": "paragraph",
+      "text": "the guest network) or brought into the physical offices of the company."
+    },
+    {
+      "type": "heading",
+      "text": "Enforcing social media policies"
+    },
+    {
+      "type": "heading",
+      "text": "Devising, implementing, and enforcing social media policies is"
+    },
+    {
+      "type": "paragraph",
+      "text": "important because inappropriate social media posts made by your employees (or yourself) can inflict all sorts of damage. They can leak sensitive information, violate compliance rules, and assist criminals to social engineer and attack your organization, expose your business to boycotts and/or lawsuits, and so on."
+    },
+    {
+      "type": "heading",
+      "text": "You want to make clear to all employees what is and is not"
+    },
+    {
+      "type": "paragraph",
+      "text": "acceptable use of social media. As part of the process of crafting the policies, consider consulting an attorney to make sure that you do not violate anyone's freedom of speech. You may also want to implement technology to ensure social media does not transform from a marketing platform into a nightmare."
+    },
+    {
+      "type": "heading",
+      "text": "Monitoring employees"
+    },
+    {
+      "type": "heading",
+      "text": "Regardless of whether or not they plan to actually monitor employees'"
+    },
+    {
+      "type": "paragraph",
+      "text": "usage of technology, companies should inform users that they have a right to do so. If an employee were to go rogue and steal data, for example, you do not want to have the admissibility of evidence challenged on the grounds that you had no right to monitor the employee. Furthermore, telling employees that they may be monitored reduces the likelihood of employees doing things that they are not supposed to do because they know that they may be monitored while doing such things. Here is an example of text that you can provide to employees as part of an employee handbook or the like when they begin work:"
+    },
+    {
+      "type": "heading",
+      "text": "Company, at its sole discretion, and without any further notice to"
+    },
+    {
+      "type": "paragraph",
+      "text": "employee, reserves the right to monitor, examine, review, record, collect, store, copy, transmit to others, and control any and all email and other electronic communications, files, and any and all other content, network activity including Internet use, transmitted by or through its technology systems or stored in its technology systems or systems, whether onsite or offsite. Such systems shall include systems that it owns and operates and systems that it leases, licenses, or to which it otherwise has any usage rights."
+    },
+    {
+      "type": "heading",
+      "text": "Furthermore, whether sent to an internal party, external party, or"
+    },
+    {
+      "type": "paragraph",
+      "text": "both, any and all email, text and/or other instant messages, voicemail, and/or any and all other electronic communications are considered to be Company's business records, and may be subject to discovery in the event of litigation and/or to disclosure based on warrants served upon company or requests from regulators and other parties."
+    },
+    {
+      "type": "heading",
+      "text": "Considering Cyber Insurance"
+    },
+    {
+      "type": "heading",
+      "text": "While cybersecurity insurance may be overkill for most small"
+    },
+    {
+      "type": "paragraph",
+      "text": "businesses, if you believe that your business could suffer a catastrophic loss or even fail altogether if it were to be breached, you may want to consider buying insurance. If you do pursue this route, keep in mind that nearly all cybersecurity insurance policies have carve outs, or exclusions -- so make sure that you understand exactly what is covered and what is not and for what amount of damage you are actually covered. If your business fails because you were breached, a policy that pays only to have an expert spend two hours restoring your data is not going to be worth much."
+    },
+    {
+      "type": "heading",
+      "text": "Cybersecurity insurance is never a replacement for proper"
+    },
+    {
+      "type": "paragraph",
+      "text": "cybersecurity. In fact, insurers normally require that a business meet a certain standard of cybersecurity to purchase and maintain coverage. In some cases, the insurer may even refuse to pay a claim if it finds that the insured party was breached at least in part due to negligence on the insured's part or due to the failure of the breached party to adhere to certain standards or practices mandated by the relevant insurance policy."
+    },
+    {
+      "type": "heading",
+      "text": "Complying with Regulations and"
+    },
+    {
+      "type": "heading",
+      "text": "Compliance"
+    },
+    {
+      "type": "heading",
+      "text": "Businesses may be bound by various laws, contractual obligations, and"
+    },
+    {
+      "type": "paragraph",
+      "text": "industry standards when it comes to cybersecurity. Your local Small"
+    },
+    {
+      "type": "heading",
+      "text": "Business Administration office may be able to provide you with"
+    },
+    {
+      "type": "paragraph",
+      "text": "guidance as to what regulations potentially impact you. Remember, though, that there is no substitute for hiring a properly trained lawyer experienced with this area of law to provide professional advice optimized for your particular situation. The following sections provide examples of several such regulations, standards, and so on that often impact small businesses."
+    },
+    {
+      "type": "heading",
+      "text": "Protecting employee data"
+    },
+    {
+      "type": "heading",
+      "text": "You're responsible for protecting sensitive information about your"
+    },
+    {
+      "type": "paragraph",
+      "text": "employees. For physical files, you should, in general, protect records with at least double-locking -- storing the paper files in a locked cabinet within a locked room (and not using the same key for both). For electronic files, the files should be stored encrypted within a password- protected folder, drive, or virtual drive. Such standards, however, may not be adequate in every particular situation, which is why you should check with an attorney."
+    },
+    {
+      "type": "heading",
+      "text": "Keep in mind that failure to adequately protect employee"
+    },
+    {
+      "type": "paragraph",
+      "text": "information can have severe effects: If your business is breached and a criminal obtains private information about employees, the impacted employees and former employees can potentially sue you, and the government may fine you as well. Remediation costs may also be much higher than the costs of proactive prevention would have been. And, of course, the impact of bad publicity on the business's sales may also be catastrophic."
+    },
+    {
+      "type": "heading",
+      "text": "Remember, employee personnel records, W2 forms, Social Security"
+    },
+    {
+      "type": "paragraph",
+      "text": "numbers, I9 employment eligibility forms, home addresses and phone numbers, medical information, vacation records, family leave records, and so on are all potentially considered private."
+    },
+    {
+      "type": "heading",
+      "text": "In general, if you're unsure as to whether some information may"
+    },
+    {
+      "type": "paragraph",
+      "text": "be considered private, err on the side of caution and treat it as if it is private."
+    },
+    {
+      "type": "heading",
+      "text": "PCI DSS"
+    },
+    {
+      "type": "heading",
+      "text": "Payment Card Industry Data Security Standard (PCI DSS) is an"
+    },
+    {
+      "type": "paragraph",
+      "text": "information security standard for organizations that handle major credit cards and their associated information. While all companies of all sizes that are subject to the PCI DSS standard must be compliant with it, PCI does take into effect the different levels of resources available to different sized businesses. PCI Compliance has effectively four different levels. To what level an organization must comply is normally based primarily on how many credit card transactions it processes per year. Other factors, such as how risky the payments are that the company receives, also weigh in. The different levels are"
+    },
+    {
+      "type": "heading",
+      "text": "PCI Level 4: Standards for businesses that process fewer than"
+    },
+    {
+      "type": "paragraph",
+      "text": "20,000 credit card transactions per year"
+    },
+    {
+      "type": "heading",
+      "text": "PCI Level 3: Standards for businesses that process between 20,000"
+    },
+    {
+      "type": "paragraph",
+      "text": "and 1,000,000 credit card transactions per year"
+    },
+    {
+      "type": "heading",
+      "text": "PCI Level 2: Standards for businesses that process between"
+    },
+    {
+      "type": "paragraph",
+      "text": "1,000,000 and 6,000,000 credit card transactions per year"
+    },
+    {
+      "type": "heading",
+      "text": "PCI Level 1: Standards for businesses that process more than"
+    },
+    {
+      "type": "paragraph",
+      "text": "6,000,000 credit card transactions per year Exploring PCI in detail is beyond the scope of this book. Multiple, entire books have been written on the topic. If you operate a small business and process credit card payments or store credit card data for any other reason, be sure to engage someone knowledgeable in PCI to help guide you. In many cases, your credit card processors will be able to recommend a proper consultant or guide you themselves."
+    },
+    {
+      "type": "heading",
+      "text": "Breach disclosure laws"
+    },
+    {
+      "type": "heading",
+      "text": "In recent years, various jurisdictions have enacted so-called breach"
+    },
+    {
+      "type": "paragraph",
+      "text": "disclosure laws, which require businesses to disclose to the public if they suspect that a breach may have endangered certain types of stored information. Breach disclosure laws vary quite a bit from jurisdiction to jurisdiction, but, in some cases, they may apply even to the smallest of businesses."
+    },
+    {
+      "type": "heading",
+      "text": "Be sure that you are aware of the laws that apply to your"
+    },
+    {
+      "type": "paragraph",
+      "text": "business. If, for some reason, you do suffer a breach, the last thing that you want is the government punishing you for not handling the breach properly. Remember: Many small businesses fail as the result of a breach; the government entering the fray only worsens your business's odds of surviving. The laws that apply to your business may include not only those of the jurisdiction within which you're physically located but the jurisdictions of the people you're handling information for."
+    },
+    {
+      "type": "heading",
+      "text": "GDPR"
+    },
+    {
+      "type": "heading",
+      "text": "The General Data Protection Regulation (GDPR) is a European privacy"
+    },
+    {
+      "type": "paragraph",
+      "text": "regulation that went into effect in 2018 and applies to all businesses handling the consumer data of residents of the European Union, no matter the size, industry, or country of origin of the business and no matter whether the EU resident is physically located within the EU. It provides for stiff fines for businesses that do not properly protect private information belonging to EU residents. This regulation means that a small business in New York that sells an item to an EU resident located in New York may be subject to GDPR for information about the purchaser and, can, in theory, face stiff penalties if it fails to properly protect that person's data. For example, in July 2019, the United"
+    },
+    {
+      "type": "heading",
+      "text": "Kingdom's Information Commissioner's Office (ICO) announced that it"
+    },
+    {
+      "type": "paragraph",
+      "text": "intended to fine British Airways about $230 million and Marriott about $123 million for GDPR-related violations stemming from data breaches."
+    },
+    {
+      "type": "heading",
+      "text": "GDPR is complex. If you think that your business may be subject to"
+    },
+    {
+      "type": "paragraph",
+      "text": "GDPR, speak with an attorney who handles such matters."
+    },
+    {
+      "type": "heading",
+      "text": "Do not panic about GDPR. Even if a small business in the"
+    },
+    {
+      "type": "heading",
+      "text": "United States is technically subject to GDPR, it is unlikely that the"
+    },
+    {
+      "type": "heading",
+      "text": "EU will attempt to fine small American businesses that do not"
+    },
+    {
+      "type": "paragraph",
+      "text": "operate in Europe anytime soon; it has much bigger fish to fry. That said, do not ignore GDPR because eventually American small businesses may become targets for enforcement actions."
+    },
+    {
+      "type": "heading",
+      "text": "HIPAA"
+    },
+    {
+      "type": "heading",
+      "text": "Federal law throughout the United States of America requires parties"
+    },
+    {
+      "type": "paragraph",
+      "text": "that house healthcare-related information to protect it in order to maintain the privacy of the individuals whose medical information appears in the data. The Health Insurance Portability and Accountability Act (HIPAA), which went into effect in 1996, provides for stiff penalties for improperly defending such information. Be sure to learn whether HIPAA applies to your business and, if so, ensure that you are properly protecting the data to which it applies according to industry standards or better."
+    },
+    {
+      "type": "heading",
+      "text": "Biometric data"
+    },
+    {
+      "type": "heading",
+      "text": "If you utilize any forms of biometric authentication or for any other"
+    },
+    {
+      "type": "paragraph",
+      "text": "reason store biometric data, you may be subject to various privacy and security laws governing that data. Multiple states have already enacted laws in this regard, and others are likely to follow."
+    },
+    {
+      "type": "heading",
+      "text": "Handling Internet Access"
+    },
+    {
+      "type": "paragraph",
+      "text": "Small businesses face significant challenges related to Internet access and information systems that individuals rarely must think about, and must take various actions to prevent the emergence of various dangers. The following sections cover a few examples."
+    },
+    {
+      "type": "heading",
+      "text": "Segregate Internet access for personal devices"
+    },
+    {
+      "type": "paragraph",
+      "text": "If you provide Internet access for visitors to your place of business, and/or for your employees to use with their personal smartphones and tablets while at work, implement this Internet access on a separate network from the network(s) used to run your business (see Figure 9-1)."
+    },
+    {
+      "type": "heading",
+      "text": "Most modern routers offer such a capability, which is usually found"
+    },
+    {
+      "type": "paragraph",
+      "text": "somewhere in the configuration with a name like Guest network. FIGURE 9-1: Configuring a guest network for connecting nonbusiness machines to the Internet."
+    },
+    {
+      "type": "heading",
+      "text": "Bring your own device (BYOD)"
+    },
+    {
+      "type": "heading",
+      "text": "If you allow employees to perform business activities on their own"
+    },
+    {
+      "type": "paragraph",
+      "text": "personal laptops or mobile devices, you need to create policies regarding such activity and implement technology to protect your data in such an environment."
+    },
+    {
+      "type": "heading",
+      "text": "Don't rely on policies. If you don't enforce policies with"
+    },
+    {
+      "type": "paragraph",
+      "text": "technology, you could suffer a catastrophic theft of data if an employee goes rogue or makes a mistake."
+    },
+    {
+      "type": "heading",
+      "text": "In general, small businesses should not allow bring your own device"
+    },
+    {
+      "type": "paragraph",
+      "text": "(BYOD) -- even if doing so is tempting. In the vast majority of cases when small businesses do allow employees to use their own devices for work-related activities, data remains improperly protected, and problems develop if an employee leaves the organization (especially if he or she leaves under less than optimal circumstances)."
+    },
+    {
+      "type": "heading",
+      "text": "Many Android keyboards \"learn\" about a user's activities as he"
+    },
+    {
+      "type": "paragraph",
+      "text": "or she types. While such learning helps improve spelling correction and word prediction, it also means that in many cases, sensitive corporate information may be learned on a personal device and remain as suggested content when a user types on it even after he leaves his or her employer. If you do allow BYOD, be sure to set proper policies and procedures -- both for usage and for decommissioning any company technology on such devices, as well as for removing any company data when an employee leaves. Develop a full mobile device security plan that includes remote wipe capabilities, enforces protection of passwords and other sensitive data, processes work-related data in an isolated area of the device that other apps can't access (a process known as sandboxing), installs, runs, and updates mobile-optimized security software, prohibits staff from using public Wi-Fi for sensitive work-related tasks, prohibits certain activities from the devices while corporate data is on them, and so on."
+    },
+    {
+      "type": "heading",
+      "text": "Handling inbound access"
+    },
+    {
+      "type": "paragraph",
+      "text": "One of the biggest differences between individuals and businesses using the Internet is often the need of the business to provide inbound access for untrusted parties. Unknown parties must be able to initiate communications that result in communications with internal servers within your business. For example, if a business offers products for sale online, it must allow untrusted parties to access its website to make purchases (see Figure 9- 2). Those parties connect to the website, which must connect to payment systems and internal order tracking systems, even though they are untrusted. (Individuals typically do not have to allow any such inbound access to their computers.) FIGURE 9-2: Inbound access is one major difference between businesses and individuals. While small businesses can theoretically properly secure web servers, email servers, and so on, the reality is that few, if any, small businesses have the resources to adequately do so, unless they're in the cybersecurity business to begin with. As such, it is wise for small businesses to consider using third-party software and infrastructure, set up by an expert, and managed by experts, to host any systems used for inbound access. To do so, a business may assume any one or more of several approaches: Utilize a major retailer's website. If you're selling items online, and sell only through the websites of major retailers, such as"
+    },
+    {
+      "type": "heading",
+      "text": "Amazon, Rakuten, and/or eBay, those sites serve as a major buffer"
+    },
+    {
+      "type": "paragraph",
+      "text": "between your business's systems and the outside world. The security armies at those companies defend their customer-facing systems from attacks. In many cases, such systems don't require small businesses to receive inbound communications, and when they do, the communications emanate from those retailers' systems, not from the public. Of course, many factors go into deciding whether to sell via a major retailer -- online markets do take hefty commissions, for example. When you weigh the factors in making such a decision, keep the security advantages in mind."
+    },
+    {
+      "type": "heading",
+      "text": "Utilize a third-party hosted retail platform. In such a case, the"
+    },
+    {
+      "type": "paragraph",
+      "text": "third party manages most of the infrastructure and security for you, but you customize and manage the actual online store. Such a model does not offer quite the same level of isolation from outside users as does the preceding model, but it does offer much greater buffering against attacks than if you operate your own platform by yourself. Shopify is an example of a popular third-party platform."
+    },
+    {
+      "type": "heading",
+      "text": "Operate your own platform, hosted by a third party that is also"
+    },
+    {
+      "type": "paragraph",
+      "text": "responsible for security. This approach offers better protection than managing the security yourself, but it does not isolate your code from outsiders trying to find vulnerabilities and attack. It also places responsibility for the upkeep and security of the platform on you."
+    },
+    {
+      "type": "heading",
+      "text": "Operate your own system hosted either internally or externally"
+    },
+    {
+      "type": "paragraph",
+      "text": "and use a managed services provider to manage your security. In such a case, you're fully responsible for the security of the platform and infrastructure, but you're outsourcing much of the actual work required to satisfy that responsibility to a third party. Other models and many variants of the models I list exist as well. While the models may step from easier to secure to harder to secure, they also step from less customizable to more customizable. In addition, while the earlier models may cost less for smaller businesses, the expense of the earlier models typically grows much faster than do the later ones as a business grows."
+    },
+    {
+      "type": "heading",
+      "text": "While using third-party providers does add some risks; the risk"
+    },
+    {
+      "type": "paragraph",
+      "text": "that a small business will be unable to properly implement and perpetually manage security is likely much greater than any security risk created by using a reliable third party. Of course, outsourcing anything to an unknown third party that you have done no due diligence on is extremely risky and is not recommended."
+    },
+    {
+      "type": "heading",
+      "text": "Protecting against denial-of-service attacks"
+    },
+    {
+      "type": "paragraph",
+      "text": "If you operate any Internet-facing sites as part of your business, make sure that you have security technology implemented to protect against denial-of-service type attacks. If you're selling via retailers, they likely have it already. If you're using a third-party cloud platform, the provider may supply it as well. If you're running the site on your own, you should obtain protection to ensure that someone can't easily take your site -- and your business -- offline."
+    },
+    {
+      "type": "heading",
+      "text": "Use https for your website"
+    },
+    {
+      "type": "paragraph",
+      "text": "If your business operates a website, be sure to install a valid TLS/SSL certificate so that users can communicate with it over a secure connection and know that the site actually belongs to your business."
+    },
+    {
+      "type": "heading",
+      "text": "Some security systems that protect against denial-of-service"
+    },
+    {
+      "type": "paragraph",
+      "text": "attacks include a certificate as part of the package."
+    },
+    {
+      "type": "heading",
+      "text": "Providing remote access to systems"
+    },
+    {
+      "type": "heading",
+      "text": "If you intend on providing employees remote access to corporate"
+    },
+    {
+      "type": "paragraph",
+      "text": "systems, consider using a Virtual Private Network (VPN) and multifactor authentication. In the case of remote access, the VPN should create an encrypted tunnel between your remote users and your business, not between users and a VPN provider. The tunnel both protects against people snooping on the communications between remote users and the business and also allows remote users to function as if they were in the company's offices, and utilize various business resources available only to insiders. Multifactor authentication is discussed in detail in Chapter 6."
+    },
+    {
+      "type": "heading",
+      "text": "Of course, if you use third-party, cloud-based systems, the relevant"
+    },
+    {
+      "type": "paragraph",
+      "text": "providers should already have security capabilities deployed that you can leverage -- do so."
+    },
+    {
+      "type": "heading",
+      "text": "Running penetration tests"
+    },
+    {
+      "type": "paragraph",
+      "text": "Individuals rarely run tests to see whether hackers can penetrate into their systems, and neither do most small businesses. Doing so, however, can be valuable -- especially if you are deploying a new system of some sort or upgrading network infrastructure. See Chapter 16 for more on penetration testing."
+    },
+    {
+      "type": "heading",
+      "text": "Being careful with IoT devices"
+    },
+    {
+      "type": "paragraph",
+      "text": "Many businesses today utilize connected cameras, alarms, and so on. Be sure that someone is responsible for overseeing the security of these devices, which should be run on separate networks (or virtual segments) than any computers used to operate the business. Control access to these devices and do not allow employees to connect any unauthorized IoT devices to the business's networks. For more on IoT devices, see Chapter 17."
+    },
+    {
+      "type": "heading",
+      "text": "Using multiple network segments"
+    },
+    {
+      "type": "heading",
+      "text": "Depending on the size and nature of your business, isolating various"
+    },
+    {
+      "type": "paragraph",
+      "text": "computers onto different network segments may be wise. A software development company, for example, should not have developers coding on the same network that the operations folks use to manage payroll and accounts payable."
+    },
+    {
+      "type": "heading",
+      "text": "Being careful with payment cards"
+    },
+    {
+      "type": "paragraph",
+      "text": "If you accept credit and/or debit cards -- and are not selling via a major retailer's website -- make sure to speak with your processor about various anti-fraud technology options that may be available to you."
+    },
+    {
+      "type": "heading",
+      "text": "Managing Power Issues"
+    },
+    {
+      "type": "paragraph",
+      "text": "Use an uninterruptable power supply on all systems that you can't afford to have go down even momentarily. Also, make sure the power supplies can keep the systems up and running for longer than any expected outage. If you're selling various goods and services via online retail, for example, you may lose current sales and future sales, as well as suffer reputational harm, if your ability to sell goes offline even for a short period of time."
+    },
+    {
+      "type": "heading",
+      "text": "LOCKING ALL NETWORKING EQUIPMENT"
+    },
+    {
+      "type": "heading",
+      "text": "AND SERVERS IN A VENTILATED CLOSET"
+    },
+    {
+      "type": "paragraph",
+      "text": "You must control physical access to your systems and data if you want to protect them from unauthorized access. While individuals typically store computers in the open in their homes, businesses usually keep servers in locked racks or closets. You need to be sure, though, that any such rack or closet where you locate computer equipment is well ventilated, or your equipment may overheat and die. You may even need to install a small air conditioner in the closet if ventilation on its own does not sufficiently get rid of the heat generated by the equipment."
+    },
+    {
+      "type": "heading",
+      "text": "Never let cleaning personnel enter the server closet"
+    },
+    {
+      "type": "paragraph",
+      "text": "unaccompanied -- even for a moment. The author personally witnessed a case in which a server used by dozens of people went down because an administrator allowed cleaning personnel to enter a server room unaccompanied only to find later that someone unplugged a server from an uninterruptible power supply (UPS) -- a device that serves as both the entry point for power into the system as well as a battery backup -- to plug in a vacuum cleaner."
+    }
+  ]
+}

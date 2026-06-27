@@ -1,0 +1,272 @@
+{
+  "num": 18,
+  "type": "chapter",
+  "title": "Chapter 18: Ten Ways You Can Improve Your Cybersecurity without Spending a Fortune",
+  "part": "Part 8: The Part of Tens",
+  "pages": "399 to 405",
+  "in_this_chapter": [
+    "Understanding that you're a target Protecting yourself using security software Encrypting, backing up, and more"
+  ],
+  "content": [
+    {
+      "type": "heading",
+      "text": "Ten Ways You Can Improve"
+    },
+    {
+      "type": "heading",
+      "text": "Your Cybersecurity without"
+    },
+    {
+      "type": "heading",
+      "text": "Spending a Fortune"
+    },
+    {
+      "type": "paragraph",
+      "text": "IN THIS CHAPTER"
+    },
+    {
+      "type": "heading",
+      "text": "Understanding that you're a target"
+    },
+    {
+      "type": "heading",
+      "text": "Protecting yourself using security software"
+    },
+    {
+      "type": "heading",
+      "text": "Encrypting, backing up, and more"
+    },
+    {
+      "type": "heading",
+      "text": "Not all security improvements require a large outlay of cash. In this"
+    },
+    {
+      "type": "paragraph",
+      "text": "chapter, you discover ten ways that you can quickly improve your cybersecurity without spending a lot of money."
+    },
+    {
+      "type": "heading",
+      "text": "Understand That You Are a Target"
+    },
+    {
+      "type": "heading",
+      "text": "People who believe that hackers want to breach their computers and"
+    },
+    {
+      "type": "paragraph",
+      "text": "phones and that criminals want to steal their data act differently than people who do not understand the true nature of the threat. Internalizing today's reality will help introduce into you healthy skepticism, as well as impact your attitude and behavior in numerous other ways -- many of which you may not even consciously realize are being affected. For example, when you believe that you're a target of cyberattackers, you're less likely to blindly trust that emails that you receive from your bank were actually sent by the bank, and, as such, you're less likely to fall prey to phishing scams than are people who believe that they are not targets. People who believe that criminals are after their passwords and PIN numbers are also more likely to better protect these sensitive pieces of data than are people who believe that crooks \"have no reason to want\" their data."
+    },
+    {
+      "type": "heading",
+      "text": "Use Security Software"
+    },
+    {
+      "type": "heading",
+      "text": "All computer devices (laptops, phones, tablets, and so on) that house"
+    },
+    {
+      "type": "paragraph",
+      "text": "sensitive information or that will be attached to networks with other devices do need security software. Several popular, inexpensive packages include antivirus, firewall, antispam, and other beneficial technologies."
+    },
+    {
+      "type": "heading",
+      "text": "Portable devices should have remote wipe capabilities and software"
+    },
+    {
+      "type": "paragraph",
+      "text": "optimized for mobile systems; remember to enable such features as soon as you get the device. Many phones come with security software preinstalled by providers -- make sure you enable and use it. (For more details on securing mobile devices, see Chapter 5.)"
+    },
+    {
+      "type": "heading",
+      "text": "Encrypt Sensitive Information"
+    },
+    {
+      "type": "paragraph",
+      "text": "Store all sensitive data in an encrypted format. If you have doubts as to whether something is sensitive enough to warrant encryption, it probably does, so err on the side of caution and encrypt. Encryption is built in to many versions of Windows, and plenty of free encryption tools are available as well. It is amazing how much sensitive data that has been compromised could have remained secure if the parties from which it was stolen had used free encryption tools. Also, never transmit sensitive information unless it is encrypted. Never enter sensitive information to any website if the site is not using SSL/TLS encryption, as evidenced by the page loading with HTTPS, and not HTTP, a difference easily seen by looking at the URL line of a web browser."
+    },
+    {
+      "type": "heading",
+      "text": "Encryption involves complex mathematical algorithms, but you don't"
+    },
+    {
+      "type": "paragraph",
+      "text": "need to know any of the details in order to utilize and benefit from encryption."
+    },
+    {
+      "type": "heading",
+      "text": "One point that you should be aware of, however, is that two major"
+    },
+    {
+      "type": "paragraph",
+      "text": "families of encryption algorithms are used today: Symmetric: You use the same secret key to encrypt and decrypt."
+    },
+    {
+      "type": "heading",
+      "text": "Asymmetric: You use one secret key to encrypt and another to"
+    },
+    {
+      "type": "paragraph",
+      "text": "decrypt. Most simple encryption tools utilize symmetric encryption, and all you need to remember is a password to decrypt your data. Throughout the course of your professional career, however, you may encounter various asymmetric systems that require you to establish both a public key and a private key. The public key is shared with the world, and the private key is kept secret. Asymmetric encryption helps with sending data: If you want to send information to John so that only John can read it, encrypt the data with John's public key so that only John can read it, because he is the only party who has John's private key."
+    },
+    {
+      "type": "heading",
+      "text": "If you want to send information to John and want John to know that"
+    },
+    {
+      "type": "paragraph",
+      "text": "you sent it, encrypt the data with your own private key and therefore,"
+    },
+    {
+      "type": "heading",
+      "text": "John will decrypt it with your public key and know that you sent it"
+    },
+    {
+      "type": "paragraph",
+      "text": "because only you have the private key that goes along with your public key."
+    },
+    {
+      "type": "heading",
+      "text": "If you want to send information to John in a format that only John"
+    },
+    {
+      "type": "paragraph",
+      "text": "can read and in a format that John will know that you sent it, encrypt with both your own private key and john's public keys. In reality, because asymmetric is processor intensive, it is rarely used for encrypting entire conversations, but, rather it is utilized to encrypt special session keys --that is, to convey to the parties to a conversation the keys that they need for symmetric encryption. Additional discussions regarding asymmetric encryption are beyond the scope of this book."
+    },
+    {
+      "type": "heading",
+      "text": "Back Up Often"
+    },
+    {
+      "type": "heading",
+      "text": "Back up often enough that if something goes wrong, you won't panic"
+    },
+    {
+      "type": "paragraph",
+      "text": "about how much data you lost because your last backup was days ago."
+    },
+    {
+      "type": "heading",
+      "text": "Here is the general rule: If you're not sure whether you're"
+    },
+    {
+      "type": "paragraph",
+      "text": "backing up often enough, you probably aren't. No matter how convenient doing so may seem, do not keep your backups attached to your computer or even to your computer network (see Chapter 13). If you do keep backups attached in such a fashion, you run a serious risk that if ransomware or other malware somehow manages to infect your network, it can corrupt the backups as well, which would undermine the reason for backing up in the first place! Ideally, have both backups stored both onsite and offsite. Onsite storage lets you restore quickly. Offsite storage helps ensure that backups are available even when a site becomes inaccessible or something else devastates all the computer equipment and digital data at a particular site."
+    },
+    {
+      "type": "heading",
+      "text": "One more thing: Make sure that you regularly test that your backups"
+    },
+    {
+      "type": "paragraph",
+      "text": "actually work. Backing up is worthless if you can't actually restore from your backups."
+    },
+    {
+      "type": "heading",
+      "text": "Do Not Share Passwords and Other"
+    },
+    {
+      "type": "heading",
+      "text": "Login Credentials"
+    },
+    {
+      "type": "heading",
+      "text": "Every person accessing an important system should have his or her own"
+    },
+    {
+      "type": "paragraph",
+      "text": "login credentials. Do not share passwords for online banking, email, social media, and so on with your children or significant other -- get everyone his or her own login."
+    },
+    {
+      "type": "heading",
+      "text": "Implementing such a scheme not only improves the ability to"
+    },
+    {
+      "type": "paragraph",
+      "text": "track down the source of problems if they occur, but, perhaps more importantly in the case of families, creates a much greater sense of responsibility and encourages people to better protect their passwords."
+    },
+    {
+      "type": "heading",
+      "text": "Use Proper Authentication"
+    },
+    {
+      "type": "heading",
+      "text": "You have likely heard the conventional wisdom to use complex"
+    },
+    {
+      "type": "paragraph",
+      "text": "passwords for all systems, but do not overdo it. If using too many complex passwords is causing you to reuse passwords on multiple sensitive systems or to write down passwords in insecure locations, consider other strategies for forming your passwords, such as combining words, numbers, and proper names, such as custard4tennis6Steinberg. See Chapter 7 for more details. For extremely sensitive systems, if stronger forms of authentication, such as multifactor authentication, are available, take advantage of the offerings and use them."
+    },
+    {
+      "type": "heading",
+      "text": "For systems to which passwords do not really matter, consider using"
+    },
+    {
+      "type": "paragraph",
+      "text": "weak, easy-to-remember passwords. Don't waste brainpower where it does not need to be used."
+    },
+    {
+      "type": "heading",
+      "text": "Alternatively, use a password manager -- but, not for your most"
+    },
+    {
+      "type": "paragraph",
+      "text": "sensitive passwords because you don't want to put all your eggs in one basket."
+    },
+    {
+      "type": "heading",
+      "text": "Use Social Media Wisely"
+    },
+    {
+      "type": "paragraph",
+      "text": "Oversharing on social media posts has caused, and continues to cause, many problems, such as leaking sensitive information, violating compliance rules, and assisting criminals to carry out both cyber and physical attacks."
+    },
+    {
+      "type": "heading",
+      "text": "Be sure that your phone does not autocorrect anything to sensitive"
+    },
+    {
+      "type": "paragraph",
+      "text": "material when posting and don't accidentally cut and paste anything sensitive into a social media window."
+    },
+    {
+      "type": "heading",
+      "text": "Segregate Internet Access"
+    },
+    {
+      "type": "heading",
+      "text": "Nearly all modern Wi-Fi routers allow you to run two or more networks"
+    },
+    {
+      "type": "paragraph",
+      "text": "-- use this feature. If you work from home, for example, consider connecting your laptop to the Internet via a different Wi-Fi network than the one that your children use to browse the web and play video games. As discussed in Chapter 4, look for the Guest feature in your router's configuration pages -- that is where you will typically find the ability to set up the second network (often referred to as the Guest network)."
+    },
+    {
+      "type": "heading",
+      "text": "Use Public Wi-Fi Safely"
+    },
+    {
+      "type": "heading",
+      "text": "While public Wi-Fi is a great convenience that most people utilize"
+    },
+    {
+      "type": "paragraph",
+      "text": "regularly, it also creates serious cybersecurity risks. Because of the benefits that public Wi-Fi provides, however, cybersecurity practitioners who preach that people should refrain from using public Wi-Fi are about as likely to succeed in their effort as they would be if they instructed people to abandon insecure computers and revert back to using typewriters. As such, it is important that you learn how to use public Wi-Fi safely and understand multiple techniques for improving your odds of defending yourself against mischievous parties (see Chapter 6)."
+    },
+    {
+      "type": "heading",
+      "text": "Hire a Pro"
+    },
+    {
+      "type": "paragraph",
+      "text": "Especially if you're starting or running a small business, getting expert advice can be a wise investment. An information-security professional can assist you in designing and implementing your approach to cybersecurity. The minimal cost of a small amount of professional help may pay for itself many times over in terms of time, money, and aggravation saved down the road."
+    },
+    {
+      "type": "heading",
+      "text": "The folks who will attack you -- cybercriminals and other"
+    },
+    {
+      "type": "paragraph",
+      "text": "hackers -- have, and utilize, technical expertise. If you'd hire a lawyer if you were charged with a crime, go to a doctor if you felt a virus coming on, or hire an accountant if you were audited by the IRS, hire a cyberpro."
+    }
+  ]
+}

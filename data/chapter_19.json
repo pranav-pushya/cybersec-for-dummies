@@ -1,0 +1,248 @@
+{
+  "num": 19,
+  "type": "chapter",
+  "title": "Chapter 19: Ten Lessons from Major Cybersecurity Breaches",
+  "part": "Part 8: The Part of Tens",
+  "pages": "406 to 412",
+  "in_this_chapter": [
+    "Looking at the Marriott breach disclosed in 2018 Understanding the Target breach Gaining knowledge from other breaches"
+  ],
+  "content": [
+    {
+      "type": "heading",
+      "text": "Ten Lessons from Major"
+    },
+    {
+      "type": "heading",
+      "text": "Cybersecurity Breaches"
+    },
+    {
+      "type": "paragraph",
+      "text": "IN THIS CHAPTER"
+    },
+    {
+      "type": "heading",
+      "text": "Looking at the Marriott breach disclosed in 2018"
+    },
+    {
+      "type": "heading",
+      "text": "Understanding the Target breach"
+    },
+    {
+      "type": "heading",
+      "text": "Gaining knowledge from other breaches"
+    },
+    {
+      "type": "heading",
+      "text": "Learning from the experiences of others can save people from"
+    },
+    {
+      "type": "paragraph",
+      "text": "unnecessary pain and suffering. In this chapter, I discuss five breaches that teach ten lessons. I specifically chose these five because they directly impacted either myself or a member of my family and, due to the breaches' respective magnitudes, are likely to have impacted you and yours as well."
+    },
+    {
+      "type": "heading",
+      "text": "Marriott"
+    },
+    {
+      "type": "heading",
+      "text": "In November 2018, Marriott International disclosed that hackers had"
+    },
+    {
+      "type": "paragraph",
+      "text": "breached systems belonging to the Starwood hotel chain as far back as 2014 and had remained in the systems until September 2018 -- about two years after Marriott acquired Starwood."
+    },
+    {
+      "type": "heading",
+      "text": "At the time of the disclosure, Marriott estimated that the breach may"
+    },
+    {
+      "type": "paragraph",
+      "text": "have impacted as many as 500 million customers and that the data compromised ranged from just the name and contact information for some customers to far more detailed data (including passport numbers, travel data, frequent traveler numbers, and so on) for others. Marriott also estimated that 100 million people's credit card numbers -- along with expiration dates, but without CVC codes -- were compromised, but that data was in an encrypted database, and Marriott saw no clear indication that the hackers who had obtained the data were able to decrypt it. Evidence suggests that the attack against Marriott was carried out by a"
+    },
+    {
+      "type": "heading",
+      "text": "Chinese group affiliated with the Chinese government and was launched"
+    },
+    {
+      "type": "paragraph",
+      "text": "in an effort to gather data on U.S. citizens. If such an attribution is correct, the Marriott breach would likely be the largest known breach to date by a nation-state funded organization of personal, civilian data."
+    },
+    {
+      "type": "heading",
+      "text": "In July 2019, the Information Commissioner's Office of the United"
+    },
+    {
+      "type": "heading",
+      "text": "Kingdom (ICO) announced that it intended to impose a fine of the"
+    },
+    {
+      "type": "paragraph",
+      "text": "equivalent of $123 million on Marriott as a penalty for the failure to properly protect consumer data as mandated by the European Union's General Data Protection Regulation (GDPR). (See Chapter 9 for more on GDPR.) According to an SEC filing by Marriott, the firm intends to appeal the penalty once the fine is formally filed, which had not happened at the time of writing. While many lessons can be learned from the Marriott incident, two stand out:"
+    },
+    {
+      "type": "heading",
+      "text": "When anyone acquires a company and its information"
+    },
+    {
+      "type": "paragraph",
+      "text": "infrastructure, a thorough cybersecurity audit needs performed."
+    },
+    {
+      "type": "heading",
+      "text": "Vulnerabilities or active hackers within the acquired firm can"
+    },
+    {
+      "type": "paragraph",
+      "text": "become a headache to the new owner, and government regulators may even seek to hold the acquiring company responsible for the failures of a firm that it acquires. As the UK's Information Commissioner, Elizabeth Denham, put it: \"The GDPR makes it clear that organisations must be accountable for the personal data they hold. This can include carrying out proper due diligence when making a corporate acquisition, and putting in place proper accountability measures to assess not only what personal data has been acquired, but also how it is protected.\""
+    },
+    {
+      "type": "heading",
+      "text": "Don't rely on acquired companies to disclose cybersecurity"
+    },
+    {
+      "type": "paragraph",
+      "text": "problems; they may not be aware of potentially serious issues."
+    },
+    {
+      "type": "heading",
+      "text": "From an intelligence perspective, foreign governments --"
+    },
+    {
+      "type": "paragraph",
+      "text": "especially those engaged in competition with the United States and other Western powers -- value data about civilians. Such governments may seek to find and use information to blackmail folks into spying, look for people with financial pressure who may be amenable to accepting money in exchange for illegal services, and so on."
+    },
+    {
+      "type": "heading",
+      "text": "Target"
+    },
+    {
+      "type": "paragraph",
+      "text": "In December 2013, the giant retail chain Target disclosed that hackers had breached its systems and compromised about 40 million payment card numbers (a combination of credit and debit card numbers). Over the next few weeks, Target revised that figure. Altogether, the breach may have impacted as many as 110 million Target customers, and the information accessed may have included not only payment card information, but other personally identifiable information (such as names, addresses, telephone numbers, and email addresses) as well. Hackers entered Target by exploiting a vulnerability in a system used by a third-party HVAC contracting company that was servicing Target, and that had access to the retail company's point-of-sale systems. As a result of the breach, Target's CEO and CIO both resigned, and the company estimated that the breach inflicted about $162 million of damage to the firm. Two lessons from the Target incident stand out:"
+    },
+    {
+      "type": "heading",
+      "text": "Management will be held responsible when companies suffer"
+    },
+    {
+      "type": "paragraph",
+      "text": "cyberattacks. Personal careers can be harmed."
+    },
+    {
+      "type": "heading",
+      "text": "A person or organization is only as cybersecure as the most"
+    },
+    {
+      "type": "paragraph",
+      "text": "vulnerable party having access to its systems. Like a weak link in a strong chain, an inadequately secured third party with access to one's systems can easily undermine millions of dollars in cybersecurity investment. Home users should consider the moral of the Target story when allowing outsiders to use their home computers or networks. You may be careful with your personal cyberhygiene, but if you allow someone who is not careful to join your network, malware on his or her device can potentially propagate to your machines as well."
+    },
+    {
+      "type": "heading",
+      "text": "Sony Pictures"
+    },
+    {
+      "type": "heading",
+      "text": "In November 2014, a hacker leaked confidential data stolen from the"
+    },
+    {
+      "type": "paragraph",
+      "text": "Sony Pictures film studio, including copies of as-of-yet-unreleased Sony films, internal emails between employees, employees' compensation information, and various other personal information about employees and their families. The hacker also wiped many computers within Sony's information infrastructure. The leak and wiping occurred after hackers had been stealing data from Sony for as long as a year -- potentially taking as much as 100 terabytes of material; Sony's executives also apparently dismissed as spam various demands that the hackers had communicated via email. Sony's cybersecurity plan, procedures, and countermeasures either did not detect the large volume of data being transferred out, or took grossly insufficient action upon detection. After the breach, a party claiming to be the hackers threatened to carry out physical terrorist attacks against theaters showing Sony's then- upcoming film, The Interview, a comedy about a plot to assassinate"
+    },
+    {
+      "type": "heading",
+      "text": "North Korean leader Kim Jong-un. With the attackers' credibility and"
+    },
+    {
+      "type": "paragraph",
+      "text": "capabilities clearly asserted via the breach, cinema operators took the threat seriously, and many major American movie theater chains stated that they would not show The Interview. As a result, Sony canceled the film's formal premiere and theatrical release, instead offering the film only as a downloadable digital release followed by limited theatrical viewings. While some cybersecurity experts were at least initially skeptical about the attribution, the United States government blamed North Korea for the hack and subsequent threats and, in September 2018, brought formal charges against a North Korean citizen that it claimed was involved with carrying out the hack while working for the North Korean equivalent of the Central Intelligence Agency. Here are two lessons that stand out:"
+    },
+    {
+      "type": "heading",
+      "text": "Depending on what technology Sony actually had in place, this"
+    },
+    {
+      "type": "paragraph",
+      "text": "breach either shows the need for implementing data loss prevention technology or shows that cybersecurity technology can be terribly ineffective, if not utilized properly."
+    },
+    {
+      "type": "heading",
+      "text": "Nation-states may use cyberattacks as a weapon against businesses"
+    },
+    {
+      "type": "paragraph",
+      "text": "and individuals whom they view as harmful to their goals, interests, and aspirations."
+    },
+    {
+      "type": "heading",
+      "text": "Office of Personnel Management"
+    },
+    {
+      "type": "heading",
+      "text": "In June 2015, the United States Office of Personnel Management"
+    },
+    {
+      "type": "paragraph",
+      "text": "(OPM), which manages personnel processes and records for the U.S. federal government, announced that it had been the victim of a data breach. While the office initially estimated that far fewer records were compromised, the eventual estimate of the number of stolen records was more than 20 million. The stolen records included personally identifiable information, including Social Security numbers, home addresses, dates and places of birth, and so on, of both current and former government employees, as well as of people who had undergone background checks, but who were never employed by the government. While the government initially believed that the contents of sensitive SF-86 forms -- which contain all sorts of information used in background checks for security clearances -- were not compromised, it ultimately disclosed that such data may have been accessed and stolen, meaning that the attackers may have obtained a treasure trove of private information about people with all sorts of security clearances."
+    },
+    {
+      "type": "heading",
+      "text": "The OPM breach is believed to actually be a combination of more than"
+    },
+    {
+      "type": "paragraph",
+      "text": "one breach -- one likely began around 2012 and was detected in March 2014 and another began in May 2014 and was not detected until April 2015. Many lessons can be learned from the OPM incident, but two stand out:"
+    },
+    {
+      "type": "heading",
+      "text": "Government organizations are not immune to serious breaches"
+    },
+    {
+      "type": "paragraph",
+      "text": "-- and even after being breached once, may still remain vulnerable to subsequent breaches. Furthermore, like their civilian counterparts, they may not detect breaches for quite some time and may initially underestimate the impact of a particular breach or series of breaches."
+    },
+    {
+      "type": "heading",
+      "text": "Breaches at an organization can impact people whose"
+    },
+    {
+      "type": "paragraph",
+      "text": "connections with the organization have long since ended -- some folks may not even remember why the organization had their data."
+    },
+    {
+      "type": "heading",
+      "text": "The OPM breach impacted people who had not worked at the"
+    },
+    {
+      "type": "paragraph",
+      "text": "government in decades or who had applied for clearances many years prior, but who never ended up working for the government."
+    },
+    {
+      "type": "heading",
+      "text": "Anthem"
+    },
+    {
+      "type": "heading",
+      "text": "In February 2015, Anthem, the second-largest health insurer in the"
+    },
+    {
+      "type": "paragraph",
+      "text": "United States, disclosed that it had been the victim of a cyberattack that had compromised personal information of almost 80 million current and former customers. Data that was stolen included names, addresses, Social Security numbers, dates of birth, and employment histories. Medical data was not believed to have been pilfered, but the stolen data was sufficient to create serious risks of identity theft for many people. The breach -- likely the largest in the history of the American healthcare industry -- was believed to have initially taken place sometime in 2014, when one worker at a subsidiary of the insurer clicked on a link in a phishing email. Two lessons stand out:"
+    },
+    {
+      "type": "heading",
+      "text": "The healthcare industry is increasingly being targeted. (This is"
+    },
+    {
+      "type": "paragraph",
+      "text": "also apparent from the tremendous number of ransomware attacks directed at hospitals in recent years, as discussed in Chapter 3.)"
+    },
+    {
+      "type": "heading",
+      "text": "While people often imagine that breaches of major corporations"
+    },
+    {
+      "type": "paragraph",
+      "text": "require sophisticated James Bond-like techniques, the reality is that many, if not most, serious breaches are actually achieved using simple, classic techniques. Phishing still works wonders for criminals. Human mistakes are almost always an integral element of a serious breach."
+    }
+  ]
+}

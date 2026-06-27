@@ -1,0 +1,618 @@
+{
+  "num": 10,
+  "type": "chapter",
+  "title": "Chapter 10: Cybersecurity and Big Businesses",
+  "part": "Part 4: Cybersecurity for Businesses and Organizations",
+  "pages": "230 to 246",
+  "in_this_chapter": [
+    "Recognizing the differences between large enterprise",
+    "information security and small business information security Understanding the CISO role Exploring the regulations and standards that impact large",
+    "enterprises"
+  ],
+  "content": [
+    {
+      "type": "heading",
+      "text": "Cybersecurity and Big"
+    },
+    {
+      "type": "heading",
+      "text": "Businesses"
+    },
+    {
+      "type": "paragraph",
+      "text": "IN THIS CHAPTER"
+    },
+    {
+      "type": "heading",
+      "text": "Recognizing the differences between large enterprise"
+    },
+    {
+      "type": "paragraph",
+      "text": "information security and small business information security"
+    },
+    {
+      "type": "heading",
+      "text": "Understanding the CISO role"
+    },
+    {
+      "type": "heading",
+      "text": "Exploring the regulations and standards that impact large"
+    },
+    {
+      "type": "paragraph",
+      "text": "enterprises Many of the information security challenges facing large enterprises and small business are the same. In fact, over the past decade, cloud-based offerings have brought to small businesses many well-protected systems with enterprise-class technologies, reducing some of the historical differences between the firms of different sizes as far as the architecture of some systems is concerned."
+    },
+    {
+      "type": "heading",
+      "text": "Of course, many security risks scale with enterprise size, but don't"
+    },
+    {
+      "type": "paragraph",
+      "text": "qualitatively differ based on the number of employees, partners, and customers that a business has or the size of its information technology budget."
+    },
+    {
+      "type": "heading",
+      "text": "At the same time, however, bigger companies often face significant"
+    },
+    {
+      "type": "paragraph",
+      "text": "additional complications -- sometimes involving orders of magnitude more complexity than the cybersecurity challenges facing small businesses. A large number of diverse systems, often spread across geographies, with custom code and so on, often make securing a large enterprise quite difficult and complex."
+    },
+    {
+      "type": "heading",
+      "text": "Thankfully, however, larger firms tend to have significantly larger"
+    },
+    {
+      "type": "paragraph",
+      "text": "budgets to acquire defenses and defenders. Furthermore, despite the fact that all companies should, in theory, have formal information security programs, small business tend not to, while large businesses almost always do."
+    },
+    {
+      "type": "heading",
+      "text": "This chapter explores some areas that disproportionately impact large"
+    },
+    {
+      "type": "heading",
+      "text": "Utilizing Technological Complexity"
+    },
+    {
+      "type": "paragraph",
+      "text": "Large enterprises often have multiple offices and lines of business, many different information systems, complex business arrangements with partners and suppliers, and so on -- all of which are reflected in much more complicated information infrastructure than typically exists in the case of smaller businesses. As such, large companies have a much larger attack surface -- that is, they have many more potential points of attack than do small businesses -- and the varied systems mean that no individual, or even small number of people, can possibly be experts on addressing all of them. Large firms use a blend of cloud and local systems, of commercial-off-the-shelf and custom-built systems, a blend of technologies, complex network architectures, and so on -- and their security teams must make sure that all of these work together in a secure fashion."
+    },
+    {
+      "type": "heading",
+      "text": "Managing Custom Systems"
+    },
+    {
+      "type": "heading",
+      "text": "Large enterprises almost always have significant amounts of custom-"
+    },
+    {
+      "type": "paragraph",
+      "text": "built technology systems that are managed in-house. Depending on how they are deployed and utilized, these systems may require the same level of security patching that off-the-shelf software requires -- which means that internal folks need to maintain the code from a security perspective, push out patches, and so on."
+    },
+    {
+      "type": "heading",
+      "text": "Furthermore, security teams must be involved with internal systems"
+    },
+    {
+      "type": "paragraph",
+      "text": "throughout the systems' entire life cycle -- including phases such as initial investigation, analysis and requirements definition, design, development, integration and testing, acceptance and deployment, ongoing operations, and maintenance, evaluation, and disposal. Security as an element of software development is a complicated matter. Entire books are written about delivering security during the software development life cycle, and professional certifications are awarded specifically in this area as well."
+    },
+    {
+      "type": "heading",
+      "text": "Continuity Planning and Disaster"
+    },
+    {
+      "type": "heading",
+      "text": "Recovery"
+    },
+    {
+      "type": "heading",
+      "text": "While small businesses should have business continuity and disaster"
+    },
+    {
+      "type": "paragraph",
+      "text": "recovery plans (sometimes known as BCPs and DRPs) and should regularly test those plans as well, they typically have, at least from a formal perspective, rudimentary plans -- at best. Large businesses typically have much more formal plans -- including detailed arrangements for resumption of work in case a facility becomes unavailable and so on. Entire books cover disaster recovery and continuity planning -- testaments to the complexity and robustness of the relevant processes."
+    },
+    {
+      "type": "heading",
+      "text": "Looking at Regulations"
+    },
+    {
+      "type": "paragraph",
+      "text": "Large enterprises are often subject to many more regulations, laws, guidance, and industry standards than are small businesses. Besides all the issues that are described in the chapter on securing small businesses, for example, the following sections cover some other ones that may impact large enterprises."
+    },
+    {
+      "type": "heading",
+      "text": "Sarbanes Oxley"
+    },
+    {
+      "type": "paragraph",
+      "text": "The Sarbanes Oxley Act of 2002, technically known as either the Public"
+    },
+    {
+      "type": "heading",
+      "text": "Company Accounting Reform and Investor Protection Act or the"
+    },
+    {
+      "type": "heading",
+      "text": "Corporate and Auditing Accountability, Responsibility, and"
+    },
+    {
+      "type": "heading",
+      "text": "Transparency Act, established many rules intended to help protect"
+    },
+    {
+      "type": "paragraph",
+      "text": "investors in public companies. Many of its mandates, for example, are intended to improve the accuracy, objectivity, and reliability of corporate statements and disclosures and to create formal systems of internal checks and balances within companies. SOX, as it is often known, mandated stronger corporate governance rules, closed various accounting loopholes, strengthened protections for whistle-blowers, and created substantial penalties (including jail time) for corporate and executive malfeasance. As its name implies, all publicly held American companies are subject to SOX, as are companies outside of the United States that have registered any equity or debt securities with the United States Securities and Exchange Commission (SEC). Additionally, any third party, such as an accounting firm, that provides accounting or other financial services to companies regulated by SOX, is itself mandated to comply with SOX, regardless of its location. SOX has many implications on information security -- both directly and indirectly. Two sections of SOX effectively mandate that companies implement various information security protections:"
+    },
+    {
+      "type": "heading",
+      "text": "Section 302 of SOX addresses the corporate responsibility to utilize"
+    },
+    {
+      "type": "paragraph",
+      "text": "controls to ensure that the firm produces accurate financial reports and requires companies to implement systems to prevent any unauthorized tampering with corporate data used to create such reports -- whether the tampering is done by employees or external folks."
+    },
+    {
+      "type": "heading",
+      "text": "Section 404 is perhaps the most controversial portion of SOX and"
+    },
+    {
+      "type": "paragraph",
+      "text": "certainly, for many businesses, the most expensive with which to comply. This section makes corporate managers responsible to ensure that the company has adequate and effective internal control structures and requires that any relevant shortcomings be reported to the public. Section 404 makes management responsible to ensure that the corporation can properly protect its data processing systems and their contents and mandates that the firm must make all relevant data available to auditors, including information about any potential security breaches."
+    },
+    {
+      "type": "heading",
+      "text": "In addition to these two areas in which SOX plays a role, information"
+    },
+    {
+      "type": "paragraph",
+      "text": "security professionals are likely to deal with many other systems that companies have implemented in order to comply with other SOX requirements. Such systems need protection as well as they themselves must adhere to SOX, too."
+    },
+    {
+      "type": "heading",
+      "text": "SOX is complicated -- and public companies normally employ people"
+    },
+    {
+      "type": "paragraph",
+      "text": "who are experts in the relevant requirements. Information security professionals are likely to interface with such folks."
+    },
+    {
+      "type": "heading",
+      "text": "Stricter PCI requirements"
+    },
+    {
+      "type": "heading",
+      "text": "The PCI DSS standards for protecting credit card information (see"
+    },
+    {
+      "type": "paragraph",
+      "text": "Chapter 9) include stricter mandates for larger companies (for example, those processing more credit card transactions) than for smaller firms. Also, keep in mind that from a practical perspective, larger firms are likely to have more processing terminals and more credit card data, as well as more diverse technology involved in their credit card processing processes -- raising the stakes when it comes to PCI. Larger firms also face a greater risk of reputational damage: A violation of PCI DSS standards by a larger firm is far more likely to make the national news than if the same violation were made by a mom-and-pop shop."
+    },
+    {
+      "type": "heading",
+      "text": "Public company data disclosure rules"
+    },
+    {
+      "type": "heading",
+      "text": "Public companies -- that is, businesses owned by the public via their"
+    },
+    {
+      "type": "paragraph",
+      "text": "shares being listed on a stock exchange (or on various other public trading platforms) -- are subject to numerous rules and regulations intended to protect the integrity of the markets."
+    },
+    {
+      "type": "heading",
+      "text": "One such requirement is that the company must release to the entire"
+    },
+    {
+      "type": "paragraph",
+      "text": "world at the same time various types of information that may impact the value of the company's shares. The firm can't, for example, provide such information to investment banks before disclosing it to the media. In fact, anyone to whom the firm does release the information prior to the disclosure to the public -- for example, the public company's accounting or law firms -- is strictly prohibited from trading shares or any derivative based on them based on that data. As such, large corporations often have all sorts of policies, procedures, and technologies in place to protect any data subject to such regulations -- and to address situations in which some such data was inadvertently released."
+    },
+    {
+      "type": "heading",
+      "text": "Breach disclosures"
+    },
+    {
+      "type": "paragraph",
+      "text": "Some breach disclosure rules exempt smaller businesses, but all require disclosures from large enterprises. Furthermore, large enterprises often have multiple departments that must interact and coordinate in order to release information about a breach -- sometimes also involving external parties. Representatives of the marketing, investor relations, information technology, security, legal, and other departments, for example, may need to work together to coordinate the text of any release and may need to involve a third-party public relations firm and external counsel as well. Large enterprises also tend to have official spokespeople and media departments to which the press can address any questions."
+    },
+    {
+      "type": "heading",
+      "text": "Industry-specific regulators and rules"
+    },
+    {
+      "type": "paragraph",
+      "text": "Various industry-specific rules and regulations tend to apply to larger firms more often than to small businesses."
+    },
+    {
+      "type": "heading",
+      "text": "For example, the Nuclear Regulatory Commission (NRC), which is an"
+    },
+    {
+      "type": "paragraph",
+      "text": "independent federal agency that regulates nuclear power companies in the United States, regulates some major utilities, but few, if any, mom- and-pop shops will ever be subject to its regulations. Hence, only larger firms dedicate significant resources to ensuring compliance with its rules. In the world of NRC regulations, cybersecurity is an important element in governing various Supervisory Control and Data Acquisition systems (SCADA), which are computer-based control and management systems that speak to the controllers in components of a plant. Likewise, with the exception of certain hedge funds and other financial operations, few small businesses are required to monitor and record all the social media interactions of their employees, the way major banks must do for certain workers. As a result of industry specific regulations, many large businesses have various processes, policies, and technologies in place that yield data and systems requiring all sorts of information security involvement."
+    },
+    {
+      "type": "heading",
+      "text": "Fiduciary responsibilities"
+    },
+    {
+      "type": "heading",
+      "text": "While many small businesses don't have external shareholders to whom"
+    },
+    {
+      "type": "paragraph",
+      "text": "management or a board of directors may be fiduciarily responsible, most large corporations do have investors who may sue either or both parties if a cybersecurity breach harms the firm's value. Various laws require management and boards to ensure that systems are appropriately secured. In some cases, folks may even be able to be criminally charged if they were negligent. Even if senior executives are not charged after a breach, they may still suffer severe career and reputational damage for their failure to prevent it."
+    },
+    {
+      "type": "heading",
+      "text": "Deep pockets"
+    },
+    {
+      "type": "heading",
+      "text": "Because large enterprises have much deeper pockets than small"
+    },
+    {
+      "type": "paragraph",
+      "text": "businesses -- in other words, they have a lot more money at their disposal -- and because targeting mom-and-pop shops isn't usually as politically advantageous as targeting a large firm that exhibited some bad behavior, regulators tend to pursue compliance cases against large enterprises suspected of violations with much more gusto than they do against small businesses."
+    },
+    {
+      "type": "heading",
+      "text": "Deeper Pockets -- and Insured"
+    },
+    {
+      "type": "heading",
+      "text": "Because larger organizations are more likely to have large amounts of"
+    },
+    {
+      "type": "paragraph",
+      "text": "cash and assets than small businesses, they make better targets for class action and various other forms of lawsuits than do mom-and-pop shops."
+    },
+    {
+      "type": "heading",
+      "text": "Lawyers don't want to expend large amounts of time fighting a case if"
+    },
+    {
+      "type": "paragraph",
+      "text": "their target has no money with which to settle or may go bankrupt (and therefore not pay) in the case of a judgment. As a result, the odds that a larger enterprise will be targeted with a lawsuit if data leaks from it as a result of a breach are relatively high when compared with the odds that the same would happen to a much smaller business suffering a similar breach. Considering Employees, Consultants, and Partners Employees are often the weakest link in a business's security chain. Far more complex employment arrangements utilized by large enterprises -- often involving unionized employees, non-unionized employees, directly hired contractors, contractors hired through firms, subcontractors, and so on -- threaten to make the problem even worse for larger business. Complexity of any sort increases the odds of people making mistakes."
+    },
+    {
+      "type": "heading",
+      "text": "With human errors being the No. 1 catalyst for data breaches, large"
+    },
+    {
+      "type": "paragraph",
+      "text": "enterprises must go beyond the human management processes and procedures of small businesses. They must, for example, have streamlined processes for deciding who gets to access what and who can give authorization for what. They must establish simple processes for revoking permissions from diverse systems when employees leave, contractors complete their assignments, and so on. Revoking access from departing parties is not as simple as many people might imagine. An employee of a large corporation might, for example, have access to multiple, unconnected data systems located in many different locations around the globe and that are managed by different teams from different departments. Identity and access management systems that centralize parts of the authentication and authorization processes can help, but many large enterprises still lack the totally comprehensive centralization necessary to make revoking access a single-step process."
+    },
+    {
+      "type": "heading",
+      "text": "Dealing with internal politics"
+    },
+    {
+      "type": "heading",
+      "text": "While all businesses with more than one employee have some element"
+    },
+    {
+      "type": "paragraph",
+      "text": "of politics, large businesses can suffer from conflicts between people and groups that are literally incentivized to perform in direct opposition to one another. For example, a business team may be rewarded if it delivers new product features earlier than a certain date -- which it can do more easily if it skimps on security -- while the information security team may be incentivized to delay the product release because it's incentivized to ensure that there are no security problems and not to get the product to market quickly."
+    },
+    {
+      "type": "heading",
+      "text": "Offering information security training"
+    },
+    {
+      "type": "paragraph",
+      "text": "All employees should understand certain basics of information security."
+    },
+    {
+      "type": "heading",
+      "text": "They should, for example, know to avoid cyber-risky behavior, such as"
+    },
+    {
+      "type": "paragraph",
+      "text": "opening attachments and clicking on links found in unexpected email messages, downloading music or videos from questionable sources, inappropriately using public Wi-Fi for sensitive tasks, or buying products from unknown stores with \"too good to be true\" prices and no publicly known physical address."
+    },
+    {
+      "type": "heading",
+      "text": "In large firms, however, most employees do not personally know most"
+    },
+    {
+      "type": "paragraph",
+      "text": "other employees. Such a situation opens the door for all sorts of social engineering attacks -- bogus requests from management to send W2s, bogus requests from the IT department to reset passwords, and so on. Training and practice to make sure that such attacks cannot successfully achieve their aims are critical."
+    },
+    {
+      "type": "heading",
+      "text": "Replicated environments"
+    },
+    {
+      "type": "heading",
+      "text": "Larger businesses often replicate environments not only in order to"
+    },
+    {
+      "type": "paragraph",
+      "text": "protect against outages, but also for maintenance purposes. As such, they often have three replicas for every major system in place: the production system (which may be replicated itself for redundancy purposes), a development environment, and a staging environment for running tests of code and patches."
+    },
+    {
+      "type": "heading",
+      "text": "Looking at the Chief Information"
+    },
+    {
+      "type": "heading",
+      "text": "Security Officer's Role"
+    },
+    {
+      "type": "heading",
+      "text": "While all businesses need someone within them to ultimately own"
+    },
+    {
+      "type": "paragraph",
+      "text": "responsibility for information security, larger enterprises often have large teams involved with information security and need someone who can oversee all the various aspects of information security management, as well as manage all the personnel involved in doing so. This person also represents the information security function to senior management -- and sometimes to the board. Typically that person is the chief information security officer (CISO). While the exact responsibilities of CISOs vary by industry, geography, company size, corporate structure, and pertinent regulations, most CISO roles share basic commonalities."
+    },
+    {
+      "type": "heading",
+      "text": "In general, the CISO's role includes overseeing and assuming"
+    },
+    {
+      "type": "paragraph",
+      "text": "responsibility for all areas of information security. The following sections describe those areas."
+    },
+    {
+      "type": "heading",
+      "text": "Overall security program management"
+    },
+    {
+      "type": "heading",
+      "text": "The CISO is responsible to oversee the company's security program"
+    },
+    {
+      "type": "paragraph",
+      "text": "from A to Z. This role includes not only establishing the information security policies for the enterprise, but everything needed to ensure that business objectives can be achieved with the desired level of risk management -- something that requires performing risk assessments, for example, on a regular basis."
+    },
+    {
+      "type": "heading",
+      "text": "While, in theory, small businesses also have someone responsible for"
+    },
+    {
+      "type": "paragraph",
+      "text": "their entire security programs, in the case of large enterprises, the programs are usually much more formal, with orders of magnitude more moving parts. Such programs are also forever ongoing."
+    },
+    {
+      "type": "heading",
+      "text": "Test and measurement of the security program"
+    },
+    {
+      "type": "heading",
+      "text": "The CISO is responsible to establish proper testing procedures and"
+    },
+    {
+      "type": "paragraph",
+      "text": "success metrics against which to measure the effectiveness of the information security plan and to make adjustments accordingly. Establishing proper security metrics is often far more complicated than one might initially assume, as defining \"successful performance\" when it comes to information security is not a straightforward matter."
+    },
+    {
+      "type": "heading",
+      "text": "Human risk management"
+    },
+    {
+      "type": "paragraph",
+      "text": "The CISO is responsible for addressing various human risks as well."
+    },
+    {
+      "type": "heading",
+      "text": "Screening employees before hiring them, defining roles and"
+    },
+    {
+      "type": "paragraph",
+      "text": "responsibilities, training employees, providing employees with appropriate user manuals and employee guides, providing employees with information security breach simulations and feedback, creating incentive programs, and so on all often involve the participation of the CISO's organization."
+    },
+    {
+      "type": "heading",
+      "text": "Information asset classification and control"
+    },
+    {
+      "type": "heading",
+      "text": "This function of the CISO includes performing an inventory of"
+    },
+    {
+      "type": "paragraph",
+      "text": "informational assets, devising an appropriate classification system, classifying the assets, and then deciding what types of controls (at a business level) need to be in place to adequately secure the various classes and assets. Auditing and accountability should be included in the controls as well."
+    },
+    {
+      "type": "heading",
+      "text": "Security operations"
+    },
+    {
+      "type": "paragraph",
+      "text": "Security operations means exactly what it sounds like. It is the business function that includes the real-time management of security, including the analysis of threats, and the monitoring of a company's technology assets (systems, networks, databases, and so on) and information security countermeasures, such as firewalls, whether hosted internally or externally, for anything that may be amiss. Operations personnel are also the folks who initially respond if they do find that something has potentially gone wrong."
+    },
+    {
+      "type": "heading",
+      "text": "Information security strategy"
+    },
+    {
+      "type": "paragraph",
+      "text": "This role includes devising the forward-looking security strategy of the company to keep the firm secure as it heads into the future. Proactive planning and action is a lot more comforting to shareholders than reacting to attacks."
+    },
+    {
+      "type": "heading",
+      "text": "Identity and access management"
+    },
+    {
+      "type": "paragraph",
+      "text": "This role deals with controlling access to informational assets based on business requirements, and includes identity management, authentication, authorization, and related monitoring. It includes all aspects of the company's password management policies and technologies, any and all multifactor authentication policies and systems, and any directory systems that store lists of people and groups and their permissions."
+    },
+    {
+      "type": "heading",
+      "text": "The CISO's identity and access management teams are responsible to"
+    },
+    {
+      "type": "paragraph",
+      "text": "give workers access to the systems needed to perform the workers' jobs and to revoke all such access when a worker leaves. Likewise, they manage partner access and all other external access. Major corporations almost always utilize formal directory services type systems -- Active Directory, for example, is quite popular."
+    },
+    {
+      "type": "heading",
+      "text": "Data loss prevention"
+    },
+    {
+      "type": "paragraph",
+      "text": "Data loss prevention includes policies, procedures, and technologies that prevent proprietary information from leaking. Leaks can happen accidentally -- for example, a user may accidentally attach the wrong document to an email before sending the message -- or through malice (for example, a disgruntled employee steals valuable intellectual property by copying it to a USB drive and taking the drive home just before resigning)."
+    },
+    {
+      "type": "heading",
+      "text": "In recent years, some social media management functions have been"
+    },
+    {
+      "type": "paragraph",
+      "text": "moved into the data loss prevention group. After all, oversharing on social media often includes the de facto sharing by employees of information that businesses do not want going out onto publicly accessible social networks."
+    },
+    {
+      "type": "heading",
+      "text": "Fraud prevention"
+    },
+    {
+      "type": "heading",
+      "text": "Some forms of fraud prevention often fall in the CISO's domain. For"
+    },
+    {
+      "type": "paragraph",
+      "text": "example, if a company operates consumer-facing websites that sell products, it is often part of the CISO's responsibility to minimize the number of fraudulent transactions that are made on the sites. Even when such responsibility doesn't fall within the purview of the CISO, the CISO is likely to be involved in the process, as anti-fraud systems and information security systems often mutually benefit from sharing information about suspicious users."
+    },
+    {
+      "type": "heading",
+      "text": "Besides dealing with combatting fraudulent transactions, the CISO may"
+    },
+    {
+      "type": "paragraph",
+      "text": "be responsible for implementing technologies to prevent rogue employees from stealing money from the company via one or more of many types of schemes -- with the CISO usually focusing primarily on means involving computers."
+    },
+    {
+      "type": "heading",
+      "text": "Incident response plan"
+    },
+    {
+      "type": "paragraph",
+      "text": "The CISO is responsible to develop and maintain the company's incident response plan. The plan should include not only the technical steps described in Chapters 11 and 12, but also detail who speaks to the media, who clears messages with the media, who informs the public, who informs regulators, who consults with law enforcement, and so on. It should also detail the identities (specified by job description) and roles of all other decision-makers within the incident response process."
+    },
+    {
+      "type": "heading",
+      "text": "Disaster recovery and business continuity"
+    },
+    {
+      "type": "heading",
+      "text": "This function includes managing disruptions of normal operations"
+    },
+    {
+      "type": "paragraph",
+      "text": "through contingency planning and the testing of all such plans."
+    },
+    {
+      "type": "heading",
+      "text": "While large businesses often have a separate DR and BCP team, the"
+    },
+    {
+      "type": "paragraph",
+      "text": "CISO almost always plays a major role in these functions -- if not owns them outright --for multiple reasons:"
+    },
+    {
+      "type": "heading",
+      "text": "Keeping systems and data available is part of the CISO's"
+    },
+    {
+      "type": "paragraph",
+      "text": "responsibility. As such, there is little difference from a practical perspective if a system goes down because a DR and BC plan is ineffective or because a DDoS attack hit -- if systems and data are not available, it is the CISO's problem."
+    },
+    {
+      "type": "heading",
+      "text": "CISOs need to make sure that BCP and DR plans provide for"
+    },
+    {
+      "type": "paragraph",
+      "text": "recovery in such a manner that security is preserved. This is especially true because it is often obvious from major media news stories when major corporations may need to activate their continuity plans, and hackers know that companies in recovery mode make ideal targets."
+    },
+    {
+      "type": "heading",
+      "text": "Compliance"
+    },
+    {
+      "type": "heading",
+      "text": "The CISO is responsible to ensure that the company complies with all"
+    },
+    {
+      "type": "paragraph",
+      "text": "with legal and regulatory requirements, contractual obligations, and best practices accepted by the company as related to information security. Of course, compliance experts and attorneys may advise the CISO regarding such matters, but ultimately, it is the CISO's responsibility to ensure that all requirements are met."
+    },
+    {
+      "type": "heading",
+      "text": "Investigations"
+    },
+    {
+      "type": "paragraph",
+      "text": "If (and when) an information security incident occurs, the folks working for the CISO in this capacity investigate what happened. In many cases, they'll be the folks who coordinate investigations with law enforcement agencies, consulting firms, regulators, or third-party security companies. These teams must be skilled in forensics and in preserving evidence. It does little good to know that some rogue employee stole money or data if, as a result of mishandling digital evidence, you can't prove in a court of law that that is the case."
+    },
+    {
+      "type": "heading",
+      "text": "Physical security"
+    },
+    {
+      "type": "paragraph",
+      "text": "Ensuring that corporate informational assets are physically secure is part of the CISO's job. This includes not only systems and networking equipment, but the transport and storage of backups, disposal of decommissioned computers, and so on."
+    },
+    {
+      "type": "heading",
+      "text": "In some organizations, the CISO is also responsible for the physical"
+    },
+    {
+      "type": "paragraph",
+      "text": "security of buildings housing technology and for the people within them. Regardless of whether this is the case, the CISO is always responsible to work with those responsible to ensure that information systems and data stores are protected with properly secured facilities sporting adequate security perimeters and with appropriate access controls to sensitive areas on a need-to-access basis."
+    },
+    {
+      "type": "heading",
+      "text": "Security architecture"
+    },
+    {
+      "type": "paragraph",
+      "text": "The CISO and his or her team are responsible to design and oversee the building and maintenance of the company's security architecture. Sometimes, of course, CISOs inherit pieces of the infrastructure, so the extent to which they get to design and build may vary. The CISO effectively decides what, where, how, and why various countermeasures are used, how to design network topology, DMZs, and segments, and so on."
+    },
+    {
+      "type": "heading",
+      "text": "Ensuring auditability of system administrators"
+    },
+    {
+      "type": "paragraph",
+      "text": "It is the CISO's responsibility to ensure that all system administrators have their actions logged in such a fashion that their actions are auditable, and attributable to the parties who took them."
+    },
+    {
+      "type": "heading",
+      "text": "Cyber-insurance compliance"
+    },
+    {
+      "type": "paragraph",
+      "text": "Most large companies have cybersecurity insurance. It is the CISO's job to make sure that the company meets all security requirements for coverage under the policies that are in effect, so that if something does go amiss and a claim is made, the firm will be covered. Part 5"
+    },
+    {
+      "type": "heading",
+      "text": "Handling a Security Incident"
+    },
+    {
+      "type": "paragraph",
+      "text": "(This Is a When, Not an If)"
+    },
+    {
+      "type": "heading",
+      "text": "IN THIS PART …"
+    },
+    {
+      "type": "paragraph",
+      "text": "Recognize signs that you may have suffered a security breach."
+    },
+    {
+      "type": "heading",
+      "text": "Understand when you may be impacted from someone else's"
+    },
+    {
+      "type": "paragraph",
+      "text": "security breach. Recover from hacked email, social media accounts, computers, and networks. Recover from ransomware and other forms of malware. Find out what to do if your computer or mobile device is stolen."
+    }
+  ]
+}

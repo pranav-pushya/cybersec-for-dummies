@@ -1,0 +1,749 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cybersecurity For Dummies - Interactive Learning Hub</title>
+    <meta name="description"
+        content="An interactive web application companions to the Cybersecurity For Dummies book, featuring structured reading modules, quizzes, and actionable safety checklists.">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="app-container">
+        <!-- Sidebar Navigation -->
+        <aside class="sidebar" id="sidebar">
+            <div class="sidebar-header">
+                <div style="display: flex; justify-content: space-between; align-items: center; width: 100%;">
+                    <div class="sidebar-logo">
+                        <div class="logo-icon">C</div>
+                        <div>
+                            <div class="logo-text">CYBERSECURITY</div>
+                            <div class="logo-sub">for Dummies</div>
+                        </div>
+                    </div>
+                    <!-- Close button for mobile -->
+                    <button class="theme-toggle-btn" id="sidebar-close-btn"
+                        style="display: none; border: none; padding: 4px;">
+                        <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor"
+                            stroke-width="2">
+                            <line x1="18" y1="6" x2="6" y2="18"></line>
+                            <line x1="6" y1="6" x2="18" y2="18"></line>
+                        </svg>
+                    </button>
+                </div>
+            </div>
+
+            <!-- Search Area -->
+            <div class="sidebar-search">
+                <div class="search-input-wrapper">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <circle cx="11" cy="11" r="8"></circle>
+                        <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+                    </svg>
+                    <input type="text" id="search-query" class="search-input" placeholder="Search the whole book...">
+                </div>
+            </div>
+
+            <!-- Scrollable Nav List -->
+            <nav class="sidebar-nav" id="sidebar-nav-container">
+                <!-- Dynamically Rendered -->
+            </nav>
+
+            <!-- Sidebar Footer -->
+            <div class="sidebar-footer">
+                <button class="theme-toggle-btn" id="theme-toggle-btn" title="Toggle Theme">
+                    <!-- Icon replaced by JS -->
+                </button>
+                <div style="font-size: 11px; color: var(--text-muted); font-weight: 500;">
+                    CYBERSECURITY HUB v1.0
+                </div>
+            </div>
+        </aside>
+
+        <!-- Main Workspace -->
+        <main class="main-content">
+            <!-- Top Bar -->
+            <header class="top-bar">
+                <button class="menu-toggle" id="menu-toggle-btn">
+                    <svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2">
+                        <line x1="3" y1="12" x2="21" y2="12"></line>
+                        <line x1="3" y1="6" x2="21" y2="6"></line>
+                        <line x1="3" y1="18" x2="21" y2="18"></line>
+                    </svg>
+                </button>
+
+                <div style="flex-grow: 1;"></div>
+
+                <div class="top-bar-right">
+                    <!-- Progress Bar Widget -->
+                    <div class="progress-widget">
+                        <div class="progress-bar-container">
+                            <div class="progress-bar-fill" id="progress-bar"></div>
+                        </div>
+                        <span class="progress-text" id="progress-percentage">0% Completed</span>
+                    </div>
+
+                    <!-- Reset Progress Button -->
+                    <button class="theme-toggle-btn" id="reset-progress-btn" title="Reset All Progress">
+                        <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2">
+                            <circle cx="12" cy="12" r="3"></circle>
+                            <path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 1 1-2.83 2.83l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-4 0v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 1 1-2.83-2.83l.06-.06a1.65 1.65 0 0 0 .33-1.82 1.65 1.65 0 0 0-1.51-1H3a2 2 0 0 1 0-4h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 1 1 2.83-2.83l.06.06a1.65 1.65 0 0 0 1.82.33H9a1.65 1.65 0 0 0 1-1.51V3a2 2 0 0 1 4 0v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 1 1 2.83 2.83l-.06.06a1.65 1.65 0 0 0-.33 1.82V9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 0 1 0 4h-.09a1.65 1.65 0 0 0-1.51 1z"></path>
+                        </svg>
+                    </button>
+                </div>
+            </header>
+
+            <!-- Content Window -->
+            <div class="content-wrapper">
+
+                <!-- SECTION 1: DASHBOARD -->
+                <section class="section active" id="dashboard-section">
+                    <div class="welcome-card">
+                        <h2>Master Cybersecurity Fundamentals</h2>
+                        <p>Welcome to the interactive companion dashboard for <strong>Cybersecurity For
+                                Dummies</strong>. Track your progress, search content instantly, test your skills, and
+                            check off items on your security action plan.</p>
+                        <div class="cta-group">
+                            <button class="btn btn-primary" onclick="loadChapter(1)">
+                                <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor"
+                                    stroke-width="2">
+                                    <path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"></path>
+                                    <path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"></path>
+                                </svg>
+                                Start Reading
+                            </button>
+                            <a href="./cybersecurity-for-dummies.pdf" target="_blank" class="btn btn-secondary"
+                                style="border-color: var(--accent-yellow); color: var(--accent-yellow); text-decoration: none;">
+                                <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor"
+                                    stroke-width="2">
+                                    <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path>
+                                    <polyline points="14 2 14 8 20 8"></polyline>
+                                    <line x1="16" y1="13" x2="8" y2="13"></line>
+                                    <line x1="16" y1="17" x2="8" y2="17"></line>
+                                    <polyline points="10 9 9 9 8 9"></polyline>
+                                </svg>
+                                Open Book PDF
+                            </a>
+                            <button class="btn btn-secondary" onclick="switchSection('quiz')">
+                                <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor"
+                                    stroke-width="2">
+                                    <circle cx="12" cy="12" r="10"></circle>
+                                    <path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3"></path>
+                                    <line x1="12" y1="17" x2="12.01" y2="17"></line>
+                                </svg>
+                                Take Quiz
+                            </button>
+                            <button class="btn btn-secondary" onclick="switchSection('phishing')"
+                                style="border-color: var(--accent-purple); color: var(--accent-purple);">
+                                <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor"
+                                    stroke-width="2">
+                                    <path
+                                        d="M10.29 3.86L1.82 18a2 2 0 0 0 1.71 3h16.94a2 2 0 0 0 1.71-3L13.71 3.86a2 2 0 0 0-3.42 0z">
+                                    </path>
+                                    <line x1="12" y1="9" x2="12" y2="13"></line>
+                                    <line x1="12" y1="17" x2="12.01" y2="17"></line>
+                                </svg>
+                                Phishing Sim
+                            </button>
+                        </div>
+                    </div>
+
+                    <div class="dashboard-grid">
+                        <!-- Left Side: Interactive Tasks -->
+                        <div class="glass-card">
+                            <div class="card-title">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path>
+                                    <polyline points="22 4 12 14.01 9 11.01"></polyline>
+                                </svg>
+                                Cybersecurity Action Plan
+                            </div>
+                            <p style="font-size: 13px; color: var(--text-secondary); margin-bottom: 16px;">
+                                Apply key takeaways from the book directly to your life. Check off actions as you
+                                implement them.
+                            </p>
+                            <div id="dash-checklist-container">
+                                <!-- Rendered dynamically -->
+                            </div>
+                        </div>
+
+                        <!-- Right Side: Stats & Info -->
+                        <div style="display: flex; flex-direction: column; gap: 24px;">
+                            <div class="glass-card"
+                                style="background: linear-gradient(135deg, rgba(16, 185, 129, 0.08), rgba(255,255,255,0.01));">
+                                <div class="card-title" style="margin-bottom: 10px;">
+                                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                                        style="color: var(--accent-green);">
+                                        <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path>
+                                    </svg>
+                                    Progress Tracker
+                                </div>
+                                <p id="dash-progress-text"
+                                    style="font-size: 14px; color: var(--text-secondary); line-height: 1.5;">
+                                    You have read 0 of 21 chapters (0% finished).
+                                </p>
+                            </div>
+
+                            <div class="glass-card" id="dash-audit-card"
+                                style="background: linear-gradient(135deg, rgba(0, 242, 254, 0.08), rgba(255,255,255,0.01));">
+                                <div class="card-title" style="margin-bottom: 10px;">
+                                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                                        style="color: var(--accent-blue);">
+                                        <circle cx="12" cy="12" r="10"></circle>
+                                        <path d="M12 16v-4"></path>
+                                        <path d="M12 8h.01"></path>
+                                    </svg>
+                                    Security Score
+                                </div>
+                                <p id="dash-audit-text"
+                                    style="font-size: 14px; color: var(--text-secondary); line-height: 1.5; margin-bottom: 12px;">
+                                    You haven't taken the Security Audit yet. Evaluate your posture to calculate your
+                                    rating.
+                                </p>
+                                <button class="btn btn-primary"
+                                    style="padding: 8px 16px; font-size: 12px; width: 100%; justify-content: center;"
+                                    onclick="switchSection('audit')">Run Security Audit</button>
+                            </div>
+
+                            <div class="glass-card">
+                                <div class="card-title" style="margin-bottom: 10px;">
+                                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                                        style="color: var(--accent-purple);">
+                                        <path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"></path>
+                                        <path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"></path>
+                                    </svg>
+                                    About the Book
+                                </div>
+                                <div style="font-size: 13px; color: var(--text-secondary); line-height: 1.6;">
+                                    <p style="margin-bottom: 8px;"><strong>Author</strong>: John Wiley & Sons, Inc.</p>
+                                    <p style="margin-bottom: 8px;"><strong>Content</strong>: 8 parts and 20 chapters
+                                        covering personal hygiene, password policies, breach recovery, business security
+                                        guidelines, and career opportunities.</p>
+                                    <a href="./cybersecurity-for-dummies.pdf" target="_blank" class="btn btn-secondary"
+                                        style="margin-top: 12px; width: 100%; justify-content: center; text-decoration: none;">
+                                        <svg viewBox="0 0 24 24" width="14" height="14" fill="none"
+                                            stroke="currentColor" stroke-width="2" style="margin-right: 6px;">
+                                            <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path>
+                                            <polyline points="14 2 14 8 20 8"></polyline>
+                                            <line x1="16" y1="13" x2="8" y2="13"></line>
+                                            <line x1="16" y1="17" x2="8" y2="17"></line>
+                                            <polyline points="10 9 9 9 8 9"></polyline>
+                                        </svg>
+                                        Open Full PDF
+                                    </a>
+                                </div>
+                            </div>
+
+                            <div class="glass-card" id="dash-bookmarks-card">
+                                <div class="card-title" style="margin-bottom: 10px;">
+                                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                                        style="color: var(--accent-yellow);">
+                                        <path d="M19 21l-7-5-7 5V5a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2z"></path>
+                                    </svg>
+                                    Quick Bookmarks
+                                </div>
+                                <div id="dash-bookmarks-list"
+                                    style="font-size: 13px; color: var(--text-secondary); line-height: 1.6;">
+                                    <p>No bookmarks saved yet. Click the bookmark icon inside any chapter to save it
+                                        here.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- SECTION 2: READER VIEW -->
+                <section class="section" id="reader-section">
+                    <div class="reader-container">
+                        <!-- Font Scale Adjustment, Narrator & Controls -->
+                        <div
+                            style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 16px; flex-wrap: wrap; gap: 12px;">
+                            <!-- TTS Audio Player Card -->
+                            <div class="tts-container" style="display: flex; align-items: center; gap: 8px;">
+                                <button class="btn btn-secondary" id="tts-play-btn"
+                                    style="padding: 6px 12px; font-size: 12px; height: 32px; display: inline-flex; align-items: center; gap: 6px;">
+                                    <svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor"
+                                        stroke-width="2" id="tts-play-icon">
+                                        <polygon points="5 3 19 12 5 21 5 3"></polygon>
+                                    </svg>
+                                    <span id="tts-play-text">Listen to Chapter</span>
+                                </button>
+                                <div id="tts-controls" style="display: none; align-items: center; gap: 8px;">
+                                    <button class="theme-toggle-btn" id="tts-stop-btn" title="Stop Reading"
+                                        style="width: 32px; height: 32px; display: flex; align-items: center; justify-content: center;">
+                                        <svg viewBox="0 0 24 24" width="14" height="14" fill="none"
+                                            stroke="currentColor" stroke-width="2">
+                                            <rect x="3" y="3" width="18" height="18" rx="2" ry="2"></rect>
+                                        </svg>
+                                    </button>
+
+                                    <!-- Speed Selector -->
+                                    <select id="tts-rate"
+                                        style="background-color: var(--bg-tertiary); border: 1px solid var(--border-color); color: var(--text-primary); padding: 4px 8px; border-radius: 4px; font-size: 11px; height: 32px; font-weight: 600;">
+                                        <option value="0.75">0.75x</option>
+                                        <option value="1" selected>1.0x</option>
+                                        <option value="1.25">1.25x</option>
+                                        <option value="1.5">1.5x</option>
+                                        <option value="2">2.0x</option>
+                                    </select>
+
+                                    <!-- Voice Selector -->
+                                    <select id="tts-voice"
+                                        style="background-color: var(--bg-tertiary); border: 1px solid var(--border-color); color: var(--text-primary); padding: 4px 8px; border-radius: 4px; font-size: 11px; height: 32px; max-width: 150px; font-weight: 600;">
+                                        <!-- Dynamically loaded -->
+                                    </select>
+                                </div>
+                            </div>
+                            <div style="display: flex; gap: 10px;">
+                                <button class="theme-toggle-btn" id="font-decrease-btn" title="Decrease Font Size"
+                                    style="width: 32px; height: 32px; font-weight: 700;">A-</button>
+                                <button class="theme-toggle-btn" id="font-increase-btn" title="Increase Font Size"
+                                    style="width: 32px; height: 32px; font-weight: 700;">A+</button>
+                            </div>
+                        </div>
+
+                        <!-- Chapter Title Header -->
+                        <header class="reader-header" id="reader-header-container">
+                            <!-- Rendered dynamically -->
+                        </header>
+
+                        <!-- Chapter Content Body -->
+                        <article class="reader-body" id="reader-body-container">
+                            <!-- Rendered dynamically -->
+                        </article>
+
+                        <!-- Footer Navigation -->
+                        <footer class="reader-footer">
+                            <button class="btn btn-secondary" id="prev-chapter-btn">
+                                <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor"
+                                    stroke-width="2">
+                                    <polyline points="15 18 9 12 15 6"></polyline>
+                                </svg>
+                                Previous Chapter
+                            </button>
+                            <button class="btn btn-primary" id="next-chapter-btn">
+                                Next Chapter
+                                <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor"
+                                    stroke-width="2">
+                                    <polyline points="9 18 15 12 9 6"></polyline>
+                                </svg>
+                            </button>
+                        </footer>
+                    </div>
+                </section>
+
+                <!-- SECTION 3: INTERACTIVE QUIZ -->
+                <section class="section" id="quiz-section">
+                    <!-- QUIZ CONFIGURATION SCREEN -->
+                    <div class="glass-card quiz-card" id="quiz-setup-card" style="display: block;">
+                        <h2 style="margin-bottom: 8px; font-size: 22px; font-weight: 700; background: linear-gradient(to right, #ffffff, var(--accent-blue)); -webkit-background-clip: text; -webkit-text-fill-color: transparent;">Customizable MCQ Quiz</h2>
+                        <p style="color: var(--text-secondary); font-size: 14px; margin-bottom: 24px;">Configure a personalized quiz by selecting specific chapters, choosing a difficulty level, and setting the question count.</p>
+                        
+                        <div class="quiz-setup-container">
+                            <!-- Chapter Selection Row -->
+                            <div class="quiz-setup-row">
+                                <div class="quiz-setup-heading">
+                                    <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"></path><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"></path></svg>
+                                    1. Choose Chapters to Include
+                                </div>
+                                <div class="chapter-grid" id="setup-chapter-grid">
+                                    <!-- Populated dynamically via JS: Chapters 0 to 20 -->
+                                </div>
+                                <div class="chapter-select-actions">
+                                    <button class="btn btn-secondary btn-mini" id="quiz-select-all-btn">Select All</button>
+                                    <button class="btn btn-secondary btn-mini" id="quiz-clear-all-btn">Clear All</button>
+                                </div>
+                            </div>
+
+                            <!-- Difficulty Selection Row -->
+                            <div class="quiz-setup-row">
+                                <div class="quiz-setup-heading">
+                                    <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon></svg>
+                                    2. Select Difficulty
+                                </div>
+                                <div class="pill-group" id="setup-difficulty-group">
+                                    <div class="pill-option selected" data-value="all">Mixed / All</div>
+                                    <div class="pill-option" data-value="easy">Easy</div>
+                                    <div class="pill-option" data-value="medium">Medium</div>
+                                    <div class="pill-option" data-value="hard">Hard</div>
+                                </div>
+                            </div>
+
+                            <!-- Question Count Selection Row -->
+                            <div class="quiz-setup-row">
+                                <div class="quiz-setup-heading">
+                                    <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2"><line x1="9" y1="6" x2="20" y2="6"></line><line x1="9" y1="12" x2="20" y2="12"></line><line x1="9" y1="18" x2="20" y2="18"></line><line x1="5" y1="6" x2="5.01" y2="6"></line><line x1="5" y1="12" x2="5.01" y2="12"></line><line x1="5" y1="18" x2="5.01" y2="18"></line></svg>
+                                    3. Number of Questions
+                                </div>
+                                <div class="pill-group" id="setup-count-group">
+                                    <div class="pill-option" data-value="5">5 Questions</div>
+                                    <div class="pill-option selected" data-value="10">10 Questions</div>
+                                    <div class="pill-option" data-value="20">20 Questions</div>
+                                    <div class="pill-option" data-value="all">All Available</div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div style="display: flex; justify-content: flex-end; margin-top: 32px;">
+                            <button class="btn btn-primary" id="quiz-start-btn" style="padding: 14px 32px; font-size: 15px;">
+                                Generate & Start Quiz
+                                <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2"><polyline points="9 18 15 12 9 6"></polyline></svg>
+                            </button>
+                        </div>
+                    </div>
+
+                    <!-- QUIZ GAMEPLAY SCREEN (Hidden by default) -->
+                    <div class="glass-card quiz-card" id="quiz-play-card" style="display: none;">
+                        <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 16px;">
+                            <button class="btn btn-secondary btn-mini" id="quiz-quit-btn" style="padding: 6px 12px; display: inline-flex; align-items: center; gap: 4px;">
+                                <svg viewBox="0 0 24 24" width="12" height="12" fill="none" stroke="currentColor" stroke-width="2"><polyline points="15 18 9 12 15 6"></polyline></svg>
+                                Quit Quiz
+                            </button>
+                            <div class="quiz-progress" style="margin-bottom: 0;">
+                                <span id="quiz-progress-text">Question 1 of 10</span>
+                            </div>
+                        </div>
+                        <div class="quiz-bar">
+                            <div class="quiz-bar-fill" id="quiz-bar-fill"></div>
+                        </div>
+
+                        <div id="quiz-question-container">
+                            <div class="question-text" id="quiz-question">Question text here...</div>
+                            <div class="options-container" id="quiz-options">
+                                <!-- Option buttons loaded dynamically -->
+                            </div>
+                            <div class="quiz-feedback" id="quiz-feedback">
+                                <!-- Feedback text with explanations -->
+                            </div>
+                        </div>
+
+                        <div style="display: flex; justify-content: flex-end;">
+                            <button class="btn btn-primary" id="quiz-next-btn" style="display: none;">Next Question</button>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- SECTION 6: SECURITY AUDIT -->
+                <section class="section" id="audit-section">
+                    <div class="glass-card quiz-card" id="audit-card">
+                        <div class="quiz-progress">
+                            <span id="audit-progress-text">Step 1 of 4</span>
+                        </div>
+                        <div class="quiz-bar">
+                            <div class="quiz-bar-fill" id="audit-bar-fill"></div>
+                        </div>
+
+                        <div id="audit-question-container">
+                            <div class="question-text" id="audit-question">How do you manage your online account
+                                passwords?</div>
+                            <div class="options-container" id="audit-options">
+                                <!-- Loaded dynamically -->
+                            </div>
+                        </div>
+
+                        <div style="display: flex; justify-content: flex-end; margin-top: 20px;">
+                            <button class="btn btn-primary" id="audit-next-btn" style="display: none;">Next
+                                Step</button>
+                        </div>
+                    </div>
+
+                    <!-- Audit Result Card -->
+                    <div class="glass-card" id="audit-result-card"
+                        style="display: none; max-width: 800px; margin: 0 auto;">
+                        <div style="text-align: center; margin-bottom: 30px;">
+                            <h3 style="font-size: 24px; font-weight: 700; margin-bottom: 8px;">Your Cybersecurity
+                                Posture Audit</h3>
+                            <div id="audit-score-gauge"
+                                style="font-size: 64px; font-weight: 800; margin: 20px 0; background: linear-gradient(to right, var(--accent-blue), var(--accent-purple)); -webkit-background-clip: text; -webkit-text-fill-color: transparent;">
+                                0%</div>
+                            <div id="audit-rating-badge"
+                                style="display: inline-block; padding: 6px 16px; border-radius: 20px; font-weight: 700; font-size: 14px;">
+                                HIGH RISK</div>
+                        </div>
+
+                        <h4
+                            style="font-size: 16px; font-weight: 700; margin-bottom: 16px; border-bottom: 1px solid var(--border-color); padding-bottom: 8px;">
+                            Tailored Recommendations:</h4>
+                        <div id="audit-recommendations"
+                            style="display: flex; flex-direction: column; gap: 16px; margin-bottom: 30px;">
+                            <!-- Rendered dynamically -->
+                        </div>
+
+                        <div style="display: flex; justify-content: center; gap: 16px;">
+                            <button class="btn btn-primary" id="audit-retry-btn">Retake Audit</button>
+                            <button class="btn btn-secondary" onclick="switchSection('dashboard')">Go to
+                                Dashboard</button>
+                        </div>
+                </section>
+
+                <!-- SECTION 7: PHISHING SIMULATOR -->
+                <section class="section" id="phishing-section">
+                    <div class="glass-card quiz-card" id="phishing-card" style="max-width: 800px; margin: 0 auto;">
+                        <div class="quiz-progress">
+                            <span id="phishing-progress-text">Scenario 1 of 5</span>
+                        </div>
+                        <div class="quiz-bar">
+                            <div class="quiz-bar-fill" id="phishing-bar-fill"></div>
+                        </div>
+
+                        <div id="phishing-scenario-container">
+                            <div class="question-text"
+                                style="font-size: 14px; margin-bottom: 20px; color: var(--text-secondary);">
+                                Analyze the message below. Check the sender, subject, and content for red flags, then
+                                decide whether to trust it or report it as phishing.
+                            </div>
+
+                            <!-- Email Client Mockup -->
+                            <div class="email-client">
+                                <div class="email-header">
+                                    <div><strong>From:</strong> <span id="email-from">Chase Bank
+                                            &lt;security@chase-security-update.com&gt;</span></div>
+                                    <div><strong>To:</strong> user@example.com</div>
+                                    <div><strong>Subject:</strong> <span id="email-subject">URGENT: Your account has
+                                            been suspended!</span></div>
+                                </div>
+                                <div class="email-body" id="email-body">
+                                    <!-- Email content rendered here -->
+                                </div>
+                            </div>
+
+                            <div class="phishing-actions"
+                                style="display: flex; gap: 16px; justify-content: center; margin-top: 24px;">
+                                <button class="btn btn-secondary"
+                                    style="border-color: var(--accent-green); color: var(--accent-green); transition: background-color 0.2s;"
+                                    id="phishing-trust-btn">
+                                    <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor"
+                                        stroke-width="2">
+                                        <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path>
+                                        <polyline points="22 4 12 14.01 9 11.01"></polyline>
+                                    </svg>
+                                    Trust Message
+                                </button>
+                                <button class="btn btn-secondary"
+                                    style="border-color: var(--accent-red); color: var(--accent-red); transition: background-color 0.2s;"
+                                    id="phishing-report-btn">
+                                    <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor"
+                                        stroke-width="2">
+                                        <path
+                                            d="M10.29 3.86L1.82 18a2 2 0 0 0 1.71 3h16.94a2 2 0 0 0 1.71-3L13.71 3.86a2 2 0 0 0-3.42 0z">
+                                        </path>
+                                        <line x1="12" y1="9" x2="12" y2="13"></line>
+                                        <line x1="12" y1="17" x2="12.01" y2="17"></line>
+                                    </svg>
+                                    Report as Phishing
+                                </button>
+                            </div>
+
+                            <div class="quiz-feedback" id="phishing-feedback" style="display: none; margin-top: 24px;">
+                                <!-- Feedback & explanations -->
+                            </div>
+                        </div>
+
+                        <div style="display: flex; justify-content: flex-end; margin-top: 20px;">
+                            <button class="btn btn-primary" id="phishing-next-btn" style="display: none;">Next
+                                Scenario</button>
+                        </div>
+                    </div>
+
+                    <!-- Phishing Result Card -->
+                    <div class="glass-card" id="phishing-result-card"
+                        style="display: none; max-width: 600px; margin: 0 auto; text-align: center; padding: 40px;">
+                        <h3 style="font-size: 24px; font-weight: 700; margin-bottom: 8px;">Phishing Simulator Complete
+                        </h3>
+                        <div id="phishing-score-gauge"
+                            style="font-size: 64px; font-weight: 800; margin: 20px 0; background: linear-gradient(to right, var(--accent-red), var(--accent-purple)); -webkit-background-clip: text; -webkit-text-fill-color: transparent;">
+                            0 / 5</div>
+                        <p id="phishing-result-text"
+                            style="color: var(--text-secondary); margin-bottom: 30px; line-height: 1.5;">Excellent! You
+                            identified all scams.</p>
+
+                        <div style="display: flex; justify-content: center; gap: 16px;">
+                            <button class="btn btn-primary" id="phishing-retry-btn">Try Again</button>
+                            <button class="btn btn-secondary" onclick="switchSection('dashboard')">Go to
+                                Dashboard</button>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- SECTION 8: NOTES & HIGHLIGHTS -->
+                <section class="section" id="notes-section">
+                    <div class="glass-card" style="max-width: 800px; margin: 0 auto; padding: 30px;">
+                        <h2 style="font-size: 28px; font-weight: 800; margin-bottom: 8px;">My Notes & Highlights</h2>
+                        <p style="color: var(--text-secondary); margin-bottom: 30px;">Keep track of your annotations,
+                            key definitions, and custom reminders from the book.</p>
+
+                        <div id="notes-list-container" style="display: flex; flex-direction: column; gap: 16px;">
+                            <!-- Annotations rendered dynamically -->
+                        </div>
+                    </div>
+                </section>
+
+                <!-- SECTION 4: GLOBAL SEARCH RESULTS -->
+                <section class="section" id="search-section">
+                    <h2 style="font-size: 24px; font-weight: 700; margin-bottom: 8px;">Book Search Results</h2>
+                    <div class="search-results-summary" id="search-results-summary">Found 0 matching results</div>
+                    <div id="search-results-container">
+                        <!-- Search result cards rendered dynamically -->
+                    </div>
+                </section>
+
+                <!-- SECTION 5: CHEAT SHEET & TIPS -->
+                <section class="section" id="cheat-sheet-section">
+                    <h2 style="font-size: 28px; font-weight: 800; margin-bottom: 8px;">Cheat Sheet & Actions</h2>
+                    <p style="color: var(--text-secondary); margin-bottom: 30px;">Quick references, lists, and takeaways
+                        extracted from the core chapters of the book.</p>
+
+                    <div class="cheat-grid">
+                        <!-- Card 1 -->
+                        <div class="cheat-card">
+                            <div class="cheat-card-header">
+                                <div class="cheat-card-icon">
+                                    <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor"
+                                        stroke-width="2">
+                                        <rect x="3" y="11" width="18" height="11" rx="2" ry="2"></rect>
+                                        <path d="M7 11V7a5 5 0 0 1 10 0v4"></path>
+                                    </svg>
+                                </div>
+                                <div class="cheat-card-title">1. Password Rules (Ch 7)</div>
+                            </div>
+                            <ul class="cheat-card-list">
+                                <li>Use complex phrases, not words (e.g. correct horse battery staple).</li>
+                                <li>Use unique passwords for each service (prevent credential stuffing).</li>
+                                <li>Never reuse passwords on personal and business accounts.</li>
+                                <li>Store passwords securely using a credential manager application.</li>
+                            </ul>
+                        </div>
+
+                        <!-- Card 2 -->
+                        <div class="cheat-card">
+                            <div class="cheat-card-header">
+                                <div class="cheat-card-icon">
+                                    <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor"
+                                        stroke-width="2">
+                                        <path d="M18 8A6 6 0 0 0 6 8c0 7-3 9-3 9h18s-3-2-3-9"></path>
+                                        <path d="M13.73 21a2 2 0 0 1-3.46 0"></path>
+                                    </svg>
+                                </div>
+                                <div class="cheat-card-title">2. Safe Public Wi-Fi (Ch 20)</div>
+                            </div>
+                            <ul class="cheat-card-list">
+                                <li>Turn off auto-connect to prevent joining dummy networks.</li>
+                                <li>Avoid sensitive transactions (online banking/shopping) on public Wi-Fi.</li>
+                                <li>Use a Virtual Private Network (VPN) for encrypted tunnels.</li>
+                                <li>Use cellular hotspot data rather than public hotspots where possible.</li>
+                            </ul>
+                        </div>
+
+                        <!-- Card 3 -->
+                        <div class="cheat-card">
+                            <div class="cheat-card-header">
+                                <div class="cheat-card-icon">
+                                    <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor"
+                                        stroke-width="2">
+                                        <ellipse cx="12" cy="5" rx="9" ry="3"></ellipse>
+                                        <path d="M3 5v14c0 1.66 4 3 9 3s9-1.34 9-3V5"></path>
+                                    </svg>
+                                </div>
+                                <div class="cheat-card-title">3. Backup Rules (Ch 13)</div>
+                            </div>
+                            <ul class="cheat-card-list">
+                                <li>Use the 3-2-1 backup strategy (3 copies, 2 media types, 1 off-site/cloud).</li>
+                                <li>Ensure external storage drives are disconnected after backup completes.</li>
+                                <li>Test restoring from backups regularly.</li>
+                                <li>Verify files are encrypted on cloud servers.</li>
+                            </ul>
+                        </div>
+
+                        <!-- Card 4 -->
+                        <div class="cheat-card">
+                            <div class="cheat-card-header">
+                                <div class="cheat-card-icon">
+                                    <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor"
+                                        stroke-width="2">
+                                        <path
+                                            d="M10.29 3.86L1.82 18a2 2 0 0 0 1.71 3h16.94a2 2 0 0 0 1.71-3L13.71 3.86a2 2 0 0 0-3.42 0z">
+                                        </path>
+                                        <line x1="12" y1="9" x2="12" y2="13"></line>
+                                        <line x1="12" y1="17" x2="12.01" y2="17"></line>
+                                    </svg>
+                                </div>
+                                <div class="cheat-card-title">4. Breach Recovery (Ch 12 & 15)</div>
+                            </div>
+                            <ul class="cheat-card-list">
+                                <li>Stay calm, act fast, and isolate the infected system from network.</li>
+                                <li>Clear the active malware threat before restoring backups.</li>
+                                <li>Report critical business data breaches to regulators immediately.</li>
+                                <li>Change credentials for all linked accounts immediately.</li>
+                            </ul>
+                        </div>
+
+                        <!-- Card 5 -->
+                        <div class="cheat-card">
+                            <div class="cheat-card-header">
+                                <div class="cheat-card-icon">
+                                    <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor"
+                                        stroke-width="2">
+                                        <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path>
+                                        <circle cx="9" cy="7" r="4"></circle>
+                                        <path d="M23 21v-2a4 4 0 0 0-3-3.87"></path>
+                                        <path d="M16 3.13a4 4 0 0 1 0 7.75"></path>
+                                    </svg>
+                                </div>
+                                <div class="cheat-card-title">5. Social Engineering (Ch 8)</div>
+                            </div>
+                            <ul class="cheat-card-list">
+                                <li>Never open attachments in unexpected emails.</li>
+                                <li>Do not trust caller ID; verify identity through official phone numbers.</li>
+                                <li>Limit personal information shared on social networks.</li>
+                                <li>Double-check domain names in hyperlinks before clicking.</li>
+                            </ul>
+                        </div>
+
+                        <!-- Card 6 -->
+                        <div class="cheat-card">
+                            <div class="cheat-card-header">
+                                <div class="cheat-card-icon">
+                                    <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor"
+                                        stroke-width="2">
+                                        <path
+                                            d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z">
+                                        </path>
+                                        <polyline points="3.27 6.96 12 12.01 20.73 6.96"></polyline>
+                                        <line x1="12" y1="22.08" x2="12" y2="12"></line>
+                                    </svg>
+                                </div>
+                                <div class="cheat-card-title">6. Business Security (Ch 9 & 10)</div>
+                            </div>
+                            <ul class="cheat-card-list">
+                                <li>Assign clear responsibility of cybersecurity to one manager or CISO.</li>
+                                <li>Educate employees regularly on social engineering and password habits.</li>
+                                <li>Carry out thorough cybersecurity audits during company acquisitions.</li>
+                                <li>Implement role-based access control policies.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </section>
+
+            </div>
+        </main>
+    </div>
+
+    <!-- Floating Highlight Toolbar -->
+    <div id="highlight-toolbar" class="highlight-toolbar" style="display: none;">
+        <div class="color-dot color-yellow" data-color="yellow" title="Highlight Yellow"></div>
+        <div class="color-dot color-cyan" data-color="cyan" title="Highlight Cyan"></div>
+        <div class="color-dot color-magenta" data-color="magenta" title="Highlight Magenta"></div>
+        <button class="toolbar-btn" id="toolbar-note-btn" title="Add Note">
+            <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M11 4H4a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2v-7"></path>
+                <path d="M18.5 2.5a2.121 2.121 0 1 1 3 3L12 15l-4 1 1-4 9.5-9.5z"></path>
+            </svg>
+        </button>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,821 @@
+[
+  {
+    "chapterNum": 0,
+    "difficulty": "easy",
+    "question": "According to the Introduction, what is the primary purpose of the book 'Cybersecurity For Dummies'?",
+    "options": [
+      "To teach professional military-grade cyberwarfare tactics",
+      "To help everyday users understand cybersecurity and establish a solid baseline of protection",
+      "To provide code for writing custom ransomware",
+      "To train readers for certification exams like CISSP only"
+    ],
+    "correct": 1,
+    "explanation": "The Introduction explains that the book is aimed at ordinary people who want to understand key security concepts and establish practical, basic protections for themselves and their businesses."
+  },
+  {
+    "chapterNum": 0,
+    "difficulty": "medium",
+    "question": "Which of the following is NOT described as a primary goal of the book?",
+    "options": [
+      "Securing your digital accounts and passwords",
+      "Creating business policies for small and large enterprises",
+      "Compiling and executing malicious exploitation scripts",
+      "Recovering and restoring files after a system compromise"
+    ],
+    "correct": 2,
+    "explanation": "The book focuses on defense, awareness, policies, and recovery. It does not teach readers how to compile or run malicious hacking scripts to attack others."
+  },
+  {
+    "chapterNum": 0,
+    "difficulty": "hard",
+    "question": "In the context of the book's overview, what is the author's philosophy regarding the nature of security?",
+    "options": [
+      "Security is a one-time product that you can purchase and forget",
+      "Security is a continuous, dynamic process rather than a static state",
+      "Perfect security is easily achievable with the right firewall",
+      "Physical security is irrelevant in a purely digital world"
+    ],
+    "correct": 1,
+    "explanation": "The Introduction stresses that cybersecurity is an active, ongoing process that evolves alongside new threat vectors, not a single software product you install once."
+  },
+  {
+    "chapterNum": 1,
+    "difficulty": "easy",
+    "question": "Cybersecurity is a subset of which broader discipline?",
+    "options": [
+      "Information Security",
+      "Digital Cryptography",
+      "Network Engineering",
+      "Computer Science Policy"
+    ],
+    "correct": 0,
+    "explanation": "Chapter 1 explains that Information Security covers the protection of all forms of data (including paper files), whereas cybersecurity specifically addresses data in electronic/digital form."
+  },
+  {
+    "chapterNum": 1,
+    "difficulty": "medium",
+    "question": "Which component of the classic CIA Triad is compromised when a hacker intercepts and reads a private email between two corporate partners?",
+    "options": [
+      "Integrity",
+      "Availability",
+      "Confidentiality",
+      "Non-repudiation"
+    ],
+    "correct": 2,
+    "explanation": "Confidentiality deals with preventing unauthorized parties from viewing sensitive data. Intercepting and reading private messages directly compromises confidentiality."
+  },
+  {
+    "chapterNum": 1,
+    "difficulty": "hard",
+    "question": "If a malicious actor alters database values during transit to make a fraudulent transaction look authentic, which element of the CIA Triad has been violated?",
+    "options": [
+      "Availability",
+      "Confidentiality",
+      "Auditing",
+      "Integrity"
+    ],
+    "correct": 3,
+    "explanation": "Integrity refers to ensuring that data is accurate, complete, and has not been altered or tampered with in transit or storage without authorization."
+  },
+  {
+    "chapterNum": 2,
+    "difficulty": "easy",
+    "question": "What is the primary objective of a Distributed Denial of Service (DDoS) attack?",
+    "options": [
+      "To steal bank credentials from individual users",
+      "To overwhelm a target server with traffic, making it unavailable to legitimate users",
+      "To silently copy a database's customer files",
+      "To compromise a physical smart lock in an office"
+    ],
+    "correct": 1,
+    "explanation": "Chapter 2 explains that DDoS attacks flood a website or network resource with traffic from thousands of systems to exhaust its capacity and knock it offline."
+  },
+  {
+    "chapterNum": 2,
+    "difficulty": "medium",
+    "question": "What type of attack involves an adversary secretly relaying and possibly altering the communications between two parties who believe they are directly talking to each other?",
+    "options": [
+      "Phishing",
+      "Man-in-the-Middle (MitM) attack",
+      "SQL Injection",
+      "Brute Force attack"
+    ],
+    "correct": 1,
+    "explanation": "In a Man-in-the-Middle attack, the attacker sits between the sender and receiver, intercepting and reading (and sometimes modifying) traffic without their knowledge."
+  },
+  {
+    "chapterNum": 2,
+    "difficulty": "hard",
+    "question": "What is a 'Zero-Day' exploit in cybersecurity?",
+    "options": [
+      "An exploit that takes zero days to code once a vulnerability is disclosed",
+      "An attack that targets a vulnerability that the software vendor is not yet aware of and has no patch for",
+      "An attack launched exactly at midnight UTC to bypass time-zone firewalls",
+      "A script that resets a victim's operating system activation timer to zero"
+    ],
+    "correct": 1,
+    "explanation": "A Zero-Day vulnerability is one that is unknown to the vendor. The term 'Zero-Day' signifies that the vendor has had 'zero days' to patch or fix the vulnerability before it is active in the wild."
+  },
+  {
+    "chapterNum": 3,
+    "difficulty": "easy",
+    "question": "What is a 'Script Kiddie' in hacker terminology?",
+    "options": [
+      "A young child learning to write code in school",
+      "An amateur hacker who uses pre-existing scripts or automated tools created by others",
+      "A programmer who specializes in writing HTML layouts",
+      "A systems administrator who writes automated login scripts"
+    ],
+    "correct": 1,
+    "explanation": "Chapter 3 defines script kiddies as low-skill hackers who lack the knowledge to write their own exploits, instead running pre-written tools found on the internet."
+  },
+  {
+    "chapterNum": 3,
+    "difficulty": "medium",
+    "question": "Why are insider threats (current or former employees) considered particularly dangerous?",
+    "options": [
+      "They have access to advanced foreign nation-state exploit tools",
+      "They already possess authorized credentials and inside knowledge of system architectures",
+      "They are immune to physical lock-picking laws",
+      "They do not rely on computer hardware to access company secrets"
+    ],
+    "correct": 1,
+    "explanation": "Insider threats are exceptionally dangerous because they already have legitimate access to corporate networks, understand where assets reside, and can bypass many perimeter firewalls."
+  },
+  {
+    "chapterNum": 3,
+    "difficulty": "hard",
+    "question": "What is the primary characteristic that distinguishes State-Sponsored Threat Actors from hacktivists or script kiddies?",
+    "options": [
+      "They only operate during standard business hours",
+      "They have access to significant funding, structured organizations, and long-term geo-political motives",
+      "They strictly perform attacks on physical locks and doors",
+      "They are legally allowed to hack into any target they select"
+    ],
+    "correct": 1,
+    "explanation": "State-sponsored actors are backed by nation-states, giving them substantial budgets, training, and strategic geo-political goals. They carry out Advanced Persistent Threats (APTs)."
+  },
+  {
+    "chapterNum": 4,
+    "difficulty": "easy",
+    "question": "What is the first step in assessing your personal security posture?",
+    "options": [
+      "Buying the most expensive antivirus subscription available",
+      "Identifying your valuable digital assets and identifying potential entry points or vulnerabilities",
+      "Wiping all computers back to factory defaults immediately",
+      "Reporting all your email accounts to the police"
+    ],
+    "correct": 1,
+    "explanation": "Chapter 4 states that security posture evaluation begins by identifying what assets you own (data, accounts, devices) and identifying their potential vulnerabilities."
+  },
+  {
+    "chapterNum": 4,
+    "difficulty": "medium",
+    "question": "In risk management, what does the term 'Risk Acceptance' refer to?",
+    "options": [
+      "Fixing every single vulnerability immediately regardless of cost",
+      "Deciding that the cost of securing an asset is higher than the damage of a potential exploit, and choosing to live with the risk",
+      "Transferring the risk to a third-party insurance vendor",
+      "Refusing to believe that hackers can breach your networks"
+    ],
+    "correct": 1,
+    "explanation": "Risk acceptance is a formal decision to accept the consequences of a threat because mitigating the risk would be too costly or disruptive relative to the value of the asset."
+  },
+  {
+    "chapterNum": 4,
+    "difficulty": "hard",
+    "question": "What is the primary functional difference between a Vulnerability Assessment and a Penetration Test?",
+    "options": [
+      "Vulnerability assessment is automated, while penetration testing must be done by government agents",
+      "Vulnerability assessment identifies security flaws; penetration testing actively exploits them to test defenses",
+      "Vulnerability assessment checks physical locks; penetration testing only targets software code",
+      "There is no difference; they are exact terms for scanning ports"
+    ],
+    "correct": 1,
+    "explanation": "A vulnerability assessment scans and reports on known security weaknesses. A penetration test takes this a step further by safely attempting to exploit those weaknesses to confirm if unauthorized access is possible."
+  },
+  {
+    "chapterNum": 5,
+    "difficulty": "easy",
+    "question": "Which of the following is considered a standard physical security control?",
+    "options": [
+      "Enabling a software firewall",
+      "Implementing strong password policies",
+      "Installing deadbolts, security cameras, and window bars",
+      "Setting up a virtual private network"
+    ],
+    "correct": 2,
+    "explanation": "Chapter 5 details physical security, explaining that physical barriers like deadbolts, fences, cameras, and guards block physical access to systems."
+  },
+  {
+    "chapterNum": 5,
+    "difficulty": "medium",
+    "question": "What is 'Tailgating' in physical security operations?",
+    "options": [
+      "Using a lockpick tool to bypass a standard pin tumbler lock",
+      "An unauthorized person closely following an authorized employee through a secure door without badge verification",
+      "Stealing packages from delivery trucks in parking lots",
+      "Driving too close to other vehicles during corporate commutes"
+    ],
+    "correct": 1,
+    "explanation": "Tailgating (or piggybacking) is a social engineering exploit where an attacker slips through a secure doorway behind an authorized employee who has just unlocked the door."
+  },
+  {
+    "chapterNum": 5,
+    "difficulty": "hard",
+    "question": "Which vulnerability is common to standard pin-tumbler locks and allows them to be bypassed using a specially modified key and physical impacts?",
+    "options": [
+      "Shimming",
+      "Lock bumping",
+      "Bypassing the strike plate",
+      "Magnetic decoupling"
+    ],
+    "correct": 1,
+    "explanation": "Lock bumping involves inserting a specially cut 'bump key' and striking it with a hammer or tool, forcing the pins inside a standard cylinder lock to jump above the shear line temporarily."
+  },
+  {
+    "chapterNum": 6,
+    "difficulty": "easy",
+    "question": "What does Multi-Factor Authentication (MFA) require from a user to log in?",
+    "options": [
+      "Two different passwords written down on the same card",
+      "Verification using two or more independent criteria (e.g. password + phone code)",
+      "Answering three security questions about childhood pets",
+      "Entering a password with both capital letters and symbols"
+    ],
+    "correct": 1,
+    "explanation": "Chapter 6 outlines MFA, which increases security by requiring different categories of credentials: something you know (password), something you have (token/phone), or something you are (biometrics)."
+  },
+  {
+    "chapterNum": 6,
+    "difficulty": "medium",
+    "question": "In Multi-Factor Authentication, which of the following is considered a 'Something You Are' factor?",
+    "options": [
+      "A plastic smartcard or security key",
+      "A verification code sent via email",
+      "A fingerprint scan or facial recognition signature",
+      "Your employee ID number"
+    ],
+    "correct": 2,
+    "explanation": "Biometrics, such as fingerprints, iris scans, and facial recognition, represent factors unique to a user's physical body, grouped as 'Something you are'."
+  },
+  {
+    "chapterNum": 6,
+    "difficulty": "hard",
+    "question": "Why is MFA using SMS text codes considered less secure than MFA using an authenticator app (like Google Authenticator or Duo)?",
+    "options": [
+      "SMS codes require an active internet connection to receive",
+      "SMS traffic can be intercepted via SIM-swapping or mobile network routing vulnerabilities",
+      "Authenticator apps require typing passwords twice",
+      "SMS messages cost money to receive on standard networks"
+    ],
+    "correct": 1,
+    "explanation": "SMS codes travel over cellular networks and are vulnerable to SIM swapping (social engineering cell providers) and SS7 routing attacks. Authenticator apps generate codes locally, bypassing standard cellular network interception risk."
+  },
+  {
+    "chapterNum": 7,
+    "difficulty": "easy",
+    "question": "Why is reusing the same password across multiple online accounts dangerous?",
+    "options": [
+      "It causes your computer's memory usage to increase",
+      "If one site is compromised, hackers can access your accounts on all other platforms",
+      "It makes it harder for you to remember your passwords",
+      "It is illegal to use the same password on different domains"
+    ],
+    "correct": 1,
+    "explanation": "Chapter 7 warns against password reuse because credential leaks are common. Attackers take compromised passwords from breaches and test them across banking, shopping, and email sites."
+  },
+  {
+    "chapterNum": 7,
+    "difficulty": "medium",
+    "question": "What is a 'Passphrase' as recommended by modern cybersecurity guidelines?",
+    "options": [
+      "A single long word containing complex numbers and symbols",
+      "A sequence of several random words combined together to form a long, memorable string",
+      "A short sentence written in a foreign language",
+      "A code containing only vowels and numbers"
+    ],
+    "correct": 1,
+    "explanation": "Modern guidelines suggest passphrases (e.g. 'correcthorsebatterystaple') because they are long (which increases entropy and makes brute-forcing difficult) but remain easy for humans to remember."
+  },
+  {
+    "chapterNum": 7,
+    "difficulty": "hard",
+    "question": "What is a 'Brute Force' attack in password cracking?",
+    "options": [
+      "Bribing employees to give away password databases",
+      "An automated attempt to guess a password by testing every possible character combination systematically",
+      "Using physical tools to pry open servers",
+      "Intercepting hashes over network connections"
+    ],
+    "correct": 1,
+    "explanation": "A brute-force attack involves software trying combinations of characters (e.g. aaa, aab, aac...) until it matches the correct credentials. Longer passwords make brute force mathematically impractical."
+  },
+  {
+    "chapterNum": 8,
+    "difficulty": "easy",
+    "question": "What is 'Social Engineering' in cybersecurity?",
+    "options": [
+      "Coding social networks like Facebook or LinkedIn",
+      "Manipulating people into performing actions or giving up confidential information",
+      "Creating hardware firewalls with social sharing buttons",
+      "Writing algorithms that simulate human conversations"
+    ],
+    "correct": 1,
+    "explanation": "Chapter 8 explains that social engineering targets the human factor, using manipulation, lies, or urgency to trick people into giving away credentials, money, or access."
+  },
+  {
+    "chapterNum": 8,
+    "difficulty": "medium",
+    "question": "What is 'Pretexting' in social engineering attacks?",
+    "options": [
+      "Sending text messages before initiating a phone scam",
+      "Creating an invented scenario (pretext) to persuade a victim to release information or perform an action",
+      "Decrypting encrypted text messages in transit",
+      "Testing passwords against common dictionary files"
+    ],
+    "correct": 1,
+    "explanation": "Pretexting is building a credible, fake background narrative or persona (e.g. pretending to be an auditor, tax official, or IT technician) to win trust and extract info."
+  },
+  {
+    "chapterNum": 8,
+    "difficulty": "hard",
+    "question": "What distinguishes Spear-Phishing from standard Phishing attacks?",
+    "options": [
+      "Spear-phishing uses specialized hardware spears to breach firewalls",
+      "Spear-phishing is highly targeted and personalized for a specific individual or company using researched information",
+      "Spear-phishing is only sent via SMS text message, never email",
+      "Spear-phishing does not contain malicious links"
+    ],
+    "correct": 1,
+    "explanation": "Standard phishing broadcasts generic emails to thousands. Spear-phishing targets specific victims, using personal details (names, roles, associations) collected from research or public profiles to appear highly legitimate."
+  },
+  {
+    "chapterNum": 9,
+    "difficulty": "easy",
+    "question": "What is the principle of least privilege (PoLP) in business environments?",
+    "options": [
+      "Giving all employees administrator credentials to save time",
+      "Ensuring employees only have the minimum access rights necessary to complete their job tasks",
+      "Allowing workers to share passwords within their departments",
+      "Restricting employees from taking lunch breaks during security audits"
+    ],
+    "correct": 1,
+    "explanation": "Chapter 9 notes that PoLP minimizes risk by limiting user access levels. If an account is hacked, the potential damage is restricted to the limited access level of that account."
+  },
+  {
+    "chapterNum": 9,
+    "difficulty": "medium",
+    "question": "Why should a small business isolate its guest Wi-Fi from the internal corporate network?",
+    "options": [
+      "To increase the download speed of the internal connection",
+      "To prevent visitors or guest devices from scanning and accessing private corporate databases, systems, and printers",
+      "To avoid compliance audits from web providers",
+      "To force employees to use their cellular data plans"
+    ],
+    "correct": 1,
+    "explanation": "Segregating guest networks ensures that external users cannot intercept internal network traffic, scan corporate directories, or infect business devices with malware."
+  },
+  {
+    "chapterNum": 9,
+    "difficulty": "hard",
+    "question": "What is the primary role of an 'Acceptable Use Policy' (AUP) in a company?",
+    "options": [
+      "Defining how much money employees can spend on office supplies",
+      "Specifying the terms and rules under which employees may access and use company networks, hardware, and internet systems",
+      "Listing the maximum salary raises allowed per department",
+      "Dictating physical dress codes and meeting room hours"
+    ],
+    "correct": 1,
+    "explanation": "An AUP is a formal document outlining what activities employees can and cannot perform on corporate networks and devices. It helps protect the business from legal liabilities and security breaches."
+  },
+  {
+    "chapterNum": 10,
+    "difficulty": "easy",
+    "question": "What is the role of a Chief Information Security Officer (CISO) in a large corporation?",
+    "options": [
+      "To physically repair broken laptop screens",
+      "To lead corporate security strategy, manage risk, and oversee the security operations team",
+      "To develop database marketing campaigns for clients",
+      "To regulate compliance with financial stock market options"
+    ],
+    "correct": 1,
+    "explanation": "Chapter 10 describes CISOs as executive-level managers responsible for establishing corporate security policies, protecting information assets, and managing compliance."
+  },
+  {
+    "chapterNum": 10,
+    "difficulty": "medium",
+    "question": "What is the purpose of a Security Operations Center (SOC) in an enterprise?",
+    "options": [
+      "To store physical records and files in a warehouse",
+      "To monitor, detect, analyze, and respond to cyber security threats and events continuously",
+      "To handle sales operations for enterprise software",
+      "To test electrical wiring and server rack heating"
+    ],
+    "correct": 1,
+    "explanation": "A SOC is a centralized facility where security teams use monitoring software to analyze network logs and handle real-time alerts to stop breaches early."
+  },
+  {
+    "chapterNum": 10,
+    "difficulty": "hard",
+    "question": "What does GRC stand for in enterprise IT security governance?",
+    "options": [
+      "Global Router Configuration",
+      "Government Regulation Cryptography",
+      "Governance, Risk, and Compliance",
+      "Gateway Routing Control"
+    ],
+    "correct": 2,
+    "explanation": "GRC stands for Governance, Risk, and Compliance. It represents the corporate framework that aligns IT security goals with legal regulations (like GDPR) and risk tolerance levels."
+  },
+  {
+    "chapterNum": 11,
+    "difficulty": "easy",
+    "question": "Which of the following is a direct, obvious indicator of a ransomware attack?",
+    "options": [
+      "A sudden decrease in your screen's brightness",
+      "Files are locked with extension changes, and a message demands payment to retrieve decryptor keys",
+      "Your computer fans are spinning louder than usual during video streaming",
+      "You receive spam promotional offers in your email box"
+    ],
+    "correct": 1,
+    "explanation": "Chapter 11 describes ransomware as an overt breach where attackers encrypt files and display a notification asking for payment (cryptocurrency) to restore data access."
+  },
+  {
+    "chapterNum": 11,
+    "difficulty": "medium",
+    "question": "What does a significant, unexplained spike in outbound data traffic on a corporate server during off-hours (e.g. 2:00 AM) usually suggest?",
+    "options": [
+      "The server is performing automatic updates",
+      "Active data exfiltration by a compromised host or attacker",
+      "The router is power-cycling in the server room",
+      "Employees are downloading large email attachments"
+    ],
+    "correct": 1,
+    "explanation": "An unusual surge in outbound traffic often indicates data exfiltration, where attackers are copying databases or corporate files off the local network onto external servers."
+  },
+  {
+    "chapterNum": 11,
+    "difficulty": "hard",
+    "question": "What is the main operational difference between an Intrusion Detection System (IDS) and an Intrusion Prevention System (IPS)?",
+    "options": [
+      "IDS only monitors and alerts; IPS monitors, alerts, and takes automated action to block detected threats",
+      "IDS checks database tables; IPS checks network cables",
+      "IDS is hardware-based; IPS is strictly cloud software",
+      "IDS requires manual coding; IPS is completely automated"
+    ],
+    "correct": 0,
+    "explanation": "An Intrusion Detection System (IDS) operates passively to scan and notify about suspicious activity. An Intrusion Prevention System (IPS) operates inline to actively block or close connections when it detects a threat."
+  },
+  {
+    "chapterNum": 12,
+    "difficulty": "easy",
+    "question": "What is the first step you should take when you suspect a local device is infected with malware?",
+    "options": [
+      "Run a factory reset without checking backups",
+      "Isolate the device by disconnecting it from the local network and turning off Wi-Fi/Ethernet",
+      "Post a description of the issue on public social media forums",
+      "Delete your temporary internet browser files"
+    ],
+    "correct": 1,
+    "explanation": "Chapter 12 stresses network isolation. Disconnecting the machine prevents the malware from spreading to other systems on the network or communicating with the attacker's Command and Control (C2) server."
+  },
+  {
+    "chapterNum": 12,
+    "difficulty": "medium",
+    "question": "Why is changing all account credentials a priority after a security breach has occurred?",
+    "options": [
+      "To clear local storage cookies in your internet browser",
+      "To invalidate any passwords or tokens attackers harvested during their time in the system",
+      "To test if your password manager is syncing correctly",
+      "To verify employee identity for HR records"
+    ],
+    "correct": 1,
+    "explanation": "During breaches, attackers often steal local credential databases or keystroke logs. Changing all passwords locks out attackers who may have established backdoor access using hijacked accounts."
+  },
+  {
+    "chapterNum": 12,
+    "difficulty": "hard",
+    "question": "In corporate incident response, what does the 'Containment' phase focus on?",
+    "options": [
+      "Identifying the vulnerabilities that allowed the entry",
+      "Stopping the spread of the attack and limiting its impact to prevent further damage",
+      "Writing a press release explaining the security incident",
+      "Re-installing operating systems on all server systems"
+    ],
+    "correct": 1,
+    "explanation": "Containment involves boxing in the threat (e.g. disabling user accounts, blocking ports, isolating infected segments) so that the attacker cannot move laterally or cause more damage while remediation is planned."
+  },
+  {
+    "chapterNum": 13,
+    "difficulty": "easy",
+    "question": "What is the primary function of data backups in cybersecurity planning?",
+    "options": [
+      "To increase your local computer's processing speed",
+      "To ensure you can restore files after loss due to hardware failures, theft, or ransomware encryption",
+      "To share files with friends and coworkers easily",
+      "To satisfy tax audits on corporate accounts"
+    ],
+    "correct": 1,
+    "explanation": "Chapter 13 describes backups as a critical safety net. When files are deleted, corrupted, or encrypted by malware, backups allow you to restore normal operations without losing data."
+  },
+  {
+    "chapterNum": 13,
+    "difficulty": "medium",
+    "question": "What is the 3-2-1 backup strategy?",
+    "options": [
+      "3 backups on 2 local hard drives with 1 password",
+      "3 copies of data, stored on 2 different media formats, with 1 copy stored offsite/cloud",
+      "3 cloud backups, managed by 2 administrators, updated once a month",
+      "3 servers, running 2 firewalls, monitored by 1 security team"
+    ],
+    "correct": 1,
+    "explanation": "The 3-2-1 rule is the gold standard for backup redundancy. Storing data on different media (e.g. external drive and cloud) protects against physical media decay, and offsite storage protects against local disasters (fire, theft, or ransomware spreading locally)."
+  },
+  {
+    "chapterNum": 13,
+    "difficulty": "hard",
+    "question": "What is the technical difference between an Incremental Backup and a Differential Backup?",
+    "options": [
+      "Incremental is cloud-based; Differential is physical",
+      "Incremental backs up changes since the last backup of any type; Differential backs up changes since the last full backup",
+      "Incremental deletes old files; Differential keeps all historical files",
+      "There is no difference; they are exact terms"
+    ],
+    "correct": 1,
+    "explanation": "Incremental backups save space and time by only copying data changed since the last backup (full or incremental). Differential backups copy all data changed since the last full backup, taking up more space but simplifying restoration."
+  },
+  {
+    "chapterNum": 14,
+    "difficulty": "easy",
+    "question": "What does a complete 'Factory Reset' (or hard reset) do to your smartphone or laptop?",
+    "options": [
+      "Installs advanced anti-spyware apps automatically",
+      "Wipes all user data, applications, and settings, returning the device to its original out-of-the-box system state",
+      "Deletes only the temp history of your internet browsers",
+      "Upgrades your device hardware specs"
+    ],
+    "correct": 1,
+    "explanation": "Chapter 14 explains that a hard reset wipes the device's storage completely, removing all applications, personal files, and malware, reinstalling a clean operating system copy."
+  },
+  {
+    "chapterNum": 14,
+    "difficulty": "medium",
+    "question": "When is performing a factory reset highly recommended in terms of cybersecurity?",
+    "options": [
+      "Every time you log out of a secure email session",
+      "Before selling/gifting a device, or when recovering a system that has been heavily infected by malware",
+      "When your internet service goes offline temporarily",
+      "To save battery charge during corporate travel"
+    ],
+    "correct": 1,
+    "explanation": "Factory resets clean systems from stubborn malware (such as rootkits) and prevent subsequent owners of your device from accessing residual personal data."
+  },
+  {
+    "chapterNum": 14,
+    "difficulty": "hard",
+    "question": "What does a 'Soft Reset' perform on a device?",
+    "options": [
+      "Formats only secondary storage partitions",
+      "Power-cycles the device (restarts the operating system) without affecting local data or programs",
+      "Erases only third-party applications while keeping documents",
+      "Disables all security software and system firewalls temporarily"
+    ],
+    "correct": 1,
+    "explanation": "A soft reset is a simple system reboot. It clears active RAM cache and stops hung processes, but does not alter stored files or settings."
+  },
+  {
+    "chapterNum": 15,
+    "difficulty": "easy",
+    "question": "When should you initiate a data restoration process from your backups?",
+    "options": [
+      "Before running a scheduled vulnerability scan",
+      "After you have verified that active malware has been removed and your device is in a secure, clean state",
+      "Immediately while the ransomware notification is still active on your screen",
+      "Only when requested by a security insurance agent"
+    ],
+    "correct": 1,
+    "explanation": "Chapter 15 notes that before restoring files, you must ensure the system is completely clean. Otherwise, active malware can immediately re-infect or re-encrypt your restored data."
+  },
+  {
+    "chapterNum": 15,
+    "difficulty": "medium",
+    "question": "Why is scanning backup drives for malware critical before restoring files to a freshly cleaned device?",
+    "options": [
+      "To register the backup drive's warranty with the manufacturer",
+      "To prevent restoring and launching copies of malware that might have been backed up before the breach was detected",
+      "To increase the speed of the data transfer interface",
+      "To ensure the cloud synchronization service doesn't log out"
+    ],
+    "correct": 1,
+    "explanation": "Malware often hides silently on systems days or weeks before executing. If you restore files from that period, you might accidentally copy the malware payload back onto your clean machine."
+  },
+  {
+    "chapterNum": 15,
+    "difficulty": "hard",
+    "question": "What is the difference between Recovery Time Objective (RTO) and Recovery Point Objective (RPO) in disaster recovery plans?",
+    "options": [
+      "RTO relates to network bandwidth; RPO relates to database encryption keys",
+      "RTO is the target time to restore systems after a failure; RPO is the maximum age of data that can be recovered (data loss limit)",
+      "RTO checks physical computers; RPO checks employee compliance scores",
+      "They are identical terms in standard compliance"
+    ],
+    "correct": 1,
+    "explanation": "RTO measures how fast you need to recover system access to avoid business disruption. RPO measures the volume of data you can afford to lose between backups (e.g. if RPO is 4 hours, backups must run every 4 hours)."
+  },
+  {
+    "chapterNum": 16,
+    "difficulty": "easy",
+    "question": "What does a Penetration Tester (ethical hacker) do in the cybersecurity industry?",
+    "options": [
+      "Monitors network hardware setups in server rooms",
+      "Ethically hacks into systems with permission to find vulnerabilities before malicious attackers do",
+      "Manages customer service centers for tech support",
+      "Ensures company payroll accounts are computed correctly"
+    ],
+    "correct": 1,
+    "explanation": "Chapter 16 details careers, highlighting penetration testers as security professionals hired to safely attack systems, verifying weaknesses so they can be patched."
+  },
+  {
+    "chapterNum": 16,
+    "difficulty": "medium",
+    "question": "Which certification is widely recognized as a starting point for entry-level cybersecurity careers?",
+    "options": [
+      "CISSP",
+      "CompTIA Security+",
+      "CISM",
+      "PMP"
+    ],
+    "correct": 1,
+    "explanation": "CompTIA Security+ is a foundational, vendor-neutral certification covering core security topics, making it a common baseline for those entering security careers."
+  },
+  {
+    "chapterNum": 16,
+    "difficulty": "hard",
+    "question": "What is the primary objective of a Digital Forensics and Incident Response (DFIR) analyst?",
+    "options": [
+      "Programming software interfaces for security tools",
+      "Investigating breaches to identify root causes, collect digital evidence, and remediate systems",
+      "Creating marketing policies for firewalls",
+      "Managing database backups for corporate files"
+    ],
+    "correct": 1,
+    "explanation": "DFIR analysts trace how an attack happened, preserve evidence securely for potential legal action, and clean networks to restore secure business operations."
+  },
+  {
+    "chapterNum": 17,
+    "difficulty": "easy",
+    "question": "What is an Internet of Things (IoT) device?",
+    "options": [
+      "A server running a local database",
+      "A physical object (like a smart fridge or webcam) connected to the internet to share data",
+      "A software program that aggregates news feeds",
+      "A custom firewall policy for routers"
+    ],
+    "correct": 1,
+    "explanation": "Chapter 17 covers IoT devices, which are everyday physical products (thermostats, cameras, smart lightbulbs) embedded with internet connectivity."
+  },
+  {
+    "chapterNum": 17,
+    "difficulty": "medium",
+    "question": "Why are IoT/smart home devices frequently compromised by threat actors?",
+    "options": [
+      "They contain expensive components that attackers resell online",
+      "They often ship with default passwords, lack security updates, and run insecure firmware",
+      "They are always connected directly to public cellular towers",
+      "They cannot run encryption protocols"
+    ],
+    "correct": 1,
+    "explanation": "Many IoT manufacturers prioritize cost and convenience over security, leaving devices with default, unchangeable credentials and no mechanism for automated firmware patching."
+  },
+  {
+    "chapterNum": 17,
+    "difficulty": "hard",
+    "question": "What is a 'Deepfake' in emerging cyber threats?",
+    "options": [
+      "A fake website placed deep in the dark web",
+      "AI-generated media that realistically mimics a person's appearance or voice for scams or misinformation",
+      "An advanced brute force tool using parallel GPU processing",
+      "A hidden directory in computer file systems"
+    ],
+    "correct": 1,
+    "explanation": "Deepfakes use deep learning AI algorithms to swap faces in videos or generate synthetic audio of a specific person, enabling sophisticated social engineering and impersonation scams."
+  },
+  {
+    "chapterNum": 18,
+    "difficulty": "easy",
+    "question": "Which of these is a free, highly effective way to secure your digital devices?",
+    "options": [
+      "Changing your monitor's display refresh rate",
+      "Enabling automatic software updates for your operating system and applications",
+      "Buying redundant external keyboards",
+      "Shutting down your computer after exactly 3 hours of use"
+    ],
+    "correct": 1,
+    "explanation": "Chapter 18 highlights that keeping systems updated is free and patches known security vulnerabilities, blocking automated exploit attempts."
+  },
+  {
+    "chapterNum": 18,
+    "difficulty": "medium",
+    "question": "What does changing your router's default DNS server to a provider like Quad9 (9.9.9.9) or Cloudflare (1.1.1.1) achieve?",
+    "options": [
+      "It makes your local internet download speed twice as fast",
+      "It filters requests, blocking your system from loading known malicious and phishing domains",
+      "It automatically encrypts all local hard drives on your network",
+      "It stops your browser from recording cookies"
+    ],
+    "correct": 1,
+    "explanation": "Quad9 and similar secure DNS providers block lookups for malicious websites, stopping malware and phishing traffic before it connects."
+  },
+  {
+    "chapterNum": 18,
+    "difficulty": "hard",
+    "question": "What is 'BitLocker' on Windows systems?",
+    "options": [
+      "A free password manager software utility",
+      "A built-in full-disk encryption feature that protects files by encrypting the storage volume",
+      "A firewall monitor that blocks spam emails",
+      "A registry cleaning tool"
+    ],
+    "correct": 1,
+    "explanation": "BitLocker is Windows' native full-disk encryption tool. If a laptop is stolen, BitLocker prevents thieves from reading the drive's data without the decryption key."
+  },
+  {
+    "chapterNum": 19,
+    "difficulty": "easy",
+    "question": "What is a major lesson learned from historical corporate database breaches?",
+    "options": [
+      "Databases should never be stored on computers",
+      "No organization is immune; security must be prioritized at all corporate levels",
+      "Hackers only target bank accounts, not personal info",
+      "Small companies are never targeted by hackers"
+    ],
+    "correct": 1,
+    "explanation": "Chapter 19 reviews major breaches, illustrating that even large companies with big security budgets get hacked. Continuous testing and preparedness are essential."
+  },
+  {
+    "chapterNum": 19,
+    "difficulty": "medium",
+    "question": "What was the primary vulnerability exploited in the Equifax breach of 2017?",
+    "options": [
+      "Weak passwords on executive accounts",
+      "A known, unpatched vulnerability in the Apache Struts web framework",
+      "Physical theft of backup tapes from their office",
+      "A phishing email targeting their CEO"
+    ],
+    "correct": 1,
+    "explanation": "Equifax failed to patch a known vulnerability in the Apache Struts framework, which had a fix available months before attackers used it to steal data of over 140 million people."
+  },
+  {
+    "chapterNum": 19,
+    "difficulty": "hard",
+    "question": "How did attackers initially compromise Target's network in the famous 2013 data breach?",
+    "options": [
+      "By guessing target admin credentials in a dictionary attack",
+      "By stealing access credentials from a third-party HVAC vendor working with Target",
+      "By planting a rogue router in Target's headquarters parking lot",
+      "By using a zero-day exploit in their mobile app"
+    ],
+    "correct": 1,
+    "explanation": "The Target breach is a textbook supply-chain attack. Threat actors compromised the networks of a third-party heating and air conditioning (HVAC) vendor, using those credentials to pivot into Target's main point-of-sale (POS) network."
+  },
+  {
+    "chapterNum": 20,
+    "difficulty": "easy",
+    "question": "Which tool should you use to encrypt your internet traffic when connecting to an open public Wi-Fi network?",
+    "options": [
+      "An email spam filter",
+      "A Virtual Private Network (VPN)",
+      "A password manager app",
+      "A local network bridge utility"
+    ],
+    "correct": 1,
+    "explanation": "Chapter 20 outlines public Wi-Fi safety. A VPN creates an encrypted tunnel for your traffic, shielding it from snooping or local network interception."
+  },
+  {
+    "chapterNum": 20,
+    "difficulty": "medium",
+    "question": "Why is disabling 'Auto-Connect' (or auto-join) for Wi-Fi networks on your phone or laptop recommended?",
+    "options": [
+      "To prevent your device battery from draining too quickly",
+      "To stop your device from automatically connecting to rogue hotspots mimicking trusted public network names",
+      "To force your phone to use cellular networks inside your home",
+      "To bypass DNS lookups on public connections"
+    ],
+    "correct": 1,
+    "explanation": "If auto-connect is on, your phone might connect to an attacker's rogue hotspot named 'Starbucks Wi-Fi' without your consent, exposing your traffic."
+  },
+  {
+    "chapterNum": 20,
+    "difficulty": "hard",
+    "question": "What is an 'Evil Twin' attack in public wireless network exploitation?",
+    "options": [
+      "Cloning a victim's smartphone SIM card to steal text codes",
+      "Setting up a rogue wireless access point with the exact name and SSID of a legitimate hotspot to intercept traffic",
+      "Hacking two identical servers simultaneously",
+      "Impersonating a technician to steal routers from an office"
+    ],
+    "correct": 1,
+    "explanation": "In an Evil Twin attack, an attacker configures a rogue Wi-Fi access point with the same SSID name as a public hotspot (e.g. airport Wi-Fi). Devices connect automatically, letting the attacker monitor traffic."
+  }
+]

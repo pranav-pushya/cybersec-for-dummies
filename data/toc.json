@@ -1,0 +1,149 @@
+[
+  {
+    "num": 0,
+    "type": "intro",
+    "title": "Introduction",
+    "part": "Introduction",
+    "page": 14
+  },
+  {
+    "num": 1,
+    "type": "chapter",
+    "title": "Chapter 1: What Exactly Is Cybersecurity?",
+    "part": "Part 1: Getting Started with Cybersecurity",
+    "page": 21
+  },
+  {
+    "num": 2,
+    "type": "chapter",
+    "title": "Chapter 2: Getting to Know Common Cyberattacks",
+    "part": "Part 1: Getting Started with Cybersecurity",
+    "page": 38
+  },
+  {
+    "num": 3,
+    "type": "chapter",
+    "title": "Chapter 3: Bad Guys and Accidental Bad Guys: The Folks You Must Defend Against",
+    "part": "Part 1: Getting Started with Cybersecurity",
+    "page": 65
+  },
+  {
+    "num": 4,
+    "type": "chapter",
+    "title": "Chapter 4: Evaluating Your Current Cybersecurity Posture",
+    "part": "Part 2: Improving Your Own Personal Security",
+    "page": 92
+  },
+  {
+    "num": 5,
+    "type": "chapter",
+    "title": "Chapter 5: Enhancing Physical Security",
+    "part": "Part 2: Improving Your Own Personal Security",
+    "page": 115
+  },
+  {
+    "num": 6,
+    "type": "chapter",
+    "title": "Chapter 6: Securing Your Accounts",
+    "part": "Part 3: Protecting Yourself from Yourself",
+    "page": 131
+  },
+  {
+    "num": 7,
+    "type": "chapter",
+    "title": "Chapter 7: Passwords",
+    "part": "Part 3: Protecting Yourself from Yourself",
+    "page": 155
+  },
+  {
+    "num": 8,
+    "type": "chapter",
+    "title": "Chapter 8: Preventing Social Engineering",
+    "part": "Part 3: Protecting Yourself from Yourself",
+    "page": 176
+  },
+  {
+    "num": 9,
+    "type": "chapter",
+    "title": "Chapter 9: Securing Your Small Business",
+    "part": "Part 4: Cybersecurity for Businesses and Organizations",
+    "page": 205
+  },
+  {
+    "num": 10,
+    "type": "chapter",
+    "title": "Chapter 10: Cybersecurity and Big Businesses",
+    "part": "Part 4: Cybersecurity for Businesses and Organizations",
+    "page": 230
+  },
+  {
+    "num": 11,
+    "type": "chapter",
+    "title": "Chapter 11: Identifying a Security Breach",
+    "part": "Part 5: Handling a Security Incident (This Is a When, Not an If)",
+    "page": 247
+  },
+  {
+    "num": 12,
+    "type": "chapter",
+    "title": "Chapter 12: Recovering from a Security Breach",
+    "part": "Part 5: Handling a Security Incident (This Is a When, Not an If)",
+    "page": 270
+  },
+  {
+    "num": 13,
+    "type": "chapter",
+    "title": "Chapter 13: Backing Up",
+    "part": "Part 6: Backing Up and Recovery",
+    "page": 294
+  },
+  {
+    "num": 14,
+    "type": "chapter",
+    "title": "Chapter 14: Resetting Your Device",
+    "part": "Part 6: Backing Up and Recovery",
+    "page": 324
+  },
+  {
+    "num": 15,
+    "type": "chapter",
+    "title": "Chapter 15: Restoring from Backups",
+    "part": "Part 6: Backing Up and Recovery",
+    "page": 337
+  },
+  {
+    "num": 16,
+    "type": "chapter",
+    "title": "Chapter 16: Pursuing a Cybersecurity Career",
+    "part": "Part 7: Looking toward the Future",
+    "page": 366
+  },
+  {
+    "num": 17,
+    "type": "chapter",
+    "title": "Chapter 17: Emerging Technologies Bring New Threats",
+    "part": "Part 7: Looking toward the Future",
+    "page": 383
+  },
+  {
+    "num": 18,
+    "type": "chapter",
+    "title": "Chapter 18: Ten Ways You Can Improve Your Cybersecurity without Spending a Fortune",
+    "part": "Part 8: The Part of Tens",
+    "page": 399
+  },
+  {
+    "num": 19,
+    "type": "chapter",
+    "title": "Chapter 19: Ten Lessons from Major Cybersecurity Breaches",
+    "part": "Part 8: The Part of Tens",
+    "page": 406
+  },
+  {
+    "num": 20,
+    "type": "chapter",
+    "title": "Chapter 20: Ten Ways to Safely Use Public Wi-Fi",
+    "part": "Part 8: The Part of Tens",
+    "page": 413
+  }
+]

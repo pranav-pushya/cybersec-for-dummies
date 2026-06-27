@@ -1,0 +1,449 @@
+{
+  "num": 17,
+  "type": "chapter",
+  "title": "Chapter 17: Emerging Technologies Bring New Threats",
+  "part": "Part 7: Looking toward the Future",
+  "pages": "383 to 398",
+  "in_this_chapter": [
+    "Understanding emerging technologies and their potential impact",
+    "on cybersecurity Experiencing virtual reality and augmented reality"
+  ],
+  "content": [
+    {
+      "type": "heading",
+      "text": "Emerging Technologies Bring"
+    },
+    {
+      "type": "heading",
+      "text": "New Threats"
+    },
+    {
+      "type": "paragraph",
+      "text": "IN THIS CHAPTER"
+    },
+    {
+      "type": "heading",
+      "text": "Understanding emerging technologies and their potential impact"
+    },
+    {
+      "type": "paragraph",
+      "text": "on cybersecurity"
+    },
+    {
+      "type": "heading",
+      "text": "Experiencing virtual reality and augmented reality"
+    },
+    {
+      "type": "paragraph",
+      "text": "The world has undergone a radical transformation in recent decades, with the addition of the benefits digital computing power to just about every aspect of human lives. Within the course of just one generation, Western society has evolved from single-purpose film cameras, photocopiers, closed circuit television, and radio-wave based music broadcast receivers to connected devices sporting the features of all these devices and many more -- all within a single device."
+    },
+    {
+      "type": "heading",
+      "text": "Simultaneously, new, advanced computing technology models have"
+    },
+    {
+      "type": "paragraph",
+      "text": "emerged, creating tremendous potential for even greater incorporation of technology into daily lives. Offerings that would have been considered unrealistic science fiction just a few years ago have become so totally normal and ubiquitously deployed today that children don't always believe adults when the latter explain how much the world has changed in recent years."
+    },
+    {
+      "type": "heading",
+      "text": "With the advent of new technologies and the digital transformation of"
+    },
+    {
+      "type": "paragraph",
+      "text": "the human experience, however, also comes great information security risks. In this chapter, you discover some technologies that are rapidly changing the world and how they are impacting cybersecurity. This list of emerging technologies is by no means comprehensive. Technologies constantly evolve and therefore constantly create new information security challenges."
+    },
+    {
+      "type": "heading",
+      "text": "Relying on the Internet of Things"
+    },
+    {
+      "type": "paragraph",
+      "text": "Not that long ago, the only devices that were connected to the Internet were classic computers -- desktops, laptops, and servers. Today, however, is a different world."
+    },
+    {
+      "type": "heading",
+      "text": "From smartphones and security cameras to coffeemakers and exercise"
+    },
+    {
+      "type": "paragraph",
+      "text": "equipment, electronic devices of all types now have computers embedded within them, and many of these computers are constantly and perpetually connected to the Internet. The Internet of Things (IoT), as the ecosystem of connected devices is commonly known, has been growing exponentially over the past few years."
+    },
+    {
+      "type": "heading",
+      "text": "And, ironically, while consumers see many such connected devices"
+    },
+    {
+      "type": "paragraph",
+      "text": "marketed to them in stores and online, the vast majority of IoT devices are actually components of commercial and industrial systems. In fact, some experts even believe that as much as 99 percent of connected nontraditional-computer devices live in commercial and industrial environments. The reliability of utilities, factories and other manufacturing facilities, hospitals, and most other elements of the backbone of today's economic and social existence depends heavily on having stable, secure technology."
+    },
+    {
+      "type": "heading",
+      "text": "Of course, any and all computing devices -- whether classic computers"
+    },
+    {
+      "type": "paragraph",
+      "text": "or smart devices of other types -- can suffer from vulnerabilities and are potentially hackable, and exploitable for nefarious purposes. Internet- connected cameras, for example, which are designed to allow people to watch homes or businesses from afar, can potentially allow unauthorized hackers to watch the same video feeds. Furthermore, such devices can be commandeered for use in attacking other devices. In fact, in October 2016, the Mirai Botnet attack leveraged many infected IoT devices in unison, and took the popular Dyn DNS service offline. DNS is the system that converts human-names for computers into machine- understandable Internet Protocol numeric addresses (IP addresses). As a result of the attack on Dyn, many high-profile websites and services, including Twitter, Netflix, GitHub, and Reddit, suffered de facto outages as people could not reach the sites because the names in the URLs of the sites could not be translated to their proper Internet addresses. Likewise, IoT creates tremendous potential for serious sabotage. Consider the possible effects of hacking an industrial system involved in the manufacturing of some medical equipment. Could people die if bugs or backdoors were inserted into the code that runs on the computer embedded within the device and then is exploited once the device were in use?"
+    },
+    {
+      "type": "heading",
+      "text": "Hacks undermining systems controlled by connected devices are"
+    },
+    {
+      "type": "paragraph",
+      "text": "possible -- even when such systems are not connected to the public Internet (see the nearby sidebar)."
+    },
+    {
+      "type": "heading",
+      "text": "STUXNET"
+    },
+    {
+      "type": "paragraph",
+      "text": "Sometime in 2009 or 2010, malware now known as Stuxnet crippled an Iranian uranium refinement facility that was believed to have been enriching uranium for potential use in building nuclear weapons. The sophisticated cyberattack was widely believed to have been launched by a joint team of cyberwarriors from the United States and Israel. Stuxnet targeted the Siemens industrial control systems that the Iranians were using to operate and manage uranium-refining centrifuges. The malware caused the control systems to send improper instructions to the centrifuges while reporting that everything was running properly. The cyberattack is believed to have both inappropriately increased and decreased the speed of centrifuges. The inappropriate changes of speed caused the centrifuges' aluminum tubes to suffer from unexpected stress and to expand as a result, eventually causing them to come in contact with other portions of the machine and severely damage the device. There is little doubt that Stuxnet's operational success will motivate other cyberwarriors to launch similar types of attacks in the future."
+    },
+    {
+      "type": "heading",
+      "text": "Could you see hackers demanding ransoms in exchange for not releasing"
+    },
+    {
+      "type": "paragraph",
+      "text": "video from people's home security cameras?"
+    },
+    {
+      "type": "heading",
+      "text": "Could you see hackers demanding ransoms in exchange for not causing"
+    },
+    {
+      "type": "paragraph",
+      "text": "people's refrigerators to turn off and ruin their food -- or even find criminals who turn off fridges when people leave for work and turn them on before the victims return home, causing food to spoil in an effort to poison targeted individuals? As smart cars (which include essentially every vehicle made in the last decade or more) become more common, could criminals potentially hack them and cause crashes? Or blackmail people into paying ransoms in exchange for not crashing their cars? Before answering that question, consider that security researchers have demonstrated on more than one occasion how hackers can take control of some vehicles and cause brakes to stop working. What about when self-driving cars and self-driving trucks are the norm? The stakes will only grow as technology advances."
+    },
+    {
+      "type": "heading",
+      "text": "IoT opens up a world of possibilities. It also dramatically grows the"
+    },
+    {
+      "type": "paragraph",
+      "text": "attack surface that criminals can exploit and increases the stakes if cybersecurity is not properly maintained."
+    },
+    {
+      "type": "heading",
+      "text": "Using Cryptocurrencies and"
+    },
+    {
+      "type": "heading",
+      "text": "Blockchain"
+    },
+    {
+      "type": "paragraph",
+      "text": "A cryptocurrency is a digital asset (sometimes thought of as a digital currency) designed to work as a medium of exchange that uses various aspects of cryptography to control the creation of units, verify the accuracy of transactions, and secure financial transactions."
+    },
+    {
+      "type": "heading",
+      "text": "Modern cryptocurrencies allow parties who do not trust one another to"
+    },
+    {
+      "type": "paragraph",
+      "text": "interact and conduct business without the need for a trusted third party."
+    },
+    {
+      "type": "heading",
+      "text": "Cryptocurrencies utilize blockchain technology -- that is, their"
+    },
+    {
+      "type": "paragraph",
+      "text": "transactions are recoded on a distributed ledger whose integrity is protected through the use of multiple techniques that are supposed to ensure that only accurate transactions will be respected by others viewing a copy of the ledger. Because cryptocurrencies are tracked via lists of transactions in ledgers, there are technically no cryptocurrency wallets. The currency is virtual and not stored anywhere, even electronically. Rather, cryptocurrency owners are the parties who control the various addresses on the ledger that have cryptocurrency associated with them after performing all the transactions to date on the ledger. For example, if Address 1 has 10 units of a cryptocurrency and Address 2 has 5 units of a cryptocurrency and a transaction is recorded showing that Address 1 sent 1 unit of cryptocurrency to Address 2, the result is that Address 1 has 9 units of cyrptocurrrency and Address 2 has 6 units of cryptocurrency. To ensure that only legitimate owners of cryptocurrency can send money from their addresses, cryoptocurrencies typically utilize a sophisticated implementation of PKI where every address has its own public-private key pair, with the owner being the only one to possess the private key."
+    },
+    {
+      "type": "heading",
+      "text": "Sending cryptocurrency from an address requires the signing of the"
+    },
+    {
+      "type": "paragraph",
+      "text": "outgoing transaction with its associated private key."
+    },
+    {
+      "type": "heading",
+      "text": "Because anyone with knowledge of the private key associated with a"
+    },
+    {
+      "type": "paragraph",
+      "text": "particular ledger address can steal whatever amount of cryptocurrency is recorded in the ledger as belonging to that address, and because cryptocurrencies are both liquid and difficult to track back to their real- life human or organizational owners, criminals often attempt to steal cryptocurrencies via hacking. If a crook obtains the private key to a cryptocurrency address from someone's computer, the crook can quickly and easily transfer his victim's cryptocurrency to another address that the criminal controls. In fact, if the criminal obtains the key in any way, he or she can steal the cryptocurrency without hacking anything. All he or she has to do is issue a transaction sending the money to some other address and sign the transaction with the private key. Because cryptocurrencies are not managed centrally, even if such a theft is detected, the legitimate owner has little hope of recovering his or her money. Reversing a transaction would, in most cases, require an unachievable consensus of a majority of operators within the cryptocurrency's ecosystem and is exceedingly unlikely to happen unless enough cryptocurrency was stolen to undermine the integrity of the entire currency. Even in such cases, the forking of a new cryptocurrency may be required to achieve such a reversal, and many operators will still likely reject the undoing of transactions as being an even greater threat to the integrity of the cryptocurrency than is a major theft. Besides providing hackers with an easy way to steal money, cryptocurrencies have also facilitated other forms of cybercrimes. Most ransoms demanded by ransomware, for example, are required to be paid in cryptocurrency. In fact, cryptocurrency is the lifeblood of ransomware. Unlike payments made by wire transfer or credit card, smartly made cryptocurrency payments are exceedingly hard to trace back to real life people and are effectively irreversible once a transaction has settled. Likewise, criminals have the ability to mine cryptocurrency -- that is, to perform various complex calculations needed to both settle cryptocurrency transactions and create new units of the cryptocurrency -- by stealing processing power from others. Cryptomining malware, for example, surreptitiously commandeers infected computers' CPU cycles to perform such calculations and, when new units of cryptocurrency are generated, transfers control of them to the criminals operating the malware. Cryptocurrency mining provides a simple way for criminals to monetize their hacking. Hacked computers can thus be used to \"print money\" without the involvement of victims as is typically needed for many other forms of monetization, such as ransomware."
+    },
+    {
+      "type": "heading",
+      "text": "Criminals have also benefited from the dramatic rise in the value of"
+    },
+    {
+      "type": "paragraph",
+      "text": "cryptocurrency. For example, those who accepted Bitcoin as payment for ransomware ransoms several years ago and who did not entirely cash out their cryptocurrency enjoyed amazing returns -- sometimes growing their dollar-value holdings by a factor of hundreds or even thousands. Some such criminals likely cashed out a portion of their cryptocurrencies during the 2017 market frenzy and may be sitting on small fortunes that they are now investing in creating new cybercrime technologies."
+    },
+    {
+      "type": "heading",
+      "text": "The blockchain technology that serves as the underlying engine"
+    },
+    {
+      "type": "paragraph",
+      "text": "that powers cryptocurrencies also has potential uses within cybersecurity countermeasures. A distributed database may prove to be a better way to store information about backup servers and redundant capabilities than are existing structures because the distributed nature dramatically increases the number of points of failure necessary to take down the entire system. Likewise, distributed defenses against DDoS (distributed denial-of-service) attacks may prove to be both more effective and cost efficient than the present model of using single massive infrastructures to fight such attacks. Blockchain also offers a way to create transparent records of transactions or of activities -- transactions that are viewable by anyone, but not modifiable by anyone, and with only authorized parties able to create appropriate new transactions."
+    },
+    {
+      "type": "heading",
+      "text": "Optimizing Artificial Intelligence"
+    },
+    {
+      "type": "paragraph",
+      "text": "Artificial intelligence, technically speaking, refers to the ability of an electronic system to perceive its environment and take actions that maximize its likelihood of achieving its goals, even without prior knowledge about the specifics of the environment and the situation in which it finds itself. If that definition sounds complicated, it is. The definition of artificial intelligence from a practical perspective seems to be a moving target."
+    },
+    {
+      "type": "heading",
+      "text": "Concepts and systems that were considered to be forms of artificial"
+    },
+    {
+      "type": "paragraph",
+      "text": "intelligence a decade or two ago -- for example facial recognition technologies -- are often treated as classic computer systems today."
+    },
+    {
+      "type": "heading",
+      "text": "Today, most people use the term artificial intelligence to refer to"
+    },
+    {
+      "type": "paragraph",
+      "text": "computer systems that learn -- that is, they mimic the way that humans learn from past experiences to take specific courses of action when encountering a new experience. Instead of being preprogrammed to act based on a set of specific rules, artificially intelligent systems look at sets of data to create their own sets of generalized rules and make decisions accordingly. The systems then optimize their own rules as they encounter more data and see the effects of applying their rules to that data."
+    },
+    {
+      "type": "heading",
+      "text": "Artificial intelligence is likely to ultimately transform the human"
+    },
+    {
+      "type": "paragraph",
+      "text": "experience at least as much as did the Industrial Revolution. The Industrial Revolution, of course, replaced human muscles with machines -- the latter proving to be faster, more accurate, less prone to becoming tired or sick, and less costly than the former. Artificial intelligence is the replacement of human brains with computer thinking -- and it will eventually also prove to be much faster, more accurate, and less prone to illness or sleepiness than any biological mind."
+    },
+    {
+      "type": "heading",
+      "text": "The era of artificial intelligence has several major impacts on"
+    },
+    {
+      "type": "paragraph",
+      "text": "cybersecurity:"
+    },
+    {
+      "type": "heading",
+      "text": "An increased need for cybersecurity"
+    },
+    {
+      "type": "heading",
+      "text": "The use of artificial intelligence as a security tool"
+    },
+    {
+      "type": "heading",
+      "text": "The use of artificial intelligence as a hacking tool"
+    },
+    {
+      "type": "heading",
+      "text": "Increased need for cybersecurity"
+    },
+    {
+      "type": "heading",
+      "text": "As artificially intelligent systems become increasingly common, the"
+    },
+    {
+      "type": "paragraph",
+      "text": "need for strong cybersecurity grows dramatically. Computer systems can make increasingly important decisions without the involvement of humans, which means that the negative consequences of not adequately securing computer systems could increase dramatically. Imagine if a hospital deployed an artificially system to analyze medical images and report diagnoses. If such a system or its data were hacked, incorrect reports could occur and cause people to suffer or even die. Unfortunately, such a problem is no longer theoretical (see the nearby sidebar)."
+    },
+    {
+      "type": "heading",
+      "text": "AI CAN ALREADY FALSIFY MRI IMAGES"
+    },
+    {
+      "type": "heading",
+      "text": "AND PRODUCE INCORRECT MRI"
+    },
+    {
+      "type": "heading",
+      "text": "RESULTS"
+    },
+    {
+      "type": "paragraph",
+      "text": "In 2019, Israeli researchers found that artificial intelligence technology could successfully modify medical images in such a way that it would consistently trick both radiologists and artificial intelligence systems designed to diagnose medical conditions based on scans, including reporting cancer when none existed and overlooking it when it did. Even after the researchers told the radiologists involved that AI was being used to manipulate the scan images, the radiologists were still unable to provide correct diagnoses and incorrectly found cancer in 60 percent of the normal scans to which tumors had been artificially added and did not find cancer in 87 percent of the scans from which the AI had digitally removed tumors. Of course, such research represents just the tip of the iceberg. Industrial"
+    },
+    {
+      "type": "heading",
+      "text": "AI systems can be manipulated to alter products in ways that increase"
+    },
+    {
+      "type": "paragraph",
+      "text": "danger, and artificially intelligent transportation technology designed to optimize routes and improve safety could be fed data that increase danger or create unnecessary delays."
+    },
+    {
+      "type": "heading",
+      "text": "Furthermore, because evildoers can undermine the integrity of"
+    },
+    {
+      "type": "paragraph",
+      "text": "artificially intelligent systems without hacking the systems but rather by simply introducing hard-to-find small changes into large data sets and because the decisions made by artificially intelligent systems are not based on predefined rules known to the humans who create the system, protecting all elements of such systems becomes critical. Once problems are introduced, humans and machines will likely not be able to find them or even know that something is amiss. The bottom line is that for artificial intelligence projects to be successful, they must include heavy-duty cybersecurity."
+    },
+    {
+      "type": "heading",
+      "text": "Use as a cybersecurity tool"
+    },
+    {
+      "type": "heading",
+      "text": "One of the biggest challenges facing cybersecurity operations"
+    },
+    {
+      "type": "paragraph",
+      "text": "professionals today is that it is practically impossible to dedicate sufficient time to analyze and act on all alerts produced by cybersecurity technologies. One of the first major uses for artificial intelligence in the realm of cybersecurity is as an agent that helps prioritize alerts. This agent first learns how systems are typically used and what types of activities are anomalous, as well as which old alerts actually indicated serious issues rather than benign activities or minor issues. Future iterations of such artificially intelligent systems will likely involve the AI itself actually acting upon the alerts rather than referring them to humans."
+    },
+    {
+      "type": "heading",
+      "text": "Use as a hacking tool"
+    },
+    {
+      "type": "paragraph",
+      "text": "Artificial intelligence is not just a defensive tool; it can also be a powerful weapon in the hands of attackers. For obvious reasons, I don't provide details in this book as to how to use AI to launch advanced attacks, but I do discuss several general examples. AI systems can, for example, be used to scan and analyze other systems in order to find programming errors and configuration mistakes. AI systems may also be used to analyze organization charts, social media, corporate websites, press releases, and so on in order to design -- and perhaps even implement -- maximally effective social engineering attacks."
+    },
+    {
+      "type": "heading",
+      "text": "AI can also be utilized to undermine authentication systems. For"
+    },
+    {
+      "type": "paragraph",
+      "text": "example, a system that is given a recording of a person saying many different things may be able to trick a voice-based authentication system by mimicking the relevant human -- even if the authentication system asks the AI to enunciate words for which the AI has no recording of the human speaking."
+    },
+    {
+      "type": "heading",
+      "text": "The bottom line is that when it comes to the use of AI as a"
+    },
+    {
+      "type": "paragraph",
+      "text": "cybersecurity tool, it's likely a spy-versus-spy battle between cyberattackers and cyberdefenders, with each trying to build better and better AIs so as to defeat one another."
+    },
+    {
+      "type": "heading",
+      "text": "Experiencing Virtual Reality"
+    },
+    {
+      "type": "paragraph",
+      "text": "Virtual reality refers to an experience taking place within a computer- generated reality rather than within the real world. Current virtual reality technology typically requires users to wear some sort of headset that displays images to the user and that blocks the user's vision of the real world. (In some cases, in lieu of wearing a headset, a user enters a special room equipped with a projector or multiple projectors, which achieves a similar effect.) Those images, combined with sounds and, in some cases, physical movements and other human- sensible experiences, cause the user to experience the virtual environment as if he or she were actually physically present in it. A person using virtual reality equipment can usually move, look, and interact with the virtual world."
+    },
+    {
+      "type": "heading",
+      "text": "Virtual reality typically incorporates at least visual and audio"
+    },
+    {
+      "type": "paragraph",
+      "text": "components, but may also deliver vibrations and other sensory experiences. Even without additional sensory information, a human may experience sensations because the human brain often interprets what it sees and hears in a virtual environment as if it were real. For example, someone riding a roller coaster in a virtual environment may feel his or her stomach drop when the roller coaster makes a sharp drop, even though, in reality, he or she is not moving. Immersive virtual environments can be similar to or completely different from what a person would experience in the real world. Popular applications of virtual reality already include tourism (for example, walking through an art museum without actually being there), entertainment (first-person vantage point gaming), and educational purposes (virtual dissection). Virtual reality systems, of course, are computer-based and, as a result, have many of the same security issues as other computer-based systems."
+    },
+    {
+      "type": "heading",
+      "text": "But virtual reality also introduces many new security and privacy"
+    },
+    {
+      "type": "heading",
+      "text": "Can someone hack VR ecosystems and launch visual attacks that"
+    },
+    {
+      "type": "paragraph",
+      "text": "trigger seizures or headaches? (Flashing strobe lights in various cartoons and other displays have been known to cause seizures.)"
+    },
+    {
+      "type": "heading",
+      "text": "Can others make decisions about your physical abilities based on"
+    },
+    {
+      "type": "paragraph",
+      "text": "your performance in VR applications? Can governments, for example, refuse to issue drivers' licenses to people who perform poorly in VR driving games? Can auto insurance companies surreptitiously gather data about people's driving habits in the VR world and use it to selectively raise rates?"
+    },
+    {
+      "type": "heading",
+      "text": "Can hackers digitally vandalize a virtual environment -- substituting"
+    },
+    {
+      "type": "paragraph",
+      "text": "obscene content for art, for example, in a museum offering virtual tours?"
+    },
+    {
+      "type": "heading",
+      "text": "Can hackers impersonate an authority figure, such as a teacher in a"
+    },
+    {
+      "type": "paragraph",
+      "text": "virtual classroom, by creating an avatar that looks similar to one used by that person and thereby trick other users into taking harmful actions (for example, by asking people for the answers to their tests, which the crooks then steal and pass off as their own to the real teacher)?"
+    },
+    {
+      "type": "heading",
+      "text": "Likewise, can hackers impersonate a coworker or family member"
+    },
+    {
+      "type": "paragraph",
+      "text": "and thereby obtain and abuse sensitive information?"
+    },
+    {
+      "type": "heading",
+      "text": "Can hackers modify virtual worlds in ways that earn them money in"
+    },
+    {
+      "type": "paragraph",
+      "text": "the real world -- for example, by adding tolls to enter various places? Can hackers steal virtual currency used in various virtual worlds?"
+    },
+    {
+      "type": "heading",
+      "text": "Can hackers usurp control over a user's experience to see what he or"
+    },
+    {
+      "type": "paragraph",
+      "text": "she experiences or even to modify it? In theory, when it comes to new risks created by virtual reality, I can compile a list that would take up an entire book -- and time will certainly tell which risks emerge as real-world problems."
+    },
+    {
+      "type": "heading",
+      "text": "Transforming Experiences with"
+    },
+    {
+      "type": "heading",
+      "text": "Augmented Reality"
+    },
+    {
+      "type": "heading",
+      "text": "Augmented reality refers to technology in which computer-generated"
+    },
+    {
+      "type": "paragraph",
+      "text": "images sounds, smells, movements, and/or other sensory material are superimposed onto a user's experience of the real world, transforming the user's experience into a composite of both actual and artificial elements. Augmented reality technology can both add elements to a user's experience -- for example, showing a user the name of a person above the person's head as that individual approaches the user -- as well as remove or mask elements, such as converting Nazi flags into black rectangles with the words \"Defeat hate\" written on them."
+    },
+    {
+      "type": "heading",
+      "text": "Google Glass is an example of an early attempt at consumer-focused"
+    },
+    {
+      "type": "paragraph",
+      "text": "augmented reality that was a bit too early to market. Pokémon Go, on the other hand, was an example of a game using augmented reality that was a massive success."
+    },
+    {
+      "type": "heading",
+      "text": "GOOGLE GLASS"
+    },
+    {
+      "type": "paragraph",
+      "text": "Google Glass is a smart glasses technology consisting of a display and camera device embedded within a pair of eyeglasses. A user wearing a pair of Google Glass eyeglasses sees information superimposed over his or her field of vision and can communicate with the glasses by speaking commands. Google's first release of Google Glass in April 2013 generated controversy related to the potential privacy implications created by people wearing and utilizing such devices."
+    },
+    {
+      "type": "heading",
+      "text": "POKÉMON GO"
+    },
+    {
+      "type": "paragraph",
+      "text": "Pokémon Go is an augmented reality game for mobile devices that was first released in July 2016 as a result of a collaboration between Niantic, Nintendo, and The Pokémon Company. The game, which is free to play but offers in-game items for a fee, became an immediate hit and was downloaded more than half a billion times by the end of 2016. It uses a mobile device's GPS to locate, capture, battle, and train virtual creatures, called Pokémon, which appear on the device's screen within the context of the player's real-world location, superimposed on the image that would result if the player were aiming his or her camera at some area within the field of view. As of early 2019, the game is believed to have been downloaded more than 1 billion times and to have generated more than $3 billion in worldwide revenue. Augmented reality is likely to become a major part of modern life over the next decade. It will introduce many of the risks that virtual reality does, as well as risks associated with the merging of real and virtual worlds, such as configuring systems to improperly associated various elements in the real world with virtual data. As with all emerging technologies, time will tell. But, if you decide to invest in AR or VR technology, be sure to understand any relevant security issues. Part 8 The Part of Tens"
+    },
+    {
+      "type": "heading",
+      "text": "IN THIS PART …"
+    },
+    {
+      "type": "heading",
+      "text": "Find out how you can improve your cybersecurity without"
+    },
+    {
+      "type": "paragraph",
+      "text": "breaking the bank. Learn from others' mistakes. Learn how to safely use extremely convenient public Wi-Fi."
+    }
+  ]
+}

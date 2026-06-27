@@ -1,0 +1,736 @@
+{
+  "num": 11,
+  "type": "chapter",
+  "title": "Chapter 11: Identifying a Security Breach",
+  "part": "Part 5: Handling a Security Incident (This Is a When, Not an If)",
+  "pages": "247 to 269",
+  "in_this_chapter": [
+    "Understanding why it's critical to know if you were breached Identifying overt and covert breaches Recognizing various symptoms of covert breaches"
+  ],
+  "content": [
+    {
+      "type": "heading",
+      "text": "Identifying a Security Breach"
+    },
+    {
+      "type": "paragraph",
+      "text": "IN THIS CHAPTER"
+    },
+    {
+      "type": "heading",
+      "text": "Understanding why it's critical to know if you were breached"
+    },
+    {
+      "type": "heading",
+      "text": "Identifying overt and covert breaches"
+    },
+    {
+      "type": "heading",
+      "text": "Recognizing various symptoms of covert breaches"
+    },
+    {
+      "type": "paragraph",
+      "text": "Despite valiant efforts to protect your computer systems and data, you may suffer some sort of breach. In fact, the odds that your data will -- at some point -- be breached are close to 100 percent. The only real question is whether the breach will take place on your system or on someone else's."
+    },
+    {
+      "type": "heading",
+      "text": "Because you're ultimately responsible for maintaining your own"
+    },
+    {
+      "type": "paragraph",
+      "text": "computer systems, you need to be able to recognize the signs of a potential breach of your equipment. If a hacker does manage to penetrate your systems, you need to terminate his or her access as quickly as possible. If your data has been manipulated or destroyed, you need to restore an accurate copy. If systems are malfunctioning, you need to get them back on track. In this chapter, you discover the symptoms of a breach. Armed with this knowledge, you can hopefully recognize if something is amiss and know the corrective actions to take. If you've already receive notification from a third-party-provider where you store data that your data has been compromised or may have been compromised, refer to Chapter 13."
+    },
+    {
+      "type": "heading",
+      "text": "Identifying Overt Breaches"
+    },
+    {
+      "type": "heading",
+      "text": "The easiest breaches to identify are those in which the attacker"
+    },
+    {
+      "type": "paragraph",
+      "text": "announces to you that you've been breached and provides proof of that accomplishment."
+    },
+    {
+      "type": "heading",
+      "text": "Three of the most common overt breaches are those involving"
+    },
+    {
+      "type": "paragraph",
+      "text": "ransomware, defacement, and claimed destruction."
+    },
+    {
+      "type": "heading",
+      "text": "Ransomware"
+    },
+    {
+      "type": "paragraph",
+      "text": "Ransomware is a form of malware that encrypts or steals data on a user's device and demands a ransom in order to restore the data to the user's control (see Figure 11-1). Typically, ransomware includes an expiration date with a warning to the tune of \"pay within x hours or the data will be destroyed forever!\" (See Chapter 2 for more on ransomware.) FIGURE 11-1: A ransomware screen from an overt infection."
+    },
+    {
+      "type": "heading",
+      "text": "Obviously, if your device presents you with such a demand and"
+    },
+    {
+      "type": "paragraph",
+      "text": "important files that should be accessible to you aren't available because they're missing or encrypted, you can be reasonably sure that you need to take corrective action."
+    },
+    {
+      "type": "heading",
+      "text": "One note: Some strains of bogus smartphone ransomware --"
+    },
+    {
+      "type": "paragraph",
+      "text": "yes, that is a real thing -- display such messages but do not actually encrypt, destroy, or pilfer data. Before taking any corrective action, always check that ransomware is real."
+    },
+    {
+      "type": "heading",
+      "text": "Defacement"
+    },
+    {
+      "type": "paragraph",
+      "text": "Defacement refers to breaches in which the attacker defaces the systems of the victim -- for example, changing the target's website to display a message that the hacker hacked it (in an almost \"virtual subway graffiti\"- like sense) or a message of support for some cause, as is often the case with hacktivists (see Figure 11-2). FIGURE 11-2: A defaced website (ostensibly by the hacker group known as the Syrian Electronic Army). If you have a personal website and it's defaced or if you boot up your computer and it displays a hacked by <some hacker> message, you can be reasonably certain that you were breached and that you need to take corrective action. Of course, the breach may have occurred at the site hosting your site, and not on your local computer -- a matter that I discuss in Chapter 12."
+    },
+    {
+      "type": "heading",
+      "text": "Claimed destruction"
+    },
+    {
+      "type": "paragraph",
+      "text": "Hackers can destroy data or programs, but so can technical failures or human errors. The fact that data has been deleted, therefore, doesn't mean that a system was breached. However, if some party claims responsibility, the odds that the problems are the result of a breach can skyrocket."
+    },
+    {
+      "type": "heading",
+      "text": "If someone contacts you, for example, and claims to have"
+    },
+    {
+      "type": "paragraph",
+      "text": "deleted a specific file or set of files that only a party with access to the system would know about, and those are the only files gone, you can be reasonably certain that the issue with which you are dealing is not a failure of hard disk sectors or solid-state disk chips."
+    },
+    {
+      "type": "heading",
+      "text": "Detecting Covert Breaches"
+    },
+    {
+      "type": "heading",
+      "text": "While some breaches are obviously discernable to be breaches, most"
+    },
+    {
+      "type": "paragraph",
+      "text": "breaches are actually quite hard to detect. In fact, breaches are sometimes so hard to notice that various enterprises that spend millions of dollars a year on systems that try to identify breaches have had breaches go undetected for significant periods of time -- sometimes for years!"
+    },
+    {
+      "type": "heading",
+      "text": "The following sections describe some symptoms that may indicate that"
+    },
+    {
+      "type": "paragraph",
+      "text": "your computer, tablet, or smartphone has been breached."
+    },
+    {
+      "type": "heading",
+      "text": "Please keep in mind that none of the following clues exists in a"
+    },
+    {
+      "type": "paragraph",
+      "text": "vacuum, nor does the presence of any individual symptom, on its own, provide a guarantee that something is amiss. Multiple reasons other than the occurrence of a breach may cause devices to act abnormally and to exhibit one or more of the ailments described in the following sections. However, if a device suddenly seems to suffer from multiple suspicious behaviors or if the relevant issues develop just after you clicked on a link in an email or text message, downloaded and ran some software provided by a source with potentially deficient security practices, opened some questionable attachment, or did something else about which wisdom you now question, you may want to take corrective action, as described Chapter 12. When considering the likelihood that a system was breached, keep in mind relevant circumstances. If problems start occurring after an operating system auto-update, for example, the likely risk level is much lower than if the same symptoms start showing up right after you click on a link in a suspicious email message offering you $1,000,000 if you process a payment being sent from a"
+    },
+    {
+      "type": "heading",
+      "text": "Nigerian prince to someone in the United States. Maintain a proper"
+    },
+    {
+      "type": "paragraph",
+      "text": "perspective and do not panic. If something did go amiss, you can still take action to minimize the damage -- see Chapter 12."
+    },
+    {
+      "type": "heading",
+      "text": "Your device seems slower than before"
+    },
+    {
+      "type": "paragraph",
+      "text": "Malware running on a computer, tablet, or smartphone often impacts the performance of the device in a noticeable fashion. Malware that transmits data can also sometimes slow down a device's connection to the Internet or even to internal networks."
+    },
+    {
+      "type": "heading",
+      "text": "Keep in mind, however, that updates to a device's operating"
+    },
+    {
+      "type": "paragraph",
+      "text": "system or to various software packages can also adversely impact the device's performance, so don't panic if you notice that performance seems to be somewhat degraded just after you updated your operating system or installed a software upgrade from a trusted source. Likewise, if you fill up the memory on your device or install many processor and bandwidth intensive apps, performance is likely to suffer even without the presence of malware. You can see what is running on a Windows PC by pressing Ctrl + Shift + Esc and checking out the Task Manager window that pops up. On a Mac, use the Activity Monitor, which you can access by clicking the magnifying glass on the right side of the menu bar on the top of the screen and starting to type Activity Monitor. After you type the first few characters, the name of the tool should display, at which point you can press Enter to run it."
+    },
+    {
+      "type": "heading",
+      "text": "Your Task Manager doesn't run"
+    },
+    {
+      "type": "heading",
+      "text": "If you try to run Task Manager on Windows (see Figure 11-3) or"
+    },
+    {
+      "type": "paragraph",
+      "text": "Activity Monitor on a Mac (see preceding section) and the tool does not run, your computer may be infected with malware. Various strains of malware are known to impact the ability of these programs to operate. FIGURE 11-3: The Microsoft Windows Task Manager."
+    },
+    {
+      "type": "heading",
+      "text": "Your Registry Editor doesn't run"
+    },
+    {
+      "type": "paragraph",
+      "text": "If you try to run Registry Editor, shown in Figure 11-4, on Windows (for example, by typing regedit at the Run prompt) and it does not run, your computer may be infected with malware. Various strains of malware are known to impact the ability of the Registry Editor to execute. FIGURE 11-4: The Microsoft Windows Registry Editor."
+    },
+    {
+      "type": "heading",
+      "text": "Note that you may receive a warning when running Registry"
+    },
+    {
+      "type": "heading",
+      "text": "Editor that it requires Administrator permissions. That warning is"
+    },
+    {
+      "type": "paragraph",
+      "text": "normal and not the sign of a problem. It also should remind you of the potentially serious consequences of making registry edits: Don't make any if you're not sure what you are doing."
+    },
+    {
+      "type": "heading",
+      "text": "Your device starts suffering from latency issues"
+    },
+    {
+      "type": "paragraph",
+      "text": "Latency refers to the time it takes for data to begin to travel after the instruction is issued to make it travel. If you're noticing delays that were not present before -- especially if the delays seem significant -- something may be amiss. Of course, your Internet provider or someone else may be experiencing problems, and everything may be fine on your local device. However, if the latency issues appear from only one device or a particular set of devices and not from all devices connected to the same network and if rebooting the impacted device/s does not ameliorate the situation, your device/s may have been compromised."
+    },
+    {
+      "type": "heading",
+      "text": "If the device is using a wired network connection, be sure to test"
+    },
+    {
+      "type": "paragraph",
+      "text": "it with a new cable. If the problem goes away, the cause was likely a defective or damaged physical connection."
+    },
+    {
+      "type": "heading",
+      "text": "Your device starts suffering from communication"
+    },
+    {
+      "type": "paragraph",
+      "text": "and buffering issues"
+    },
+    {
+      "type": "heading",
+      "text": "One highly visual symptom of communication-performance problems"
+    },
+    {
+      "type": "paragraph",
+      "text": "that can easily be discerned without much technical knowledge is if streaming videos seem to freeze while preloading future frames, or buffering, far more often than they did in the past (see Figure 11-5). While buffering is an annoyance that happens to most folks from time to time, if it is happening regularly on a connection that previously did not suffer on a regular basis from such an ailment or it's happening from only one or more particular devices using the connection but not on others, it may be indicative of a compromised system."
+    },
+    {
+      "type": "paragraph",
+      "text": "FIGURE 11-5: An example of communication problems while streaming video. Note the viewable portion of the rotating circle in the middle of the video image. If the device is using a wired network connection, be sure to check any physical cables that may be causing network issues."
+    },
+    {
+      "type": "heading",
+      "text": "Note that communication performance problems can also be a"
+    },
+    {
+      "type": "paragraph",
+      "text": "sign that someone is piggy-backing on your Internet connection, which is also a type of breach."
+    },
+    {
+      "type": "heading",
+      "text": "Your device's settings have changed"
+    },
+    {
+      "type": "heading",
+      "text": "If you notice that some of your device's settings have changed -- and"
+    },
+    {
+      "type": "paragraph",
+      "text": "you're certain that you did not make the change -- that may be a sign of problems. Of course, some software makes setting changes, too (especially on classic computers, as opposed to smartphones), so changes may have a legitimate source as well. Most software, however, does not make major changes without notifying you. If you see dramatic settings changes, beware."
+    },
+    {
+      "type": "heading",
+      "text": "Your device is sending or receiving strange email"
+    },
+    {
+      "type": "paragraph",
+      "text": "messages If your friends or colleagues report receiving emails from you that you did not send to them, something is likely amiss -- this is especially true if the messages appear to be spam. Likewise, if you're receiving emails that appear to be from people who claim to have never sent the relevant messages, you may have suffered a breach."
+    },
+    {
+      "type": "heading",
+      "text": "Keep in mind, however, that many other reasons (including"
+    },
+    {
+      "type": "paragraph",
+      "text": "other kinds of attacks on systems other than your own devices and accounts) can lead to spam appearing to have emanated from you."
+    },
+    {
+      "type": "heading",
+      "text": "Your device is sending or receiving strange text"
+    },
+    {
+      "type": "heading",
+      "text": "If your friends or colleagues report receiving text messages or other"
+    },
+    {
+      "type": "paragraph",
+      "text": "smartphone-type communications from you that you did not send to them, your smartphone may have been breached. Likewise, if you're receiving messages that appear to be from people who claim to have never sent the relevant messages, you may have suffered a breach."
+    },
+    {
+      "type": "heading",
+      "text": "New software (including apps) is installed on"
+    },
+    {
+      "type": "paragraph",
+      "text": "your device -- and you didn't install it If new programs or apps suddenly appear on your device and you did not install them, something may be amiss. While, in the case of some portable devices, the manufacturer or relevant service provider may occasionally install certain types of apps without your knowledge, if new apps suddenly appear, you should always look into the matter. Do a"
+    },
+    {
+      "type": "heading",
+      "text": "Google search on the apps and see what reliable tech sites say about"
+    },
+    {
+      "type": "paragraph",
+      "text": "them. If the apps are not showing up on other people's devices, you may have a serious issue on your hands."
+    },
+    {
+      "type": "heading",
+      "text": "Keep in mind, however, that sometimes the installation routines"
+    },
+    {
+      "type": "paragraph",
+      "text": "of one program install other applications as well. It is relatively common, for example, for various programs that are offered for free to users in a limited-feature version to also install other programs that are comarketed alongside them. Normally, such installation programs ask for permission to install the additional programs, but such transparency is not mandated by law, and some applications do not afford users such choices."
+    },
+    {
+      "type": "heading",
+      "text": "Also, remember that if you let someone else your computer, he or she"
+    },
+    {
+      "type": "paragraph",
+      "text": "may have installed something (legitimate or illegitimate)."
+    },
+    {
+      "type": "heading",
+      "text": "Your device's battery seems to drain more quickly"
+    },
+    {
+      "type": "paragraph",
+      "text": "than before"
+    },
+    {
+      "type": "heading",
+      "text": "Malware running in the background uses battery power and can help"
+    },
+    {
+      "type": "paragraph",
+      "text": "drain the battery of laptops, smartphones, and tablets."
+    },
+    {
+      "type": "heading",
+      "text": "Your device seems to run hotter than before"
+    },
+    {
+      "type": "heading",
+      "text": "Malware running the background uses CPU cycles and can cause a"
+    },
+    {
+      "type": "paragraph",
+      "text": "device to run physically hotter than before. You may hear internal cooling fans going on louder or more often than you usually do, or you may feel that the device is physically hotter to the touch."
+    },
+    {
+      "type": "heading",
+      "text": "File contents have been changed"
+    },
+    {
+      "type": "heading",
+      "text": "If the contents of files have changed without you changing them and"
+    },
+    {
+      "type": "paragraph",
+      "text": "without you running any software that you expect would change them, something may be seriously amiss."
+    },
+    {
+      "type": "heading",
+      "text": "Of course, if you let someone else use your computers and gave him or"
+    },
+    {
+      "type": "paragraph",
+      "text": "her access to the files in question, before blaming malware or a hacker, be sure to check with the person you let use the computer whether he or she made any changes."
+    },
+    {
+      "type": "heading",
+      "text": "Files are missing"
+    },
+    {
+      "type": "paragraph",
+      "text": "If files seem to have disappeared without you deleting them and without you running any software that you expect might delete them, something may be seriously amiss. Of course, technical failures and human mistakes can also cause files to disappear -- and, if you let someone else use your computer, he or she may be the culprit."
+    },
+    {
+      "type": "heading",
+      "text": "Websites appear somewhat different than before"
+    },
+    {
+      "type": "paragraph",
+      "text": "If someone has installed malware that is proxying on your device -- that is, sitting between your browser and the Internet and relaying the communications between them (while reading all the contents of the communications and, perhaps, inserting various instructions of its own) -- it may affect how some sites display."
+    },
+    {
+      "type": "heading",
+      "text": "Your Internet settings show a proxy, and you"
+    },
+    {
+      "type": "paragraph",
+      "text": "never set one up If someone has configured your device to use his/her server as a proxy, that party may be attempting to read data sent to and from your device and may try to modify the contents of your session or even seek to hijack it altogether."
+    },
+    {
+      "type": "heading",
+      "text": "Some legitimate programs do configure Internet proxies -- but, such"
+    },
+    {
+      "type": "paragraph",
+      "text": "proxy information should show up when the software is installed and initially run, not suddenly after you click on a questionable link or download a program from a less-than-trustworthy source. (See Figure 11-6.) FIGURE 11-6: Internet connections configured to use a proxy. If you do not use a proxy and suddenly one appears listed in your Internet settings, something is likely amiss."
+    },
+    {
+      "type": "heading",
+      "text": "Some programs (or apps) stop working properly"
+    },
+    {
+      "type": "heading",
+      "text": "If apps that you know used to work properly on your device suddenly"
+    },
+    {
+      "type": "paragraph",
+      "text": "stop functioning as expected, you may be experiencing a symptom of either proxying or malware interfering with the apps' functionality."
+    },
+    {
+      "type": "heading",
+      "text": "Of course, if such a problem develops immediately after you"
+    },
+    {
+      "type": "paragraph",
+      "text": "perform an operating system update, the update is a far more likely source of the issue than is something more sinister."
+    },
+    {
+      "type": "heading",
+      "text": "Security programs have turned off"
+    },
+    {
+      "type": "heading",
+      "text": "If the security software that you normally run on your device has"
+    },
+    {
+      "type": "paragraph",
+      "text": "suddenly been disabled, removed, or configured to ignore certain problems, it may be a sign that a hacker has penetrated your device and has turned off its defenses to prevent both his or her efforts from being blocked as well as to ensure that you do not receive warnings as he or she carries out various additional nefarious activities."
+    },
+    {
+      "type": "heading",
+      "text": "An increased use of data or text messaging (SMS)"
+    },
+    {
+      "type": "heading",
+      "text": "If you monitor your smartphone's data or SMS usage and see greater"
+    },
+    {
+      "type": "paragraph",
+      "text": "usage figures than you expect, especially if that increase begins right after some suspicious event, it may be a sign that malware is transmitting data from your device to other parties. You can even check your data usage per app -- if one of them looks like it is using way too much data for the functionality that it provides, something may be amiss."
+    },
+    {
+      "type": "heading",
+      "text": "If you installed the app from a third-party app store, you can try"
+    },
+    {
+      "type": "paragraph",
+      "text": "deleting the app and reinstalling it from a more trusted source. Keep in mind, however, that if malware is on your device, reinstalling the app may not always fix the problem, even if the app was the original source of the infection."
+    },
+    {
+      "type": "heading",
+      "text": "Increased network traffic"
+    },
+    {
+      "type": "heading",
+      "text": "If you monitor your device's Wi-Fi or wired network usage and see"
+    },
+    {
+      "type": "paragraph",
+      "text": "greater levels of activity than you expect, especially if that increase begins right after some suspicious event, it may be a sign that malware is transmitting data from your device to other parties."
+    },
+    {
+      "type": "heading",
+      "text": "On some systems, you can even check your data usage per app"
+    },
+    {
+      "type": "paragraph",
+      "text": "-- if one or more apps look like they are using way too much data for the functionality that they provide, something may be amiss. If you installed the app in question from a less-than-reliable source, you can try deleting the app and reinstalling it from a more trusted source -- but if malware is present on your device, reinstalling the app that it brought to the device may not always fix the problem, even if the app was, in fact, the original source of the infection."
+    },
+    {
+      "type": "heading",
+      "text": "You can check how much data your computer is using -- and even how"
+    },
+    {
+      "type": "paragraph",
+      "text": "much each program is using -- by installing a bandwidth monitor program on the device in question."
+    },
+    {
+      "type": "heading",
+      "text": "Unusual open ports"
+    },
+    {
+      "type": "heading",
+      "text": "Computers and other Internet-connected devices communicate using"
+    },
+    {
+      "type": "paragraph",
+      "text": "virtual ports. Communications for different applications typically enter the device via different ports. Ports are numbered, and most port numbers should always be closed -- that is, not configured to allow communications in."
+    },
+    {
+      "type": "heading",
+      "text": "If ports that are not normally open on your computer are"
+    },
+    {
+      "type": "paragraph",
+      "text": "suddenly open and you did not just install software that could be using such ports, it is usually indicative of a problem. If you use"
+    },
+    {
+      "type": "heading",
+      "text": "Windows -- especially if you understand a little about networking"
+    },
+    {
+      "type": "paragraph",
+      "text": "-- you can use the built-in netstat command to determine which ports are open and what is connecting to your device."
+    },
+    {
+      "type": "heading",
+      "text": "Your device starts crashing"
+    },
+    {
+      "type": "heading",
+      "text": "If your computer, tablet, or smartphone suddenly starts to crash on a"
+    },
+    {
+      "type": "paragraph",
+      "text": "much more frequent basis than in the past, malware may be running on it. Of course, if you just upgraded your operating system, that is the likely source for the problem."
+    },
+    {
+      "type": "heading",
+      "text": "If you are regularly seeing screens like the Blue Screen of Death"
+    },
+    {
+      "type": "paragraph",
+      "text": "(see Figure 11-7) -- or other screens indicating that your computer suffered a fatal error and must be restarted, you have a problem. It may be technical, or it may be due to corruption from malware or a hacker. FIGURE 11-7: The modern version of the notorious Blue Screen of Death that appears after a severe crash of a computer running Microsoft Windows 10."
+    },
+    {
+      "type": "heading",
+      "text": "Your cellphone bill shows unexpected charges"
+    },
+    {
+      "type": "heading",
+      "text": "Criminals are known to have exploited compromised smartphones in"
+    },
+    {
+      "type": "paragraph",
+      "text": "order to make expensive overseas phone calls on behalf of a remote party proxying through the device. Likewise, they can use a breached device to send SMS messages to international numbers and can ring up various other phone charges in other ways."
+    },
+    {
+      "type": "heading",
+      "text": "Unknown programs request access"
+    },
+    {
+      "type": "heading",
+      "text": "Most security software for computers warns users when a program first"
+    },
+    {
+      "type": "paragraph",
+      "text": "attempts to access the Internet. If you receive such warnings and you don't recognize the program that is seeking access, or you recognize the program but can't understand why it would need to access the Internet (for example, Windows Calculator or Notepad), something may be amiss."
+    },
+    {
+      "type": "heading",
+      "text": "External devices power on unexpectedly"
+    },
+    {
+      "type": "paragraph",
+      "text": "If one or more of your external input devices (including devices such as cameras, scanners, and microphones) seem to power on at unexpected times (for example, when you're not using them), it may indicate that malware or a hacker is communicating with them or otherwise using them."
+    },
+    {
+      "type": "heading",
+      "text": "There are attacks that are known to have involved criminals remotely"
+    },
+    {
+      "type": "paragraph",
+      "text": "turning on people's cameras and spying on them."
+    },
+    {
+      "type": "heading",
+      "text": "Your device acts as if someone else were using it"
+    },
+    {
+      "type": "heading",
+      "text": "Malicious actors sometimes take over computers and use them via"
+    },
+    {
+      "type": "paragraph",
+      "text": "remote access almost as if they were sitting in front of the device's keyboard. If you see your device acting as if someone else is in control -- for example, you see the mouse pointer moving or keystrokes being entered while you're not using your mouse or keyboard -- it may be a sign that someone else is actually controlling the machine."
+    },
+    {
+      "type": "heading",
+      "text": "New browser search engine default"
+    },
+    {
+      "type": "heading",
+      "text": "As part of several attack techniques, hackers are known to change the"
+    },
+    {
+      "type": "paragraph",
+      "text": "default search engine used by people browsing the web. If your own browser's default search engine changed and you did not change it, something may be amiss. (To check if you're search engine change, see the list of default applications, as shown in Figure 11-8.) FIGURE 11-8: The Windows 10 Default apps configuration screen."
+    },
+    {
+      "type": "heading",
+      "text": "Your device password has changed"
+    },
+    {
+      "type": "paragraph",
+      "text": "If the password to your phone, tablet, or computer changed without you changing it, something is wrong, and the cause is likely something serious."
+    },
+    {
+      "type": "heading",
+      "text": "Pop-ups start appearing"
+    },
+    {
+      "type": "heading",
+      "text": "Various strains of malware produce pop-up windows asking the"
+    },
+    {
+      "type": "paragraph",
+      "text": "user to perform various actions (see Figure 11-9). If you're seeing pop-ups, beware. Such malware is common on laptops, but it exists for some smartphones as well. FIGURE 11-9: This pop-up window from adware malware attempts to scare people into purchasing bogus security software."
+    },
+    {
+      "type": "heading",
+      "text": "Keep in mind that pop-ups that appear when you're not using a web"
+    },
+    {
+      "type": "paragraph",
+      "text": "browser are a big red flag, as are pop-ups advising you to download and install \"security software\" or to visit websites of questionable repute."
+    },
+    {
+      "type": "heading",
+      "text": "New browser add-ons appear"
+    },
+    {
+      "type": "heading",
+      "text": "You should be prompted before any browser add-on is installed (see"
+    },
+    {
+      "type": "paragraph",
+      "text": "Figure 11-10). If a new add-on is installed without your knowledge, it likely indicates a problem. Some malware is delivered in poisoned versions of various browser toolbars. FIGURE 11-10: The Manage Add-ons window in Internet Explorer."
+    },
+    {
+      "type": "heading",
+      "text": "New browser home page"
+    },
+    {
+      "type": "heading",
+      "text": "As part of several attack techniques, hackers are known to change the"
+    },
+    {
+      "type": "paragraph",
+      "text": "home page of users' browsers. If your own browser's home page changed and you did not change it, something may be amiss."
+    },
+    {
+      "type": "heading",
+      "text": "Your email from the device is getting blocked by"
+    },
+    {
+      "type": "paragraph",
+      "text": "spam filters"
+    },
+    {
+      "type": "heading",
+      "text": "If email that you send from the device in question used to be able to"
+    },
+    {
+      "type": "paragraph",
+      "text": "reach intended recipients with no problem, but is suddenly getting blocked by spam filters, it may be a sign that someone or something altered your email configuration in order to relay your messages through some server that is allowing him or her to read, block, or even modify, your messages, and which other security systems are flagging as problematic."
+    },
+    {
+      "type": "heading",
+      "text": "Your device is attempting to access \"bad\" sites"
+    },
+    {
+      "type": "paragraph",
+      "text": "If you use your computer, tablet, or smartphone on a network that blocks access to known problematic sites and networks (many businesses, organizations, and government entities have such technology on both their internal and bring-your-own-device [BYOD] networks) and you find out that your device was trying to access such sites without your knowledge, your device is likely compromised."
+    },
+    {
+      "type": "heading",
+      "text": "You're experiencing unusual service disruptions"
+    },
+    {
+      "type": "paragraph",
+      "text": "If your smartphone seems to be suddenly dropping calls, or you find it unable to make calls at times when you appear to have good signal strength, or you hear strange noises during your phone conversations, something may be amiss. Keep in mind that in most cases, these symptoms are those of technical issues unrelated to a breach. However, in some cases, a breach is the reason for such ailments. So, if you noticed the relevant symptoms shortly after you took some action that you now question or regret, you may want to consider whether you need to take corrective action (see Chapter 12)."
+    },
+    {
+      "type": "heading",
+      "text": "Your device's language settings changed"
+    },
+    {
+      "type": "heading",
+      "text": "People rarely change the language settings on their computers after"
+    },
+    {
+      "type": "paragraph",
+      "text": "performing the initial setup procedure, and few software packages do so either. So, if your computer is suddenly displaying menus and/or prompts in a foreign language or even has a language installed that you never installed, something is likely wrong."
+    },
+    {
+      "type": "heading",
+      "text": "You see unexplained activity on the device"
+    },
+    {
+      "type": "paragraph",
+      "text": "If, on your device, you see emails in your Sent folder that you did not send, your device or email account was likely compromised. Likewise, if files that you're certain that you never downloaded appear in your Downloads folder, someone else may have downloaded them to your device."
+    },
+    {
+      "type": "heading",
+      "text": "You see unexplained online activity"
+    },
+    {
+      "type": "paragraph",
+      "text": "If your social media account has social media posts that you're certain that neither you nor any app that you have authorized made, something is clearly amiss. It may be that your account was breached, and your devices are all secure, or it may be that one of your devices with access to the account was breached and became the conduit for the unauthorized access to your account. The same is true if you see videos that you never ordered appearing in your previous rentals of a video streaming service, purchases that you never made appearing in your order history at an online retailer, and so on."
+    },
+    {
+      "type": "heading",
+      "text": "Your device suddenly restarts"
+    },
+    {
+      "type": "paragraph",
+      "text": "While restarts are an integral part of many operating system updates, they should not happen suddenly outside the context of such updates. If your device is regularly rebooting without your approval, something is wrong. The only question is whether the problem emanates from a security breach or from some other issue."
+    },
+    {
+      "type": "heading",
+      "text": "You see signs of data breaches and/or leaks"
+    },
+    {
+      "type": "paragraph",
+      "text": "Of course, if you know that some of your data has leaked, you should try to determine the source of the problem -- and the process of checking obviously includes examining for signs of problems on all your smartphones, tablets, and computers."
+    },
+    {
+      "type": "heading",
+      "text": "You are routed to the wrong website"
+    },
+    {
+      "type": "paragraph",
+      "text": "If you're sure that you typed in a correct URL, but were still routed to the wrong website, something is amiss. The problem may reflect a security breach elsewhere, but it could indicate that someone has compromised your device as well. If the misrouting happens from only one or more particular devices, but not from others on the same network, the odds are that the devices in question were compromised. In any case, never perform any sensitive task (such as logging into a website) from a device that is routing you incorrectly."
+    },
+    {
+      "type": "heading",
+      "text": "Your hard drive light never seems to turn off"
+    },
+    {
+      "type": "paragraph",
+      "text": "If your hard drive light remains on constantly, or near constantly, malware may be doing something to the drive. Of course, hard drive lights come on for legitimate reasons when you are not actively using a computer -- and, sometimes, a legitimate reason will entail the light being on for quite some time -- so don't panic if it's the only sign that something is amiss."
+    },
+    {
+      "type": "heading",
+      "text": "Other abnormal things happen"
+    },
+    {
+      "type": "paragraph",
+      "text": "It is impossible to list all the possible symptoms that malware can cause a device to exhibit. So, if you keep in mind that parties are seeking to hack into your systems, and that anomalous behavior by your device may be a sign of problems, you increase your odds of noticing when something seems off -- and, of properly responding to a breach if one does, in fact, occur."
+    }
+  ]
+}

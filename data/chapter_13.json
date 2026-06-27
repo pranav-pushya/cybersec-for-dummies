@@ -1,0 +1,1324 @@
+{
+  "num": 13,
+  "type": "chapter",
+  "title": "Chapter 13: Backing Up",
+  "part": "Part 6: Backing Up and Recovery",
+  "pages": "294 to 323",
+  "in_this_chapter": [
+    "Discovering the importance of backing up Exploring different types of backups Encountering different ways to back up"
+  ],
+  "content": [
+    {
+      "type": "heading",
+      "text": "Backing Up"
+    },
+    {
+      "type": "paragraph",
+      "text": "IN THIS CHAPTER"
+    },
+    {
+      "type": "heading",
+      "text": "Discovering the importance of backing up"
+    },
+    {
+      "type": "heading",
+      "text": "Exploring different types of backups"
+    },
+    {
+      "type": "heading",
+      "text": "Encountering different ways to back up"
+    },
+    {
+      "type": "paragraph",
+      "text": "While backing up your data sounds like a simple concept -- and it is -- actually implementing an efficient and effective backup routine is a bit more complicated."
+    },
+    {
+      "type": "heading",
+      "text": "To properly back up, not only do you need to know about your backup"
+    },
+    {
+      "type": "paragraph",
+      "text": "options, but you need to think about many other details, such as the location of your backups, encryption, passwords, and boot disks. In this chapter, you find out about all those backup details and more."
+    },
+    {
+      "type": "heading",
+      "text": "Backing Up Is a Must"
+    },
+    {
+      "type": "paragraph",
+      "text": "In the context of cybersecurity, backing up refers to creating an extra copy, or extra copies, of data (that may consist of data, programs, or other computer files) in case the original is damaged, lost, or destroyed."
+    },
+    {
+      "type": "heading",
+      "text": "Backing up is one of the most important defenses against the loss of"
+    },
+    {
+      "type": "paragraph",
+      "text": "data, and, eventually, it's likely to save you from serious aggravation, as nearly everyone, if not everyone, will, at some point, want to access data to which he or she no longer has access. In fact, such scenarios occur on a regular basis. Sometimes, they're the result of human error, such as a person inadvertently deleting a file or misplacing a computer or storage device. Sometimes, they're the result of a technical failure, such as a hard drive dying or an electronic device falling into water. And sometimes they're the result of a hostile action, such as a ransomware infection. Sadly, many people believe that they back up all their data only to find out when something goes wrong that they do not have proper backups. Don't let that happen to you. Be sure to back up on a regular basis -- often enough that if you had to restore from a backup, you would not panic. In general, if you're in doubt as to whether or not you are backing up often enough, you aren't."
+    },
+    {
+      "type": "heading",
+      "text": "Do not think of backups as being there for you if you ever lose"
+    },
+    {
+      "type": "paragraph",
+      "text": "data. Think of them being there for you when you lose data. At some point, essentially every person who uses electronic devices on a regular basis will lose data."
+    },
+    {
+      "type": "heading",
+      "text": "Looking at the Different Types of"
+    },
+    {
+      "type": "heading",
+      "text": "Backups"
+    },
+    {
+      "type": "heading",
+      "text": "Backups can be categorized in many different ways. One important way"
+    },
+    {
+      "type": "paragraph",
+      "text": "of distinguishing various types of backups from one another is based on what is being backed up. The following sections look at the different types of backups based on that approach."
+    },
+    {
+      "type": "heading",
+      "text": "Full backups of systems"
+    },
+    {
+      "type": "heading",
+      "text": "A full system backup is a backup of an entire system, including the"
+    },
+    {
+      "type": "paragraph",
+      "text": "operating system, programs/apps, settings, and data. The term applies whether the device being backed up is a smartphone or a massive server in a data center."
+    },
+    {
+      "type": "heading",
+      "text": "Technically speaking, a full system backup includes a backup of all"
+    },
+    {
+      "type": "paragraph",
+      "text": "drives attached to a system, not just those mounted inside of it -- although if some drives are attached to the system only from time to time and are not needed for the primary use of the system, some might exclude the contents of such drives from full system backups, especially if they're attached to other systems, or are backed up as part of the backup of other systems. For most home users, however, a full system backup means exactly what it sounds like: Backing up everything."
+    },
+    {
+      "type": "heading",
+      "text": "A full system backup is sometimes known as a system image because it"
+    },
+    {
+      "type": "paragraph",
+      "text": "essentially contains an image of the system as it existed at a particular point in time. If a device that you have an image of fails, you should be able to use the system image to re-create the entire system as it was at the time that the backup was made. When you use the rebuilt system, it should function exactly as the previous system did at the time of the backup."
+    },
+    {
+      "type": "heading",
+      "text": "Full system backups are the form of backup that typically is"
+    },
+    {
+      "type": "paragraph",
+      "text": "fastest to restore an entire system from, but they take longer to create than other forms of backup. They also usually require more storage space. One important caveat: Because a system backup includes settings, hardware drivers, and so on, restoring from a system image does not always work well if you restore to a different device than the one that was originally backed up. If you imaged a laptop that runs Windows 7 as its operating system, for example, and then acquired a newer device intended to run Windows 10, which has different hardware in it, a restored system image of the first device may not work well on the newer device. The reverse is even more likely to be true: If you keep an old computer in your closet \"just in case\" and that just-in-case situation turns into reality, your attempts to restore the image from a newer machine to the older machine may fail fully or in part."
+    },
+    {
+      "type": "heading",
+      "text": "System images are sometimes referred to as ghosts (with ghost"
+    },
+    {
+      "type": "paragraph",
+      "text": "also being the verb for creating such images), especially among techies. The name originates from one of the original disk cloning software packages for PCs."
+    },
+    {
+      "type": "heading",
+      "text": "Original system images"
+    },
+    {
+      "type": "heading",
+      "text": "One special case of system images is the original system image, also"
+    },
+    {
+      "type": "paragraph",
+      "text": "known as a factory image."
+    },
+    {
+      "type": "heading",
+      "text": "Many modern computing devices, whether laptops, tablets, or"
+    },
+    {
+      "type": "paragraph",
+      "text": "smartphones, come equipped with a factory image that can be restored. This means that when you acquire the device, it comes with an image of the original configuration that you receive -- including the operating system, all the original software, and all the default settings -- stored in a hidden partition or other storage mechanism not normally accessible to users. At any point in time, you can perform a factory reset and set your device to look identical to the way that it did when it was new. When you do so, the device restores from the hidden image. Two important caveats:"
+    },
+    {
+      "type": "heading",
+      "text": "Some devices overwrite the factory reset image with new images in"
+    },
+    {
+      "type": "paragraph",
+      "text": "the event of certain operating system upgrades."
+    },
+    {
+      "type": "heading",
+      "text": "If you factory reset a computer, all security updates installed since"
+    },
+    {
+      "type": "paragraph",
+      "text": "the factory image was originally created will not be present on the restored device. Be sure to update your system ASAP after restoring and before going online for any other purpose!"
+    },
+    {
+      "type": "heading",
+      "text": "Later system images"
+    },
+    {
+      "type": "heading",
+      "text": "Some systems also create periodic images that you can restore from"
+    },
+    {
+      "type": "paragraph",
+      "text": "without having to go back to the original factory settings. Windows 10, for example, has such capabilities built in."
+    },
+    {
+      "type": "heading",
+      "text": "Never restore from an image unless you know that any problems"
+    },
+    {
+      "type": "paragraph",
+      "text": "that developed and caused you to need to restore did so after that image was made."
+    },
+    {
+      "type": "heading",
+      "text": "Original installation media"
+    },
+    {
+      "type": "paragraph",
+      "text": "Original installation media is for programs that you acquire and install after you purchased your device."
+    },
+    {
+      "type": "heading",
+      "text": "If software came on a DVD or CD, saving the physical media that it"
+    },
+    {
+      "type": "paragraph",
+      "text": "came on allows you to reinstall the software in case of a problem."
+    },
+    {
+      "type": "heading",
+      "text": "Keep in mind, however, that if any updates for the software were"
+    },
+    {
+      "type": "paragraph",
+      "text": "issued and installed subsequent to the original installation, you will need to redownload and reinstall the updates. Doing so may happen automatically upon reinstallation, or it may require manual effort."
+    },
+    {
+      "type": "heading",
+      "text": "Downloaded software"
+    },
+    {
+      "type": "paragraph",
+      "text": "If you've acquired programs since you purchased your device, it's likely that some or all of them were delivered to you via digital download."
+    },
+    {
+      "type": "heading",
+      "text": "When software is delivered as a download, the downloader does not"
+    },
+    {
+      "type": "paragraph",
+      "text": "receive a physical copy. However, if you received software via a download, you can store a copy of the installation file that you downloaded on one or more of many different types of media, such as a thumb drive or a CD or DVD. Alternatively, you can store the copy on a hard drive, but be sure to back up that drive if it is part of your computer infrastructure."
+    },
+    {
+      "type": "heading",
+      "text": "Additionally, some stores that sell downloadable software maintain"
+    },
+    {
+      "type": "paragraph",
+      "text": "copies of the software for you in a virtual locker so that you can download it at a later date. Such \"backups\" are useful, but be sure that you know how long the store will maintain the product in your locker."
+    },
+    {
+      "type": "heading",
+      "text": "Some people have had serious problems because they relied on such"
+    },
+    {
+      "type": "paragraph",
+      "text": "\"backups\" only to find out that the software was not available to them at the time that they needed it."
+    },
+    {
+      "type": "heading",
+      "text": "For music and video files, the vendor's retention period is often"
+    },
+    {
+      "type": "paragraph",
+      "text": "theoretically forever, or at least as long as the material is available to purchase by others. For software, as new versions are released and old versions are sunsetted (the technical term for a software vendor phasing out and, ultimately, terminating support for an obsolete version of its software), the retention period may be far shorter."
+    },
+    {
+      "type": "heading",
+      "text": "Full backups of data"
+    },
+    {
+      "type": "heading",
+      "text": "An alternative to performing a full backup of the entire system is to"
+    },
+    {
+      "type": "paragraph",
+      "text": "perform a full backup of the data on the system, but not of software and the operating system. (Configuration settings for both the operating system and various installed programs are often stored in data folders and included in such backups.) Performing a full data backup allows a user to restore all of his or her data in one shot if something goes wrong. Depending on the tool used to perform the backup, the user may be able to restore a subset of the data as well -- for example, by choosing to restore only one particular file that he or she accidentally deleted."
+    },
+    {
+      "type": "heading",
+      "text": "Restoring from a full data backup will not restore applications. If"
+    },
+    {
+      "type": "paragraph",
+      "text": "a system has to be rebuilt entirely, recovering from full backups of data likely requires prior restorations to factory settings (or a later image of the computer) and reinstallation of all software. That is certainly more tedious than simply restoring from a system image."
+    },
+    {
+      "type": "heading",
+      "text": "At the same time, it is also far more portable. The recovery can"
+    },
+    {
+      "type": "paragraph",
+      "text": "usually be done without any problems on many devices that vary quite a bit from the original device. Reduce the likelihood of your restored system suffering a security breach by updating the reinstalled software with the latest patches immediately after the relevant installations."
+    },
+    {
+      "type": "heading",
+      "text": "Incremental backups"
+    },
+    {
+      "type": "heading",
+      "text": "Incremental backups are backups made after a full backup and that"
+    },
+    {
+      "type": "paragraph",
+      "text": "contain copies of only the portion of data (or, in the case of a system backup, the portion of the entire system) that has changed since the preceding backup (full or incremental) was run."
+    },
+    {
+      "type": "heading",
+      "text": "Incremental backups normally run much faster than full backups"
+    },
+    {
+      "type": "paragraph",
+      "text": "because, on most systems, the vast majority of data files do not change on a regular basis. For the same reason, incremental backups also use less storage space than do full backups."
+    },
+    {
+      "type": "heading",
+      "text": "To recover data, however, restoration must be done from the last full"
+    },
+    {
+      "type": "paragraph",
+      "text": "backup plus all the incremental backups performed since that last full backup."
+    },
+    {
+      "type": "heading",
+      "text": "If you decide to use incremental backups, consider limiting the"
+    },
+    {
+      "type": "paragraph",
+      "text": "number of such backups that you create after a full backup. For example, if you did only one full backup on the first day of the calendar month and performed incremental backups on all subsequent days until the next month began, then if something went wrong on the last day of the month, you would potentially need to restore from as many as 30 backups in order to recover your files."
+    },
+    {
+      "type": "heading",
+      "text": "Many people (and many businesses as well) choose to do full system"
+    },
+    {
+      "type": "paragraph",
+      "text": "backups on one of the days of the weekend and then do incremental backups during each other day of the week, thereby finding a happy medium between the efficiency gains during the backup process and the potential for a tedious recovering process."
+    },
+    {
+      "type": "heading",
+      "text": "Differential backups"
+    },
+    {
+      "type": "paragraph",
+      "text": "Differential backups contain all the files that changed since the last full backup. (They are similar to the first in a series incremental backups run after a full backup.) A series of differential backups therefore requires more time to run and uses more storage space than incremental backups, but less than the same number of full backups. Recovering from differential backups can be faster and simpler than doing so from incremental backups because a restore needs to be done from only the last full backup and last differential backup."
+    },
+    {
+      "type": "heading",
+      "text": "If you decide to use differential backups, consider how many backups"
+    },
+    {
+      "type": "paragraph",
+      "text": "you should be making before making the next full backup. If the differential backup starts to grow quite large, there will not be much performance gains while making the backup, and any restoration will take far longer than if done from just a full backup."
+    },
+    {
+      "type": "heading",
+      "text": "Many people (and many businesses as well) choose to do full system"
+    },
+    {
+      "type": "paragraph",
+      "text": "backups on one of the days of the weekend, and then do differential backups during each other day of the week."
+    },
+    {
+      "type": "heading",
+      "text": "Mixed backups"
+    },
+    {
+      "type": "paragraph",
+      "text": "Incremental and differential backups are made in conjunction with full backups, as shown in Table 13-1."
+    },
+    {
+      "type": "heading",
+      "text": "TABLE 13-1 A Comparison of Full, Incremental, and"
+    },
+    {
+      "type": "heading",
+      "text": "Differential Backups"
+    },
+    {
+      "type": "heading",
+      "text": "Full"
+    },
+    {
+      "type": "heading",
+      "text": "BackupIncremental BackupDifferential Backup"
+    },
+    {
+      "type": "heading",
+      "text": "Full"
+    },
+    {
+      "type": "heading",
+      "text": "BackupIncremental BackupDifferential Backup"
+    },
+    {
+      "type": "heading",
+      "text": "Backup #1All data-- --"
+    },
+    {
+      "type": "heading",
+      "text": "Backup #2All dataChanges from Backup #1Changes from Backup #1"
+    },
+    {
+      "type": "heading",
+      "text": "Backup #3All dataChanges from Backup #2Changes from Backup #1"
+    },
+    {
+      "type": "heading",
+      "text": "Do not mix incremental and differential backups within the same"
+    },
+    {
+      "type": "paragraph",
+      "text": "backup scheme, as doing so can create complexity and lead to confusion and costly mistakes."
+    },
+    {
+      "type": "heading",
+      "text": "Continuous backups"
+    },
+    {
+      "type": "paragraph",
+      "text": "Continuous backups refers to backups that run continuously. Every time that a change is made to data (or to a system and data), a backup of that change is made."
+    },
+    {
+      "type": "heading",
+      "text": "Continuous backups are great in case of a hard drive failure in"
+    },
+    {
+      "type": "paragraph",
+      "text": "the primary system -- the backup is available and up-to-date -- but do little in the case of a malware infection or data destruction, as the malware typically propagates to the backup as soon as it infects the primary system."
+    },
+    {
+      "type": "heading",
+      "text": "One exception are complex backup systems that log each backup action"
+    },
+    {
+      "type": "paragraph",
+      "text": "and have the ability to reverse them. These backups can undo problematic portions of backups to the point that they occurred."
+    },
+    {
+      "type": "heading",
+      "text": "The process of continuously backing up is sometimes known as"
+    },
+    {
+      "type": "paragraph",
+      "text": "syncing (or synchronizing). You may see it described as such on your electronic devices or within various software packages. Partial backups Partial backups are backups of a portion of data. As opposed to full backups, partial backups do not back up all elements of data from a system. If a system were to be completely hosed, for example, you would have no way to fully recover all of its data contents from partial backups made earlier of that system. Partial backups can be implemented in a full incremental-like model in which the first backup in a series includes all the elements that are part of the set included in the partial backup, and subsequent backups in the series include only items from that set that have changed. Partial backups can also be implemented as always full-like -- in which case, all elements of the set included in the partial backup are backed up each time, regardless of whether or not they have changed since the last backup. Partial backups are not intended to be full backups in case of a malware attack or the like. They are useful, however, in other situations, such as one in which a particular set of files needs to be backed up separately due to the needs of a particular individual or group or due to the sensitivity of the material. For example, while the IT department may do full and incremental backups of all files on a shared network drive, the accountant who needs constant access to a particular set of spreadsheets stored on that drive -- and would be unable to work if those files become inaccessible -- may set up his own backup of just those files. He can use his backup if something goes wrong when he is on the road or working from home on the weekend, without the need to bother members of the technical support department at his firm to work unnecessarily on a Sunday."
+    },
+    {
+      "type": "heading",
+      "text": "Folder backups"
+    },
+    {
+      "type": "paragraph",
+      "text": "Folder backups, are similar to partial backups in situations where the set of items being backed up is a particular folder. While backup tools can facilitate folder backups, to the chagrin of many cybersecurity professionals and IT departments, many users perform such backups in an ad hoc fashion by manually making a copy of hard drive (or SSD) folders to USB drives at the end of each workday and consider such backups to be sufficient protection in case of problems. Theoretically, of course, such backups work and can be used to recover from many problems. Reality dictates, however, that ad hoc backup procedures almost never result in proper backups: People forget on some days to back up or do not back up because they're hurried, neglect to back up some materials that they should have backed up, store the backups on insecure devices in insecure locations, or lose the devices on which the backups are stored -- you get the idea!"
+    },
+    {
+      "type": "heading",
+      "text": "If you want to be sure that you have proper backups when you need"
+    },
+    {
+      "type": "paragraph",
+      "text": "them -- and, at some point, you are likely to need them -- do not rely on ad hoc folder backups."
+    },
+    {
+      "type": "heading",
+      "text": "Never back up a folder onto the same drive as the original folder"
+    },
+    {
+      "type": "paragraph",
+      "text": "resides. If the drive fails, you will lose both the primary source of data as well as the backup copy."
+    },
+    {
+      "type": "heading",
+      "text": "Drive backups"
+    },
+    {
+      "type": "paragraph",
+      "text": "A drive backup is similar to a folder backup, but for situations where an entire drive is being backed up instead of only a folder. Ad hoc backups of drives do afford some protection, but rarely deliver sufficient protection against risks of losing data."
+    },
+    {
+      "type": "heading",
+      "text": "Never store the backup of a drive on the same drive as the one"
+    },
+    {
+      "type": "paragraph",
+      "text": "being backed up. If the drive fails, you will lose the primary source of data and the backup copy."
+    },
+    {
+      "type": "heading",
+      "text": "Virtual drive backups"
+    },
+    {
+      "type": "heading",
+      "text": "One special case of drive backup is that in which a person or"
+    },
+    {
+      "type": "paragraph",
+      "text": "organization uses an encrypted virtual drive. For example, a user may store his or her files within a BitLocker drive on Windows. BitLocker is a utility built in to many version of Windows that allows users to create a virtual drive that appears as any other drive to the user when it is in use, but appears as one giant encrypted file when not in use. To access the drive, the user must unlock it, normally by entering a password."
+    },
+    {
+      "type": "heading",
+      "text": "Backing up such drives is often accomplished by simply including the"
+    },
+    {
+      "type": "paragraph",
+      "text": "encrypted file within the full, incremental, folder, or drive backup. As such, all contents of the encrypted drive are copied without being referred to by name and remain inaccessible to anyone who does not know how to open the encrypted drive. Many backups tools offer drive backups in addition to more structured forms of backup."
+    },
+    {
+      "type": "heading",
+      "text": "Some software packages refer to the creation of an image of an"
+    },
+    {
+      "type": "paragraph",
+      "text": "entire disk as cloning. While such a scheme protects the contents of the encrypted drive as they live in backups by using the same encryption as was used for the primary copies, note several caveats:"
+    },
+    {
+      "type": "heading",
+      "text": "Even if one small change was made to a single file within the"
+    },
+    {
+      "type": "paragraph",
+      "text": "virtual drive, the entire encrypted file will be changed. As such, a 1KB change could easily lead to an incremental backup having to back up an entire 1TB file."
+    },
+    {
+      "type": "heading",
+      "text": "The backup is useless for recovery unless someone knows how to"
+    },
+    {
+      "type": "paragraph",
+      "text": "unlock the encrypted drive. While encryption may be a good defense mechanism against unauthorized parties snooping on sensitive files in the backup, it also means that the backup is not, on its own, fully usable for recovery. It is not hard to imagine problems developing as a result -- for example, if someone attempting to utilize a backup several years after it was originally made forgets the access code, or if the person who created a backup is unavailable at the time that someone needs to restore from it."
+    },
+    {
+      "type": "heading",
+      "text": "As with all encrypted data, there is a risk that as computers"
+    },
+    {
+      "type": "paragraph",
+      "text": "become more powerful -- and, especially, as quantum computing takes hold -- today's encryption may not offer sufficient protection against brute force attacks. While production systems will, no doubt, be upgraded with better encryption capabilities over time (as they already have been since the 56-bit encryption of the 1990s), backups that were made with old encryption technology and keys may become vulnerable to decryption by unauthorized parties."
+    },
+    {
+      "type": "heading",
+      "text": "Hence, encryption may not forever protect your sensitive data"
+    },
+    {
+      "type": "paragraph",
+      "text": "contained in backups. You must store such backups in a secure location or destroy them when they are no longer needed."
+    },
+    {
+      "type": "heading",
+      "text": "Exclusions"
+    },
+    {
+      "type": "heading",
+      "text": "Some files and folders do not need to be backed up unless you are"
+    },
+    {
+      "type": "paragraph",
+      "text": "imaging a disk (in which case the image must looks exactly like the disk)."
+    },
+    {
+      "type": "heading",
+      "text": "Operating system paging files and other temporary files that serve no"
+    },
+    {
+      "type": "paragraph",
+      "text": "purpose if a system is restored, for example, need not be backed up. The following are examples of some such files and folders that you can exclude from backups on a Windows 10 machine. If you're using backup software, the software likely comes with a built-in list of default exclusions that may resemble this list:"
+    },
+    {
+      "type": "heading",
+      "text": "The Recycle Bin, which effectively temporarily backs up deleted"
+    },
+    {
+      "type": "paragraph",
+      "text": "files in case a user changes his or her mind about deleting them"
+    },
+    {
+      "type": "heading",
+      "text": "Browser caches, which are temporary Internet files from web"
+    },
+    {
+      "type": "paragraph",
+      "text": "browsers, such as Microsoft Edge or Internet Explorer, Firefox,"
+    },
+    {
+      "type": "heading",
+      "text": "Chrome, Vivaldi, or Opera"
+    },
+    {
+      "type": "heading",
+      "text": "Temporary folders, which are often called Temp or temp and reside"
+    },
+    {
+      "type": "paragraph",
+      "text": "in c:\\, in the user directory, or in the data directory of software"
+    },
+    {
+      "type": "heading",
+      "text": "Temporary files, which are usually named *.tmp or *.temp"
+    },
+    {
+      "type": "heading",
+      "text": "Operating system swap files, such as pagefile.sys"
+    },
+    {
+      "type": "paragraph",
+      "text": "Operating system hibernation-mode system image information, such as hyberfil.sys"
+    },
+    {
+      "type": "heading",
+      "text": "Backups (unless you want to back up your backups), such as"
+    },
+    {
+      "type": "heading",
+      "text": "Windows File History"
+    },
+    {
+      "type": "heading",
+      "text": "Operating system files backed up during an operating system"
+    },
+    {
+      "type": "paragraph",
+      "text": "upgrade, as usually found in C:\\Windows.old on Windows computers that have had their operating systems upgraded"
+    },
+    {
+      "type": "heading",
+      "text": "Microsoft Outlook cache files (*.ost), but Outlook local data stores"
+    },
+    {
+      "type": "paragraph",
+      "text": "(*.pst) should be backed up (in fact, in many cases, they may be the most critical files in a backup)"
+    },
+    {
+      "type": "heading",
+      "text": "Performance log files in directories called PerfLogs"
+    },
+    {
+      "type": "heading",
+      "text": "Junk files that users create as personal temporary files to hold"
+    },
+    {
+      "type": "paragraph",
+      "text": "information, such as a text file in which the user types a phone number that someone dictated to him or her, but that the user has since entered into his or her smartphone directory"
+    },
+    {
+      "type": "heading",
+      "text": "In-app backups"
+    },
+    {
+      "type": "heading",
+      "text": "Some applications have built-in backup capabilities that protect you"
+    },
+    {
+      "type": "paragraph",
+      "text": "from losing your work if your computer crashes, power fails, or you don't have battery power left."
+    },
+    {
+      "type": "heading",
+      "text": "One such program is Microsoft Word, which offers users the ability to"
+    },
+    {
+      "type": "paragraph",
+      "text": "configure how often files should be saved for AutoRecover. For most people, this feature is quite valuable. The author of this book even benefited from this feature while writing this book!"
+    },
+    {
+      "type": "heading",
+      "text": "While the mechanism of configuring AutoRecover varies between some"
+    },
+    {
+      "type": "paragraph",
+      "text": "versions of Word, in most modern versions, the process is the following or something similar: Choose File  ⇒  Options  ⇒  Save and configure the options according to your taste."
+    },
+    {
+      "type": "heading",
+      "text": "In-app backups usually take just seconds to configure, normally"
+    },
+    {
+      "type": "paragraph",
+      "text": "run without your being actively involved, and can save you a lot of aggravation. In almost all cases, you should enable the feature if it exists."
+    },
+    {
+      "type": "heading",
+      "text": "Exploring Backup Tools"
+    },
+    {
+      "type": "paragraph",
+      "text": "You can use multiple types of tools to create, manage, and restore from backups. Tools can automate various types of backups, for example, or can manage the process of a perpetual syncing backup. Backup tools come in wide variety of price ranges, depending on their robustness and scalability."
+    },
+    {
+      "type": "heading",
+      "text": "Backup software"
+    },
+    {
+      "type": "heading",
+      "text": "Backup software is software designed specifically to run and manage"
+    },
+    {
+      "type": "paragraph",
+      "text": "backups and restorations from backups. You can find multiple vendors of such software, with exact features varying between products and between the platforms that they support (for example, features may vary between Windows and Mac versions of the same backup software package). Some offerings are intended for home users, some for large enterprises, and others for pretty much every level in between."
+    },
+    {
+      "type": "heading",
+      "text": "You can use backup software to manually or automatically backup --"
+    },
+    {
+      "type": "paragraph",
+      "text": "that is, you can configure it to backup specific systems, data, drives, or folders at specific times, using different backup models, such as full, incremental, and so on."
+    },
+    {
+      "type": "heading",
+      "text": "Backups can run only if a machine is on. So, be sure that your"
+    },
+    {
+      "type": "paragraph",
+      "text": "device to be backed up is on at those times! (Some backup software can be configured in cases of a missed backup to run the backup the next time that the device is booted or is idle.)"
+    },
+    {
+      "type": "heading",
+      "text": "Backup software can take some time to set up, but after you do"
+    },
+    {
+      "type": "paragraph",
+      "text": "so, it can often make the process of creating proper backups much easier than any other method of backing up. Ideally, you should configure your systems to automatically back up at specific times to make sure that you actually back up and don't neglect doing so while you do any of the many things that come up in life."
+    },
+    {
+      "type": "heading",
+      "text": "Do not confuse these manual and automatic options with manual"
+    },
+    {
+      "type": "paragraph",
+      "text": "and automated task copying."
+    },
+    {
+      "type": "heading",
+      "text": "If you just worked on some important project or spent many hours"
+    },
+    {
+      "type": "paragraph",
+      "text": "creating some new work on your computer, however, you may want to kick off an extra manual backup to protect your work and the time that you invested in it."
+    },
+    {
+      "type": "heading",
+      "text": "Beware of bogus backup software! Unscrupulous parties offer"
+    },
+    {
+      "type": "paragraph",
+      "text": "free backup software that contains malware of various severity, ranging from annoying adware to data-stealing infectors. Make sure that you obtain your backup software (as well as any other software that you use) from a reliable source."
+    },
+    {
+      "type": "heading",
+      "text": "Drive-specific backup software"
+    },
+    {
+      "type": "heading",
+      "text": "Some external hard drives and solid state devices come with built-in"
+    },
+    {
+      "type": "paragraph",
+      "text": "backup software. Such software is often extremely intuitive and easy to use, and users may find it the most convenient way to set up their backup routines. Three caveats, however:"
+    },
+    {
+      "type": "heading",
+      "text": "Remember not to leave the drive connected to the system holding the"
+    },
+    {
+      "type": "paragraph",
+      "text": "primary data store."
+    },
+    {
+      "type": "heading",
+      "text": "If you use drive-specific versions of backup software, you may need"
+    },
+    {
+      "type": "paragraph",
+      "text": "to purchase all your backup drives from the same manufacturer in order not to complicate backup and restore procedures."
+    },
+    {
+      "type": "heading",
+      "text": "Drive-specific software is less likely to support newer technologies"
+    },
+    {
+      "type": "paragraph",
+      "text": "as they emerge from other vendors than is general backup software."
+    },
+    {
+      "type": "heading",
+      "text": "Windows Backup"
+    },
+    {
+      "type": "heading",
+      "text": "Windows comes equipped with basic backup software built in. The"
+    },
+    {
+      "type": "paragraph",
+      "text": "software sports several features, and, for many people, may be sufficient. Using Windows Backup is certainly better than not backing up at all. You can configure Windows Backup in two places: In the Settings App, in the Update and Security Section."
+    },
+    {
+      "type": "heading",
+      "text": "Via the traditional Control Panel, which can be run from the Start"
+    },
+    {
+      "type": "heading",
+      "text": "Menu. Backup and Restore is an item in the traditional All Items"
+    },
+    {
+      "type": "paragraph",
+      "text": "view or in the System and Security section of the modern view. Additionally, a Windows File Backup utility automatically backs up files as you modify them. You can access its configuration options via the Control Panel File History option. If you have plenty of disk space and work efficiently, make sure that your files are backed up quite often. For more on restoring files from Windows File History, see Chapter 15."
+    },
+    {
+      "type": "heading",
+      "text": "Smartphone/tablet backup"
+    },
+    {
+      "type": "paragraph",
+      "text": "Many devices come equipped with the ability to automatically sync your data to the cloud -- a process that allows you to restore the data to a new device if your device is lost or stolen. Even devices that do not have this feature built in almost always can run software that effectively delivers these features for a specific folder tree or drive. Using the sync feature provides great protection, but it also means that your data is sitting in the cloud -- which, simply means that it is on someone else's computer -- and potentially accessible to both the cloud- service provider (in the case of most smartphones, the provider would be"
+    },
+    {
+      "type": "heading",
+      "text": "Apple or Google), as well as to any government agencies that demand"
+    },
+    {
+      "type": "paragraph",
+      "text": "access to the relevant data while armed with a warrant, rogue insiders, or hackers who manage to somehow obtain access to it."
+    },
+    {
+      "type": "heading",
+      "text": "Even if you haven't committed any crimes, the government may"
+    },
+    {
+      "type": "paragraph",
+      "text": "still demand your data as part of data collection procedures related to crimes committed by other people. Even if you trust the government not to abuse your data, the government itself has had several breaches and data leaks, so you have good reason not to trust it to adequately protect your information from being stolen by other parties who may abuse it. Before you decide whether or not to use the sync, think about the pros and cons."
+    },
+    {
+      "type": "heading",
+      "text": "Manual file or folder copying backups"
+    },
+    {
+      "type": "heading",
+      "text": "Manual backups are exactly what they sound like: backups performed"
+    },
+    {
+      "type": "paragraph",
+      "text": "manually, often by people copying files, folders, or both from their primary hard drive (or solid-state drive) to a network folder or thumb drive."
+    },
+    {
+      "type": "heading",
+      "text": "Manual backups have their purpose, but using them on their own"
+    },
+    {
+      "type": "paragraph",
+      "text": "is not usually a good backup strategy. People inevitably do not perform such backups as frequently as they should, do not properly store such backups, and often do not back up all the items they should be storing copies of."
+    },
+    {
+      "type": "heading",
+      "text": "Automated task file or folder copying backups"
+    },
+    {
+      "type": "heading",
+      "text": "Automated-task backups are essentially manual backups on steroids;"
+    },
+    {
+      "type": "paragraph",
+      "text": "they are manual backups that are run by a computer automatically instead of by people manually kicking them off. While automating the backup process reduces the risk of forgetting to back up or not backing up due to someone being hurried, file and folder copying is still risky because if some sensitive information is, for some reason, not stored in the proper folder, it may not be backed up."
+    },
+    {
+      "type": "heading",
+      "text": "One possible exception is the case of virtual drives. If someone"
+    },
+    {
+      "type": "paragraph",
+      "text": "automates the process of copying of the file containing the entire drive on which he or she stores all of his or her data files, such backups may be sufficient. For most home users, however, setting up an automated copying routine is not a practical solution. Using backup software is a far simpler, and better, option."
+    },
+    {
+      "type": "heading",
+      "text": "Third-party backups of data hosted at third"
+    },
+    {
+      "type": "paragraph",
+      "text": "parties If you store any data in the cloud or use a third-party service to host any of your systems or data, the party that owns the physical and/or virtual systems on which your data resides may or may not back it up -- often without your knowledge or approval. If you store data on a Google"
+    },
+    {
+      "type": "heading",
+      "text": "Drive, for example, you have absolutely no control over how many"
+    },
+    {
+      "type": "paragraph",
+      "text": "copies Google makes of your data. Likewise, if you use a third-party service such as Facebook, any data that you upload to the social media giant's servers -- regardless of the privacy settings that you set for the uploads (or possibly even if you deleted them) -- may be backed up by Facebook to as many backups as the firm so desires, in as many different locations as the firm desires."
+    },
+    {
+      "type": "heading",
+      "text": "In some cases, third-party backups resemble drive backups. While the"
+    },
+    {
+      "type": "paragraph",
+      "text": "provider has your data backed up, only you -- the party who \"owns\" the data -- can actually read it in an unencrypted form from the backup. In other cases, however, the backed-up data is available to anyone who has access to the backup. That said, most major third parties have robust redundant infrastructure and backup systems in place, meaning that the odds that data stored on their infrastructure will remain available to users is extremely high when compared with data in most people's homes."
+    },
+    {
+      "type": "heading",
+      "text": "Knowing Where to Back Up"
+    },
+    {
+      "type": "paragraph",
+      "text": "For backups to have any value, they must be properly stored so they can be quickly and easily accessed when needed. Furthermore, improper storage of backups can severely undermine the security of information contained within the backups. You've probably heard stories of unencrypted backup tapes that contained sensitive information on them getting lost or stolen. That said, there is not a one-size-fits-all approach to proper storage of backups. You can back up in different places, which results in different storage locations."
+    },
+    {
+      "type": "heading",
+      "text": "Local storage"
+    },
+    {
+      "type": "heading",
+      "text": "Storing a local copy of your backup -- meaning somewhere near a home"
+    },
+    {
+      "type": "paragraph",
+      "text": "computer or readily accessible to the owner of a smartphone, tablet, or laptop -- is a good idea. If you accidentally delete a file, you can quickly restore it from the backup."
+    },
+    {
+      "type": "heading",
+      "text": "That said, you should never keep all your backups local. If you"
+    },
+    {
+      "type": "paragraph",
+      "text": "store your backups in your house, for example, and your house were to be severely damaged in a natural disaster, you could simultaneously lose your primary data store (for example, your home computer) and your backups."
+    },
+    {
+      "type": "heading",
+      "text": "Backups should always be stored in a secure location -- not on a"
+    },
+    {
+      "type": "paragraph",
+      "text": "bookshelf. A fireproof and waterproof safe bolted down to the floor or fastened to the wall are two good options."
+    },
+    {
+      "type": "heading",
+      "text": "Also, keep in mind that hard drives and other magnetic media are less"
+    },
+    {
+      "type": "paragraph",
+      "text": "likely to survive certain disasters than solid-state drives, thumb drives, and other devices containing memory chips."
+    },
+    {
+      "type": "heading",
+      "text": "Offsite storage"
+    },
+    {
+      "type": "heading",
+      "text": "Because one of the purposes of backing up is to have the ability to"
+    },
+    {
+      "type": "paragraph",
+      "text": "preserve data (and systems) even if your primary copy is destroyed, you want to have at least one backup offsite -- meaning in a different location than your primary data store."
+    },
+    {
+      "type": "heading",
+      "text": "Opinions differ as to how far away from the primary store the backup"
+    },
+    {
+      "type": "paragraph",
+      "text": "should be kept. Essentially, the general rule is to keep the backups far away enough that a natural disaster that severely impacts the primary site would not impact the secondary."
+    },
+    {
+      "type": "heading",
+      "text": "Some people store a backup copy of their data in a fireproof and"
+    },
+    {
+      "type": "paragraph",
+      "text": "waterproof bag inside a safe deposit box. Bank safes typically survive natural disasters, so even if the bank is relatively close to the primary site, the backup is likely to survive even if it cannot be retrieved for several days."
+    },
+    {
+      "type": "heading",
+      "text": "Cloud"
+    },
+    {
+      "type": "paragraph",
+      "text": "Backing up the cloud offers the benefits of offsite storage. If you lose all your equipment and systems to a natural disaster, for example, a copy of your data will almost always still exist in the cloud. Also, from a practical standpoint, the odds are that the information-security team at any major provider of cloud storage has much greater knowledge of how to keep data secure than do most individuals and have at their disposal tools that the average person cannot afford to purchase or license. At the same time, cloud-based backup has its drawbacks."
+    },
+    {
+      "type": "heading",
+      "text": "When using cloud-based backup, you are relying on a third-party to"
+    },
+    {
+      "type": "paragraph",
+      "text": "protect your data. While that party may have more knowledge and better tools at its disposal, its primary concern is not you. If a breach occurs, for example, and large customers are impacted, its priorities may lie in addressing their concerns before addressing yours. Also, major sites are often major targets for hackers because they know that such sites contain a treasure trove of data, far greater than what they may be able to lift from your home PC. Of course, if the government serves the cloud provider a warrant, law enforcement agents may obtain copies of your backups -- even, in some cases, if the warrant was served because it has demonstrated probable cause only that someone else (and not you) committed a crime."
+    },
+    {
+      "type": "heading",
+      "text": "That said, for most people, cloud-based backup makes sense, with the"
+    },
+    {
+      "type": "paragraph",
+      "text": "pros outweighing the cons, especially if you encrypt your backups, thereby making their contents inaccessible to the cloud provider."
+    },
+    {
+      "type": "heading",
+      "text": "When it comes to computers, cloud really means \"someone"
+    },
+    {
+      "type": "paragraph",
+      "text": "else's computers.\" Anytime you store sensitive data, including sensitive data within in backups, in the cloud, you're really storing it on some physical computer belonging to someone else. The cloud provider may offer better security than you can offer yourself, but do not expect that your using the cloud will somehow magically eliminate cybersecurity risks."
+    },
+    {
+      "type": "heading",
+      "text": "Network storage"
+    },
+    {
+      "type": "paragraph",
+      "text": "Backing up to a network drive offers a blend of features from several of the prior locations for storing backups. Like a local backup, a network backup is normally readily available, but, perhaps, at a slightly lower speed."
+    },
+    {
+      "type": "heading",
+      "text": "Like an offsite backup, if the network server on which the backup is"
+    },
+    {
+      "type": "paragraph",
+      "text": "located is offsite, the backup is protected from site problems at the primary data's site. Unlike offsite backup, however, unless you know for sure that the files are offsite, they may be in the same facility as the primary data."
+    },
+    {
+      "type": "heading",
+      "text": "Like cloud backup, network based backup can be restored to other"
+    },
+    {
+      "type": "paragraph",
+      "text": "devices on your network. Unlike cloud backup, it may be accessible to only devices on the same private network (which, may be a problem, or, in some situations, a good thing from a security standpoint)."
+    },
+    {
+      "type": "heading",
+      "text": "Also, network storage is often implemented with redundant disks and"
+    },
+    {
+      "type": "paragraph",
+      "text": "with automatic backups, offering better protection of your data that many other storage options."
+    },
+    {
+      "type": "heading",
+      "text": "If you use network storage for backups, make sure that whatever"
+    },
+    {
+      "type": "paragraph",
+      "text": "mechanism you are using to run the backup (for example, backup software) has the proper network permissions to write to the storage. In many cases, you may need to configure a login and password."
+    },
+    {
+      "type": "heading",
+      "text": "Mixing locations"
+    },
+    {
+      "type": "paragraph",
+      "text": "There is no reason to only back up to one location. From the perspective of restoring data quickly, the more places that you have your data securely backed up, the better. In fact, different locations provider different types of protection optimized for different situations. Keeping one copy local so that you can quickly restore a file that you accidentally delete, as well as maintaining a backup in the cloud in case of natural disaster, for example, makes sense for many people."
+    },
+    {
+      "type": "heading",
+      "text": "Keep in mind, however, that if you do store backups in multiple"
+    },
+    {
+      "type": "paragraph",
+      "text": "locations you need to make sure all the locations are secure. If you can't be sure about the security of some form of backup, beware and do not back up there just because \"the more backups, the better.\""
+    },
+    {
+      "type": "heading",
+      "text": "As different backup locations provide different strengths and"
+    },
+    {
+      "type": "paragraph",
+      "text": "weaknesses, utilizing multiple backup locations can protect you better against more risks than using just one site."
+    },
+    {
+      "type": "heading",
+      "text": "Knowing Where Not to Store"
+    },
+    {
+      "type": "heading",
+      "text": "Backups"
+    },
+    {
+      "type": "paragraph",
+      "text": "Never, ever, store backups attached to your computer or network, unless you have another backup that you are willing to recover in case of a malware attack. Ransomware that infects your computer and renders the files on it inaccessible to you may do the same to your attached backup."
+    },
+    {
+      "type": "heading",
+      "text": "After backing up, never leave backup hard drives or solid-state"
+    },
+    {
+      "type": "paragraph",
+      "text": "drives connected to the systems or networks that they are backing up. Any malware that infects the primary system can spread to the backups as well. Removing your backup from being connected to the material that it is backing up can make all the difference between quickly recovering from a ransomware attack and having to pay an expensive ransom to a criminal."
+    },
+    {
+      "type": "heading",
+      "text": "If you back up to write-once, read-many-times type media, which is"
+    },
+    {
+      "type": "paragraph",
+      "text": "most commonly found today in the form of CD-Rs and DVD-Rs, it is safe to leave the backup in an attached drive after you have finalized the backup recording and set the disk to read-only."
+    },
+    {
+      "type": "heading",
+      "text": "Encrypting Backups"
+    },
+    {
+      "type": "paragraph",
+      "text": "Backups can easily become a weak point in the data protection security chain. People who are diligent about protecting their personal information, and organizations that are careful to do the same with their confidential and proprietary information, often fail to afford the same level of protection to the exact same data when it resides in backups rather than in its primary location. How often do we hear news stories, for example, of sensitive data put at risk because it was present in an unencrypted form on backups tapes that were lost or stolen? In general, if you're not sure if you should encrypt your backup, you probably should."
+    },
+    {
+      "type": "heading",
+      "text": "Be sure to encrypt your backups if they contain any sensitive"
+    },
+    {
+      "type": "paragraph",
+      "text": "information, which, in most cases, they do. After all, if data is important enough to be backed up, the odds are pretty good that at least some of it is sensitive and should be encrypted."
+    },
+    {
+      "type": "heading",
+      "text": "Just be sure to properly protect the password needed to unlock the"
+    },
+    {
+      "type": "paragraph",
+      "text": "backups. Remember, it may be a while before you actually need to use the backups, so do not rely on your memory, unless you practice using that password on a regular basis to test the backups."
+    },
+    {
+      "type": "heading",
+      "text": "From a practical standpoint, many professional system"
+    },
+    {
+      "type": "paragraph",
+      "text": "administrators who deal with multiple backups every day have never seen a backup that did not need to be encrypted."
+    },
+    {
+      "type": "heading",
+      "text": "Figuring Out How Often You"
+    },
+    {
+      "type": "heading",
+      "text": "Should Backup"
+    },
+    {
+      "type": "heading",
+      "text": "No simple one-size-fits-all rule applies as to how often you should"
+    },
+    {
+      "type": "paragraph",
+      "text": "backup your system and data. In general, you want to ensure that you never lose enough work that it would cause you significant heartache. Performing a full backup every day requires the most amount of storage space for backups and also takes the most time to run. However, doing so means that more total copies of data are available -- so, if a backup were to go bad at the same time as the primary data store, less data is likely to be lost -- and fewer backups are required to perform a system or data restoration."
+    },
+    {
+      "type": "heading",
+      "text": "Performing a full backup everyday may be feasible for many"
+    },
+    {
+      "type": "paragraph",
+      "text": "individuals, especially those who can run the backups after work hours or while they are asleep at night. Such a strategy offers the best protection. With storage prices plummeting in recent years, the cost of doing so, which was once prohibitive for most individuals, is now affordable to most folks."
+    },
+    {
+      "type": "heading",
+      "text": "Some people and organizations choose to perform a weekly full backup"
+    },
+    {
+      "type": "paragraph",
+      "text": "and couple that backup with daily incremental or differential backups. The former strategy provides the fastest backup routine; the latter offers the faster recovery routine and reduces the number of backups needed in order to perform a restore to a maximum of two instead of seven."
+    },
+    {
+      "type": "heading",
+      "text": "Additionally, consider using manual backups or an automated"
+    },
+    {
+      "type": "paragraph",
+      "text": "in-app backup scheme if you are working on important materials during the day. Using the in-app automated backups in Word, for example, can protect you from losing hours of work if your computer crashes. Likewise, copying documents to a second location can prevent losing significant work if your hard drive or SSD fails."
+    },
+    {
+      "type": "heading",
+      "text": "For apps that do not have in-app-auto-backup capabilities, some folks"
+    },
+    {
+      "type": "paragraph",
+      "text": "have suggested periodically using the Windows or Mac Send menu option to send to themselves via email copies of files that they are working on. While doing so is clearly not a formal backup strategy, it does provide a way of backing up work during the day between regular backups and often does so offsite, ensuring that if one's computer were to die suddenly, an entire day's worth of work would not be lost."
+    },
+    {
+      "type": "heading",
+      "text": "In general, if you are not sure if you are backing up often"
+    },
+    {
+      "type": "paragraph",
+      "text": "enough, you probably aren't."
+    },
+    {
+      "type": "heading",
+      "text": "Disposing of Backups"
+    },
+    {
+      "type": "paragraph",
+      "text": "People and organizations often store backups for long periods of time -- sometimes preserving materials for so long that the encryption used to protect the sensitive data on backup media is no longer sufficient to adequately protect the information from prying eyes. As such, it is imperative that, from time to time, you either destroy your backups or re-create them."
+    },
+    {
+      "type": "heading",
+      "text": "Both hardware and software formats change over time. If you"
+    },
+    {
+      "type": "paragraph",
+      "text": "backed up to tapes in the 1980s, to Bernoulli Boxes in the early 1990s, or to Zip drives in the late 1990s, you may have difficulty restoring from the backups today because you may have problems obtaining the necessary hardware, compatible drivers, and other software needed to read the backups on a modern computer."
+    },
+    {
+      "type": "heading",
+      "text": "Likewise, if you backed up data along with various DOS programs or"
+    },
+    {
+      "type": "paragraph",
+      "text": "early Windows 16-bit executables needed to process the contents of those backups, you may be unable to restore from the backups to many modern machines that may be unable to run the executables. Obviously, if you did a full system image of a machine 20 years ago, you are going to have difficulty restoring from the image today (you may be able to do so using virtual machines -- something well beyond the technical skill level of most users)."
+    },
+    {
+      "type": "heading",
+      "text": "Even some older versions of data files may not work easily. Word"
+    },
+    {
+      "type": "paragraph",
+      "text": "documents from the mid-1990s, for example, which can be infected with various forms of malware, do not open in modern versions of Word unless a user enables such access, which may be difficult or impossible to do in certain corporate environments. Files formats utilized specifically by software that has long since disappeared entirely from the market may be even harder to open."
+    },
+    {
+      "type": "heading",
+      "text": "As such, old backups may not have much value to you anyway. So, once"
+    },
+    {
+      "type": "paragraph",
+      "text": "a backup is no longer valuable or once its data protection may be at risk of compromise, get rid of it."
+    },
+    {
+      "type": "heading",
+      "text": "How should you dispose of the backup tapes, disks, and so on? Can you"
+    },
+    {
+      "type": "paragraph",
+      "text": "just throw them in the trash? No. Do not. Doing so can totally undermine the security of the data in the backups. Instead, utilize one of the following methods:"
+    },
+    {
+      "type": "heading",
+      "text": "Overwriting: Various software programs will write over every"
+    },
+    {
+      "type": "paragraph",
+      "text": "sector of the storage media several times (the actual number of times depends on the security level that the user specifies), making subsequent recovery of data from the decommissioned media difficult, if not impossible."
+    },
+    {
+      "type": "heading",
+      "text": "Degaussing: Various devices containing strong magnets can be used"
+    },
+    {
+      "type": "paragraph",
+      "text": "to physically render data on magnetic media (such as hard drives and floppy disks) inaccessible by exposing the media to a strong magnetic field."
+    },
+    {
+      "type": "heading",
+      "text": "Incineration: Burning storage media in a high-temperature fire is"
+    },
+    {
+      "type": "paragraph",
+      "text": "often enough to destroy it. Do not attempt this on your own. If you want to pursue such a method, find a professional with experience. The incineration process varies based on the type of media involved."
+    },
+    {
+      "type": "heading",
+      "text": "Shredding: Cutting the media into tiny pieces. Ideally, such media"
+    },
+    {
+      "type": "paragraph",
+      "text": "should be totally pulverized into dust. In any case, shredding using an old-fashioned shredder that cuts media into strips is generally not considered secure disposal of media that has not been previously overwritten or degaussed."
+    },
+    {
+      "type": "heading",
+      "text": "I can't overstate the importance of properly storing and"
+    },
+    {
+      "type": "paragraph",
+      "text": "disposing of backups. Serious data leaks have resulted from backup media that was lost after being stored for quite some time."
+    },
+    {
+      "type": "heading",
+      "text": "Testing Backups"
+    },
+    {
+      "type": "heading",
+      "text": "Many folks have thought that they had proper backups only to discover"
+    },
+    {
+      "type": "paragraph",
+      "text": "at the time that they needed to restore that the backups were corrupted. Hence, testing backups is critical."
+    },
+    {
+      "type": "heading",
+      "text": "While, theoretically, you should test every backup that you make and"
+    },
+    {
+      "type": "paragraph",
+      "text": "test that every single item within the backup can be restored, such a scheme is impractical for most people. Do, however, test the first backup that you make with any software, check the auto-recover files the first time that you use Word, and so on."
+    },
+    {
+      "type": "heading",
+      "text": "Some backup software comes with the capability to verify backups --"
+    },
+    {
+      "type": "paragraph",
+      "text": "that is, after making a backup, it checks that the original data and data in the backups match. Running such verification after making a backup adds significant time to the backup process, but is well worth running if you can do so because it helps ensure that nothing was improperly recorded or otherwise became corrupted during the backup process."
+    },
+    {
+      "type": "heading",
+      "text": "Conducting Cryptocurrency"
+    },
+    {
+      "type": "heading",
+      "text": "Backups"
+    },
+    {
+      "type": "paragraph",
+      "text": "Because cryptocurrency (see Chapter 1) is tracked on a ledger and not stored in a bank, backing up cryptocurrency involves backing up the private keys used to control the addresses in the ledger at which one has cryptocurrency, not backing up the cryptocurrency itself. Often, keys are not maintained electronically. They're printed on paper and stored in a bank vault or fireproof safe."
+    },
+    {
+      "type": "heading",
+      "text": "For those who use hardware wallets to store the keys to their"
+    },
+    {
+      "type": "paragraph",
+      "text": "cryptocurrency, the backup for the wallet device is often a recovery seed, which is a list of words that allows the device to re-create the keys needed for the relevant addresses. It is generally accepted that the list of words should be written down on paper and stored in a bank vault and/or safe -- not stored electronically."
+    },
+    {
+      "type": "heading",
+      "text": "Backing Up Passwords"
+    },
+    {
+      "type": "heading",
+      "text": "Anytime that you back up lists of passwords, make sure to do so"
+    },
+    {
+      "type": "paragraph",
+      "text": "in a secure manner. For important passwords that do not change often and are not likely to be needed on an urgent basis, consider making no digital records of them at all. Instead, write them down on a piece of paper and put that paper in a bank safe deposit box."
+    },
+    {
+      "type": "heading",
+      "text": "Creating a Boot Disk"
+    },
+    {
+      "type": "paragraph",
+      "text": "If you ever need to re-create your system, you will need the ability to boot the computer, so as part of the backup process, you should create a boot table disk. For most smartphones and tablets, creating a boot disk is not an issue because resetting the device to factory settings will make it bootable."
+    },
+    {
+      "type": "heading",
+      "text": "Such simplicity is not, however, always the case with computers, so"
+    },
+    {
+      "type": "paragraph",
+      "text": "when you perform your first backup you should ideally make a bootable disk that you know is safe to boot from (in other words, no malware and so on). Most backup software packages will walk you through this process, and some computer manufacturers will do the same on your initial startup of the system. Various security software packages are distributed on bootable CDs or DVDs as well."
+    }
+  ]
+}

@@ -1,0 +1,182 @@
+{
+  "num": 0,
+  "type": "intro",
+  "title": "Introduction",
+  "part": "Introduction",
+  "pages": "14 to 20",
+  "in_this_chapter": [],
+  "content": [
+    {
+      "type": "heading",
+      "text": "Introduction"
+    },
+    {
+      "type": "paragraph",
+      "text": "In the course of just a single generation, the world has undergone some of the greatest changes since the dawn of mankind. The availability of the Internet as a tool for consumers and businesses alike, coupled with the invention of mobile devices and wireless networking, have ushered in an Information Revolution that has impacted just about every aspect of human existence. This reliance on technology, however, has also created enormous risks. It seems that not a day goes by without some new story emerging of a data breach, cyberattack, or the like. Simultaneously, because humanity's reliance on technology increases on a daily basis, the potential adverse consequences of cyberattacks have grown exponentially to the point that people can now lose their fortunes, their reputations, their health, or even their lives, as the result of cyberattacks."
+    },
+    {
+      "type": "heading",
+      "text": "It is no wonder, therefore, that people living in the modern world"
+    },
+    {
+      "type": "paragraph",
+      "text": "understand the need to protect themselves from cyber-dangers. This book shows you how to do so."
+    },
+    {
+      "type": "heading",
+      "text": "About This Book"
+    },
+    {
+      "type": "heading",
+      "text": "While many books have been written over the past couple decades on a"
+    },
+    {
+      "type": "paragraph",
+      "text": "wide variety of cybersecurity-related topics, most of them don't provide the general population with the information needed to properly protect themselves."
+    },
+    {
+      "type": "heading",
+      "text": "Many cybersecurity books are directed toward highly technical"
+    },
+    {
+      "type": "paragraph",
+      "text": "audiences and tend to overwhelm noncomputer scientists with extraneous information, creating severe challenges for readers seeking to translate the knowledge that they acquire from books into practical actions. On the flip side, various self-published introduction-to- cybersecurity books suffer from all sorts of serious deficiencies, including, in some cases, having been written by non-experts and presenting significant amounts of misinformation. Anyone interested in cybersecurity often shouldn't trust these materials. Likewise, many security tip sheets and the like simply relay oft-repeated clichés and outdated advice, sometimes causing people who follow the recommendations contained within such works to worsen their cybersecurity postures rather than improve them. Furthermore, the nearly constant repetition of various cybersecurity advice by media personalities after news stories about breaches (\"Don't forget to reset all your passwords!\"), coupled with the lack of consequences to most people after they do not comply with such directives, has led to cybersecurity fatigue -- a condition in which folks simply don't act when they actually need to because they have heard the \"boy cry wolf\" one too many times."
+    },
+    {
+      "type": "heading",
+      "text": "I wrote Cybersecurity For Dummies to provide people who do not work"
+    },
+    {
+      "type": "paragraph",
+      "text": "as cybersecurity professionals with a foundational book that can teach them what they need to know about cybersecurity and explain why they need to know it. This book offers you practical, clear, and straightforward advice that you can easily translate into actions that can help keep you and your children, parents, and small businesses cybersecure. Cybersecurity For Dummies is divided into several parts. Parts 1, 2, and 3 provide an overview of cybersecurity and give tips on protecting yourself and your loved ones from both external threats and from making dangerous (and potentially disastrous) mistakes. Topics such as how to secure your online accounts and how to select and protect passwords fall into these parts of the book. Part 4 offers tips on securing small businesses, which may be especially pertinent for small business owners and employees. Part 4 then also discusses some of the unique security needs that face firms as they grow larger and touches on cybersecurity-in-government related matters. Part 5 shows you how to identify security breaches. Part 6 covers the process of backing up, something that you should do proactively before the need to recover arises, as well as how to recover from security breaches. Part 7 looks toward the future -- both for those interested in potentially pursuing a cybersecurity-related career (or who have children or other relatives or friends considering doing so) as well as those interested in how emerging technologies are likely to impact their own personal cybersecurity. Part 8 gives several lists of ten items that you may want to keep as tip sheets. Please keep in mind that while internalizing all the information in this book, and putting it into practice, will likely dramatically improve your cybersecurity posture, reading this book will no more make you an expert in cybersecurity than reading a book on the workings of the human heart will quickly transform you into a competent cardiologist. Cybersecurity is a complex, rapidly changing field whose professionals spend years, if not decades, studying and working full-time to develop, sharpen, and maintain the skills and expertise that they utilize on a constant basis. As such, please do not consider the advice within this book as a substitute for hiring a professional for any situation that reasonably warrants the latter. Also, please keep in mind that technical products change quite often, so any screenshots included within the book may not be identical to the screens that you observe when you perform similar actions to those described in the text. Remember: Cybersecurity threats are constantly evolving, as are the technologies and approaches utilized to combat them."
+    },
+    {
+      "type": "heading",
+      "text": "Foolish Assumptions"
+    },
+    {
+      "type": "heading",
+      "text": "In this book, I make some assumptions about your experience with"
+    },
+    {
+      "type": "paragraph",
+      "text": "technology:"
+    },
+    {
+      "type": "heading",
+      "text": "You have experience with using a keyboard and pointer, such as a"
+    },
+    {
+      "type": "paragraph",
+      "text": "mouse, on either a Mac or Windows PC and have access to one of those machines. You know how to use an Internet browser, such as Firefox, Chrome, Edge, Opera, or Safari. You know how to install applications on your computer. You know how to perform a Google search."
+    },
+    {
+      "type": "heading",
+      "text": "Conventions Used in This Book"
+    },
+    {
+      "type": "heading",
+      "text": "As you explore each part of this book, keep the following points in"
+    },
+    {
+      "type": "paragraph",
+      "text": "mind: Words that are being defined appear in italic. Code and URLs (web addresses) are shown in monofont."
+    },
+    {
+      "type": "heading",
+      "text": "Icons Used in This Book"
+    },
+    {
+      "type": "paragraph",
+      "text": "Throughout the margin of this book are small images, known as icons. These icons mark important tidbits of information:"
+    },
+    {
+      "type": "heading",
+      "text": "The Tip icon identifies places where I offer additional tips for"
+    },
+    {
+      "type": "paragraph",
+      "text": "making this journey more interesting or clear. Tips cover some neat shortcuts that you may not have known about."
+    },
+    {
+      "type": "heading",
+      "text": "The Remember icon bookmarks important points that you'll"
+    },
+    {
+      "type": "paragraph",
+      "text": "want to keep in mind."
+    },
+    {
+      "type": "heading",
+      "text": "The Warning icon helps protect you from common errors and"
+    },
+    {
+      "type": "paragraph",
+      "text": "may even give you tips to undo your mistakes."
+    },
+    {
+      "type": "heading",
+      "text": "Beyond This Book"
+    },
+    {
+      "type": "heading",
+      "text": "In addition to what you're reading right now, this product also comes"
+    },
+    {
+      "type": "paragraph",
+      "text": "with a free access-anywhere Cheat Sheet that covers important cybersecurity actions. To get this Cheat Sheet, simply go to www.dummies.com and search for Cybersecurity For Dummies Cheat Sheet in the Search box."
+    },
+    {
+      "type": "heading",
+      "text": "Where to Go from Here"
+    },
+    {
+      "type": "paragraph",
+      "text": "Cybersecurity For Dummies is designed in such a fashion that you don't have to read the book in order or even read the entire book. If you purchased this book because you suffered a cybersecurity breach of some sort, for example, you can skip to the Part 5 without reading the prior material (although reading it afterwards may be wise, as it may help you prevent yourself from becoming the victim of another cyberattack). Part 1"
+    },
+    {
+      "type": "heading",
+      "text": "Getting Started with"
+    },
+    {
+      "type": "heading",
+      "text": "Cybersecurity"
+    },
+    {
+      "type": "heading",
+      "text": "IN THIS PART …"
+    },
+    {
+      "type": "heading",
+      "text": "Discover what cybersecurity is and why defining it is more difficult"
+    },
+    {
+      "type": "paragraph",
+      "text": "than you might expect."
+    },
+    {
+      "type": "heading",
+      "text": "Find out why breaches seem to occur so often and why"
+    },
+    {
+      "type": "paragraph",
+      "text": "technology alone does not seem to stop them."
+    },
+    {
+      "type": "heading",
+      "text": "Explore various types of common cyberthreats and common"
+    },
+    {
+      "type": "paragraph",
+      "text": "cybersecurity tools."
+    },
+    {
+      "type": "heading",
+      "text": "Understand the who, how, and why of various types of attackers"
+    },
+    {
+      "type": "paragraph",
+      "text": "and threatening parties that aren't officially malicious."
+    }
+  ]
+}

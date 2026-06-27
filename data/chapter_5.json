@@ -1,0 +1,585 @@
+{
+  "num": 5,
+  "type": "chapter",
+  "title": "Chapter 5: Enhancing Physical Security",
+  "part": "Part 2: Improving Your Own Personal Security",
+  "pages": "115 to 130",
+  "in_this_chapter": [
+    "Understanding the basics of physical security for data and",
+    "electronic devices Identifying what needs protection Reducing physical security risks"
+  ],
+  "content": [
+    {
+      "type": "heading",
+      "text": "Enhancing Physical Security"
+    },
+    {
+      "type": "paragraph",
+      "text": "IN THIS CHAPTER"
+    },
+    {
+      "type": "heading",
+      "text": "Understanding the basics of physical security for data and"
+    },
+    {
+      "type": "paragraph",
+      "text": "electronic devices"
+    },
+    {
+      "type": "heading",
+      "text": "Identifying what needs protection"
+    },
+    {
+      "type": "heading",
+      "text": "Reducing physical security risks"
+    },
+    {
+      "type": "paragraph",
+      "text": "You may be tempted to skip this chapter -- after all, you are reading this book to learn about cybersecurity, not physical security. But, don't."
+    },
+    {
+      "type": "heading",
+      "text": "Certain aspects of physical security are essential ingredients of any"
+    },
+    {
+      "type": "paragraph",
+      "text": "cybersecurity program, whether formal or informal. In fact, just a few decades ago, the teams responsible for protecting computers and the data housed within them focused specifically on physical security. Locking a computer in a secured area accessible by only authorized personnel was often sufficient to protect it and its contents. Of course, the dawn of networks and the Internet era, coupled with the mass proliferation of computing devices, totally transformed the risks. Today, even computers locked in a physical location can still be accessed electronically by billions of people around the world. That said, the need for physical security is as important as ever. This chapter covers elements of physical security that are necessary in order to implement and deliver proper cybersecurity. I cover the \"what and why\" that you need to know about physical security in order to keep yourself cyber-secure. Ignoring the concepts discussed in this chapter may put you at risk of a data breach equivalent to, or even worse than, one carried out by hackers."
+    },
+    {
+      "type": "heading",
+      "text": "Understanding Why Physical"
+    },
+    {
+      "type": "heading",
+      "text": "Security Matters"
+    },
+    {
+      "type": "heading",
+      "text": "Physical security means protecting something from unauthorized"
+    },
+    {
+      "type": "paragraph",
+      "text": "physical access, whether by man or nature. Keeping a computer locked in an office server closet, for example, to prevent people from tampering with it is an example of physical security. The goal of physical security is to provide a safe environment for the people and assets of a person, family, or organization. Within the context of cybersecurity, the goal of physical security is to ensure that digital systems and data are not placed at risk because of the manner in which they're physically housed."
+    },
+    {
+      "type": "heading",
+      "text": "SECRETARY OF STATE HILLARY"
+    },
+    {
+      "type": "heading",
+      "text": "CLINTON'S EMAIL PROBLEM"
+    },
+    {
+      "type": "paragraph",
+      "text": "Whenever politicians or journalists attack former U.S. Secretary of State Hillary Clinton for storing sensitive information on a server located inside a spare closet in her home in Chappaqua, New York, they're effectively accusing her of endangering national security by placing sensitive digital data in an insufficiently secure physical location. After all, as far as the risks of Internet-based hackers are concerned, digital security is what matters; to hackers from China and Russia, for example, whether her server was located in her spare closet or in a data center protected by armed guards is irrelevant. The security experts who devised our national security procedures for the handling of classified information understood the necessity of keeping such data physically secure -- it is, generally speaking, against the law to remove classified information from the secure locations in which it's intended to be handled. While many modern-day workers may telecommute and bring work home with them at times, folks who handle classified information can be sentenced to serve time in prison for even attempting to do the same with classified data. The laws governing the protection of classified information prohibit removing it from classified networks, which are never supposed to be connected to the Internet. All people who handle classified information are required to obtain clearances and be trained on the handling of sensitive information; they are required by federal law to understand, and to adhere to, strict rules. As such, Sec. Clinton should have never removed classified information from classified networks and should never have brought it home or accessed it via a server in her home. In fact, people can be charged with a crime for mishandling classified information -- even if they do so inadvertently, which is a point that the Republicans mentioned repetitively during the 2016 Presidential election."
+    },
+    {
+      "type": "heading",
+      "text": "Classified information contains secrets whose compromise can"
+    },
+    {
+      "type": "paragraph",
+      "text": "endanger American intelligence agents and operations, undermine diplomatic and military operations, and harm national security. I hope that you're not storing highly sensitive classified files in your home. If you are, you had better know a lot more about information security than is taught in this book; because removing classified information from its proper storage location is often a serious crime, I suggest that you get yourself a good lawyer. (See the nearby sidebar \"Secretary of State Hillary Clinton's email problem.\") Nonetheless, I do assume that you do have data that you want to remain confidential, available, and free from corruption. It may not be classified in the government sense, but, to you, its privacy may be of vital importance."
+    },
+    {
+      "type": "heading",
+      "text": "Taking Inventory"
+    },
+    {
+      "type": "heading",
+      "text": "Before you implement a physical security plan, you need to understand"
+    },
+    {
+      "type": "paragraph",
+      "text": "what it is that you have to secure. You likely possess more than one type of electronic device and have data that varies quite a bit in terms of the level of secrecy and sensitivity that you attach to it. Step 1 in implementing proper physical security is to understand what data and systems you have and determine what type of security level each one demands. In all likelihood, your computer devices fall into two categories:"
+    },
+    {
+      "type": "heading",
+      "text": "Stationary devices, such as a desktop computer sitting in your"
+    },
+    {
+      "type": "paragraph",
+      "text": "family room on which your teenagers play video games"
+    },
+    {
+      "type": "heading",
+      "text": "Mobile devices, such as laptops, tablets, and cellphones"
+    },
+    {
+      "type": "heading",
+      "text": "Don't forget to inventory the equipment to which your devices"
+    },
+    {
+      "type": "paragraph",
+      "text": "are connected. When you inventory your devices, pay attention to networks and networking equipment. To what networks are stationary devices attached? How many networks are in place?"
+    },
+    {
+      "type": "heading",
+      "text": "Where do they connect to the outside world? Where is the relevant"
+    },
+    {
+      "type": "paragraph",
+      "text": "network equipment located? What mobile devices connect to wirelessly?"
+    },
+    {
+      "type": "heading",
+      "text": "Stationary devices"
+    },
+    {
+      "type": "paragraph",
+      "text": "Stationary devices, such as desktop computers, networking equipment, and many Internet-of-Things devices (IoT), such as wired cameras, are devices that don't move from location to location on a regular basis. These devices can, of course, still be stolen, damaged, or misused, and, therefore, must be adequately protected. Damage need not be intentionally inflicted -- early in my career I helped troubleshoot a server problem that began when a nighttime custodian unplugged an improperly secured server from its uninterruptible power supply in order to plug in a vacuum cleaner. Yes, seriously. As it is imperative to secure stationary devices in the locations in which they \"live,\" you must inventory all such devices. Securing something that you do not know that you possess is difficult, if not impossible."
+    },
+    {
+      "type": "heading",
+      "text": "In many cases, anyone who can physically access a computer or"
+    },
+    {
+      "type": "paragraph",
+      "text": "other electronic device can access all the data and programs on that device, regardless of security systems in place. The only question is how long it will take that party to gain the unauthorized access that it desires. Never mind that anyone who can access a device can physically damage it -- whether by physically striking it, sending into it a huge power surge, dumping water on it, or setting it ablaze."
+    },
+    {
+      "type": "heading",
+      "text": "In case you think that these scenarios are far-fetched, know that I"
+    },
+    {
+      "type": "paragraph",
+      "text": "have seen all four of these options utilized by people intent on damaging computers."
+    },
+    {
+      "type": "heading",
+      "text": "Mobile devices"
+    },
+    {
+      "type": "paragraph",
+      "text": "Mobile devices are computerized devices that are frequently moved. Laptops, tablets, and smartphones are all mobile devices. In some ways mobile devices are inherently more secure than stationary devices -- you likely always have your cellphone with you, so it's not sitting at home unwatched for long periods of time as a computer may be."
+    },
+    {
+      "type": "heading",
+      "text": "That said, in reality, experience shows that portability dramatically"
+    },
+    {
+      "type": "paragraph",
+      "text": "increases the chances of a device being lost or stolen. In fact, in some ways, mobile devices are the stuff of security professionals' nightmares. The \"smartphone\" in your pocket is constantly connected to an insecure network (the Internet), contains highly sensitive data, has access tokens to your email, social media, and a whole host of other important accounts, likely lacks security software of the sophistication that is on desktop computers, is frequently in locations in which it is likely to be stolen, is often out of sight, is taken on trips that cause you to deviate from your normal routine, and so on."
+    },
+    {
+      "type": "heading",
+      "text": "Properly inventorying every mobile device so that you can properly"
+    },
+    {
+      "type": "paragraph",
+      "text": "secure all such devices is critical."
+    },
+    {
+      "type": "heading",
+      "text": "SMARTPHONES ARE A LOT MORE THAN"
+    },
+    {
+      "type": "heading",
+      "text": "SMART PHONES"
+    },
+    {
+      "type": "paragraph",
+      "text": "The term smartphone is extremely misleading -- the device in your pocket is a full- blown computer with more processing power than all the computers used to first put a man on the moon combined. It is only a smartphone in the same way that a Ferrari is a fast, horseless carriage -- a technically correct description, but one that is highly misleading. Why do you call these devices smartphones -- well, think of where you encountered your first smartphone. Most people's first experience with a smartphone was when they upgraded from a regular cellphone -- and they obtained the new devices from cellphone providers who (likely correctly) reasoned that people would be more likely to upgrade their cellphone to \"smartphones\" than to replace their cellphones with \"pocket computers that have a phone app.\""
+    },
+    {
+      "type": "heading",
+      "text": "Locating Your Vulnerable Data"
+    },
+    {
+      "type": "heading",
+      "text": "Review what data your devices house. Think of the worst-case"
+    },
+    {
+      "type": "paragraph",
+      "text": "consequences if an unauthorized person obtained your data or it leaked to the public on the Internet. No list of items to search for can possibly cover all possible scenarios, but here are some things to think about. Do you have"
+    },
+    {
+      "type": "heading",
+      "text": "Private photos and videos"
+    },
+    {
+      "type": "heading",
+      "text": "Recordings of your voice"
+    },
+    {
+      "type": "heading",
+      "text": "Images of your handwriting (especially of your signature)"
+    },
+    {
+      "type": "heading",
+      "text": "Financial records"
+    },
+    {
+      "type": "heading",
+      "text": "Medical records"
+    },
+    {
+      "type": "heading",
+      "text": "School-related documents"
+    },
+    {
+      "type": "heading",
+      "text": "Password lists"
+    },
+    {
+      "type": "heading",
+      "text": "Repositories of digital keys"
+    },
+    {
+      "type": "paragraph",
+      "text": "Documents containing:"
+    },
+    {
+      "type": "heading",
+      "text": "Credit card numbers"
+    },
+    {
+      "type": "heading",
+      "text": "SSNs/EINs/taxpayer identification numbers"
+    },
+    {
+      "type": "heading",
+      "text": "Maiden names"
+    },
+    {
+      "type": "heading",
+      "text": "Codes to physical locks or other passcodes"
+    },
+    {
+      "type": "heading",
+      "text": "Correspondence with the IRS and state tax authorities"
+    },
+    {
+      "type": "heading",
+      "text": "Lawsuit-related information"
+    },
+    {
+      "type": "heading",
+      "text": "Employment-related information"
+    },
+    {
+      "type": "heading",
+      "text": "Mother's maiden name"
+    },
+    {
+      "type": "heading",
+      "text": "Birth dates"
+    },
+    {
+      "type": "heading",
+      "text": "Passport numbers"
+    },
+    {
+      "type": "heading",
+      "text": "Driver's license numbers"
+    },
+    {
+      "type": "heading",
+      "text": "Information about your vehicles"
+    },
+    {
+      "type": "heading",
+      "text": "Information about your former addresses"
+    },
+    {
+      "type": "heading",
+      "text": "Biometric data (fingerprints, retina scan, facial geometry, keyboard"
+    },
+    {
+      "type": "paragraph",
+      "text": "dynamics, and so on) These items will need to be protected against cyberthreats, as described in multiple later chapters. But, the data stores in which they reside also need to be protected physically, as described in the next section."
+    },
+    {
+      "type": "heading",
+      "text": "Creating and Executing a Physical"
+    },
+    {
+      "type": "heading",
+      "text": "Security Plan"
+    },
+    {
+      "type": "paragraph",
+      "text": "In order to adequately physically protect your technology and data, you should not attempt to simply deploy various security controls on an ad hoc basis. Rather, it is far better to develop and implement a physical security plan -- doing so, will help you avoid making costly mistakes. In most cases, physically securing computing systems relies on applying a well-known established principal of crime prevention, known as Crime"
+    },
+    {
+      "type": "heading",
+      "text": "Prevention Through Environmental Design (CPTD), that states that you"
+    },
+    {
+      "type": "paragraph",
+      "text": "can reduce the likelihood of certain crimes being committed if you create a physical environment that allows legitimate users to feel secure, but makes ill-doers unconformable with actually carrying out any planned problematic activities. Understanding this high-level concept can help you think about ways to keep your own systems and data safe."
+    },
+    {
+      "type": "heading",
+      "text": "Three components of Crime Prevention Through Design as they apply in"
+    },
+    {
+      "type": "paragraph",
+      "text": "general to preventing crime include access control, surveillance, and marking:"
+    },
+    {
+      "type": "heading",
+      "text": "Access control: Limiting access to authorized parties, by using"
+    },
+    {
+      "type": "paragraph",
+      "text": "fences, monitored entrances and exits, proper landscaping, and so on makes it harder for criminals to penetrate a building or other facility, and increases the risk to crooks that they will be noticed, thus discouraging potential criminals from actually carrying out crimes."
+    },
+    {
+      "type": "heading",
+      "text": "Surveillance: Criminals often avoid committing crimes that are"
+    },
+    {
+      "type": "paragraph",
+      "text": "likely to be seen and recorded; as such, they gravitate away from environments that they know are well-watched. Cameras, guards, and motion-sensitive-lighting all discourage crime."
+    },
+    {
+      "type": "heading",
+      "text": "Marking: Criminals tend to avoid areas that are clearly marked as"
+    },
+    {
+      "type": "paragraph",
+      "text": "belonging to someone else -- for example, through the use of fences and signs -- as they do not want to stand out and be easily noticeable when committing crimes. Likewise, they avoid environments in which authorized parties are marked. Consider, for example, that an unauthorized person not wearing a post office uniform while walking around in an area marked \"US Postal Service Employees Only\" is far more likely to be noticed and stopped than someone else walking in a similar unmarked environment belonging to a business that does not require uniforms."
+    },
+    {
+      "type": "heading",
+      "text": "You can apply these same principles in your home -- for"
+    },
+    {
+      "type": "paragraph",
+      "text": "example, placing a computer in a parent's home office sends a message to children, babysitters, and guests that the device is off limits, far stronger than the message would be delivered if the same machine were located in a family room or den. Likewise, a curious babysitter or houseguest is far less likely to go into one's private home office without permission after being told not to if he/she is aware that the area is monitored with cameras."
+    },
+    {
+      "type": "heading",
+      "text": "You know your own environment. By applying these concepts you can"
+    },
+    {
+      "type": "paragraph",
+      "text": "improve the likelihood that unauthorized parties will not attempt to gain unauthorized access to your computers and data."
+    },
+    {
+      "type": "heading",
+      "text": "Implementing Physical Security"
+    },
+    {
+      "type": "heading",
+      "text": "You can use many techniques and technologies to help secure an object"
+    },
+    {
+      "type": "paragraph",
+      "text": "or facility."
+    },
+    {
+      "type": "heading",
+      "text": "How much physical security you implement for a device depends"
+    },
+    {
+      "type": "paragraph",
+      "text": "heavily on the purpose for which it is being used and what types of information it houses. (For more information on inventorying your devices, see the section \"Taking Inventory,\" earlier in this chapter.)"
+    },
+    {
+      "type": "heading",
+      "text": "Here are some examples of methods of securing devices -- based on"
+    },
+    {
+      "type": "paragraph",
+      "text": "your tolerance level for risk and your budget, you may choose variants of all, some, or none of these techniques:"
+    },
+    {
+      "type": "heading",
+      "text": "Locks: For example, store devices in a locked room, with access to"
+    },
+    {
+      "type": "paragraph",
+      "text": "the room provided to only those people who need to use the device."
+    },
+    {
+      "type": "heading",
+      "text": "In some environments, you may be able to record or monitor all"
+    },
+    {
+      "type": "paragraph",
+      "text": "entrances and exits from the room. Another popular variant is to store laptops in a safe located in one's master bedroom or home office when the computers are not in use."
+    },
+    {
+      "type": "heading",
+      "text": "Video cameras: For example, consider having a video camera"
+    },
+    {
+      "type": "paragraph",
+      "text": "focused on the devices to see who accesses them and when they do so."
+    },
+    {
+      "type": "heading",
+      "text": "Security guards: Obviously, security guards are not a practical"
+    },
+    {
+      "type": "paragraph",
+      "text": "solution in most home environments, but human defenders do have a time and place. For example, consider posting guards inside the room where the device is located, outside the room, in halls around the entrance to the room, outside the building, and outside the perimeter fence."
+    },
+    {
+      "type": "heading",
+      "text": "Alarms: Alarms not only serve as a reactive force that scare away"
+    },
+    {
+      "type": "paragraph",
+      "text": "criminals who actually attempt to enter a home or office, they also serve as a strong deterrent, pushing many opportunistic evildoers to \"look elsewhere\" and target someone else."
+    },
+    {
+      "type": "heading",
+      "text": "Perimeter security: Traffic posts prevent people from crashing cars"
+    },
+    {
+      "type": "paragraph",
+      "text": "into a facility, and proper fences and walls prevent people from approaching a home or office building. You should note that most experts believe that a fence under 8 feet tall does not provide any significant security value when it comes to potential human intruders."
+    },
+    {
+      "type": "heading",
+      "text": "Lighting: Criminals tend to avoid well-lit places. Motion-triggered"
+    },
+    {
+      "type": "paragraph",
+      "text": "lighting is even more of a deterrent than static lighting. When lights go on suddenly, people in the area are more likely to turn and look at what just happened -- and see the criminal just as he or she is illuminated."
+    },
+    {
+      "type": "heading",
+      "text": "Environmental risk mitigation: If you're in an area that is likely to"
+    },
+    {
+      "type": "paragraph",
+      "text": "be hit by floods, for example, ensure that computing resources are stationed somewhere not likely to flood. If such advice seems obvious, consider that residents of northern New Jersey lost telephone service after a storm in the late 1990s when telephone switching equipment flooded -- because it was situated in the basement of a building standing next to a river. Having proper defenses against fires is another critical element of environmental risk mitigation."
+    },
+    {
+      "type": "heading",
+      "text": "Backup power and contingencies for power failures: Power"
+    },
+    {
+      "type": "paragraph",
+      "text": "failures impact not only your computers, but, many security systems as well."
+    },
+    {
+      "type": "heading",
+      "text": "Contingencies during renovations and other construction, and so"
+    },
+    {
+      "type": "paragraph",
+      "text": "forth: The risks to data and computers during home renovations are often overlooked. Leaving your cellphone unattended when workers are routinely entering and exiting your home, for example, can be a recipe for a stolen device and/or the compromise of data on the device."
+    },
+    {
+      "type": "heading",
+      "text": "Risks from backups: Remember to protect backups of data with the"
+    },
+    {
+      "type": "paragraph",
+      "text": "same security precautions as you do the original copies of the data."
+    },
+    {
+      "type": "heading",
+      "text": "Spending time and money protecting a computer with a safe and"
+    },
+    {
+      "type": "paragraph",
+      "text": "cameras because of the data on its hard drive, for example, is silly if you leave backups of that same data on portable hard drives stored on a family room shelf in plain sight of anyone visiting your home."
+    },
+    {
+      "type": "heading",
+      "text": "Of course, you should not consider the preceding list to be"
+    },
+    {
+      "type": "paragraph",
+      "text": "comprehensive. But, if you think about how you can apply each of these items to help keep your devices safe within the context of a CPTD approach, you will likely benefit from much greater odds against an \"unfortunate incident\" occurring than if you do not. (For more on CPTD, see the earlier section \"Creating and Executing a Physical Security"
+    },
+    {
+      "type": "heading",
+      "text": "Plan.\")"
+    },
+    {
+      "type": "heading",
+      "text": "Security for Mobile Devices"
+    },
+    {
+      "type": "paragraph",
+      "text": "Of course, mobile devices -- that is, computers, tablets, smartphones, and other electronic devices that are moved from location to location on a regular basis -- pose additional risks because these devices can be easily lost or stolen. As such, when it comes to mobile devices, one simple, yet critically important, physical security principle should be added: Keep your devices in sight or locked up."
+    },
+    {
+      "type": "heading",
+      "text": "Such advice may sound obvious; sadly, however, a tremendous number"
+    },
+    {
+      "type": "paragraph",
+      "text": "of devices are stolen each year when left unattended, so you can be sure that the advice is either not obvious or not followed -- and, in either case, you want to internalize it and follow it. In addition to watching over your phone, tablet, or laptop, you should enable location broadcasting, remotely triggerable alarms, and remote wipe -- all of which can be invaluable at quickly reducing the risk posed if the device is lost or stolen. Some devices even offer a feature to photograph or video record anyone using a mobile device after the user flags it as stolen -- which can not only help you locate the device, but also catch any thieves involved in stealing it."
+    },
+    {
+      "type": "heading",
+      "text": "Realizing That Insiders Pose the"
+    },
+    {
+      "type": "heading",
+      "text": "Greatest Risks"
+    },
+    {
+      "type": "heading",
+      "text": "According to most experts, the majority of information-security"
+    },
+    {
+      "type": "paragraph",
+      "text": "incidents involve insider threats -- meaning that the biggest risk to businesses are their employees. Likewise, if you share a home computer with family members who are less cyber-aware, they may pose the greatest risk to your cybersecurity. You may take great care of your machine, but if your teen downloads malware-infected software onto the device, you may be in for a nasty surprise."
+    },
+    {
+      "type": "heading",
+      "text": "One critical rule from \"the old days\" that rings true today -- even"
+    },
+    {
+      "type": "paragraph",
+      "text": "though it is often dismissed as outdated due to the use of technologies such as encryption -- is that anyone who can physically access a computer may be able to access the data on that computer. This rule is true even if encryption is utilized, for at least two reasons: Someone who accesses your device may not be able to access your data, but he or she can certainly destroy it and may even be able to access it due to one or more of the following reasons: You may not have set up the encryption properly. Your machine may have an exploitable vulnerability."
+    },
+    {
+      "type": "heading",
+      "text": "The encryption software may have a bug in it that undermines its"
+    },
+    {
+      "type": "paragraph",
+      "text": "ability to properly protect your secrets. Someone may have obtained the password to decrypt."
+    },
+    {
+      "type": "heading",
+      "text": "Someone may be willing to copy your data and wait until computers"
+    },
+    {
+      "type": "paragraph",
+      "text": "are powerful enough to break your encryption. Here is the bottom line: If you do not want people to access data, not only should you secure it logically (for example, with encryption), you should also secure it physically in order to prevent them from obtaining a copy of the data, even in encrypted form. On that note, if your computer contains files that you do not want your children to have access to, do not share your computer with your children. Do not rely solely on digital security. Utilize a physical defense. While it is true that crafty, skilled children may be able to hack your computer across your LAN, the risks of such an attack occurring are miniscule compared with the temptation of a curious child who is actually using your computer. That said, ideally you should keep your most sensitive data and machines on a network physically isolated from the one that your children use."
+    },
+    {
+      "type": "heading",
+      "text": "HUMANS ALWAYS COME FIRST"
+    },
+    {
+      "type": "paragraph",
+      "text": "As you ponder how to physically secure your data, keep in mind one cardinal rule when it comes to safety and security: Humans always come first -- with no exceptions. If a fire occurs in a home, for example, saving the residents is the top priority with no close second. You should never enter a dangerous environment in order to retrieve computers or backup drives. Make sure to store some backups offsite and/or keep some in a fire- and water-resistant safe. You need to assume that in many environmental disasters, your systems and data may need to be \"sheltered in place\" until after the disaster passes. Part 3"
+    },
+    {
+      "type": "heading",
+      "text": "Protecting Yourself from"
+    },
+    {
+      "type": "heading",
+      "text": "Yourself"
+    },
+    {
+      "type": "heading",
+      "text": "IN THIS PART …"
+    },
+    {
+      "type": "paragraph",
+      "text": "Understand how to secure your accounts."
+    },
+    {
+      "type": "heading",
+      "text": "Learn all about passwords, including how to create strong"
+    },
+    {
+      "type": "paragraph",
+      "text": "passwords that you can remember. Protect yourself and your loved ones against social engineering."
+    }
+  ]
+}
