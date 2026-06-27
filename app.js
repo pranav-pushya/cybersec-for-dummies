@@ -155,7 +155,7 @@ document.addEventListener('DOMContentLoaded', async () => {
     renderDashboardChecklist();
     updateDashboardBookmarksUI();
     initAIAssistant();
-    
+
     // Start background prefetching for search
     prefetchChaptersData();
 });
@@ -254,7 +254,7 @@ function renderSidebarNav() {
             const chapLink = document.createElement('div');
             chapLink.className = `nav-item ${state.currentSection === 'reader' && state.currentChapterNum === chap.num ? 'active' : ''}`;
             const isRead = state.progress[chap.num];
-            
+
             chapLink.innerHTML = `
                 <svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2" style="color: ${isRead ? 'var(--accent-green)' : 'var(--text-muted)'}">
                     ${isRead ? '<path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path><polyline points="22 4 12 14.01 9 11.01"></polyline>' : '<circle cx="12" cy="12" r="10"></circle>'}
@@ -279,7 +279,7 @@ function renderSidebarNav() {
 function switchSection(sectionId) {
     stopTTS(); // Stop reading aloud if they navigate away!
     state.currentSection = sectionId;
-    
+
     // Hide all sections
     document.querySelectorAll('.section').forEach(sec => {
         sec.classList.remove('active');
@@ -310,7 +310,7 @@ function switchSection(sectionId) {
     } else if (sectionId === 'ai-assistant') {
         initAIAssistantUI();
     }
-    
+
     // Scroll to top
     window.scrollTo({ top: 0, behavior: 'smooth' });
 
@@ -338,10 +338,10 @@ async function loadChapter(chapterNum) {
         state.currentChapterNum = chapterNum;
         const response = await fetch(`./data/chapter_${chapterNum}.json`);
         const data = await response.json();
-        
+
         switchSection('reader');
         renderChapter(data);
-        
+
         // Mark chapter as read
         state.progress[chapterNum] = true;
         localStorage.setItem('reading_progress', JSON.stringify(state.progress));
@@ -356,7 +356,7 @@ async function loadChapter(chapterNum) {
 function renderChapter(chapterData) {
     const headerContainer = document.getElementById('reader-header-container');
     const bodyContainer = document.getElementById('reader-body-container');
-    
+
     // Set Part tag, Title, Pages details
     const isBookmarked = state.bookmarks.includes(chapterData.num);
     headerContainer.innerHTML = `
@@ -398,14 +398,14 @@ function renderChapter(chapterData) {
         const wrapper = document.createElement('div');
         wrapper.className = 'paragraph-block-wrapper';
         wrapper.setAttribute('data-block-index', index);
-        
+
         const row = document.createElement('div');
         row.className = 'paragraph-content-row';
-        
+
         const contentEl = document.createElement(block.type === 'heading' ? 'h3' : 'p');
         contentEl.innerText = block.text;
         row.appendChild(contentEl);
-        
+
         // Add note trigger button
         const actionBtn = document.createElement('button');
         actionBtn.className = 'para-action-btn';
@@ -413,9 +413,9 @@ function renderChapter(chapterData) {
         actionBtn.innerHTML = `<svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"></path></svg>`;
         actionBtn.onclick = () => showParaNoteEditor(chapterData.num, index, block.text, wrapper);
         row.appendChild(actionBtn);
-        
+
         wrapper.appendChild(row);
-        
+
         // Render existing paragraph note if present
         const existingNote = state.paraNotes.find(pn => pn.chapterNum === chapterData.num && pn.blockIndex === index);
         if (existingNote) {
@@ -442,7 +442,7 @@ function renderChapter(chapterData) {
             };
             wrapper.appendChild(noteBox);
         }
-        
+
         bodyContainer.appendChild(wrapper);
     });
 
@@ -465,7 +465,7 @@ function renderChapter(chapterData) {
 
     const noteTextarea = chapterNoteCard.querySelector('#chapter-note-textarea');
     noteTextarea.value = savedChapterNote;
-    
+
     noteTextarea.addEventListener('input', (e) => {
         saveChapterNote(chapterData.num, e.target.value);
     });
@@ -497,14 +497,14 @@ function handleSearch(query) {
     if (!query || query.trim() === '') {
         return;
     }
-    
+
     query = query.toLowerCase().trim();
     const resultsContainer = document.getElementById('search-results-container');
     const resultsSummary = document.getElementById('search-results-summary');
-    
+
     resultsContainer.innerHTML = '';
     switchSection('search');
-    
+
     let totalMatches = 0;
     const matchedBlocks = [];
 
@@ -569,7 +569,7 @@ function handleSearch(query) {
 function highlightQuery(text, query) {
     const index = text.toLowerCase().indexOf(query);
     if (index === -1) return text;
-    
+
     // Highlight matched term
     const originalQuery = text.substr(index, query.length);
     return text.split(originalQuery).join(`<mark>${originalQuery}</mark>`);
@@ -580,10 +580,10 @@ function updateProgressUI() {
     const totalChapters = 21; // 0 to 20
     const chaptersRead = Object.keys(state.progress).filter(k => state.progress[k]).length;
     const percentage = Math.round((chaptersRead / totalChapters) * 100);
-    
+
     document.getElementById('progress-bar').style.width = `${percentage}%`;
     document.getElementById('progress-percentage').innerText = `${percentage}% Completed`;
-    
+
     // Update dashboard reading details
     const dashProgressText = document.getElementById('dash-progress-text');
     if (dashProgressText) {
@@ -627,7 +627,7 @@ async function initQuizSystem() {
     state.quizSelectedDifficulty = 'all';
     state.quizSelectedCount = 10;
     state.quizSelectedChapters = new Set();
-    
+
     // Wire up events
     const selectAllBtn = document.getElementById('quiz-select-all-btn');
     if (selectAllBtn) {
@@ -640,7 +640,7 @@ async function initQuizSystem() {
             });
         };
     }
-    
+
     const clearAllBtn = document.getElementById('quiz-clear-all-btn');
     if (clearAllBtn) {
         clearAllBtn.onclick = () => {
@@ -652,7 +652,7 @@ async function initQuizSystem() {
             });
         };
     }
-    
+
     document.querySelectorAll('#setup-difficulty-group .pill-option').forEach(opt => {
         opt.onclick = (e) => {
             document.querySelectorAll('#setup-difficulty-group .pill-option').forEach(el => el.classList.remove('selected'));
@@ -660,7 +660,7 @@ async function initQuizSystem() {
             state.quizSelectedDifficulty = e.currentTarget.getAttribute('data-value');
         };
     });
-    
+
     document.querySelectorAll('#setup-count-group .pill-option').forEach(opt => {
         opt.onclick = (e) => {
             document.querySelectorAll('#setup-count-group .pill-option').forEach(el => el.classList.remove('selected'));
@@ -668,12 +668,12 @@ async function initQuizSystem() {
             state.quizSelectedCount = e.currentTarget.getAttribute('data-value');
         };
     });
-    
+
     const startBtn = document.getElementById('quiz-start-btn');
     if (startBtn) {
         startBtn.onclick = generateCustomQuiz;
     }
-    
+
     const quitBtn = document.getElementById('quiz-quit-btn');
     if (quitBtn) {
         quitBtn.onclick = () => {
@@ -687,19 +687,19 @@ async function initQuizSystem() {
 function showQuizSetup() {
     document.getElementById('quiz-setup-card').style.display = 'block';
     document.getElementById('quiz-play-card').style.display = 'none';
-    
+
     if (state.toc.length === 0) return;
-    
+
     const grid = document.getElementById('setup-chapter-grid');
     if (grid && grid.children.length === 0) {
         state.quizSelectedChapters = new Set();
         state.toc.forEach(ch => {
             state.quizSelectedChapters.add(ch.num);
-            
+
             const pill = document.createElement('div');
             pill.className = 'chapter-pill selected';
             pill.setAttribute('data-num', ch.num);
-            
+
             let shortName = "Intro";
             if (ch.num > 0) {
                 let cleanTitle = ch.title.replace(/^Chapter \d+:\s*/i, '');
@@ -710,7 +710,7 @@ function showQuizSetup() {
             } else {
                 shortName = "Intro: Introduction";
             }
-            
+
             pill.title = ch.title;
             pill.innerHTML = `
                 <div class="chapter-pill-checkbox">
@@ -718,7 +718,7 @@ function showQuizSetup() {
                 </div>
                 <span>${shortName}</span>
             `;
-            
+
             pill.onclick = () => {
                 if (state.quizSelectedChapters.has(ch.num)) {
                     state.quizSelectedChapters.delete(ch.num);
@@ -728,7 +728,7 @@ function showQuizSetup() {
                     pill.classList.add('selected');
                 }
             };
-            
+
             grid.appendChild(pill);
         });
     }
@@ -738,39 +738,39 @@ function generateCustomQuiz() {
     const selectedChapters = Array.from(state.quizSelectedChapters);
     const selectedDifficulty = state.quizSelectedDifficulty;
     const selectedCount = state.quizSelectedCount;
-    
+
     if (selectedChapters.length === 0) {
         alert("Please select at least one chapter to include in your quiz!");
         return;
     }
-    
+
     let filteredQuestions = state.quizQuestionPool.filter(q => {
         const chMatch = selectedChapters.includes(q.chapterNum);
         const diffMatch = (selectedDifficulty === 'all' || q.difficulty === selectedDifficulty);
         return chMatch && diffMatch;
     });
-    
+
     if (filteredQuestions.length === 0) {
         alert("No questions found matching your criteria. Please select more chapters or different settings!");
         return;
     }
-    
+
     filteredQuestions = shuffleArray(filteredQuestions);
-    
+
     let count = filteredQuestions.length;
     if (selectedCount !== 'all') {
         count = Math.min(parseInt(selectedCount), filteredQuestions.length);
     }
     // Randomize the position of the choices to eliminate any bias (e.g. Option B)
     state.quizActiveQuestions = filteredQuestions.slice(0, count).map(q => shuffleOptions(q));
-    
+
     state.quizIndex = 0;
     state.quizScore = 0;
     state.quizAnswers = [];
-    
+
     document.getElementById('quiz-setup-card').style.display = 'none';
     document.getElementById('quiz-play-card').style.display = 'block';
-    
+
     showQuizQuestion();
 }
 
@@ -854,11 +854,11 @@ function showQuizResults() {
 
     progressText.innerText = `Quiz Complete`;
     quizBar.style.width = '100%';
-    
+
     questionEl.innerText = `Your Score: ${state.quizScore} / ${state.quizActiveQuestions.length}`;
-    
+
     const percentage = Math.round((state.quizScore / state.quizActiveQuestions.length) * 100);
-    
+
     optionsContainer.innerHTML = `
         <div style="text-align: center; padding: 20px;">
             <div style="font-size: 48px; font-weight: 800; color: ${percentage >= 70 ? 'var(--accent-green)' : 'var(--accent-red)'}; margin-bottom: 16px;">
@@ -876,7 +876,7 @@ function showQuizResults() {
 
     feedbackEl.style.display = 'none';
     nextBtn.style.display = 'none';
-    
+
     document.getElementById('quiz-btn-setup-again').onclick = showQuizSetup;
     document.getElementById('quiz-btn-retake-same').onclick = () => {
         // Reshuffle both questions and their option choice order for the retake
@@ -902,14 +902,14 @@ function shuffleOptions(questionObj) {
     const cloned = JSON.parse(JSON.stringify(questionObj));
     const originalOptions = cloned.options;
     const correctOptionText = originalOptions[cloned.correct];
-    
+
     // Shuffle the options
     const shuffledOptions = shuffleArray(originalOptions);
-    
+
     // Re-map the correct index to the shuffled position
     cloned.options = shuffledOptions;
     cloned.correct = shuffledOptions.indexOf(correctOptionText);
-    
+
     return cloned;
 }
 
@@ -933,7 +933,7 @@ function renderDashboardChecklist() {
 
     checklistItems.forEach(item => {
         const isChecked = !!storedStatus[item.id];
-        
+
         const row = document.createElement('div');
         row.className = 'checklist-item';
 
@@ -948,7 +948,7 @@ function renderDashboardChecklist() {
             const chBox = e.currentTarget;
             const itemId = chBox.getAttribute('data-id');
             const newChecked = !chBox.classList.contains('checked');
-            
+
             if (newChecked) {
                 chBox.classList.add('checked');
             } else {
@@ -979,19 +979,19 @@ function setupEventListeners() {
                     localStorage.removeItem('reading_progress');
                     localStorage.removeItem('dashboard_checklist');
                     localStorage.removeItem('security_audit_score');
-                    
+
                     // Reset local progress state
                     state.progress = {};
-                    
+
                     // Re-initialize progress tracking
                     initProgress();
-                    
+
                     // Re-render dashboard, sidebar, and progress indicator UI
                     renderSidebarNav();
                     renderDashboardChecklist();
                     updateDashboardAuditUI();
                     updateProgressUI();
-                    
+
                     showToastNotification("Progress successfully reset!");
                 },
                 "Reset"
@@ -1109,9 +1109,9 @@ function setupEventListeners() {
     document.addEventListener('click', (e) => {
         const sidebar = document.getElementById('sidebar');
         const toggleBtn = document.getElementById('menu-toggle-btn');
-        if (window.innerWidth <= 768 && 
-            !sidebar.contains(e.target) && 
-            !toggleBtn.contains(e.target) && 
+        if (window.innerWidth <= 768 &&
+            !sidebar.contains(e.target) &&
+            !toggleBtn.contains(e.target) &&
             sidebar.classList.contains('open')) {
             sidebar.classList.remove('open');
         }
@@ -1158,12 +1158,12 @@ function updateDashboardAuditUI() {
     const storedAuditScore = localStorage.getItem('security_audit_score');
     const auditText = document.getElementById('dash-audit-text');
     const auditCard = document.getElementById('dash-audit-card');
-    
+
     if (storedAuditScore !== null && auditText) {
         const score = parseInt(storedAuditScore);
         let rating = "HIGH RISK 🔴";
         let color = "var(--accent-red)";
-        
+
         if (score > 75) {
             rating = "SECURE / LOW RISK 🟢";
             color = "var(--accent-green)";
@@ -1171,7 +1171,7 @@ function updateDashboardAuditUI() {
             rating = "MODERATE RISK 🟡";
             color = "var(--accent-yellow)";
         }
-        
+
         auditText.innerHTML = `Your computed rating is <strong style="color: ${color}">${rating}</strong> with a score of <strong>${score}%</strong>.`;
         if (auditCard) {
             auditCard.style.background = `linear-gradient(135deg, rgba(${score > 75 ? '16, 185, 129' : score > 40 ? '245, 158, 11' : '239, 68, 68'}, 0.08), rgba(255,255,255,0.01))`;
@@ -1184,11 +1184,11 @@ function resetAudit() {
     state.auditIndex = 0;
     state.auditScore = 0;
     state.auditAnswers = [];
-    
+
     // Toggle containers
     document.getElementById('audit-card').style.display = 'block';
     document.getElementById('audit-result-card').style.display = 'none';
-    
+
     showAuditStep();
 }
 
@@ -1228,7 +1228,7 @@ function submitAuditChoice(idx) {
     });
 
     state.auditAnswers[state.auditIndex] = idx;
-    
+
     nextBtn.style.display = 'inline-flex';
     if (state.auditIndex === auditQuestions.length - 1) {
         nextBtn.innerText = 'Calculate Posture';
@@ -1250,26 +1250,26 @@ function showAuditResults() {
     document.getElementById('audit-card').style.display = 'none';
     const resultCard = document.getElementById('audit-result-card');
     resultCard.style.display = 'block';
-    
+
     // Sum points
     let totalScore = 0;
     auditQuestions.forEach((q, qIdx) => {
         const selectedIdx = state.auditAnswers[qIdx];
         totalScore += q.options[selectedIdx].points;
     });
-    
+
     // Save to localStorage
     localStorage.setItem('security_audit_score', totalScore);
     updateDashboardAuditUI();
-    
+
     // Update Score gauge
     document.getElementById('audit-score-gauge').innerText = `${totalScore}%`;
-    
+
     // Update badge styling
     const badge = document.getElementById('audit-rating-badge');
     const recommendationsContainer = document.getElementById('audit-recommendations');
     recommendationsContainer.innerHTML = '';
-    
+
     if (totalScore >= 80) {
         badge.innerText = "SECURE / LOW RISK";
         badge.style.backgroundColor = "rgba(16, 185, 129, 0.15)";
@@ -1283,23 +1283,23 @@ function showAuditResults() {
         badge.style.backgroundColor = "rgba(239, 68, 68, 0.15)";
         badge.style.color = "var(--accent-red)";
     }
-    
+
     // Build recommendation items
     auditQuestions.forEach((q, qIdx) => {
         const selectedIdx = state.auditAnswers[qIdx];
         const choice = q.options[selectedIdx];
-        
+
         const card = document.createElement('div');
         card.className = 'recommendation-card';
-        
+
         const isSecure = choice.points === 25;
-        
+
         card.innerHTML = `
             <div class="recommendation-icon ${isSecure ? 'secure' : ''}">
-                ${isSecure ? 
-                    `<svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="3"><polyline points="20 6 9 17 4 12"></polyline></svg>` : 
-                    `<svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="3"><line x1="12" y1="9" x2="12" y2="13"></line><line x1="12" y1="17" x2="12.01" y2="17"></line><circle cx="12" cy="12" r="10"></circle></svg>`
-                }
+                ${isSecure ?
+                `<svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="3"><polyline points="20 6 9 17 4 12"></polyline></svg>` :
+                `<svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="3"><line x1="12" y1="9" x2="12" y2="13"></line><line x1="12" y1="17" x2="12.01" y2="17"></line><circle cx="12" cy="12" r="10"></circle></svg>`
+            }
             </div>
             <div style="flex-grow: 1;">
                 <div class="recommendation-title" style="color: ${isSecure ? 'var(--accent-green)' : 'var(--accent-red)'}">
@@ -1309,7 +1309,7 @@ function showAuditResults() {
                 ${!isSecure ? `<a class="recommendation-link" onclick="loadChapter(${choice.recommendations[2]})">${choice.recommendations[1]}</a>` : ''}
             </div>
         `;
-        
+
         recommendationsContainer.appendChild(card);
     });
 }
@@ -1417,11 +1417,11 @@ function resetPhishing() {
     state.phishingIndex = 0;
     state.phishingScore = 0;
     state.phishingAnswers = [];
-    
+
     // Toggle containers
     document.getElementById('phishing-card').style.display = 'block';
     document.getElementById('phishing-result-card').style.display = 'none';
-    
+
     showPhishingScenario();
 }
 
@@ -1434,18 +1434,18 @@ function showPhishingScenario() {
     const bodyEl = document.getElementById('email-body');
     const feedbackEl = document.getElementById('phishing-feedback');
     const nextBtn = document.getElementById('phishing-next-btn');
-    
+
     // Reset buttons state
     document.getElementById('phishing-trust-btn').disabled = false;
     document.getElementById('phishing-report-btn').disabled = false;
-    
+
     // Set text
     progressText.innerText = `Scenario ${state.phishingIndex + 1} of ${phishingScenarios.length}`;
     barFill.style.width = `${((state.phishingIndex) / phishingScenarios.length) * 100}%`;
     fromEl.innerText = scenario.from;
     subjectEl.innerText = scenario.subject;
     bodyEl.innerHTML = scenario.body;
-    
+
     feedbackEl.style.display = 'none';
     nextBtn.style.display = 'none';
 }
@@ -1454,11 +1454,11 @@ function submitPhishingChoice(reported) {
     const scenario = phishingScenarios[state.phishingIndex];
     const feedbackEl = document.getElementById('phishing-feedback');
     const nextBtn = document.getElementById('phishing-next-btn');
-    
+
     // Disable buttons
     document.getElementById('phishing-trust-btn').disabled = true;
     document.getElementById('phishing-report-btn').disabled = true;
-    
+
     const correct = (reported === scenario.isPhishing);
     if (correct) {
         state.phishingScore++;
@@ -1466,9 +1466,9 @@ function submitPhishingChoice(reported) {
     } else {
         state.phishingAnswers.push(false);
     }
-    
+
     feedbackEl.style.display = 'block';
-    
+
     let redflagsHTML = "";
     if (scenario.isPhishing && scenario.redflags.length > 0) {
         redflagsHTML = `
@@ -1480,7 +1480,7 @@ function submitPhishingChoice(reported) {
             </div>
         `;
     }
-    
+
     feedbackEl.innerHTML = `
         <div style="color: ${correct ? 'var(--accent-green)' : 'var(--accent-red)'}; font-weight: 700; margin-bottom: 8px;">
             ${correct ? 'Correct Choice!' : 'Incorrect Choice!'}
@@ -1493,7 +1493,7 @@ function submitPhishingChoice(reported) {
         </div>
         ${redflagsHTML}
     `;
-    
+
     nextBtn.style.display = 'inline-flex';
     if (state.phishingIndex === phishingScenarios.length - 1) {
         nextBtn.innerText = 'Show Simulator Results';
@@ -1515,12 +1515,12 @@ function showPhishingResults() {
     document.getElementById('phishing-card').style.display = 'none';
     const resultCard = document.getElementById('phishing-result-card');
     resultCard.style.display = 'block';
-    
+
     document.getElementById('phishing-score-gauge').innerText = `${state.phishingScore} / ${phishingScenarios.length}`;
-    
+
     const resultText = document.getElementById('phishing-result-text');
     const pct = (state.phishingScore / phishingScenarios.length) * 100;
-    
+
     if (pct === 100) {
         resultText.innerText = "Excellent! You scored 100%. You have an outstanding eye for identifying phishing cues and social engineering red flags.";
     } else if (pct >= 60) {
@@ -1539,19 +1539,19 @@ function initTTS() {
         if (container) container.style.display = 'none';
         return;
     }
-    
+
     // Populate voice list
     const populateVoices = () => {
         ttsVoices = window.speechSynthesis.getVoices();
         const voiceSelect = document.getElementById('tts-voice');
         if (!voiceSelect) return;
-        
+
         voiceSelect.innerHTML = '';
-        
+
         // Filter for English voices first as fallback, or show all
         let englishVoices = ttsVoices.filter(v => v.lang.startsWith('en-'));
         const voicesToUse = englishVoices.length > 0 ? englishVoices : ttsVoices;
-        
+
         voicesToUse.forEach(v => {
             const opt = document.createElement('option');
             opt.value = v.name;
@@ -1559,7 +1559,7 @@ function initTTS() {
             voiceSelect.appendChild(opt);
         });
     };
-    
+
     populateVoices();
     if (window.speechSynthesis.onvoiceschanged !== undefined) {
         window.speechSynthesis.onvoiceschanged = populateVoices;
@@ -1587,23 +1587,23 @@ function startTTS() {
     const headerContainer = document.getElementById('reader-header-container');
     const bodyContainer = document.getElementById('reader-body-container');
     if (!headerContainer || !bodyContainer) return;
-    
+
     // Stop any current reading
     window.speechSynthesis.cancel();
-    
+
     // Aggregate text
     const title = headerContainer.querySelector('.reader-title')?.innerText || '';
     const paragraphs = Array.from(bodyContainer.querySelectorAll('p, h3')).map(el => el.innerText);
     const fullText = [title, ...paragraphs].join('. ');
-    
+
     if (!fullText.trim()) return;
-    
+
     state.ttsUtterance = new SpeechSynthesisUtterance(fullText);
-    
+
     // Rate
     const rateSelect = document.getElementById('tts-rate');
     state.ttsUtterance.rate = parseFloat(rateSelect.value || '1');
-    
+
     // Voice
     const voiceSelect = document.getElementById('tts-voice');
     if (voiceSelect && voiceSelect.value) {
@@ -1612,7 +1612,7 @@ function startTTS() {
             state.ttsUtterance.voice = selectedVoice;
         }
     }
-    
+
     // Event handlers
     state.ttsUtterance.onstart = () => {
         state.ttsSpeaking = true;
@@ -1620,15 +1620,15 @@ function startTTS() {
         document.getElementById('tts-controls').style.display = 'inline-flex';
         updateTTSPlayButtonUI(true);
     };
-    
+
     state.ttsUtterance.onend = () => {
         resetTTSState();
     };
-    
+
     state.ttsUtterance.onerror = () => {
         resetTTSState();
     };
-    
+
     window.speechSynthesis.speak(state.ttsUtterance);
 }
 
@@ -1643,10 +1643,10 @@ function resetTTSState() {
     state.ttsSpeaking = false;
     state.ttsPaused = false;
     state.ttsUtterance = null;
-    
+
     const controls = document.getElementById('tts-controls');
     if (controls) controls.style.display = 'none';
-    
+
     updateTTSPlayButtonUI(false);
 }
 
@@ -1654,9 +1654,9 @@ function updateTTSPlayButtonUI(isPlaying) {
     const playBtn = document.getElementById('tts-play-btn');
     const playIcon = document.getElementById('tts-play-icon');
     const playText = document.getElementById('tts-play-text');
-    
+
     if (!playBtn) return;
-    
+
     if (isPlaying) {
         playIcon.innerHTML = `<svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 19h4V5H6v14zm8-14v14h4V5h-4z"></path></svg>`; // Pause icon
         playText.innerText = "Pause Narrator";
@@ -1676,18 +1676,18 @@ let currentSelection = null;
 function handleTextSelection(e) {
     const selection = window.getSelection();
     const selectedText = selection.toString().trim();
-    
+
     if (selectedText.length > 0) {
         const range = selection.getRangeAt(0);
         const rect = range.getBoundingClientRect();
-        
+
         const toolbar = document.getElementById('highlight-toolbar');
         if (toolbar) {
             toolbar.style.display = 'flex';
             toolbar.style.top = `${window.scrollY + rect.top - 40}px`;
             toolbar.style.left = `${window.scrollX + rect.left + (rect.width / 2) - (toolbar.offsetWidth / 2)}px`;
         }
-        
+
         currentSelection = {
             text: selectedText,
             chapterNum: state.currentChapterNum
@@ -1713,10 +1713,10 @@ function addHighlight(text, chapterNum, color, note = '') {
         note,
         createdAt: new Date().toISOString()
     };
-    
+
     state.annotations.push(newAnn);
     localStorage.setItem('book_annotations', JSON.stringify(state.annotations));
-    
+
     // Rerender chapter to apply highlight
     loadChapter(chapterNum);
     hideHighlightToolbar();
@@ -1726,12 +1726,12 @@ function addHighlight(text, chapterNum, color, note = '') {
 function applyHighlightsToChapter(chapterNum) {
     const chapterAnnotations = state.annotations.filter(ann => ann.chapterNum === chapterNum);
     if (chapterAnnotations.length === 0) return;
-    
+
     const bodyContainer = document.getElementById('reader-body-container');
     if (!bodyContainer) return;
-    
+
     const elements = bodyContainer.querySelectorAll('p, h3');
-    
+
     chapterAnnotations.forEach(ann => {
         elements.forEach(el => {
             const index = el.innerText.indexOf(ann.text);
@@ -1749,11 +1749,11 @@ function applyHighlightsToChapter(chapterNum) {
 function renderNotesList() {
     const container = document.getElementById('notes-list-container');
     if (!container) return;
-    
+
     container.innerHTML = '';
-    
+
     let allItems = [];
-    
+
     // Add text highlights
     state.annotations.forEach(ann => {
         allItems.push({
@@ -1766,7 +1766,7 @@ function renderNotesList() {
             createdAt: ann.createdAt
         });
     });
-    
+
     // Add paragraph notes
     state.paraNotes.forEach(pn => {
         allItems.push({
@@ -1779,7 +1779,7 @@ function renderNotesList() {
             createdAt: pn.createdAt
         });
     });
-    
+
     // Add chapter notes
     Object.keys(state.chapterNotes).forEach(chNumKey => {
         const num = parseInt(chNumKey);
@@ -1793,7 +1793,7 @@ function renderNotesList() {
             createdAt: new Date().toISOString()
         });
     });
-    
+
     if (allItems.length === 0) {
         container.innerHTML = `
             <div style="text-align: center; color: var(--text-secondary); padding: 40px;">
@@ -1803,7 +1803,7 @@ function renderNotesList() {
         `;
         return;
     }
-    
+
     // Sort allItems by chapter, then type, then date
     allItems.sort((a, b) => {
         if (a.chapterNum !== b.chapterNum) {
@@ -1814,11 +1814,11 @@ function renderNotesList() {
         }
         return new Date(b.createdAt) - new Date(a.createdAt);
     });
-    
+
     allItems.forEach(item => {
         const card = document.createElement('div');
         card.className = 'note-card';
-        
+
         let accentColor = 'var(--accent-purple)';
         if (item.type === 'highlight') {
             accentColor = `var(--accent-${item.color === 'yellow' ? 'yellow' : item.color === 'cyan' ? 'blue' : 'purple'})`;
@@ -1827,13 +1827,13 @@ function renderNotesList() {
         } else if (item.type === 'chapternote') {
             accentColor = 'var(--accent-green)';
         }
-        
+
         card.style.borderLeftColor = accentColor;
-        
+
         let typeBadge = 'Highlight';
         if (item.type === 'paranote') typeBadge = 'Paragraph Note';
         if (item.type === 'chapternote') typeBadge = 'Chapter General Note';
-        
+
         card.innerHTML = `
             <div class="note-card-controls">
                 <button class="note-card-control-btn edit" title="Edit note">
@@ -1867,17 +1867,17 @@ function renderNotesList() {
                 <a class="recommendation-link" style="font-size: 11px;" onclick="loadChapter(${item.chapterNum})">Jump to Chapter</a>
             </div>
         `;
-        
+
         card.querySelector('.note-card-control-btn.edit').onclick = (e) => {
             e.stopPropagation();
             editNotesListEntry(item.id, item.type, item.chapterNum);
         };
-        
+
         card.querySelector('.note-card-control-btn.delete').onclick = (e) => {
             e.stopPropagation();
             deleteNotesListEntry(item.id, item.type, item.chapterNum);
         };
-        
+
         container.appendChild(card);
     });
 }
@@ -1911,10 +1911,10 @@ function saveChapterNote(chapterNum, text) {
 // Paragraph Notes Utilities
 function showParaNoteEditor(chapterNum, blockIndex, originalText, wrapperEl) {
     if (wrapperEl.querySelector('.para-note-editor')) return;
-    
+
     const noteBox = wrapperEl.querySelector('.para-note-box');
     if (noteBox) noteBox.style.display = 'none';
-    
+
     const editor = document.createElement('div');
     editor.className = 'para-note-editor';
     editor.innerHTML = `
@@ -1924,18 +1924,18 @@ function showParaNoteEditor(chapterNum, blockIndex, originalText, wrapperEl) {
             <button class="btn btn-primary btn-save-para-note" style="padding: 6px 12px; font-size: 11px;">Save Note</button>
         </div>
     `;
-    
+
     const textarea = editor.querySelector('textarea');
     const existingNote = state.paraNotes.find(pn => pn.chapterNum === chapterNum && pn.blockIndex === blockIndex);
     if (existingNote) {
         textarea.value = existingNote.text;
     }
-    
+
     editor.querySelector('.btn-cancel-para-note').onclick = () => {
         editor.remove();
         if (noteBox) noteBox.style.display = 'flex';
     };
-    
+
     editor.querySelector('.btn-save-para-note').onclick = () => {
         const text = textarea.value.trim();
         if (text) {
@@ -1947,7 +1947,7 @@ function showParaNoteEditor(chapterNum, blockIndex, originalText, wrapperEl) {
         }
         loadChapter(chapterNum);
     };
-    
+
     wrapperEl.appendChild(editor);
     textarea.focus();
 }
@@ -1988,7 +1988,7 @@ function toggleBookmark(chapterNum) {
         state.bookmarks.push(chapterNum);
     }
     localStorage.setItem('book_bookmarks', JSON.stringify(state.bookmarks));
-    
+
     // Refresh reader header to update icon state
     const currentChapterData = state.allChaptersData.find(c => c.num === chapterNum);
     if (currentChapterData) {
@@ -1997,7 +1997,7 @@ function toggleBookmark(chapterNum) {
         // Fallback: reload current chapter
         loadChapter(chapterNum);
     }
-    
+
     // Update Dashboard bookmarks widget
     updateDashboardBookmarksUI();
 }
@@ -2005,21 +2005,21 @@ function toggleBookmark(chapterNum) {
 function updateDashboardBookmarksUI() {
     const container = document.getElementById('dash-bookmarks-list');
     if (!container) return;
-    
+
     container.innerHTML = '';
-    
+
     if (state.bookmarks.length === 0) {
         container.innerHTML = `<p style="font-size: 13px; color: var(--text-secondary); line-height: 1.6;">No bookmarks saved yet. Click the bookmark icon inside any chapter to save it here.</p>`;
         return;
     }
-    
+
     const sorted = [...state.bookmarks].sort((a, b) => a - b);
-    
+
     const list = document.createElement('div');
     list.style.display = 'flex';
     list.style.flexDirection = 'column';
     list.style.gap = '8px';
-    
+
     sorted.forEach(num => {
         let title = `Chapter ${num}`;
         let rawTitle = '';
@@ -2029,7 +2029,7 @@ function updateDashboardBookmarksUI() {
         } else if (state.toc && state.toc[num]) {
             rawTitle = state.toc[num].title;
         }
-        
+
         if (rawTitle) {
             if (rawTitle.toLowerCase().startsWith(`chapter ${num}:`) || rawTitle.toLowerCase().startsWith(`chapter ${num} `)) {
                 title = rawTitle;
@@ -2037,7 +2037,7 @@ function updateDashboardBookmarksUI() {
                 title = `Chapter ${num}: ${rawTitle}`;
             }
         }
-        
+
         const item = document.createElement('div');
         item.style.display = 'flex';
         item.style.justifyContent = 'space-between';
@@ -2046,7 +2046,7 @@ function updateDashboardBookmarksUI() {
         item.style.padding = '8px 12px';
         item.style.borderRadius = '6px';
         item.style.border = '1px solid var(--border-color)';
-        
+
         item.innerHTML = `
             <a onclick="loadChapter(${num})" style="cursor: pointer; font-weight: 600; font-size: 12px; color: var(--accent-yellow); overflow: hidden; text-overflow: ellipsis; white-space: nowrap; max-width: 180px;">${title}</a>
             <button class="note-card-delete" onclick="event.stopPropagation(); toggleBookmark(${num});" style="position: static; padding: 2px; color: var(--text-secondary);" title="Remove bookmark">
@@ -2055,7 +2055,7 @@ function updateDashboardBookmarksUI() {
         `;
         list.appendChild(item);
     });
-    
+
     container.appendChild(list);
 }
 
@@ -2123,7 +2123,7 @@ function showCustomConfirm(message, onConfirm, okLabel = "Delete") {
     };
 
     overlay.querySelector('#confirm-cancel-btn').onclick = closeModal;
-    
+
     overlay.onclick = (e) => {
         if (e.target === overlay) closeModal();
     };
@@ -2199,7 +2199,7 @@ function showNoteEditorModal(title, initialText, onSave, onDelete = null) {
     };
 
     dialog.querySelector('#modal-cancel-btn').onclick = closeModal;
-    
+
     overlay.onclick = (e) => {
         if (e.target === overlay) closeModal();
     };
@@ -2253,19 +2253,19 @@ function handleHighlightClick(e) {
     if (selection.toString().trim().length > 0) {
         return; // User is selecting text, don't open editor!
     }
-    
+
     const highlightEl = e.target.closest('.highlight');
     if (!highlightEl) return;
-    
+
     const annId = highlightEl.getAttribute('data-ann-id');
     if (!annId) return;
-    
+
     const ann = state.annotations.find(a => a.id === annId);
     if (!ann) return;
-    
+
     showNoteEditorModal(
-        "Edit Highlight Note", 
-        ann.note, 
+        "Edit Highlight Note",
+        ann.note,
         (newNoteText) => {
             ann.note = newNoteText;
             localStorage.setItem('book_annotations', JSON.stringify(state.annotations));
@@ -2303,13 +2303,13 @@ function showToastNotification(message) {
     `;
     toast.innerText = message;
     document.body.appendChild(toast);
-    
+
     // Animate in
     setTimeout(() => {
         toast.style.transform = 'translateY(0)';
         toast.style.opacity = '1';
     }, 50);
-    
+
     // Animate out and remove
     setTimeout(() => {
         toast.style.transform = 'translateY(20px)';
@@ -2320,9 +2320,9 @@ function showToastNotification(message) {
 
 // AI Security Assistant API Key Config
 // Paste your Groq API key split into 3 parts below. The assistant concatenates these when querying.
-const GROQ_KEY_PART_1 = "YOUR_PART_1_HERE";
-const GROQ_KEY_PART_2 = "YOUR_PART_2_HERE";
-const GROQ_KEY_PART_3 = "YOUR_PART_3_HERE";
+const GROQ_KEY_PART_1 = "gsk_fmAJKPrF6qntdj6d";
+const GROQ_KEY_PART_2 = "uxtrWGdyb3FYpSlxs";
+const GROQ_KEY_PART_3 = "kTpKz4tE8Zn3b070gj3";
 
 // AI Security Assistant Controller
 function initAIAssistantUI() {
@@ -2334,18 +2334,31 @@ function initAIAssistantUI() {
 }
 
 function initAIAssistant() {
-    // Storing and saving key parts from inputs is no longer needed since it's hardcoded.
+    const sendBtn = document.getElementById('ai-chat-send-btn');
+    const inputEl = document.getElementById('ai-chat-input');
+    
+    if (sendBtn) {
+        sendBtn.onclick = sendAIChatMessage;
+    }
+    
+    if (inputEl) {
+        inputEl.onkeydown = (e) => {
+            if (e.key === 'Enter') {
+                sendAIChatMessage();
+            }
+        };
+    }
 }
 
 async function sendAIChatMessage() {
     const inputEl = document.getElementById('ai-chat-input');
     const text = inputEl.value.trim();
     if (!text) return;
-    
+
     inputEl.value = '';
-    
+
     const chatMessagesContainer = document.getElementById('ai-chat-messages');
-    
+
     // Render User Message
     const userMsg = document.createElement('div');
     userMsg.style.cssText = `
@@ -2363,7 +2376,7 @@ async function sendAIChatMessage() {
     userMsg.innerText = text;
     chatMessagesContainer.appendChild(userMsg);
     chatMessagesContainer.scrollTop = chatMessagesContainer.scrollHeight;
-    
+
     // Render Loader Message
     const loaderMsg = document.createElement('div');
     loaderMsg.id = 'ai-chat-loader';
@@ -2386,13 +2399,13 @@ async function sendAIChatMessage() {
     `;
     chatMessagesContainer.appendChild(loaderMsg);
     chatMessagesContainer.scrollTop = chatMessagesContainer.scrollHeight;
-    
+
     const fullKey = (GROQ_KEY_PART_1 + GROQ_KEY_PART_2 + GROQ_KEY_PART_3).trim();
-    
+
     // Check if the user has replaced placeholder keys
     if (!fullKey || fullKey.includes("YOUR_PART")) {
         loaderMsg.remove();
-        
+
         const errMsg = document.createElement('div');
         errMsg.style.cssText = `
             display: flex;
@@ -2412,7 +2425,7 @@ async function sendAIChatMessage() {
         chatMessagesContainer.scrollTop = chatMessagesContainer.scrollHeight;
         return;
     }
-    
+
     if (!state.aiChatHistory) {
         state.aiChatHistory = [
             {
@@ -2421,9 +2434,9 @@ async function sendAIChatMessage() {
             }
         ];
     }
-    
+
     state.aiChatHistory.push({ role: "user", content: text });
-    
+
     try {
         const response = await fetch('https://api.groq.com/openai/v1/chat/completions', {
             method: 'POST',
@@ -2438,20 +2451,20 @@ async function sendAIChatMessage() {
                 max_tokens: 1024
             })
         });
-        
+
         loaderMsg.remove();
-        
+
         if (!response.ok) {
             const errData = await response.json().catch(() => ({}));
             const errMsg = errData.error?.message || `HTTP error ${response.status}`;
             throw new Error(errMsg);
         }
-        
+
         const data = await response.json();
         const reply = data.choices[0].message.content;
-        
+
         state.aiChatHistory.push({ role: "assistant", content: reply });
-        
+
         // Render AI Message
         const aiMsg = document.createElement('div');
         aiMsg.style.cssText = `
@@ -2469,11 +2482,11 @@ async function sendAIChatMessage() {
         aiMsg.innerHTML = formatMarkdown(reply);
         chatMessagesContainer.appendChild(aiMsg);
         chatMessagesContainer.scrollTop = chatMessagesContainer.scrollHeight;
-        
+
     } catch (e) {
         console.error("AI Assistant API error:", e);
         loaderMsg.remove();
-        
+
         const errMsg = document.createElement('div');
         errMsg.style.cssText = `
             display: flex;
@@ -2491,7 +2504,7 @@ async function sendAIChatMessage() {
         errMsg.innerText = `Error: ${e.message}. Please verify your API key parts configuration inside app.js.`;
         chatMessagesContainer.appendChild(errMsg);
         chatMessagesContainer.scrollTop = chatMessagesContainer.scrollHeight;
-        
+
         state.aiChatHistory.pop();
     }
 }
